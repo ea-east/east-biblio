@@ -24,6 +24,8 @@
 1) Get latest version: ~git pull~
 2) Upload local version (if committed): ~git push~
 
+2019.03.08
+
 
 
 
