@@ -1,4 +1,29 @@
 #+TITLE: README for EAST bibliographic records
 
 
-Idea: replace Tamboti
+- General idea: replace Tamboti
+
+- Repository URL: gitolite@rdorte.org:east-biblio (admin is Patrick McAllister)
+
+
+* Git useful commands
+
+** Check status
+
+1) To see what has changed: ~git status~
+2) To see differences: ~git diff~
+
+
+** To save local changes
+
+1) ~git commit -a~ (commits all changes locally)
+
+
+** To share things
+
+1) Get latest version: ~git pull~
+2) Upload local version (if committed): ~git push~
+
+
+
+
