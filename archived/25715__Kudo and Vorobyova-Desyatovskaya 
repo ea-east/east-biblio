@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Newly Identified Fragment of the Saddharmapuṇḍarīkasūtra kept in the St. Petersburg Branch of the Institute of Oriental Studies</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kudo</namePart>
+    <namePart type="given">Noriyuki</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Vorobyova-Desyatovskaya</namePart>
+    <namePart type="given">Margarita I.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>10</number>
+      </detail>
+      <extent unit="pages">
+        <start>57</start>
+        <end>66</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2007</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Annual Report of The International Research Institute for Advanced Buddhology at Soka University for the Academic Year 2006</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

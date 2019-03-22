@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhism in Kashmir</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Dutt</namePart>
+    <namePart type="given">Nalinaksha</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Delhi</placeTerm>
+    </place>
+    <publisher>Eastern Book Linkers</publisher>
+    <copyrightDate>1985</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

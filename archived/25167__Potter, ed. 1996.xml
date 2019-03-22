@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Encyclopedia of Indian Philosophies, Vol. VII, Abhidharma Buddhism to 150 A.D.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Potter</namePart>
+    <namePart type="given">Karl H.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>ed.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Delhi</placeTerm>
+    </place>
+    <publisher>Motilal Banarsidass</publisher>
+    <copyrightDate>1996</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

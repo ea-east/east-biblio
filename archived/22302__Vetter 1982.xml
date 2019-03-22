@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Die Lehre Nāgārjunas in den Mūla-Madhyamaka-Kārikās</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Vetter</namePart>
+    <namePart type="given">Tilmann</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Oberhammer</namePart>
+      <namePart type="given">Gerhard</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>87</start>
+        <end>108</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wien</placeTerm>
+      </place>
+      <publisher>Publications of the De Nobili Research Library</publisher>
+      <copyrightDate>1982</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Epiphanie des Heils. Zur Heilsgegenwart in indischer und christlicher Religion. Arbeitsdokumentation eines Symposiums</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

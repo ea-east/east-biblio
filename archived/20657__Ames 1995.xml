@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bhāvaviveka's Prajñāpradīpa. A translation of chapter two: 'Examination of the traversed, the untraversed, and that which is being traversed'</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ames</namePart>
+    <namePart type="given">William</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>23</number>
+      </detail>
+      <extent unit="pages">
+        <start>295</start>
+        <end>365</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1995</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIP</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

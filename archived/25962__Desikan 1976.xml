@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Udayana's Nyāyapariśiṣṭa with Pañcikā of Vāmeśvaradhvaja. [Kendriya Sanskrit Vidyapeetha Series No. 25].</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Desikan</namePart>
+    <namePart type="given">S. N. Srirama</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Tirupati</placeTerm>
+    </place>
+    <publisher>Kendriya Sanskrit Vidyapeetha</publisher>
+    <copyrightDate>1976</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

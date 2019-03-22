@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Presuppositions of India's Philosophies</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Potter</namePart>
+    <namePart type="given">Karl H.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Englewood Cliffs, N.J.</placeTerm>
+    </place>
+    <publisher>Prentice-Hall</publisher>
+    <copyrightDate>1963</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

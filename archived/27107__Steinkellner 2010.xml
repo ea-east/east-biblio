@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tib. Ma rdum pa - A Phantom Name</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Steinkellner</namePart>
+    <namePart type="given">Ernst</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">衛榮沈</namePart>
+      <namePart type="given">Weirong Shen</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>15</start>
+        <end>16</end>
+      </extent>
+    </part>
+    <originInfo>
+      <copyrightDate>2010</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Xiyu lishi yuyan yanjiu jikan 西域歷史語言研究集刊 / Historical and Philological Studies of China’s Western Regions</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

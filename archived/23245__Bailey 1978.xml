@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Bodhisattva in the Prajñā-Pāramitā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Bailey</namePart>
+    <namePart type="given">H. W.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Leeuw</namePart>
+      <namePart type="given">J. E. van Lohuizen-de</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>20</start>
+        <end>21</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Leiden</placeTerm>
+      </place>
+      <publisher>Brill</publisher>
+      <copyrightDate>1978</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Studies in South Asian Culture. Vol. VII (Senarat Paranavitana Commemoration Volume)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

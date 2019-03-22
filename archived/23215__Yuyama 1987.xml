@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Remarks on the Kōkiji fragment of the Lokaprajñapti</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Yuyama</namePart>
+    <namePart type="given">A.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Pollet</namePart>
+      <namePart type="given">Gilbert</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>215</start>
+        <end>227</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Leuven</placeTerm>
+      </place>
+      <publisher>Department Oriëntalistiek</publisher>
+      <copyrightDate>1987</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>India and the ancient world. History, trade and culture before A.D. 650 (Orientalia Lovaniensia Analecta 25). Professor P.H.L. Eggermont Jubilee Volume presented on the occasion of his seventieth birthday</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

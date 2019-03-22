@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhavaṃsa und Cariyāpiṭaka</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Jayawikrama</namePart>
+    <namePart type="given">N. A.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">London und Boston</placeTerm>
+    </place>
+    <publisher>Routledge &amp; Kegan Paul LTD</publisher>
+    <copyrightDate>1974</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

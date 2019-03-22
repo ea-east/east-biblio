@@ -1,0 +1,79 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-31c8f8a6-138d-4580-a2cf-3661806136ea" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-968b1927-8ad4-4322-af6a-c05271703cd9">
+        <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+<language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <publisher>Kyūshū University</publisher>
+        <place>
+            <placeTerm type="text">Fukuoka</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1991</dateIssued>
+    </originInfo>
+    <titleInfo altRepGroup="1" type="translated" lang="eng">
+        <title>Essays in Honor of Dr. Shoren Ihara on his Seventieth Birthday</title>
+        <subTitle>Committee for the Commemoration of Dr. Shoren Ihara's Seventieth Birthday</subTitle>
+    </titleInfo>
+    <titleInfo altRepGroup="1">
+        <title>Ihara Shōren Hakase Koki Kinen Ronbushū</title>
+        <subTitle>Ihara Shōren hakase koki kinenkai</subTitle>
+    </titleInfo>
+    <part>
+            <extent>
+                <start>117</start>
+                <end>133</end>
+            </extent>
+            <date encoding="w3cdtf">1991</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-27T10:24:50.653+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-27T10:25:26.351+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-27T10:26:36.914+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>The</nonSort>
+        <title>Study of Tarkarahasya (III)</title>
+    </titleInfo>
+    <titleInfo supplied="yes">
+        <title>Tarkarahasya Kenkyū (III)</title>
+    </titleInfo>
+    <name>
+        <namePart type="given">Hideomi</namePart>
+        <namePart type="family">Yaita</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+</mods>

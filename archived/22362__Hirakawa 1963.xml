@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The rise of Mahāyāna Buddhism and its relationship to the worship of stupas</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hirakawa</namePart>
+    <namePart type="given">Akira</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>22</number>
+      </detail>
+      <extent unit="pages">
+        <start>57</start>
+        <end>106</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1963</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Memoirs of the Research Department of the Toyo Bunko</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

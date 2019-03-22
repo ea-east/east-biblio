@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Translation, The Twenty-two Dialogues on Mahāyāna</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="corporate">
+    <namePart>T´an-K´uang</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>20 (2)</number>
+      </detail>
+      <extent unit="pages">
+        <start>35</start>
+        <end>85</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1979</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Chinese Culture, A Quarterly Review</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

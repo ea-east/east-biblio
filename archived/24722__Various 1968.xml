@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mélanges d'indianisme : a la mémoire de Louis Renou. 40e anniversaire de la fondation de l'Institut de Civilisation Indienne de l'Université de Paris 1967 (Publications de l'Institut de Civilisation Indienne : Serie in-8 ̊; 28)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>Various</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Paris</placeTerm>
+    </place>
+    <publisher>De Boccard</publisher>
+    <copyrightDate>1968</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

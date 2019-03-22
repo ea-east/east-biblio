@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Points of Controversy or Subjects of Discourse: Kathā-Vatthu from the Abhidhamma-Piṭaka</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Aung</namePart>
+    <namePart type="given">Shwe Zan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">David</namePart>
+    <namePart type="given">Rhys</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">London</placeTerm>
+    </place>
+    <publisher>Messrs. Luzac &amp; Company LTD</publisher>
+    <copyrightDate>1969</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

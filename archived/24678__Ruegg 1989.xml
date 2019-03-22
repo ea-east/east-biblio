@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Buddhist Notion of an 'Immanent Absolute' (tathāgatagarbha) as a Problem in Hermeneutics</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Ruegg</namePart>
+    <namePart type="given">D. Seyfort</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Skorupski</namePart>
+      <namePart type="given">Tadeusz</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>229</start>
+        <end>245</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Tring, U.K.</placeTerm>
+      </place>
+      <publisher>Institute of Buddhist Studies</publisher>
+      <copyrightDate>1989</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Buddhist Heritage. Papers delivered at the Symposium of the same name convened at the School of Oriental and African Studies, University of London, November 1985 (Buddhica Britannica 1)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

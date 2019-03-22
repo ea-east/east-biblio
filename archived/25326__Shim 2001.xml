@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Das Böse und die Überwindung des Leidens im Buddhismus</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Shim</namePart>
+    <namePart type="given">Jae-Ryong</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Koslowski</namePart>
+      <namePart type="given">Peter</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>9</start>
+        <end>30</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">München</placeTerm>
+      </place>
+      <publisher>Fink</publisher>
+      <copyrightDate>2001</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Ursprung und Überwindung des Bösen und des Leidens in den Weltreligionen</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

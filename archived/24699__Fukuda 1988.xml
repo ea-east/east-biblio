@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>mKhas grub rje no Pramāṇavārttika, chūshaku ni okeru jikoninshiki to tashaninshiki no settei hōshiki ni tsuite</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Fukuda</namePart>
+    <namePart type="given">Yōichi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>34</number>
+      </detail>
+      <extent unit="pages">
+        <start>8</start>
+        <end>15</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1988</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Nihon Chibetto Gakkai Kaihō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

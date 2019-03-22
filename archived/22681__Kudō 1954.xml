@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Chūgan ni okeru Jishō no Gainen - Myōkuron o Chūshin toshite (On the Concept of Svabhāva in Prasannapadā)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kudō</namePart>
+    <namePart type="given">Shigeki</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>7/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>174</start>
+        <end>175</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1954</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indogaku Bukkyōgaku Kenkyū [Journal of Indian and Buddhist Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

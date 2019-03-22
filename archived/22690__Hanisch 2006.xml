@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Progress in Deciphering the So-called "Arrow-head" Script, Allowing Access to Sarvarakṣita’s Maṇicūḍajātaka, a Text of the Buddhist Sāṃmitīya School</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hanisch</namePart>
+    <namePart type="given">Albrecht</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>IV</number>
+      </detail>
+      <extent unit="pages">
+        <start>109</start>
+        <end>161</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2006</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the Centre of Buddhist Studies, Sri Lanka (JCBSSL)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

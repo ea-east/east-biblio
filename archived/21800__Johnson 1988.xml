@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On the Origins of the Bhandarkar Oriental Research Institute Library. Part I. The Initiation of the Searches for Sanskrit Manuscripts in Bombay.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Johnson</namePart>
+    <namePart type="given">Donald Clay</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>69</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1988</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Annals, Bhandarkar Oriental Research Institute</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

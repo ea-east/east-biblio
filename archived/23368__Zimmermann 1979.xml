@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Remarks on the conception of the body in ayurvedic medicine.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Zimmermann</namePart>
+    <namePart type="given">Francis</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Pfleiderer</namePart>
+      <namePart type="given">Beatrix</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">(eds.)</namePart>
+      <namePart type="given">Günther D. Sontheimer</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>10</start>
+        <end>26</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Heidelberg</placeTerm>
+      </place>
+      <publisher>South Asia Institute, University of Heidelberg</publisher>
+      <copyrightDate>1979</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Sources of illness and healing in South Asian regional literatures</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

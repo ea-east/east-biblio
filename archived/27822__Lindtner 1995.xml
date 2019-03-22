@@ -1,0 +1,79 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-7282888e-ef85-482e-a4bc-2bd9d179a15f">
+    <titleInfo>
+        <title>Bhavya’s Madhyamakahṛdaya (Pariccheda Five) Yogācāratattvaviniścayāvatāra</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Christian</namePart>
+        <namePart type="family">Lindtner</namePart>
+        <role>
+            <roleTerm type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3d454154-33db-470a-b0b7-a0bac1254154">
+        <language><languageTerm>en</languageTerm></language><extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-18T14:08:07.655+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<titleInfo type="abbreviated">
+        <title>ALB</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Brahmavidyā</title>
+        <subTitle>The Adyar Library Bulletin</subTitle>
+    </titleInfo>
+    <genre authority="marcgt">periodical</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Madras</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <part>
+            <detail type="volume">
+                <number>59</number>
+            </detail>
+            <extent unit="pages">
+                <start>37</start>
+                <end>65</end>
+            </extent>
+            <date encoding="w3cdtf">1995</date>
+        </part>
+    </relatedItem>
+    <identifier type="local">Lindtner 1995</identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="rfc3066" type="code">en-US</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2015-10-18+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-18T14:11:06.5+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-18T14:12:44.86+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

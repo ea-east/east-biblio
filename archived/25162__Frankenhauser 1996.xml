@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Die Einführung der buddhistischen Logik in China</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Frankenhauser</namePart>
+    <namePart type="given">Uwe</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wiesbaden</placeTerm>
+    </place>
+    <publisher>Harrassowitz</publisher>
+    <copyrightDate>1996</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

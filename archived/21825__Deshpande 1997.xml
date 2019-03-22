@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Who Inspired Pāṇini? Reconstructing the Hindu and Buddhist Counter-Claims.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Deshpande</namePart>
+    <namePart type="given">Madhav M.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>117, 3</number>
+      </detail>
+      <extent unit="pages">
+        <start>444</start>
+        <end>465</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1997</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the American Oriental Society</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

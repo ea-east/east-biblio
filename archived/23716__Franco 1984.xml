@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On the Interpretation of Pramāṇasamuccaya(vr̥tti) 1, 3d</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Franco</namePart>
+    <namePart type="given">Eli</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>12</number>
+      </detail>
+      <extent unit="pages">
+        <start>389</start>
+        <end>400</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1984</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIP</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

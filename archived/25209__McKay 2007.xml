@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Their Footprints Remain : Biomedical Beginnings Across the Indo-Tibetan Frontier</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">McKay</namePart>
+    <namePart type="given">Alex</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Amsterdam</placeTerm>
+    </place>
+    <publisher>Amsterdam University Press</publisher>
+    <copyrightDate>2007</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

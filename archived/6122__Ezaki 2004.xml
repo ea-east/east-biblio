@@ -1,0 +1,148 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-d1e77e19-78e5-4bcc-9a1d-66ce8523420d">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" type="translated">
+        <mods:title>On the definition of difference according to Dharmakīrti</mods:title>
+        <mods:subTitle>what is viruddhadharmādhyāsa?</mods:subTitle>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="jpn" transliteration="japanese/ala-lc" type="alternative">
+        <mods:title>Dharmakīrti ni yoru sai no teigi ni tsuite</mods:title>
+        <mods:subTitle>viruddhadharmādhyāsa to wa nani ka?</mods:subTitle>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="jpn" script="jpan">
+        <mods:title>ダルマキールティによる差異の定義について</mods:title>
+        <mods:subTitle>'viruddhadharmadhyasa'とは何か</mods:subTitle>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Kōji </mods:namePart>
+        <mods:namePart type="family">Ezaki</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-d12fa4d9-1fc8-4bbd-8eb1-180ee07e8c7e">
+        <mods:extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">periodical-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-08-29T21:48:48.736+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-10T14:01:29.262+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-10T14:03:24.128+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+<mods:recordInfo lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-08-29+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:language>
+        <mods:languageTerm authority="rfc3066" type="code">ja-JP</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:relatedItem type="succeeding">
+        <mods:name type="corporate">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo script="latn">
+            <mods:issuance>continuing</mods:issuance>
+        </mods:originInfo>
+        <mods:genre type="code" authority="marcgt">periodical</mods:genre>
+        <mods:part>
+            <mods:detail type="issue">
+                <mods:caption>no.</mods:caption>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:relatedItem type="preceeding">
+        <mods:name type="corporate">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo script="latn">
+            <mods:issuance>continuing</mods:issuance>
+        </mods:originInfo>
+        <mods:genre type="code" authority="marcgt">periodical</mods:genre>
+        <mods:part>
+            <mods:detail type="issue">
+                <mods:caption>no.</mods:caption>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:genre type="code" authority="marcgt">periodical</mods:genre>
+    <mods:typeOfResource>text</mods:typeOfResource>
+    <mods:targetAudience authority="marctarget">adult</mods:targetAudience>
+    <mods:physicalDescription>
+        <mods:form authority="marcform">print</mods:form>
+    </mods:physicalDescription>
+    <mods:originInfo script="latn">
+        <mods:publisher>広島大学比較論理学プロジェクト研究センター</mods:publisher>
+        <mods:issuance>continuing</mods:issuance>
+    </mods:originInfo>
+    <mods:name type="corporate">
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:titleInfo lang="jpn" script="jpan">
+        <mods:title>Hikaku Ronrigaku Kenkyū</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo lang="eng" type="translated">
+        <mods:nonSort>The</mods:nonSort>
+        <mods:title>Annals of the Research Project Center for the Comparative Study of Logic</mods:title>
+    </mods:titleInfo>
+    <mods:part>
+            <mods:detail type="volume">
+                <mods:number>2</mods:number>
+            </mods:detail>
+            <mods:extent unit="pages">
+                <mods:start>39</mods:start>
+                <mods:end>46</mods:end>
+            </mods:extent>
+            <mods:date encoding="w3cdtf">2004</mods:date>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Ezaki 2004 </mods:identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="rfc3066" type="code">ja-JP</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-08-29+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-08-29T21:53:18.891+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-08-29T21:56:19.806+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-10T14:05:49.335+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

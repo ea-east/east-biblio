@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Buddha's view of devas</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Norman</namePart>
+    <namePart type="given">K. R.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>329</start>
+        <end>336</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Berlin</placeTerm>
+      </place>
+      <copyrightDate>1977</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Beiträge zur Indienforschung. Ernst Waldschmidt zum 80. Geburtstag gewidmet (Veröffentlichungen des Museums für Indische Kunst Berlin 4)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

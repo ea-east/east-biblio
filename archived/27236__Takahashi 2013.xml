@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Observation of the Body in the Bodhisattvabhūmi: Significance of the kāyānupaśyanā in the Early Yogācāra Philosophy</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Takahashi</namePart>
+    <namePart type="given">Koichi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>61/3 (March)</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>2013</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indogaku Bukkyogaku Kenkyu/Journal of Indian and Buddhist Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Katrien Haemers, Buddhistische Erziehung im Westen?, Diane Ames, Was ist das Allerwichtigste, das ein Kind lernen muß?, Friedrich Fenzl, Buddha unterm 'Lichterbaum', [u.a.]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">[u.a</namePart>
+    <namePart type="given">Friedrich Fenzl</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>2</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1989</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Rundbriefe zur buddhistischen Sozialethik</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Ronkyo no shizukudama (Hetubindu): dai II setsu shiyaku [A Japanese Translation of the Hetubindu, § II]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Harada</namePart>
+    <namePart type="given">Wasō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <identifier type="doi">10.11168/jeb1947.1999.L1</identifier>
+  <location>
+    <url usage="primary display">http://doi.org/10.11168/jeb1947.1999.L1</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>202</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>15</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1999</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">02869837</identifier>
+    <titleInfo>
+      <title>Mikkyō Bunka [Journal of Esoteric Buddhism]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

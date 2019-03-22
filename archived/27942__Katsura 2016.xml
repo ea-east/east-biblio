@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Report on the Study of Sanskrit Manuscript of the Pramāṇasamuccayaṭīkā Chapter 4: Recovering the Example Section of the Nyāyamukha</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Katsura</namePart>
+    <namePart type="given">Shōryū</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/110010051262/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>64</number>
+      </detail>
+      <detail type="issue">
+        <number>3</number>
+      </detail>
+      <extent unit="pages">
+        <start>1237</start>
+        <end>1245</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2016</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">18840051</identifier>
+    <titleInfo>
+      <title>Journal of Indian and Buddhist Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

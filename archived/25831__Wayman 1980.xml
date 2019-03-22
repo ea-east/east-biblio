@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Yoga of the Guhyasamājatantra: The Arcane Lore of Forty Verses, a Buddhist Tantra Commentary</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Wayman</namePart>
+    <namePart type="given">Alex</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">New York</placeTerm>
+    </place>
+    <publisher>Samuel Weiser</publisher>
+    <copyrightDate>1980</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

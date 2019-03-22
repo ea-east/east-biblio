@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Nishu no Ingakōryoku: sāmānyā śakti to pratiniyatā śakti [Two Kinds of Causal Capacity: sāmānyā śakti and pratiniyatā śakti]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Inami</namePart>
+    <namePart type="given">Masahiro</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/110009586140/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>61</number>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+      </detail>
+      <extent unit="pages">
+        <start>432</start>
+        <end>437</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2012</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">00194344</identifier>
+    <titleInfo>
+      <title>Indo-gaku Bukkyō-gaku Kenkyū [Journal of Indian and Buddhist Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

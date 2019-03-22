@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhist monastic life - according to the texs of the Theravāda tradition</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Wijayaratna</namePart>
+    <namePart type="given">Mohan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Cambridge, etc.</placeTerm>
+    </place>
+    <publisher>Cambridge University Press</publisher>
+    <copyrightDate>1990</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

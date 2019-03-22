@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Two Grub mtha' Treatises of Sa-skya Paṇḍita - One Lost and One Forged</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Jackson</namePart>
+    <namePart type="given">David P.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>10/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>3</start>
+        <end>13</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1985</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>TibJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Collected Biographical Material About LO-CHEN RIN-CHEN-BSAṄ-PO and His Subsequent Reembodiments</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>various</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">brtan</namePart>
+    <namePart type="given">rDo rje tshe</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Delhi</placeTerm>
+    </place>
+    <publisher>LAxmi Printing Works</publisher>
+    <copyrightDate>1977</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

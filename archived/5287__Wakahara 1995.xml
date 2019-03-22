@@ -1,0 +1,91 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-ea4926e5-f7be-49e6-b10c-749b4395639e" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Bukkyōto no Jaina-kyō hihan </title>
+        <partNumber>1</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Buddhist criticism of Jainism</title>
+        <partNumber>1</partNumber>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Yushō</namePart>
+        <namePart type="family">Wakahara</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3accf764-33f5-49ad-8661-288af6ed7c37">
+        <language><languageTerm>lv</languageTerm></language><extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2013-02-11T14:41:36+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-03-26T21:28:27.328+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-03-26T21:30:32.588+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-03-26T22:07:40.031+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-03-26T23:51:39.262+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<genre authority="marcgt">periodical</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>RDR</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Journal of Ryūkoku University</title>
+    </titleInfo>
+    <titleInfo>
+        <title lang="jpn" script="Jpan">龍谷大学論集 </title>
+    </titleInfo>
+    <titleInfo lang="jpn" transliteration="japanese/ala-lc" type="alternative">
+        <title>Ryūkoku Daigaku Ronshū</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>447</number>
+            </detail>
+            <extent unit="pages">
+                <start>69</start>
+                <end>71</end>
+            </extent>
+            <date encoding="w3cdtf">1995</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-02+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Wakahara 1995</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

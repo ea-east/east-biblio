@@ -1,0 +1,20 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-a61f6fe2-4e7e-4fde-91bb-e9c623c360cc" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Ryūkoku Daigaku Bukkyō Gaku Kenkyūshitsu Nenpō</title>
+    </titleInfo>
+    <titleInfo type="abbreviated">
+        <title>RDBN</title>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Kyōto</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+<language><languageTerm>fi</languageTerm></language></mods>

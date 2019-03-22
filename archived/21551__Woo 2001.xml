@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Incompatibility and the proof of the Buddhist theory of momentariness</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Woo</namePart>
+    <namePart type="given">Jeson</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>29</number>
+      </detail>
+      <extent unit="pages">
+        <start>423</start>
+        <end>434</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2001</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIP</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review of "Peter Skilling, ed.: Past Lives of the Buddha: Wat Si Chum - Art, Architecture and Inscriptions. Bangkok 2008".</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Woodward</namePart>
+    <namePart type="given">Ḥiram</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>97</number>
+      </detail>
+      <extent unit="pages">
+        <start>221</start>
+        <end>225</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2009</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the Siam Society</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

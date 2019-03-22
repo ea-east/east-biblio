@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Recent French Contributions to Himalayan and Tibetan Studies (Alexander W. Macdonald, ed. Rituels himalayens. L'Ethnographie 83. Paris, 1986)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kvaerne</namePart>
+    <namePart type="given">Per</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>16/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>299</start>
+        <end>308</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1993</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIABS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

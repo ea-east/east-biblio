@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Can all beings potentially attain awakening? Gotra-theory in the Mahāyānasūtrālaṃkāra</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">D'Amato</namePart>
+    <namePart type="given">Mario</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>26/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>115</start>
+        <end>138</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2003</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIABS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

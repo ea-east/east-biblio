@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Self's Awareness of Itself. Bhaṭṭa Rāmakaṇṭha's Arguments Against the Buddhist Doctrine of No-Self</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Watson</namePart>
+    <namePart type="given">Alex</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wien</placeTerm>
+    </place>
+    <publisher>De Nobili Research Library</publisher>
+    <copyrightDate>2006</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

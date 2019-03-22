@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mipham's Beacon of Certainty. Illuminating the View of Dzogchen, the Great Perfection</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>Mi-pham-rgya-mtsho</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Pettit</namePart>
+    <namePart type="given">'Jam-mgon 'Ju; John Whitney</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Boston</placeTerm>
+    </place>
+    <publisher>Wisdom Publications</publisher>
+    <copyrightDate>1999</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d0f23faf-45eb-4206-81f6-d21e00aeedfa" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dignāga's Pramāṇasamuccaya, Chapter 1</title>
+        <subTitle>A hypothetical reconstruction of the Sanskrit text with the help of the two Tibetan translations on the basis of the hitherto known Sanskrit fragments and the linguistic materials gained from Jinendrabuddhi's Ṭīkā</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ernst</namePart>
+        <namePart type="family">Steinkellner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Steinkellner 2005a</mods:identifier>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-17+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <originInfo>
+        <dateIssued encoding="w3cdtf">2005</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <location>
+        <url>http://www.ikga.oeaw.ac.at/Mat/dignaga_PS_1.pdf</url>
+    </location>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-02-08T15:18:38.725+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

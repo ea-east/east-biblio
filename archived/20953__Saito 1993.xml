@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A study of Akṣayamati (=Śāntideva) 's Bodhisattvacaryāvatāra as found in the Tibetan Manuscripts from Tun-huang</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Saito</namePart>
+    <namePart type="given">Akira</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Mie (University) (?)</placeTerm>
+    </place>
+    <publisher>Grant-in-Aid for Scientific Research</publisher>
+    <copyrightDate>1993</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

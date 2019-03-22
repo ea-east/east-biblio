@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Pramāṇasamuccayaṭīkā dai isshō ni miru Ṣaṣṭitantra Chūsyakusho no chikakuron: Yuktidīpikā tono kanren wo chūshin ni [Perception theories of the *Sastitantravrtti in the Pramāṇasamuccayaṭīkā (chapter 1): In Relation to the Yuktidīpikā]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kondo</namePart>
+    <namePart type="given">Hayato</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/120002244237/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>17</number>
+      </detail>
+      <extent unit="pages">
+        <start>25</start>
+        <end>40</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2010</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">09197907</identifier>
+    <titleInfo>
+      <title>Indotetsugaku Bukkyōgaku Kenkyū [Studies in Indian Philosophy and Buddhism]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

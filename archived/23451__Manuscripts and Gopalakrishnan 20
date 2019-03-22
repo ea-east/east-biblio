@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Vijñānanidhi: Manuscript Treasures of India</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Manuscripts</namePart>
+    <namePart type="given">National Mission for</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Gopalakrishnan</namePart>
+    <namePart type="given">Sudha</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">New Delhi</placeTerm>
+    </place>
+    <publisher>National Mission for Manuscripts</publisher>
+    <copyrightDate>2007</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

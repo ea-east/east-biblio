@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-3423e232-7499-4ed2-b919-db3fa0e8d299" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dvādaśāraṃ Nayacakraṃ of Ācārya Śrī Mallavadī Kṣamāśramaṇa</title>
+        <subTitle>With the commentary Nyāyāgamanānusāriṇī of Śrī Siṃhasūri Gaṇi Vādi Kṣamāśramaṇa. Edited with critical notes.</subTitle>
+        <partNumber>1</partNumber>
+        <partName>1-4 Aras</partName>
+    </titleInfo>
+    <name type="personal">
+        <namePart>Muni Jambūvijayajī</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Bhavnagar</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1966</dateIssued>
+        <publisher>Sri Jain Atmanand Sabha</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>VII, IV, VI, XCVIII, 375, 166 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-f60a7ee0-b651-4372-bbf8-6b163d2b439c">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+        <title>Śrī Ātmānand Jain Granthamalā</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>92</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmakīrti's Pramāṇaviniścaya. Chapters 1 and 2</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Steinkellner</namePart>
+    <namePart type="given">Ernst</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Beijing, Vienna</placeTerm>
+    </place>
+    <publisher>China Tibetology Publishing House &amp; Austrian Academy of Sciences Press</publisher>
+    <copyrightDate>2007</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

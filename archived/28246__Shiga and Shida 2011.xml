@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Yuktidīpikā 87,18-97,17 (ad SK 6ab): Wayaku to chūkai [An Annotated Translation of the Yuktidīpikā 87,18-97,17 (on SK 6ab)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Shiga</namePart>
+    <namePart type="given">Kiyokuni</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Shida</namePart>
+    <namePart type="given">Taisei</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40019179337/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>15</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>34</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2011</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">1342-7377</identifier>
+    <titleInfo>
+      <title>Indogaku Chibettogaku Kenkyū [Journal of Indian and Tibetan Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

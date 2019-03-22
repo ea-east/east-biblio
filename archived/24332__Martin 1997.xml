@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Beyond Acceptance and Rejection? The Anti-Bon Polemic Included in the Thirteenth-Century Single Intention (Dgong-gcig Yig-cha) and Its Background in Tibetan Religious History</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Martin</namePart>
+    <namePart type="given">Dan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>25/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>263</start>
+        <end>305</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1997</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIP</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

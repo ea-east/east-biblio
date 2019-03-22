@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Example and Exemplification in Early Nyāya and Vaiśeṣika</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Prets</namePart>
+    <namePart type="given">Ernst</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Katsura</namePart>
+      <namePart type="given">Shoryu</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Steinkellner</namePart>
+      <namePart type="given">Ernst</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>197</start>
+        <end>224</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wien</placeTerm>
+      </place>
+      <publisher>Arbeitskreis für Tibetische und Buddhistische Studien, Universität Wien</publisher>
+      <copyrightDate>2004</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Role of the Example (dṛṣṭānta) in Classical Indian Logic</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

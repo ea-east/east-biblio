@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmakīrti, Śāntarakṣita to Uddyotakara: avayavin wo megutte, Vādanyāya to sono chūshaku (VNV) tono Wayaku kenkyū [Dharmakīrti , Śāntarakṣita and Uddyotakara: An Anrotated Japamese Translation of debate on avayavin in the Vādanyāya and Its Commentary]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Moriyama</namePart>
+    <namePart type="given">Seitetsu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/110009752235/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>98</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>25</end>
+      </extent>
+    </part>
+    <originInfo>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">2185419X</identifier>
+    <titleInfo>
+      <title>Bukkyō Gakubu ronshū [Journal of School of Buddhism]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

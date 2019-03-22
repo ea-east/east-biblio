@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The term 'bhāva' and the philosophy of Nāgārjuna</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Priestley</namePart>
+    <namePart type="given">Leonard C. D. C.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Wagle</namePart>
+      <namePart type="given">N. K.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Watanabe</namePart>
+      <namePart type="given">F.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>124</start>
+        <end>144</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Toronto</placeTerm>
+      </place>
+      <publisher>University of Toronto, Centre for South Asian Studies</publisher>
+      <copyrightDate>1993</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Studies on Buddhism in Honour of Professor A.K. Warder (South Asian Studies Papers, No. 5)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

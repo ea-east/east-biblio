@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Haribhaṭṭa’s Jātakamālā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hahn</namePart>
+    <namePart type="given">Michael</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Braarvig</namePart>
+      <namePart type="given">Jens</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Oslo</placeTerm>
+      </place>
+      <publisher>Hermes Publishing</publisher>
+      <copyrightDate>2002</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Buddhist Manuscripts. Volume II</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

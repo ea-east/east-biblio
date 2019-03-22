@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Fragments from the Abhidharmasamuccaya of Asaṃga</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Gokhale</namePart>
+    <namePart type="given">V. V.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>23</number>
+      </detail>
+      <extent unit="pages">
+        <start>13</start>
+        <end>38</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1947</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JBB(R)AS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

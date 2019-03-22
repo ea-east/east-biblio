@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Wann, wo und weshalb schrieb Bhaṭṭa Jayanta seine „Blütenrispe am Baum des Nyāya“</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Slaje</namePart>
+    <namePart type="given">Walter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Steiner</namePart>
+      <namePart type="given">Roland</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>121</start>
+        <end>142</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Halle an der Saale</placeTerm>
+      </place>
+      <publisher>Universitätsverlag Halle-Wittenberg</publisher>
+      <copyrightDate>2012</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Highland Philology. Results of a Text-Related Kashmir Panel at the 31st DOT, Marburg 2010</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

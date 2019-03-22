@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Of the Progresse of the Bodhisattva: the Bodhisattvamārga in the Śikṣāsamuccaya</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Mahoney</namePart>
+    <namePart type="given">Richard</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Christchurch</placeTerm>
+    </place>
+    <publisher>University of Canterbury</publisher>
+    <copyrightDate>2002</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

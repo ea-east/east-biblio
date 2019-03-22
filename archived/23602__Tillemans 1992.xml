@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>La logique bouddhique est-elle une logique non-classique ou déviante? Remarques sur le tétralemme (catuṣkoṭi). Les Cahiers de Philosophie 14, 183-198.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Tillemans</namePart>
+    <namePart type="given">Tom J. F.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>14</number>
+      </detail>
+      <extent unit="pages">
+        <start>183</start>
+        <end>198</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1992</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Les Cahiers de Philosophie (L'Orient de la Pensée, Philosophies en Inde)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

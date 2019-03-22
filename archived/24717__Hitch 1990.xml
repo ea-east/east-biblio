@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Old Khotanese Synchronic Umlaut</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hitch</namePart>
+    <namePart type="given">Douglas A.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>33/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>177</start>
+        <end>198</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1990</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IIJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

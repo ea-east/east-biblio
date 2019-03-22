@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Section 14: Apoha</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Jha</namePart>
+    <namePart type="given">Ganga Nath</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>295–328 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Delhi</placeTerm>
+    </place>
+    <publisher>Sri Satguru Publications</publisher>
+    <copyrightDate>1983</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

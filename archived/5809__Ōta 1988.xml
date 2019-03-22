@@ -1,0 +1,79 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-a70b6ff6-de47-4540-a769-7abf03b19729" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-922c6390-eee0-4ce2-8232-dd26fcf7543c">
+        <language><languageTerm>lt</languageTerm></language><extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T14:20:16.626+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<genre authority="marcgt">periodical</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Saga</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>SRTDK</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Bulletin of Kyushu Ryukoku Junior College</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Kyūshū Ryūkoku Tankidaigaku Kiyō</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>34</number>
+            </detail>
+            <extent unit="pages">
+                <start>1</start>
+                <end>33</end>
+            </extent>
+            <date encoding="w3cdtf">1988</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T14:15:04.634+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T14:17:30.321+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <titleInfo supplied="yes">
+        <title>Dharmakīrti (Hosshō) Cho “Tadashii Ninshiki Ni Kansuru Hyōshaku: Jiko Suiri Shō” Oyobi Jichū</title>
+        <subTitle>Wayaku (4), Dai 143 Ge - Dai 162 Ge: Jitsuzaironteki Fuhenron Hihan</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>A Translation of Chapter of Inference for One’s Own Self, Verses 143-162 of Pramāṇa-Vārttika and Svavṛtti</title>
+        <subTitle>The Criticism for Realistic Universalism</subTitle>
+    </titleInfo>
+    <name>
+        <namePart type="given">Shinkai</namePart>
+        <namePart type="family">Ōta</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+</mods>

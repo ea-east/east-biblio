@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Yogācāra philosophy of Dignāga and Dharmakīrti</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Dreyfus</namePart>
+    <namePart type="given">Georges B. J.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Lindtner</namePart>
+    <namePart type="given">Christian</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>2</number>
+      </detail>
+      <extent unit="pages">
+        <start>27</start>
+        <end>52</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1989</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Studies in Central &amp; East Asian Religions</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

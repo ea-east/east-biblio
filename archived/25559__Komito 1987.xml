@@ -1,0 +1,20 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Nāgārjuna’s “Seventy Stanzas.” A Buddhist Psychology of Emptiness</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Komito</namePart>
+    <namePart type="given">David Ross</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <publisher>Snow Lion</publisher>
+    <copyrightDate>1987</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

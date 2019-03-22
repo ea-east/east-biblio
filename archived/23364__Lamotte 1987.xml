@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>L'Enseignement de Vimalakīrti</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Lamotte</namePart>
+    <namePart type="given">Étienne</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Louvain-la-neuve</placeTerm>
+    </place>
+    <publisher>Institut Orientaliste Louvain-la-neuve</publisher>
+    <copyrightDate>1987</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Illumination of Consciousness: approaches to self-awareness in the Indian and Western traditions</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Mackenzie</namePart>
+    <namePart type="given">Matthew D.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>57/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>40</start>
+        <end>62</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2007</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>PEW</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

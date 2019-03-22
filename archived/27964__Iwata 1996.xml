@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>“Chishikiron kettaku” (Pramāṇaviniścaya) dai 3 shō (tasha no tame no suiron shō) wayaku kenkyū ad v.2: tasha no tame no suiron no teigi no svadṛṣṭa ni tsuite (3), kibyū (prasaṅga) ronshō no datōsei [Study and Annotated Translation of the Pramāṇaviniścaya (Third Chapter) ad v.2: Interpretation of svadṛṣṭa in the Definition of the parārthānumāna (3), Validity of the prasaṅga-argument]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Iwata</namePart>
+    <namePart type="given">Takashi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://hdl.handle.net/2065/46157</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>13</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>23</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1996</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">0910-0601</identifier>
+    <titleInfo>
+      <title>Tōyō no shisō to shūkyō [Thought and Religion of Asia]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

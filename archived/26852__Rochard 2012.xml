@@ -1,0 +1,19 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Meditation on Selflessness: An Inquiry into Candrakīrti's Philosophical Analysis of the Self with reference to Theravāda, Tibetan, and Western Sources</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Rochard</namePart>
+    <namePart type="given">Susan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <copyrightDate>2012</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

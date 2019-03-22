@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Madhyamaka aus der Sicht der rNying-ma Tradition</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Wangchuk</namePart>
+    <namePart type="given">Dorji</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>211</start>
+        <end>223</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Hamburg</placeTerm>
+      </place>
+      <publisher>Universität Hamburg</publisher>
+      <copyrightDate>2000</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Buddhismus in Geschichte und Gegenwart. Band 4. Die Geistesgeschichte des Buddhismus (I)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Kurt A. Behrendt, The Buddhist Architecture of Gandhāra. Handbuch der Orientalistik, section II, India, volume seventeen, Brill, Leiden-Boston, 2004</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Fussman</namePart>
+    <namePart type="given">Gérard</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>27/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>237</start>
+        <end>249</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2004</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIABS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

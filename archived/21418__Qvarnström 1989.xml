@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Hindu Philosophy in Buddhist Perspective: The Vedāntatattvaniścaya Chapter of Bhavya’s Madhyamakahṛdayakārikā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Qvarnström</namePart>
+    <namePart type="given">Olle</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Lund</placeTerm>
+    </place>
+    <publisher>Plus Ultra</publisher>
+    <copyrightDate>1989</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

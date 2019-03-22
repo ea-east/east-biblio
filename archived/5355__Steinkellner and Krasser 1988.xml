@@ -1,0 +1,127 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-71c189ff-2104-4e95-a2c3-88b5a44fd4a0" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dharmottaras Exkurs zur Definition gültiger Erkenntnis (pramāṇa) im Pramāṇaviniścaya</title>
+        <subTitle>(Materialien zur Definition gültiger Erkenntnis in der Tradition Dharmakīrtis 1). Tibetischer Text, Sanskritmaterialien und Übersetzung</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ernst</namePart>
+        <namePart type="family">Steinkellner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helmut</namePart>
+        <namePart type="family">Krasser</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="rfc3066" type="code">de-DE</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Wien</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1988</dateIssued>
+        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>104 p.</extent>
+    </physicalDescription>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-d2cf1661-d4d5-4798-b432-78386b21d804">
+        <mods:extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">periodical-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-12T20:36:04.936+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-12T20:36:44.081+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+<mods:recordInfo lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2015-07-12+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">ger</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:language>
+        <mods:languageTerm authority="rfc3066" type="code">de-DE</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <mods:relatedItem type="succeeding">
+        <mods:name type="corporate">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo script="Latn">
+            <mods:issuance>continuing</mods:issuance>
+        </mods:originInfo>
+        <mods:genre type="code" authority="marcgt">periodical</mods:genre>
+    </mods:relatedItem>
+    <mods:relatedItem type="preceeding">
+        <mods:name type="corporate">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo script="Latn">
+            <mods:issuance>continuing</mods:issuance>
+        </mods:originInfo>
+        <mods:genre type="code" authority="marcgt">periodical</mods:genre>
+    </mods:relatedItem>
+    <mods:genre authority="marcgt">periodical</mods:genre>
+    <mods:typeOfResource>text</mods:typeOfResource>
+    <mods:targetAudience authority="marctarget">adult</mods:targetAudience>
+    <mods:physicalDescription>
+        <mods:form authority="marcform">print</mods:form>
+    </mods:physicalDescription>
+    <mods:originInfo>
+        <mods:issuance>continuing</mods:issuance>
+    </mods:originInfo>
+    <mods:name type="corporate">
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:titleInfo>
+        <mods:title>Beiträge zur Kultur- und Geistesgeschichte Asiens</mods:title>
+    </mods:titleInfo>
+    <mods:part>
+            <mods:detail type="volume">
+                <mods:caption>vol.</mods:caption>
+                <mods:number>2</mods:number>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Steinkellner 1988</mods:identifier>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-09T22:19:45.538+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-11T19:12:48.206+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

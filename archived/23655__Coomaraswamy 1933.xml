@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Parāvr̥tti=Transformation, Regeneration, Anagogy</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Coomaraswamy</namePart>
+    <namePart type="given">Ananda K.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Gampert</namePart>
+      <namePart type="given">Otto Stein und Wilhelm</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>232</start>
+        <end>236</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Leipzig</placeTerm>
+      </place>
+      <publisher>Otto Harrassowitz Verlag</publisher>
+      <copyrightDate>1933</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Festschrift Moriz Winternitz 1863 - 23. Dezember 1933</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

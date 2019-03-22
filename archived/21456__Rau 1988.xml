@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bhartṛharis Vākyapadīya. Vollständiger Wortindex zu den mūlakārikās</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Rau</namePart>
+    <namePart type="given">Wilhelm</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Mainz</placeTerm>
+    </place>
+    <publisher>Akademie der Wissenschaften und der Literatur</publisher>
+    <copyrightDate>1988</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

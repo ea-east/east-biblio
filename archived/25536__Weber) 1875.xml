@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>(Ein von Weber gelegter Brief von Bühler über die handschriftlichen Schätze der Tempel-Bibliothek in Jessalmir)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Weber)</namePart>
+    <namePart type="given">Georg Bühler (mit Bemerkung von A.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <extent unit="pages">
+        <start>279</start>
+        <end>283</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1875</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Monatsberichte der Königlich Preußischen Akademie der Wissenschaften zu Berlin. Aus dem Jahr 1874.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

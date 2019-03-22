@@ -1,0 +1,73 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-16d47041-d202-43cc-b574-717d535c1988">
+    <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Conception of Atoms as Substantially Existing in Śubhagupta</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Margherita Serena</namePart>
+        <namePart type="family">Saccone</namePart>
+        <role>
+            <roleTerm type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-31e8679d-eddb-4ff1-b2c0-df50579c7cbd">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Madison</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>JIABS</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Journal of the International Association of Buddhist Studies</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <number>38</number>
+            </detail>
+            <extent unit="pages">
+                <start>107</start>
+                <end>137</end>
+            </extent>
+            <date encoding="w3cdtf">2015</date>
+        </part>
+    </relatedItem>
+    <identifier type="local">Saccone 2015</identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="rfc3066" type="code">en-US</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2018-06-22+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-06-22T16:42:30.572+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-06-22T16:44:21.934+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

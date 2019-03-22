@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>[Part VII and VIII:] gZer-myig, A Book of the Tibetan Bonpos</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">(ed</namePart>
+    <namePart type="given">A. H. Francke</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>tr.)</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>N.S. 1/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>163</start>
+        <end>188</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1949-1950</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Asia Major</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

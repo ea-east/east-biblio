@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tattvasaṃgraha ni okeru undōkugi hihan [A Criticism of the Vaiśeṣika Category Karman in the Tattvasaṃgraha]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kuwatsuki</namePart>
+    <namePart type="given">Shin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://tripitaka.l.u-tokyo.ac.jp/INBUDS/search.php?m=trdd&amp;usid=14028&amp;a=</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>4</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>32</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1983</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">0388872X</identifier>
+    <titleInfo>
+      <title>Ryūkokudaigaku daigakuin kiyō [The Bulletin of the Graduate School of Ryukoku University]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

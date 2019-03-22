@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Vivarta. Studien zur Geschichte der illusionistischen Kosmologie und Erkenntnistheorie der Inder</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Hacker</namePart>
+    <namePart type="given">Paul</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wiesbaden</placeTerm>
+    </place>
+    <publisher>Verlag d. Akad. d. Wissenschaften u. d. Literatur in Mainz, in Kommission bei Franz Steiner Verlag</publisher>
+    <copyrightDate>1953</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

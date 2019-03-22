@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Strafen und Torturen der Tibeter (Beitrag zur tibetischen Rechtspflege)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hummel</namePart>
+    <namePart type="given">Siegbert</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>2</number>
+      </detail>
+      <extent unit="pages">
+        <start>93</start>
+        <end>102</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1957</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Geographica Helvetica</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

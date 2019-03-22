@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>I Become a Lama</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Bernard</namePart>
+    <namePart type="given">Theos</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>34.4</number>
+      </detail>
+      <extent unit="pages">
+        <start>206</start>
+        <end>211</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1939</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Asia</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

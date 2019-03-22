@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Der indische Buddhismus</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Bareau</namePart>
+    <namePart type="given">André</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>2</start>
+        <end>215</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Stuttgart</placeTerm>
+      </place>
+      <publisher>Kohlhammer</publisher>
+      <copyrightDate>1964</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Die Religionen Indiens III. Buddhismus - Jinismus - Primitivvölker (Die Religionen der Menschheit 13)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

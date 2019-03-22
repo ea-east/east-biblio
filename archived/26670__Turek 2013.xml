@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>"In This Body and Life": The Religious and Social Significance of Hermits and Hermitages in Eastern Tibet Today and During Recent History</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Turek</namePart>
+    <namePart type="given">Magdalena Maria</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berlin</placeTerm>
+    </place>
+    <copyrightDate>2013</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

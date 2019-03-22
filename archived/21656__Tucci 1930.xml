@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On some aspects of the doctrines of Maitreya[nātha] and Asaṅga (being a course of five lectures delivered at the university of calcutta)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Tucci</namePart>
+    <namePart type="given">Giuseppe</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Calcutta</placeTerm>
+    </place>
+    <publisher>University of Calcutta</publisher>
+    <copyrightDate>1930</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

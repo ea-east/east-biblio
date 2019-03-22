@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review of: The Self’s Awareness of Itself: Bhaṭṭa Rāmakaṇṭha’s Arguments against the Buddhist Doctrine of No-Self. By Alex Watson. Wien: De Nobili, 2006. Pp. 433.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Freschi</namePart>
+    <namePart type="given">Elisa</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>59/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>400</start>
+        <end>406</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2009</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>PEW</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

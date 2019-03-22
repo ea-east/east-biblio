@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-2c55bc62-b07e-4187-9fda-2ddbb7a41a95" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>"Go brahman no kōsatsu" (Śabdabrahmaparīkṣā)</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Hajime</namePart>
+        <namePart type="family">Nakamura</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-618e7b37-740d-4fe2-89e4-1944c11c6707">
+        <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+<language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Japn</scriptTerm>
+    </language>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Tōkyō</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1956</dateIssued>
+    </originInfo>
+    <titleInfo>
+        <title>Kotoba no keijijōgaku</title>
+    </titleInfo>
+    <part>
+            <extent unit="pages">
+                <start>65</start>
+                <end>111</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <place>
+                <placeTerm type="text">Tōkyō</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1981</dateIssued>
+        </originInfo>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Japn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-07+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Observations sur l'édition du Mahāyānasūtrālaṃkāra par Sylvain Lévi</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Bhattacharya</namePart>
+    <namePart type="given">Kamaleswar</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Lardinois</namePart>
+      <namePart type="given">Lyne Bansat-Boudon et Roland</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>71</start>
+        <end>73</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Turnhout</placeTerm>
+      </place>
+      <publisher>Brepols</publisher>
+      <copyrightDate>2007</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Sylvain Lévi (1863-1935), Études indiennes, histoire sociale - Bibliothèque de l'École des Hautes Études en Sciences Religieuses</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bodhisattva e Prajñāpāramitā nel Bodhicaryāvātara di Śāntideva</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Pezzali</namePart>
+    <namePart type="given">Amalia</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Comba</namePart>
+      <namePart type="given">Oscar Botto a cura di Stefano Piano e Antonella</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>93</start>
+        <end>101</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Torino</placeTerm>
+      </place>
+      <publisher>Associazione Italiana si Studi Sanscriti</publisher>
+      <copyrightDate>1982</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Atti del Primo Convegno Nazionale di Studi Sanscriti. Associazione Italiana si Studi Sanscriti.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

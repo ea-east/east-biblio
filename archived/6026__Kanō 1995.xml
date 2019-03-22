@@ -1,0 +1,148 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-7f5e4d02-f2d9-4572-83d5-c6fcdc8e183e">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" type="translated">
+        <mods:title>Jñānaśrīmitra's Īśvaravāda </mods:title>
+        <mods:subTitle>Studies in the pūrvapakṣa</mods:subTitle>
+        <mods:partNumber>1</mods:partNumber>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="jpn" transliteration="japanese/ala-lc" type="alternative">
+        <mods:title>Jñānaśrīmitra no 'shusaishinron' </mods:title>
+        <mods:subTitle>zenshuchō no kenkyū (jō)</mods:subTitle>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="jpn" script="jpan">
+        <mods:title>ジュニャーナシュリーミトラの『主宰神論』</mods:title>
+        <mods:subTitle>前主張の研究(上)</mods:subTitle>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Kyō</mods:namePart>
+        <mods:namePart type="family">Kanō</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-29331697-8d21-40c3-8a34-7486bacc9737">
+        <mods:extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-08-29T22:06:01.069+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-08-29T22:24:53.225+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T14:45:45.22+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-07T11:26:53.518+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+<mods:recordInfo lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-08-29+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:language>
+        <mods:languageTerm authority="rfc3066" type="code">ja-JP</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:relatedItem type="succeeding">
+        <mods:name type="corporate">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo script="latn">
+            <mods:issuance>continuing</mods:issuance>
+        </mods:originInfo>
+        <mods:genre type="code" authority="marcgt">periodical</mods:genre>
+        <mods:part>
+            <mods:detail type="issue">
+                <mods:caption>no.</mods:caption>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:relatedItem type="preceeding">
+        <mods:name type="corporate">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo script="latn">
+            <mods:issuance>continuing</mods:issuance>
+        </mods:originInfo>
+        <mods:genre type="code" authority="marcgt">periodical</mods:genre>
+        <mods:part>
+            <mods:detail type="issue">
+                <mods:caption>no.</mods:caption>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:genre type="code" authority="marcgt">periodical</mods:genre>
+    <mods:typeOfResource>text</mods:typeOfResource>
+    <mods:targetAudience authority="marctarget">adult</mods:targetAudience>
+    <mods:physicalDescription>
+        <mods:form authority="marcform">print</mods:form>
+    </mods:physicalDescription>
+    <mods:originInfo script="latn">
+        <mods:issuance>continuing</mods:issuance>
+    </mods:originInfo>
+    <mods:name type="corporate">
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:titleInfo lang="eng" script="latn" type="translated">
+        <mods:title>Journal of the Nanto Society for Buddhist Studies</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo>
+        <mods:title>Nanto Bukkyō</mods:title>
+    </mods:titleInfo>
+    <mods:part>
+            <mods:detail type="volume">
+                <mods:number>71 </mods:number>
+            </mods:detail>
+            <mods:extent unit="pages">
+                <mods:start>28</mods:start>
+                <mods:end>51</mods:end>
+            </mods:extent>
+            <mods:date encoding="w3cdtf">1995</mods:date>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Kanō 1995</mods:identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="rfc3066" type="code">ja-JP</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-10-06+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-06T00:54:54.331+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-10T23:23:39.907+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

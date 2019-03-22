@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Preliminary Notes on the Phug-brag bKa´-´gyur: A Unique Edition of the Tibetan Buddhist Canon</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Samten</namePart>
+    <namePart type="given">Jampa</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Ihara</namePart>
+      <namePart type="given">Shōren</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Yamaguchi</namePart>
+      <namePart type="given">Zuihō</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>115</start>
+        <end>120</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Narita</placeTerm>
+      </place>
+      <publisher>Naritasan Shinshoji</publisher>
+      <copyrightDate>1992</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tibetan Studies, Proceedings oft he 5th Seminar of the International Association for Tibetan Studies NARITA 1989. Volume 1: Buddhist Philosophy and Literature</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

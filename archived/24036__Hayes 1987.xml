@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On the Reinterpretation of Dharmakīrti's Svabhāvahetu</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hayes</namePart>
+    <namePart type="given">Richard P.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>15/4</number>
+      </detail>
+      <extent unit="pages">
+        <start>319</start>
+        <end>332</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1987</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIP</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

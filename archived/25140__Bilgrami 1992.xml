@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Belief and Meaning</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Bilgrami</namePart>
+    <namePart type="given">Akeel</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Massachusetts</placeTerm>
+    </place>
+    <publisher>Blackwell</publisher>
+    <copyrightDate>1992</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Der Buddhismus und die Frage nach einer weltbildindifferenten Erfahrung</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Vetter</namePart>
+    <namePart type="given">Tilmann</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Müller</namePart>
+      <namePart type="given">Hans-Peter</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>37</start>
+        <end>46</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Stuttgart [u.a.]</placeTerm>
+      </place>
+      <publisher>Kohlhammer</publisher>
+      <copyrightDate>1997</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Das Evangelium und die Weltreligionen: theologische und philosophische Herausforderungen</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

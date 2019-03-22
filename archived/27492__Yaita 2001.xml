@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>“Sesshinjitsuron (shaku)” ‘Gochikōkyū (śābdavicāra)’ shō no kenkyū {*A study of the śābdavicāra-chapter of the Tattvasaṅgrahapañjikā}</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Yaita</namePart>
+    <namePart type="given">Hideomi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <extent unit="pages">
+        <start>89</start>
+        <end>139</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2001</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the Naritasan Institute for Buddhist Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>De Quelques Histoires de Klu et de Btsan</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Dollfus</namePart>
+    <namePart type="given">Pascale</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>2</number>
+      </detail>
+      <extent unit="pages">
+        <start>4</start>
+        <end>39</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2003</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Revue d'Etudes Tibétaines</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

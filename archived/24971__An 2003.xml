@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Canonization of the Word of the Buddha – With Reference to Mahāpadesa</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">An</namePart>
+    <namePart type="given">Yang-Gyu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>55</start>
+        <end>66</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Hamamatsu</placeTerm>
+      </place>
+      <publisher>Kokusai Bukkyoto Kyokai</publisher>
+      <copyrightDate>2003</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Buddhist and Indian Studies in Honour of Professor Sodo Mori</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

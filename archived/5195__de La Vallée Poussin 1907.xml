@@ -1,0 +1,83 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-5f7077f8-ce88-454a-8650-ca660bcd07a2" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Tibetan Translation of the Nyayabindu of Dharmakīrti with the commentary of Vinītadeva</title>
+        <subTitle>Edited with Appendices</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">L.</namePart>
+        <namePart type="family">de La Vallée Poussin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Calcutta</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1907</dateIssued>
+        <publisher>Asiatic Society</publisher>
+    </originInfo>
+    <physicalDescription>
+        <extent>150 p.</extent>
+    </physicalDescription>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-7093522b-29a8-4dbd-99d6-535513c81b28">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Calcutta</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>BI N. S.</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Bibliotheca Indica </title>
+        <subTitle>New Series</subTitle>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>1179</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <place>
+                <placeTerm type="text">Calcutta</placeTerm>
+            </place>
+            <publisher>Asiatic Soc.</publisher>
+            <dateIssued encoding="w3cdtf">1984</dateIssued>
+        </originInfo>
+        <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-ae52bbda-ae5d-46b0-932e-d21c20ef62f4">
+            <part>
+                <detail type="volume">
+                    <caption>vol.</caption>
+                    <number>171</number>
+                </detail>
+            </part>
+        </relatedItem>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On ātmendriyamanorthasannikarṣa and the Nyāya-Vaiśeṣika Theory of Vision</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Preisendanz</namePart>
+    <namePart type="given">Karin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>4/5</number>
+      </detail>
+      <extent unit="pages">
+        <start>141</start>
+        <end>213</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1989</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Berliner Indologische Studien</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

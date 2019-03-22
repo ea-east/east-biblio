@@ -1,0 +1,57 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-269654f6-6688-4e4e-bdc9-094cf5826d8e" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Pramāṇasamuccayavṛtti of Dignāga</title>
+        <subTitle>With Jinendrabuddhi's Commentary. Chapter Five: Anyāpoha-parīkṣā. Tibetan Text with Sanskrit Fragments.</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Masaaki</namePart>
+        <namePart type="family">Hattori</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-bfe22fc2-2391-41bd-88db-efef7bfd1dd4">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+        <title>Memoirs of the Faculty of Letters Kyoto University</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>21</number>
+            </detail>
+            <extent unit="pages">
+                <start>103</start>
+                <end>224</end>
+            </extent>
+            <date encoding="w3cdtf">1982</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-13+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Hattori 1982</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

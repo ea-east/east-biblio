@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Hybrid Sanskrit in the Gilgit Brahmi Inscriptions</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Humbach</namePart>
+    <namePart type="given">Helmut</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>5/6</number>
+      </detail>
+      <extent unit="pages">
+        <start>99</start>
+        <end>121</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1980</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Studien zur Indologie und Iranistik (Festschrift Paul Thieme)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

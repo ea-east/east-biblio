@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Further Textual Notes on the Dharmaparyeṣṭyadhikāra in the Mahāyānasūtrālaṃkāra and the Original Text of Verses 1 and 2 of the Viṃśatikā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Funahashi</namePart>
+    <namePart type="given">Naoya</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>35/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>22</start>
+        <end>26</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1986</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IBK</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

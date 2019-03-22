@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Do all the Muslims of Tibet Belong to the Hui Nationality?</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Altner</namePart>
+    <namePart type="given">Diana</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Anna Akasoy</namePart>
+      <namePart type="given">Charles Burnett</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Yoeli-Tlalim</namePart>
+      <namePart type="given">Ronit</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>339</start>
+        <end>352</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Farnham</placeTerm>
+      </place>
+      <publisher>Ashgate</publisher>
+      <copyrightDate>2011</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Islam and Tibet: Interactions along the Musk Routes</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

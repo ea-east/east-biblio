@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Kārakas: Direct and indirect relationships</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Deshpande</namePart>
+    <namePart type="given">Madhav</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Madhav M. Deshpande</namePart>
+      <namePart type="given">Peter E. Hook</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>150</start>
+        <end>161</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Delhi</placeTerm>
+      </place>
+      <publisher>Motilal Banarsidass</publisher>
+      <copyrightDate>2002</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indian Linguistic Studies. Festschrift in Honor of George Cardona</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

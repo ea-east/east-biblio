@@ -1,0 +1,134 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-2f4a94fe-c4ef-4389-aa9e-d86851cec812">
+    <titleInfo>
+        <title>“Chishikiron Kettaku” (Pramāṇaviniścaya) Dai 3 Shō (tasha No Tame No Suiron Shō) Wayaku Kenkyū Ad vv.4-5</title>
+        <subTitle>Tasha No Tame No Suiron No Teigi No Prakāśana Ni Tsuite (6)</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" script="Latn" type="translated">
+        <title>Study and Annotated Translation of the Pramāṇaviniścaya (Third Chapter) Ad vv.4-5</title>
+        <subTitle>Interpretation of Prakāśana in the Definition of the Parārthānumāna (6)</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given" script="Latn">Takashi</namePart>
+        <namePart type="family" script="Latn">Iwata</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="local">chapter</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-52a07ca4-8b1c-4e5b-8b93-f14bac8fe860">
+        <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">edited-volume-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-08-29T22:32:43.228+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-09T12:12:04.354+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-09T12:18:59.151+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-05T17:09:31.39+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<recordInfo lang="eng" script="latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2012-08-29+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">jpan</scriptTerm>
+    </language>
+    <relatedItem type="series">
+        <name type="personal">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <name type="corporate">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo script="latn">
+            <issuance>continuing</issuance>
+        </originInfo>
+    </relatedItem>
+    <genre type="code" authority="local">editedVolume</genre>
+    <genre type="code" authority="marcgt">book</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Fukuoka-shi</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">2000</dateIssued>
+        <publisher>Kyūshū Daigaku Shuppankai</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <name type="personal">
+        <namePart type="given" script="latn">Akihiko</namePart>
+        <namePart type="family" script="latn">Akamatsu</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+        </role>
+    </name>
+    <titleInfo lang="eng" script="latn" type="translated">
+        <title>Culture and Logic in India</title>
+        <subTitle>Festschrift in Honor of the 70th Birthday of Dr. Hiromasa Tosaki</subTitle>
+    </titleInfo>
+    <titleInfo>
+        <title>Indo No Bunka to Ronri</title>
+        <subTitle>Tosaki Hiromasa Hakase Koki Kinen Ronbunshū</subTitle>
+    </titleInfo>
+    <part>
+            <extent unit="pages">
+                <start>267</start>
+                <end>288</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <identifier type="local">Iwata 2000b</identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="rfc3066" type="code">ja-JP</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2017-03-09+01:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-contribution-to-edited-volume-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-09T12:15:47.992+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-09T12:17:21.407+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-09T12:19:45.381+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

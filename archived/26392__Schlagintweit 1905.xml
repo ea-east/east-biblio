@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bericht über eine Adresse an den Dalai Lama in Lhasa (1902) zur Erlangung von Bücherverzeichnissen aus den dortigen buddhistischen Klöstern. (mit 2 Tafeln)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Schlagintweit</namePart>
+    <namePart type="given">Emil</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Wissenschaft</namePart>
+      <namePart type="given">Die königlich bayerische Akademie der</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>657</start>
+        <end>674</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">München</placeTerm>
+      </place>
+      <publisher>Verlag der K. Akademie</publisher>
+      <copyrightDate>1905</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Abhandlungen der philosophisch-philologischen Classe der königlich bayerischen Akademie der Wissenschaften, Band 22</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

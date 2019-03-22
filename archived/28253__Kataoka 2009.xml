@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>“Juryōron” I 9 kaishakuno mondaiten: Dignāga to Jinendrabuddhi [Exegetical Problems of Pramāṇasamuccaya 1.9: Dignaga and Jinendrabuddhi]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kataoka</namePart>
+    <namePart type="given">Kei</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/110007503624/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>58</number>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+      </detail>
+      <extent unit="pages">
+        <start>449</start>
+        <end>455</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2009</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">00194344</identifier>
+    <titleInfo>
+      <title>Indo-gaku Bukkyō-gaku Kenkyū [Journal of Indian and Buddhist Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

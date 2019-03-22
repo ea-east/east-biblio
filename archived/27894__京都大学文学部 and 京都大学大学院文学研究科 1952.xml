@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>京都大學文學部研究紀要</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>京都大学文学部</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>京都大学大学院文学研究科</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <publisher>京都大學文學部</publisher>
+    <copyrightDate>1952</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <location>
+    <url usage="primary display" dateLastAccessed="CURRENT_TIMESTAMP">http://ci.nii.ac.jp/ncid/AN00061079</url>
+  </location>
+  <abstract>京都大學文學部研究紀要 京都大學文學部 [編] 京都大學文學部, 1952.3- 1 (昭27.3)-</abstract>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <recordInfo>
+    <recordContentSource>ci.nii.ac.jp</recordContentSource>
+  </recordInfo>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Candragomin’s Lokānanda Nātaka</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hahn</namePart>
+    <namePart type="given">Michael</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>7</number>
+      </detail>
+      <extent unit="pages">
+        <start>133</start>
+        <end>151</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1979</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Samskrita Ranga Annual VII, 1972-79</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Preliminary Remarks on Two Manuscripts Written in The So-called "Arrow-headed" Script</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hahn</namePart>
+    <namePart type="given">Michael</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Birthday</namePart>
+      <namePart type="given">Committee for the Felicitation of Dr Hōjun Nagasaki's Seventieth</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Kyoto</placeTerm>
+      </place>
+      <publisher>Heirakuji Shoten</publisher>
+      <copyrightDate>2005</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Buddhism and Jainism, Essays in Honour of Dr. Hōjun Nagasaki on His Seventieth Birthday</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tarkabhāṣā and Vādasthāna of Mokṣākaragupta and Jitāripāda</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">(ed.)</namePart>
+    <namePart type="given">H. R. Rangaswami Iyengar</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Mysore</placeTerm>
+    </place>
+    <publisher>The Hindustan Press</publisher>
+    <copyrightDate>1952</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

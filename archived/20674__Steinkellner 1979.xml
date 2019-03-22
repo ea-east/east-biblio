@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmakīrtis's Pramāṇaviniścayaḥ. Zweites Kapitel: Svārthānumānam. Teil 2: Übersetzung und Anmerkungen</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Steinkellner</namePart>
+    <namePart type="given">Ernst</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wien</placeTerm>
+    </place>
+    <publisher>Verlag der österreichischen Akademie der Wissenschaften</publisher>
+    <copyrightDate>1979</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

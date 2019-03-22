@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>‘Ronri no hiyō’ kenkyū (IV) [A Study of Tarkarahasya (IV)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Yaita</namePart>
+    <namePart type="given">Hideomi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <extent unit="pages">
+        <start>31</start>
+        <end>42</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1991</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>In: Ju, Butsu, Dō sankyō sishō ronkō: Makio Ryōkai Hakase kiju kinen [Confucianism, Buddhism, Taoism: Studies on the thoughts in the three religions: a festschrift in honor of 77th Birthday of Dr. Ryōkai Makio]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

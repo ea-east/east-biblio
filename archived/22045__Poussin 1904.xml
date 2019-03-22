@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>1) A. Foucher: Les bas-reliefs du stūpa de Sikri (1903); 2) A Tibetan-English-Dictionary with Sanskrit Synonyms, by Sarat Chandra Das (1902); 3) M.J.S. Speyer (...); 4) H. Oldenberg: Le Bouddha, sa vie, sa doctrine et sa communauté (1903); 5) Buddhism, an illustrated quaterly review 1/1 (1903); 6) A.J. Edmunds: Hymns of Faith (Dhammapada) (1902) / Buddhist and Christian Gospels (1902) / A Buddhist Genesis (1904); 7) T. Suzuki: The first buddhist council (1904).</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Poussin</namePart>
+    <namePart type="given">Louis de la Vallée</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>n.s. 5</number>
+      </detail>
+      <extent unit="pages">
+        <start>193</start>
+        <end>208</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1904</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Le Muséon</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

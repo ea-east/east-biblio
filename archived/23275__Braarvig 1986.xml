@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Development of Mental Complexity as Suffering in Sāṃkhya and Buddhism</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Braarvig</namePart>
+    <namePart type="given">Jens</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">(ed.)</namePart>
+      <namePart type="given">Eivind Kahrs</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>49</start>
+        <end>56</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Oslo</placeTerm>
+      </place>
+      <publisher>Norwegian University Press</publisher>
+      <copyrightDate>1986</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Kalyāṇamitrārāgaṇam. Essays in Honour of Nils Simonsson.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

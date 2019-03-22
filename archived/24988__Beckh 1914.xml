@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Verzeichnis der tibetischen Handschriften der Königlichen Bibliothek zu Berlin - 1. Kanjur (Bkah-hgyur). (Die Handschriftenverzeichnisse der Königlichen Bibliothek zu Berlin, 24. Band)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Beckh</namePart>
+    <namePart type="given">Hermann</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berlin</placeTerm>
+    </place>
+    <publisher>Behrend</publisher>
+    <copyrightDate>1914</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

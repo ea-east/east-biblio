@@ -1,0 +1,72 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-80c197bf-78ee-4cb3-bfd3-0f715f026e39">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Three Bodhisattvapiṭaka Fragments from Tabo</mods:title>
+        <mods:subTitle>Observations on a West Tibetan Manuscript Tradition</mods:subTitle>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Ulrich</mods:namePart>
+        <mods:namePart type="family">Pagel</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-31e8679d-eddb-4ff1-b2c0-df50579c7cbd">
+        <mods:language><mods:languageTerm>en</mods:languageTerm></mods:language><mods:genre authority="marcgt">periodical</mods:genre>
+<mods:typeOfResource>text</mods:typeOfResource>
+    <mods:targetAudience authority="marctarget">adult</mods:targetAudience>
+    <mods:physicalDescription>
+        <mods:form authority="marcform">print</mods:form>
+    </mods:physicalDescription>
+    <mods:originInfo>
+        <mods:place>
+            <mods:placeTerm type="text">Madison</mods:placeTerm>
+        </mods:place>
+        <mods:issuance>continuing</mods:issuance>
+    </mods:originInfo>
+    <mods:titleInfo type="abbreviated">
+        <mods:title>JIABS</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo>
+        <mods:title>Journal of the International Association of Buddhist Studies</mods:title>
+    </mods:titleInfo>
+    <mods:part>
+            <mods:detail type="volume">
+                <mods:number>22</mods:number>
+            </mods:detail>
+            <mods:detail type="issue">
+                <mods:number>1</mods:number>
+            </mods:detail>
+            <mods:extent unit="pages">
+                <mods:start>165</mods:start>
+                <mods:end>210 </mods:end>
+            </mods:extent>
+            <mods:date encoding="w3cdtf">1999 </mods:date>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Pagel 1999 </mods:identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="rfc3066" type="code">en-US</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-11-26+01:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-11-26T22:44:13.679+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Indōtetsugaku-shōbunken ni inyō sareta Pramāṇavārttika (chikakusho) ni tsuite [*On the Pramāṇavārttika (chapter on perception) as it is cited in various Indian philosophical works]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">(安藤義則)</namePart>
+    <namePart type="given">Yoshinori Andō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>21</number>
+      </detail>
+      <extent unit="pages">
+        <start>136</start>
+        <end>110</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1989</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Sōtōshūkenkyūkiyō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

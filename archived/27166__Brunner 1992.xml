@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Four Pādas of Śaivāgamas</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Brunner</namePart>
+    <namePart type="given">Hélène</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>56-62</number>
+      </detail>
+      <extent unit="pages">
+        <start>260</start>
+        <end>278</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1992</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Journal of Oriental Research</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

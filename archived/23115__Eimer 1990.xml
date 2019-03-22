@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Microfilms, microfiches and other reproductions of North Indian manuscripts kept in the Indological Institute of Bonn University</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Eimer</namePart>
+    <namePart type="given">Helmut</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Eimer</namePart>
+      <namePart type="given">Helmut</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>97</start>
+        <end>192</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Bonn</placeTerm>
+      </place>
+      <publisher>Indica et Tibetica Verlag</publisher>
+      <copyrightDate>1990</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indology and Indo-Tibetology. Thirty Years of Indian and Indo-Tibetan Studies in Bonn (Indica et Tibetica 13)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

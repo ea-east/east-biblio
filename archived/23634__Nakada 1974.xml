@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Shinrikōyō oyobi sono chūshakusho ni arawareta Sāṃkhya gakuha no konponshitsuryōin ni tsuite [Die prakṛti-Lehre der Sāṃkhya-Schule in TS und TSP, jap. Übers. und Vergleich mit der Sāṃkhyavṛtti]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Nakada</namePart>
+    <namePart type="given">Naomichi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>7-11</number>
+      </detail>
+      <extent unit="pages">
+        <start>161</start>
+        <end>188</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1974</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tsurumi Daigaku Kiyō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

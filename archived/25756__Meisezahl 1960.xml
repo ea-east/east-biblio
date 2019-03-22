@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Über den Derge Tanjur der ehemaligen Preussischen Staatsbibliothek - ergänzt durch eine mikroskopische Papieruntersuchung im Institut für Cellulosechemie der Technischen Hochschule Darmstadt</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Meisezahl</namePart>
+    <namePart type="given">R. O.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>10</number>
+      </detail>
+      <extent unit="pages">
+        <start>292</start>
+        <end>306</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1960</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Libri: International Journal of Libraries and Information Services</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

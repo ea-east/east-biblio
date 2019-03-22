@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Le Dharmadhātustava de Nāgārjuna</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Ruegg</namePart>
+    <namePart type="given">Seyfort</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>448–471 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Paris</placeTerm>
+    </place>
+    <publisher>Librairie d'Amérique et d'Orient</publisher>
+    <copyrightDate>1971</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

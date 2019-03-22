@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>An Old Tibetan Divination with Coins: IOL Tib J 742</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Nishida</namePart>
+    <namePart type="given">Ai</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Imaeda</namePart>
+      <namePart type="given">Yoshiro</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Kapstein</namePart>
+      <namePart type="given">Matthew T.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Takeuchi</namePart>
+      <namePart type="given">Tsuguhito</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>315</start>
+        <end>327</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Tokyo</placeTerm>
+      </place>
+      <publisher>Research Institute for Languages and Cultures of Asia and Africa</publisher>
+      <copyrightDate>2011</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>New Studies of the Old Tibetan Documents: Philology, History and Religion</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

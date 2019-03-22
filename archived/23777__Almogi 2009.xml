@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Materiality and Immanence of Gnosis in Some rNying-ma Tantric Sources</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Almogi</namePart>
+    <namePart type="given">Orna</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Eigner</namePart>
+      <namePart type="given">Eli Franco in collaboration with Dagmar</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>241</start>
+        <end>262</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Vienna</placeTerm>
+      </place>
+      <publisher>OAW</publisher>
+      <copyrightDate>2009</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Yogic Perception, Meditation and Altered States of Consciousness</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

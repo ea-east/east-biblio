@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharma im Hinduismus</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hacker</namePart>
+    <namePart type="given">Paul</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Schmithausen</namePart>
+      <namePart type="given">Lambert</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <detail type="volume">
+        <number>49</number>
+      </detail>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wiesbaden</placeTerm>
+      </place>
+      <publisher>Franz Steiner Veerlag</publisher>
+      <copyrightDate>1965/1978</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Paul Hacker. Kleine Schriften.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

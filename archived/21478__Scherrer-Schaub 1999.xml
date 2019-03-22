@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Towards a methodology for the study of old Tibetan manuscripts: Dunhuang and Tabo</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Scherrer-Schaub</namePart>
+    <namePart type="given">Cristina A.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Scherrer-Schaub</namePart>
+      <namePart type="given">C. A.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Steinkellner</namePart>
+      <namePart type="given">E.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>3</start>
+        <end>36</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Ṛoma</placeTerm>
+      </place>
+      <publisher>Istituto Italiano per l'Africa e l'Oriente</publisher>
+      <copyrightDate>1999</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tabo Studies II: Manuscripts, texts, inscriptions, and the arts (Serie Orientale Roma 87)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

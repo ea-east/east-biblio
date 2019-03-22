@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Scribes and Painters on the Road: Inquiry into Image and Text in Indian Buddhism and its Transmission to Central Asia and Tibet</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Scherrer-Schaub</namePart>
+    <namePart type="given">Cristina</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Pande</namePart>
+      <namePart type="given">Anupa</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>29</start>
+        <end>40</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">New Delhi</placeTerm>
+      </place>
+      <publisher>Aryan Books International</publisher>
+      <copyrightDate>2009</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Art of Central Asia and the Indian Subcontinent: in Cross-Cultural Perspective</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

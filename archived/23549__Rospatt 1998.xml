@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Einige Berührungspunkte zwischen der buddhistischen Augenblicklichkeitslehre und der Vorstellung von der Momentanheit der Akzidenzien (´araḍ, a´rāḍ) in der islamischen Scholastik</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Rospatt</namePart>
+    <namePart type="given">Alexander von</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <extent unit="pages">
+        <start>523</start>
+        <end>530</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1998</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>ZDMG-SUPPL.11: Annäherung an das Fremde, XXVI. Deutscher Orientalistentag vom 25. bis 29. 9. 1995 in Leipzig</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

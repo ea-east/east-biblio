@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Saṃjñā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Glasenapp</namePart>
+    <namePart type="given">Helmuth von</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Vogel</namePart>
+      <namePart type="given">Claus</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>59</start>
+        <end>60</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">New Delhi</placeTerm>
+      </place>
+      <publisher>International Academy of Indian Culture</publisher>
+      <copyrightDate>1963</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Jñānamuktāvalī. Commemoration Volume in Honour of Johannes Nobel</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

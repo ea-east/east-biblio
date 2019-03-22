@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>An Introduction to Buddhist Philosophy in India and Tibet (Śata-Piṭaka Series 618)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Ahmad</namePart>
+    <namePart type="given">Zahiruddin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">New Delhi</placeTerm>
+    </place>
+    <publisher>International Academy of Indian Culture and Aditya Prakashan</publisher>
+    <copyrightDate>2007</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>1. Die nordturkistanischen Sanskrit-Handschriften der Sammlung Hoernle, 2. Some more Fragments of the Pravrajyavastu Portion of the Vinayavastu Manuscript found near Gilgit, 3. Zwei Adibuddha-Texte</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Enomoto</namePart>
+    <namePart type="given">Fumio</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Hartmann</namePart>
+    <namePart type="given">Jens-Uwe</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Matsumura</namePart>
+    <namePart type="given">Hisashi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Groenbold</namePart>
+    <namePart type="given">Guenter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Göttingen</placeTerm>
+      </place>
+      <publisher>Vandenhoeck &amp; Ruprecht</publisher>
+      <copyrightDate>1989</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Sanskrit-Texte aus dem buddhistischen Kanon: Neuentdeckungen und Neueditionen. (Sanskrit-Wörterbuch der buddhistischen Texte aus den Turfan-Funden, Beiheft 2)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tibetan Culture in the Diaspora. Papers presented at a Panel of the 7th Seminar of the International Association for Tibetan Studies, Graz 1995. Edited by Frank J. Korom. Vienna: Verlag der Österreichischen Akademie der Wissenschaften, 1997</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Somm</namePart>
+    <namePart type="given">Christian von</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>5</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1998</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of Buddhist Ethics</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

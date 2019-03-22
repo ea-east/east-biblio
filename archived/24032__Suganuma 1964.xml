@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Śāntarakṣita's Criticism on the Paramāṇuvāda in the Tattvasaṃgraha</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Suganuma</namePart>
+    <namePart type="given">Akira</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>12/2</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1964</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of Indian and Buddhist Studies [IBK Indogaku Bukkyōgaku Kenkyū]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

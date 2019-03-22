@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhism in Russia: The Story of Agvan Dorzhiev, Lhasa's Emissary to the Tsar</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Snelling</namePart>
+    <namePart type="given">John</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Shaftesbury et al.</placeTerm>
+    </place>
+    <publisher>Element Books Limited</publisher>
+    <copyrightDate>1993</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

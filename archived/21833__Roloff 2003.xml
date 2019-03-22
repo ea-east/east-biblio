@@ -1,0 +1,19 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Red mda' pa (1349-1412) und Tsong kha pa (1357-1419): zwei zentrale Figuren des tibetischen Buddhismus und ihr wechselseitiges Lehrer-Schüler-Verhältnis.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Roloff</namePart>
+    <namePart type="given">Carola</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <copyrightDate>2003</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

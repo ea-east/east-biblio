@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Rare Manuscripts of Works by Jitāri</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Chu</namePart>
+    <namePart type="given">Junjie</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Franco</namePart>
+    <namePart type="given">Eli</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>18</number>
+      </detail>
+      <extent unit="pages">
+        <start>17</start>
+        <end>32</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2012</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>China Tibetology</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

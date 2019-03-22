@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Verse-Index of Candarakīrti's Madhyamakāvatāra (Tibetan Versions). (Wiener Studien zur Tibetologie und Buddhismuskunde 22)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Tauscher</namePart>
+    <namePart type="given">Helmut</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wien</placeTerm>
+    </place>
+    <publisher>Arbeitskreis für Tibetische und Buddhistische Studien Universität Wien</publisher>
+    <copyrightDate>1989</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Eine eigentümliche Partizipialkonstruktion</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Bechert</namePart>
+    <namePart type="given">Heinz</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>10</number>
+      </detail>
+      <extent unit="pages">
+        <start>54</start>
+        <end>58</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1957</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Münchner Studien zur Sprachwissenschaft</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

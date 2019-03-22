@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Was haben ein Mönch und Fisch gemeinsam? Monastische Regeln und Lebensrealität und der Aussagewert chinesischer Pilgerberichte</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Deeg</namePart>
+    <namePart type="given">Max</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">al</namePart>
+      <namePart type="given">Peter Schalk et</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>99</start>
+        <end>151</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Uppsala</placeTerm>
+      </place>
+      <copyrightDate>2005</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Im Dickicht der Gebote. Studien zur Dialektik von Norm und Praxis in der Buddhismusgeschichte Asiens</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

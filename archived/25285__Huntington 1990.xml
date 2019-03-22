@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Early Buddhist Art and the Theory of Aniconism</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Huntington</namePart>
+    <namePart type="given">Susan L.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>49(4)</number>
+      </detail>
+      <extent unit="pages">
+        <start>401</start>
+        <end>408</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1990</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Art Journal. New Approaches to South Asian Art</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

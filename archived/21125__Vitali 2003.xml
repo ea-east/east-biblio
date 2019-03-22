@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A chronology (bstan rtsis) of events in the history of mNga' ris skor gsum (tenth - fifteenth centuries)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Vitali</namePart>
+    <namePart type="given">Roberto</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">McKay</namePart>
+      <namePart type="given">Alex</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>53</start>
+        <end>89</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">London</placeTerm>
+      </place>
+      <publisher>RoutledgeCurzon</publisher>
+      <copyrightDate>2003</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The History of Tibet. Volume II. The Medieval Period: c. 850-1895. The Development of Buddhist Paramountcy</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

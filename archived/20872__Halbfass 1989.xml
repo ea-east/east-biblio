@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Observations on Sattāsambandha and the History of Vaiśeṣika Ontology</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Halbfass</namePart>
+    <namePart type="given">Wilhelm</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>109/4</number>
+      </detail>
+      <extent unit="pages">
+        <start>553</start>
+        <end>557</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1989</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JAOS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

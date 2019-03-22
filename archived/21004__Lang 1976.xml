@@ -1,0 +1,19 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>"Showing the Realization of the Refutation of Holding Extreme Views": Chapter Fourteen of Candrakīrti’s Bodhisattvayogācāracatuḥśatakaṭīkā. Edited from the Sanskrit Fragments and the Tibetan Texts</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Lang</namePart>
+    <namePart type="given">Karen</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <copyrightDate>1976</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

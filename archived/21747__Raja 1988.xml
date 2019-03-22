@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mimamsa Contribution to Language Studies</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Raja</namePart>
+    <namePart type="given">K. Kunjunni</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Calicut</placeTerm>
+    </place>
+    <publisher>Department of Sanskrit, University of Calicut</publisher>
+    <copyrightDate>1988</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

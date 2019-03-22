@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Introduction and Editorial Essay on Wilhelm Halbfass</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Franco</namePart>
+    <namePart type="given">Eli</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Preisendanz</namePart>
+    <namePart type="given">Karin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>59</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1997</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Beyond Orientalism. Poznaṅ Studies in the Philosophy of the Sciences and the Humanities</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Notion of Āpta in Jaina Philosophy</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Soni</namePart>
+    <namePart type="given">Jayandra</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>1–20 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Toronto</placeTerm>
+    </place>
+    <publisher>University of Toronto, Centre for South Asian Studies</publisher>
+    <copyrightDate>1996</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

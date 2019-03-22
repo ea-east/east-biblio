@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Taishô daigaku chibetto chôsa hôkoku 1. Sha lu Sha hon Shûjûshidais Sho hen ni tsaite. On a Sanskrit Manuscript of the First Bhāvanākrama from Za-Lu</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">u.a</namePart>
+    <namePart type="given">Taka Kimura</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>20</number>
+      </detail>
+      <extent unit="pages">
+        <start>106</start>
+        <end>116</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1998</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Taishô Daigaku Sogo Bukkyô Kenkyûjo Nenpô (Annual of The Institute for Comprehensive Studies of Buddhism Taisho University</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

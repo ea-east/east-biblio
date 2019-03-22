@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tibetische Geschichten zur Erläuterung der Drei Formen des Glaubens (dad pa gsum)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Tsering</namePart>
+    <namePart type="given">Pema</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>2</number>
+      </detail>
+      <extent unit="pages">
+        <start>133</start>
+        <end>163</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1976</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>StII</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

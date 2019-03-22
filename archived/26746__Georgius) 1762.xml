@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Alphabetum Tibetanum missionum apostolicarum commodo editum</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Georgius)</namePart>
+    <namePart type="given">A. A. Giorgi (Augustinus Antonius</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Roma</placeTerm>
+    </place>
+    <publisher>Sacra Congregatio de Propaganda Fide</publisher>
+    <copyrightDate>1762</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

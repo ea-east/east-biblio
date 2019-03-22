@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhism Transformed, Religious Change in Sri Lanka</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Gombrich</namePart>
+    <namePart type="given">Richard</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Obeyesekere</namePart>
+    <namePart type="given">Gananath</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Princeton</placeTerm>
+    </place>
+    <publisher>Princeton University Press</publisher>
+    <copyrightDate>1988</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

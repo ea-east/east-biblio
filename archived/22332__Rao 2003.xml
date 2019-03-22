@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Rama and Sita's Return Journey in the Indonesian Ramayana: Some Cultural Departures from Valmiki</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Rao</namePart>
+    <namePart type="given">K. S. Narayana Rao-Susheela N.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>54,1</number>
+      </detail>
+      <extent unit="pages">
+        <start>65</start>
+        <end>71</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2003</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bulletin of the Ramakrishna Mission Institute of Culture</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

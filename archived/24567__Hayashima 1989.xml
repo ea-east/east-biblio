@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Soto naru mono Mahāyānasūtrālaṃkāra dai XVIII shō dai 89-91 ge o chūshin ni [Das äußere Ding - zum Wesen von MSA XVIII 89-91]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hayashima</namePart>
+    <namePart type="given">Osamu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>38 &amp; 39</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1989</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Nagasaki Daigaku Kyōiku Gakubu Shakaikagaku Ronsō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Einige besondere Aspekte der „Bodhisattva-Ethik" in Indien und ihre Hintergründe</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Schmithausen</namePart>
+    <namePart type="given">Lambert</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>10</number>
+      </detail>
+      <extent unit="pages">
+        <start>21</start>
+        <end>46</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2003</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Hōrin</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

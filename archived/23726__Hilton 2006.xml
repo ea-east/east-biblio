@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Monasteries into Motorways. [Review of:] Lhasa: Streets with Memories by Robert Barnett</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hilton</namePart>
+    <namePart type="given">Isabel</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>28/17, 7 September 2</number>
+      </detail>
+      <extent unit="pages">
+        <start>25</start>
+        <end>27</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2006</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>London Review of Books</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

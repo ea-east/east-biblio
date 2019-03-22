@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Edward Conze, Buddhist thought in India: three phases of Buddhist philosophy. London: George Allen &amp; Unwin Ltd., 1962</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Jaini</namePart>
+    <namePart type="given">P. S.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>26</number>
+      </detail>
+      <extent unit="pages">
+        <start>666</start>
+        <end>668</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1963</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bulletin of the School of Oriental and African Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

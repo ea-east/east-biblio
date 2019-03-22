@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Continuity of Madhyamaka and Yogācāra in Indian Mahāyāna Buddhism</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Harris</namePart>
+    <namePart type="given">Ian Charles</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Leiden</placeTerm>
+    </place>
+    <publisher>Brill</publisher>
+    <copyrightDate>1991</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

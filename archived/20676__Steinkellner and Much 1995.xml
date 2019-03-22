@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Texte der erkenntnistheoretischen Schule des Buddhismus. Systematische Übersicht über die buddhistische Sanskrit-Literatur II</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Steinkellner</namePart>
+    <namePart type="given">Ernst</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Much</namePart>
+    <namePart type="given">Michael Torsten</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Göttingen</placeTerm>
+    </place>
+    <publisher>Vandenhoeck &amp; Ruprecht</publisher>
+    <copyrightDate>1995</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

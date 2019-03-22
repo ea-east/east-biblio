@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Zwei Beschwörungsformeln gegen Schlangenbiss im Mūlasarvāstivādin-Vinaya und ihr Fortleben in der Mahāmāyūrīvidyārājñī</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Panglung</namePart>
+    <namePart type="given">Jampa L.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Franke</namePart>
+      <namePart type="given">Herbert</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Heissig</namePart>
+      <namePart type="given">Walther</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>66</start>
+        <end>71</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wiesbaden</placeTerm>
+      </place>
+      <copyrightDate>1980</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Heilen und Schenken. Festschrift für Günther Klinge zum 70. Geburtstag.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

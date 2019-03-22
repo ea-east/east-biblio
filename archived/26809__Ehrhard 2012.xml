@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>gnas rab 'byams pa byams pa phun tshogs (1503-1581) and his Contributions to Buddhist Block Printing in Tibet</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Ehrhard</namePart>
+    <namePart type="given">Franz-Karl</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Ramble</namePart>
+      <namePart type="given">Charles</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Sudbury</namePart>
+      <namePart type="given">Jill</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>149</start>
+        <end>176</end>
+      </extent>
+    </part>
+    <originInfo>
+      <copyrightDate>2012</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>This World and the Next: Contributions on Tibetan Religion, Science and Society</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

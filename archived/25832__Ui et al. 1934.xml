@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A complete catalogue of The Tibetan Buddhist Canons (Bkaḥ-ḥgyur and Bstan-ḥgyur)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Ui</namePart>
+    <namePart type="given">Hakuju</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Suzuki</namePart>
+    <namePart type="given">Munetada</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Kanakura</namePart>
+    <namePart type="given">Yenshô</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Tada</namePart>
+    <namePart type="given">Tôkan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Sendai</placeTerm>
+    </place>
+    <publisher>Tôhoku Imperial University</publisher>
+    <copyrightDate>1934</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

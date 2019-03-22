@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Sāmkhya Sangraha. A Collection of the Works of Sāmkhya Philosophy (Sāṃkhyasaṅgrahaḥ. Tatra Sāṃkhyatattvavivecanam Śrīṣimānanda(kṣemendra)viracitam, Sāṃkhyatattvayāthārthyadīpanam Bhāvāgaṇeśaviracitam, Samāsasūtravyākhyā Sarvoparāriṇī ca)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Dvivedin</namePart>
+    <namePart type="given">Vindhyesvari Prasāda</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Benares</placeTerm>
+    </place>
+    <publisher>Chowkhamba Sanskrit Series Office</publisher>
+    <copyrightDate>(1918)</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

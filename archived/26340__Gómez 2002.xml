@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhism in India</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Gómez</namePart>
+    <namePart type="given">Luis O.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Kitagawa</namePart>
+      <namePart type="given">Joseph M.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>41</start>
+        <end>95</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">London</placeTerm>
+      </place>
+      <publisher>RoutledgeCurzon</publisher>
+      <copyrightDate>2002</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Religous Traditions of Asia: Religion, History and Culture</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

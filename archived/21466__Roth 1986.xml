@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mangala-symbols in Buddhist Sanskrit manuscripts and inscriptions</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Roth</namePart>
+    <namePart type="given">Gustav</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Bhattacharya</namePart>
+      <namePart type="given">Gouriswar</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>239</start>
+        <end>249</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Delhi</placeTerm>
+      </place>
+      <publisher>Sri Satguru Publications</publisher>
+      <copyrightDate>1986</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Deyadharma. Studies in memory of Dr. D. C. Sircar</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Two Documents on Tibetan Ritual Literature and Spiritual Genealogy</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ehrhard</namePart>
+    <namePart type="given">Franz-Karl</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>9</number>
+      </detail>
+      <extent unit="pages">
+        <start>77</start>
+        <end>100</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1993</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the Nepal Research Centre</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

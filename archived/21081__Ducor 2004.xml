@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Les sources de la Sukhāvāti, autour d'une étude récente de G. Fussman</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ducor</namePart>
+    <namePart type="given">Jérôme</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>27/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>357</start>
+        <end>410</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2004</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIABS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

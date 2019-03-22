@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Kharoṣṭhī Inscriptions discovered by Sir Aurel Stein in Chinese Turkestan, Part I: Text of Inscriptions discovered at the Niya Site 1901</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">A. M. Boyer</namePart>
+    <namePart type="given">E. J. Rapson</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Senart</namePart>
+    <namePart type="given">E.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Oxford</placeTerm>
+    </place>
+    <publisher>Clarendon Press</publisher>
+    <copyrightDate>1920</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

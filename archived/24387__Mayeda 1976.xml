@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Tilmann Vetter, Sarvajñātman's Saṃkṣepaśārīram. 1. Kapitel. Einführung, Übersetzung und Anmerkungen ( = Österreichische Akademie der Wissenschaften, phil.-hist. Klasse, Sitzungsberichte, 282. Band, 3, Abh.; Veröffentlichungen der Kommission für Sprachen und Kulturen Süd- und Ostasiens 11). Wien, 1972</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Mayeda</namePart>
+    <namePart type="given">Sengaku</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>18</number>
+      </detail>
+      <extent unit="pages">
+        <start>134</start>
+        <end>138</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1976</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IIJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

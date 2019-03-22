@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The theatre of objectivity: Comments on José Cabezón's interpreations of mKhas grub rje's and C. W. Huntington, Jr.'s Interpretations of the Tibetan translation of a seventh century Indian Buddhist text</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Huntington</namePart>
+    <namePart type="given">C. W.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>Jr.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>15/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>118</start>
+        <end>133</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1992</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIABS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Akira Yuyama, Prajñā-pāramitā-ratna-guṇa-saṃcaya-gāthā (Sanskrit Recension A). Edited with an Introduction, Bibliographical Notes and a Tibetan Version from Tunhuang. Cambridge: Cambridge University Press, 1976</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Schopen</namePart>
+    <namePart type="given">Gregory</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>20</number>
+      </detail>
+      <extent unit="pages">
+        <start>110</start>
+        <end>124</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1978</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IIJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

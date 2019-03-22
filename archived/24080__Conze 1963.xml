@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Reviews: (1) Alex Wayman, Analysis of the Śrāvakabhūmi Manuscript. Berkely and Los Angeles: University of California Press (University of California Publications in Classical Philology 17), 1961. (2) V. Bhattacharya (ed.), The Yogācārabhūmi of Ācārya Asaṅga. Part 1. University of Calcutta, 1957</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Conze</namePart>
+    <namePart type="given">Edward</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>7</number>
+      </detail>
+      <extent unit="pages">
+        <start>226</start>
+        <end>231</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1963-1964</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IIJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

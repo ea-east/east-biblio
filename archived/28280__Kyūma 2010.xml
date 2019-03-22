@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Jñānaśrīmitra ni kiserareru chosaku “Fuitsu fui no kōsatsu (Bhedābhedaparīkṣā)” ni tsuite (2) [*On the Bhedābhedaparīkṣā ascribed to Jñānaśrīmitra (2)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kyūma</namePart>
+    <namePart type="given">Taiken</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40017363230/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>14</number>
+      </detail>
+      <extent unit="pages">
+        <start>88</start>
+        <end>112</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2010</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">03850706</identifier>
+    <titleInfo>
+      <title>Ronshū [Ronshu]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

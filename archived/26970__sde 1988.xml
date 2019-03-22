@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Yar lung chos 'byung / Yar lung jo bo'i chos 'byung</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">sde</namePart>
+    <namePart type="given">Shākya rin chen</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Zi ling (Xining)</placeTerm>
+    </place>
+    <publisher>Bod ljongs mi dmangs dpe skrun khang</publisher>
+    <copyrightDate>1988</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

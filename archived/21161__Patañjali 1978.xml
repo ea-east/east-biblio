@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Pātañjalayogasūtrāṇi. Vācaspatimiśraviracitaṭīkāsameta-Śrī-Vyāsabhāṣyasametāni. Āśramasya paṇḍitaiḥ saṃśodhitam. 4. ed.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>Patañjali</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Puṇyapattana = Pune</placeTerm>
+    </place>
+    <publisher>Ānandāśramamudrālaya</publisher>
+    <copyrightDate>1978</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

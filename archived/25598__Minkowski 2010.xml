@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Sanskrit Scientific Libraries and Their Uses: Examples and Problems of the Early Modern Period</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Minkowski</namePart>
+    <namePart type="given">Christopher</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Bretelle-Establet</namePart>
+      <namePart type="given">Florence</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Dordrecht etc.</placeTerm>
+      </place>
+      <publisher>Spinger</publisher>
+      <copyrightDate>2010</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Looking at It from Asia: The Processes that Shaped the Sources of History of Science.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

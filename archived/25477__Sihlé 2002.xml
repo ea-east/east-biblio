@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Lhachö (Lha Mchod) and Hrinän (Sri Gnon): The Structure and Diachrony of a Pair of Rituals (Baragaon, Northern Nepal)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Sihlé</namePart>
+    <namePart type="given">Nicolas</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Blezer</namePart>
+      <namePart type="given">Henk</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>185</start>
+        <end>206</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Leiden, Boston, Köln</placeTerm>
+      </place>
+      <publisher>Brill</publisher>
+      <copyrightDate>2002</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Religion and Secular Culture in Tibet</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A history of modern Tibet, vol. 2. The calm before the storm, 1951-1955</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Goldstein</namePart>
+    <namePart type="given">Melvyn C.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berkeley, Los Angeles</placeTerm>
+    </place>
+    <publisher>University of California Press</publisher>
+    <copyrightDate>2007</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

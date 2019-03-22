@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Kurzgefaßtes etymologisches Wörterbuch des Altindischen / A Concise Etymological Sanskrit Dictionary</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Mayrhofer</namePart>
+    <namePart type="given">Manfred</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Heidelberg</placeTerm>
+    </place>
+    <publisher>Carl Winter, Universitätsverlag</publisher>
+    <copyrightDate>1956</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

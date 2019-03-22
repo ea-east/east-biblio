@@ -1,0 +1,150 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-cd324c0e-2e2e-47b9-a82d-43a4841caec8">
+    <titleInfo>
+        <title>世尊の量性の証明の一解釈</title>
+        <subTitle>プラジュニャーカラグプタの解釈の視点から</subTitle>
+    </titleInfo>
+    <titleInfo script="Latn" type="translated">
+        <title>Seson no ryōsei no shōmei no ichi-kaishaku</title>
+        <subTitle>Prajñākaragupta no kaishaku no shiten kara</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" script="Latn" type="translated">
+        <nonSort>An</nonSort>
+        <title>Interpretation of the Proof of the Authority of the Buddha</title>
+        <subTitle>from the Aspect of Prajñākaragupta’s Interpretation</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">孝</namePart>
+        <namePart type="family">岩田</namePart>
+        <namePart type="given" script="Latn">Takashi</namePart>
+        <namePart type="family" script="Latn">Iwata</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-b0dded05-b96b-4bb8-bc91-17d8da519a3e">
+        <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-07T20:20:03.494+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<recordInfo lang="eng" script="latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2012-10-07+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">jpan</scriptTerm>
+    </language>
+    <relatedItem type="succeeding">
+        <name type="corporate">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo script="latn">
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre type="code" authority="marcgt">periodical</genre>
+        <part>
+            <detail type="issue">
+                <caption>no.</caption>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="preceeding">
+        <name type="corporate">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo script="latn">
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre type="code" authority="marcgt">periodical</genre>
+        <part>
+            <detail type="issue">
+                <caption>no.</caption>
+            </detail>
+        </part>
+    </relatedItem>
+    <genre type="code" authority="marcgt">periodical</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo script="latn">
+        <place>
+            <placeTerm type="text">東京</placeTerm>
+            <placeTerm type="text" script="latn">Tōkyō</placeTerm>
+        </place>
+        <publisher>東京大学大学院人文社会系研究科インド哲学仏教学研究室</publisher>
+        <publisher script="latn">Tōkyō Daigaku Daigakuin Jinbun Shakaikei Kenkyūka Indo Tetsugaku Bukkyōgaku Kenkyūshitsu</publisher>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <name type="corporate">
+        <namePart>東京大学大学院人文社会系研究科.文学部インド哲学仏教学研究室</namePart>
+        <namePart script="latn">Tōkyō Daigaku. Jinbun Shakaikei Kenkyūka. Indo Tetsugaku Bukkyōgaku Kenkyūshitsu</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+        </role>
+    </name>
+    <titleInfo lang="eng" script="latn" type="translated">
+        <title>Studies of Indian philosophy and Buddhism</title>
+    </titleInfo>
+    <titleInfo script="latn" type="translated">
+        <title>Indo tetsugaku Bukkyōgaku kenkyū</title>
+    </titleInfo>
+    <titleInfo>
+        <title>インド哲学仏教学研究</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <number>16</number>
+            </detail>
+            <extent unit="pages">
+                <start>44</start>
+                <end>74</end>
+            </extent>
+            <date encoding="w3cdtf">2001</date>
+        </part>
+    </relatedItem>
+    <identifier type="local">Iwata 2001</identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="rfc3066" type="code">ja-JP</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2015-10-17+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T15:01:56.154+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T15:07:07.855+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Are all names of the absolute synonymous ?</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Gupta</namePart>
+    <namePart type="given">Bina</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Wilcox</namePart>
+    <namePart type="given">William C.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>33/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>285</start>
+        <end>293</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1983</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Philosophy East and West</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

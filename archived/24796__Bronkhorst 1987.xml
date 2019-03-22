@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Further remarks on Bhartṛhari's Vedic affiliation</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Bronkhorst</namePart>
+    <namePart type="given">Johannes</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>216</start>
+        <end>223</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Bangalore</placeTerm>
+      </place>
+      <publisher>Professor S. Ramachandra Rao Felicitation Committee</publisher>
+      <copyrightDate>1987</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Studies in Indian Culture. S. Ramachandra Rao Felicitation Volume</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

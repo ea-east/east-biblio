@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Raghunātha Śiromaṇi (2. Fortsetzung)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Frauwallner</namePart>
+    <namePart type="given">Erich</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>14</number>
+      </detail>
+      <extent unit="pages">
+        <start>161</start>
+        <end>208</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1970</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>WZKS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

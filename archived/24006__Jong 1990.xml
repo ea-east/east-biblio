@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Ernst Steinkellner, (1) Dharmottaras Paralokasiddhi. Nachweis der Wiedergeburt zugleich eine Widerlegung materialistischer Thesen zur Natur der Geistigkeit (WSTB 15), Wien, 1986; (2) Nachweis der Wiedergeburt. Prajñāsenas 'Jig rten pha rol sgrub pa (Beiträge zur Kultur- und Geistesgeschichte Asiens, 1 - ÖAW, 197. Bd.), Wien, 1988</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Jong</namePart>
+    <namePart type="given">J. W. de</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>33</number>
+      </detail>
+      <extent unit="pages">
+        <start>66</start>
+        <end>69</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1990</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IIJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

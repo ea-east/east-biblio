@@ -1,0 +1,20 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Remaking Buddhism for Medieval Nepal. The fifteenth-century reformation of Newar Buddhism</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Tuladhar-Douglas</namePart>
+    <namePart type="given">Will</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <publisher>Routledge</publisher>
+    <copyrightDate>2006</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

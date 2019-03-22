@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A comparative analytical catalogue of the Kanjur division of the Tibetan Tripitaka. Edited in Peking during the K'ang-hsi era, and at present kept in the Library of the Otani Daigaku Kyoto (I-III)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Library</namePart>
+    <namePart type="given">Otani Daigaku</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Kyoto</placeTerm>
+    </place>
+    <publisher>The Otani Daigaku Library</publisher>
+    <copyrightDate>1930-1932</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

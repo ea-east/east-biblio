@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Metalogical Cliches (Proto-Variables) and their Restricted Substitution in Sixth Century Buddhist Logic</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Daye</namePart>
+    <namePart type="given">Douglas Dunsmore</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>20/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>549</start>
+        <end>558</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1979</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Notre Dame Journal of Formal Logic</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

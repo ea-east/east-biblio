@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tibetan religious nationalism: Western fantasy or empowering vision</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Dreyfus</namePart>
+    <namePart type="given">Georges</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Klieger</namePart>
+      <namePart type="given">P. Christiaan</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>37</start>
+        <end>55</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Leiden/Boston/Köln</placeTerm>
+      </place>
+      <publisher>Brill</publisher>
+      <copyrightDate>2002</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tibet, Self and the Tibetan Diaspora - voices of difference (PIATS 2000, Leiden)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

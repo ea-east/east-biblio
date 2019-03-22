@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Hermeneutique des tantra: le ye shes rdo rje kun las btus pa'i rgyud las 'byung ba'i rgyan bdun rnam par dgrol ba de Śraddhikaravarman. Un exemple de modelisation de l appareil hermeneutique des 'sept ornements' (rgyan bdun; saptālaṃkāra), à partir de son application à un tantra</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Arenes</namePart>
+    <namePart type="given">Pierre</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Blezer</namePart>
+      <namePart type="given">Henk</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>165</start>
+        <end>183</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Leiden, Boston, Köln</placeTerm>
+      </place>
+      <publisher>Brill</publisher>
+      <copyrightDate>2002</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Religion and Secular Culture in Tibet. Tibetan Sudies II. Tibetan Studies: Proceedings of the Ninth Seminar of the International Association for Tibetan Studies, Leiden 2000</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

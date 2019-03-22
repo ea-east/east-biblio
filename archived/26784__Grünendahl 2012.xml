@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>History in the Making: On Sheldon Pollock's "NS Indology" and Vishwa Adluri's "Pride and Prejudice"</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Grünendahl</namePart>
+    <namePart type="given">Reinhold</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>16</number>
+      </detail>
+      <extent unit="pages">
+        <start>189</start>
+        <end>257</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2012</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>International Journal of Hindu Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

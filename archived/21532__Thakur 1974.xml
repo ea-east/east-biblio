@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Udayanācārya and his contribution</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Thakur</namePart>
+    <namePart type="given">Anantlal</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Shastri</namePart>
+      <namePart type="given">Satya Vrat</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>400</start>
+        <end>406</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Delhi</placeTerm>
+      </place>
+      <publisher>Charu Deva Shastri felicitation committee</publisher>
+      <copyrightDate>1974</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Charudeva Shastri felicitation volume : presented to Prof. Charudeva Shastri on the occasion of his 75th anniversary</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

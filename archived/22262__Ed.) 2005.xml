@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Abhidharmakośabhāṣya of Vasubandhu. Chapter IX: Ātmavādapratiṣedha</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">(Ed.)</namePart>
+    <namePart type="given">Jong Cheol Lee</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Tokyo</placeTerm>
+    </place>
+    <publisher>The Sankibo Press</publisher>
+    <copyrightDate>2005</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

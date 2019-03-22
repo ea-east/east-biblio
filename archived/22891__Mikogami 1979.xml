@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bukkyō ni okeru jiga gainen no kenkyū - hannenronteki tachiba ni tetsu bukkyō o chūshin toshite [Study of the Ātman-concept in Buddhism - principally concerning the Buddhism which stands on the conceptualistic view-point]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Mikogami</namePart>
+    <namePart type="given">Eshō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>18</number>
+      </detail>
+      <extent unit="pages">
+        <start>22</start>
+        <end>40</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1979</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bukkyō Bunka Kenkyūsho Kiyō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

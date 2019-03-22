@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Material for the Time-theory in Indian Thought: Edited Text and Annotated Translation of Bhāviveka’s Prajñāpradīpa chap.19 (1)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Sakai</namePart>
+    <namePart type="given">Masamichi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>5</number>
+      </detail>
+      <extent unit="pages">
+        <start>97</start>
+        <end>118</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2002</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of Religious Studies and Comparative Thoughts (Tsukuba)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmapāla's Critique of Bhāvaviveka's Mādhyamika Explanation of Emptiness - The Tenth Chapter of Ta-ch'eng Kuang Pai-lun Shih Commenting Upon Āryadeva's Catuḥśataka Chapter Sixteen</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Keenan</namePart>
+    <namePart type="given">John</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Lewiston etc.</placeTerm>
+    </place>
+    <publisher>Edwin Mellen Press</publisher>
+    <copyrightDate>1997</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

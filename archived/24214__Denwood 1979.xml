@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Mireille Helffer (ed. and tr.), Les chants dans l'épopée tibétaine de Ge-sar d'après le livre de la Course de cheval. Version chantée de Blo-bzaṅ bstan-'jin.(Centre de Recherches d'Histoire et de Philologie de la IVe Section de l'École Pratique des Hautes Études. II. Hautes Études Orientales 9), Genève, Paris: Librairie Droz, 1977</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Denwood</namePart>
+    <namePart type="given">Philip</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>42/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>159</start>
+        <end>160</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1979</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>BSOAS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Einige neue Aspekte zur Entwicklung der Brāhmī in Giligit und Bamiyan (ca. 2.-7. Jh. n.Chr.)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Sander</namePart>
+    <namePart type="given">Lore</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Röhrborn</namePart>
+      <namePart type="given">Klaus</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Veenker</namePart>
+      <namePart type="given">Wolfgang</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>113</start>
+        <end>124</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wiesbaden</placeTerm>
+      </place>
+      <copyrightDate>1983</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Sprachen des Buddhismus in Zentralasien. Vorträge des Hamburger Symposions vom 2. Juli bis 5. Juli 1981</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

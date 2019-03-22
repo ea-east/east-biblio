@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Lakṣaṇaṭīkā: Sanskrit notes on the Prasannapadā (1)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Yonezawa</namePart>
+    <namePart type="given">Yoshiyasu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>27</number>
+      </detail>
+      <extent unit="pages">
+        <start>115</start>
+        <end>154</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2004</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JNIBS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

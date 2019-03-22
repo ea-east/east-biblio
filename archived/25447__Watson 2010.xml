@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Rāmakaṇṭha’s Concept of Unchanging Cognition (nityajñāna): Influence from Buddhism, Sāṃkhya, Vedānta</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Watson</namePart>
+    <namePart type="given">Alex</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Bronkhorst</namePart>
+      <namePart type="given">Johannes</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Preisendanz</namePart>
+      <namePart type="given">Karin</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>79</start>
+        <end>120</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Delhi</placeTerm>
+      </place>
+      <publisher>Motilal Banarsidass</publisher>
+      <copyrightDate>2010</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>From Vasubandhu to Caitanya. Studies in Indian Philosophy and Its Textual History. Papers of the 12th World Sanskrit Conference. Volume 10.1</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

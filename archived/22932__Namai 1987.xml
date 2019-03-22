@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tattvasaṅgraha ni okeru 'Shinshin' no mondai - Kōki Bukkyōto ni yoru Bārhaspatya no hihan (6-2) [Kritik gegen Bārhaspatya von späteren Buddhisten]... Kōki Bukkyō ni okeru 'Shinshin' no mondai (2) ... 'Dehātmavāda' Hihan (2) ... Kumārila Hihan (enthält die japanische Übersetzung von TS 1860-1938)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Namai</namePart>
+    <namePart type="given">Chishō Mamoru</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>157</number>
+      </detail>
+      <extent unit="pages">
+        <start>170</start>
+        <end>127</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1987</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Mikkyō Bunka (Quarterly Reports on Esoteric Buddhism)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>III. Buddhist Logic: The Search for Certainty</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Steinkellner</namePart>
+    <namePart type="given">Ernst</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <name type="personal">
+      <namePart type="family">Yoshinori</namePart>
+      <namePart type="given">Takeuchi</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>213</start>
+        <end>218</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1994</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Buddhist Spirituality. Indian, Southeast Asian, Tibetan, and early Chinese</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

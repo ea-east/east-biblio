@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Distinguishing the Two Vasubandhus, the Bhāṣyakāra and the Kośakāra, as Yogācāra-Vijñānavāda Authors</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Buescher</namePart>
+    <namePart type="given">Hartmut</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Kragh</namePart>
+      <namePart type="given">Ulrich Timme</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>368</start>
+        <end>396</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Cambridge, Mass.</placeTerm>
+      </place>
+      <publisher>Department of South Asian Studies, Harvard University (Harvard Oriental Series 75)</publisher>
+      <copyrightDate>2013</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Foundations for Yoga Practitioners. The Buddhist Yogācāra Treatise and Its Adaptation in India, East Asia, and Tibet.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Unveiling of Lhasa</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Candler</namePart>
+    <namePart type="given">Edmund</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">London et al.</placeTerm>
+    </place>
+    <publisher>Thomas Nelson and Sons Ltd.</publisher>
+    <copyrightDate>1905</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

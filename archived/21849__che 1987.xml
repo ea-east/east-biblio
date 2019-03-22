@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>sKyabs rje Dze smad rin po che'i gsuṅ rtsom gces btus. Selected Writings of Kyebje Zemey Rinpoche. Edited by Geshe Thubten Jin pa (Thubs bstan sbyin pa)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">che</namePart>
+    <namePart type="given">sKyabs rje Dze smad rin po</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Mundgod</placeTerm>
+    </place>
+    <publisher>Ganden Monastic University</publisher>
+    <copyrightDate>1987</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

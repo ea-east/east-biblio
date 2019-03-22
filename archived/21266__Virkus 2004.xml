@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Politische Strukturen im Guptareich (300-550 n. Chr.)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Virkus</namePart>
+    <namePart type="given">Fred</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wiesbaden</placeTerm>
+    </place>
+    <publisher>Harrassowitz</publisher>
+    <copyrightDate>2004</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mythology and the Brāhmaṇization of Indian Medicine: Transforming Heterodoxy into Orthodoxy</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Zysk</namePart>
+    <namePart type="given">Kenneth</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Josephson</namePart>
+      <namePart type="given">Folke</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>125</start>
+        <end>143</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Göteborg</placeTerm>
+      </place>
+      <copyrightDate>1999</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Categorisation and Interpretation. Indological and comparative studies from an international Indological meeting at the Department of Comparative Philology, Göteborg University.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

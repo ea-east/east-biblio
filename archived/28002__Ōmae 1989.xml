@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmakīrti no seiten kan: “Pramāṇavārttika” dai 1 shō oyobi jichū no wayaku (3) [Dharmakīrti on Scriptures: A Translation of the Pramāṇavārttika, Chapter I and Svavṛtti (III)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ōmae</namePart>
+    <namePart type="given">Futoshi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40002496583/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>48</number>
+      </detail>
+      <extent unit="pages">
+        <start>53</start>
+        <end>74</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1989</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">04928199</identifier>
+    <titleInfo>
+      <title>Tetsugaku Nenpō [Annual of Philosophy]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

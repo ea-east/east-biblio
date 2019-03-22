@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Helmut Eimer. Curriculum vitae</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Steiner</namePart>
+    <namePart type="given">Roland</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Michael Hahn</namePart>
+      <namePart type="given">Roland Steiner, Jens-Uwe Hartmann</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>9</start>
+        <end>23</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Swisttal-Odendorf</placeTerm>
+      </place>
+      <publisher>Indica et Tibetica Verlag</publisher>
+      <copyrightDate>1996</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Suhr̥llekhāḥ. Festgabe für Helmut Eimer</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Aśvaghoṣa and Vaiśeṣika</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Bronkhorst</namePart>
+    <namePart type="given">Johannes</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Kyoto</placeTerm>
+      </place>
+      <publisher>Heirakuji Shoten</publisher>
+      <copyrightDate>2005</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Buddhism and Jainism: Essays in Honour of Dr. Hojun Nagasaki on His Seventieth Birthday</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

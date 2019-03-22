@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Nachgelassene Werke II: Philosophische Texte des Hinduismus</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Frauwallner</namePart>
+    <namePart type="given">Erich</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Oberhammer</namePart>
+    <namePart type="given">Gerhard</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Werba</namePart>
+    <namePart type="given">Chlodwig H.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wien</placeTerm>
+    </place>
+    <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+    <copyrightDate>1992</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

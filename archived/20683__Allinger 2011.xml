@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Epsilon I Manuscript in the Wellcome Library, London</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Allinger</namePart>
+    <namePart type="given">Eva</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>54</number>
+      </detail>
+      <extent unit="pages">
+        <start>151</start>
+        <end>184</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2011-2012</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Wiener Zeitschrift für die Kunde Südasiens</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

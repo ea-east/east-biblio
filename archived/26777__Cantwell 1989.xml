@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>An Ethnographic Account of the Religious Practice in a Tibetan Buddhist Refugee Monastery in Northern India</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Cantwell</namePart>
+    <namePart type="given">Catherine Mary</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Kent</placeTerm>
+    </place>
+    <copyrightDate>1989</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Holy Land Reborn. Pilgrimage &amp; the Tibetan Reinvention of Buddhist India</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Huber</namePart>
+    <namePart type="given">Toni</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Chicago, London</placeTerm>
+    </place>
+    <publisher>University of California Press</publisher>
+    <copyrightDate>2008</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

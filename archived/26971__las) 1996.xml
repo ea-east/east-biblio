@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Jo bo rin po che dngul sku mched gsum rten dang brten par bcas pa'i dkar chag rab dga'i glu dbyangs / The extremely rare and hitherto unknown history of the Jobo of Khochar, one of the most holy images of Pu hrang, West Tibet, and its temple ...</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">las)</namePart>
+    <namePart type="given">Wa gindra Karma (Ngag dbang phrin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">McLeod Ganj</placeTerm>
+    </place>
+    <publisher>Tho ling gtsug lag khang lo gcig stong 'khor ba'i rjes dran mdzad sgo'i go sgrig tshogs chung</publisher>
+    <copyrightDate>1996</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>dGe-'dun-chos-'phel: A biography of the 20th-century Tibetan scholar</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Mengele</namePart>
+    <namePart type="given">Irmgard</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Dharamsala</placeTerm>
+    </place>
+    <publisher>Library of Tibetan Works and Archives</publisher>
+    <copyrightDate>1999</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

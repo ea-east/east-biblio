@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The problem of the historical Nāgārjuna revisited</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Mabbett</namePart>
+    <namePart type="given">Ian</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>118/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>332</start>
+        <end>346</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1998</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JAOS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

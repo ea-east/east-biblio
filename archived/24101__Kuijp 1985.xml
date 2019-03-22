@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Miscellanea Apropos of the Philosophy of Mind in Tibet: Mind in Tibetan Buddhism (Review article: Lati Rinbochay/E. Napper, Mind in Tibetan Buddhism, London, 1980)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kuijp</namePart>
+    <namePart type="given">Leonard W. J. van der</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>10/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>32</start>
+        <end>43</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1985</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Tibet Journal</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

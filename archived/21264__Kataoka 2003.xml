@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dialogue of Mīmāṃsā and Buddhism on the Buddha's compassion and authority</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Kataoka</namePart>
+    <namePart type="given">Kei</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Tokyo</placeTerm>
+      </place>
+      <publisher>The Institute of Oriental Culture, The University of Tokyo</publisher>
+      <copyrightDate>2003</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Memoirs of the Institute of Oriental Culture. Vol. 142</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

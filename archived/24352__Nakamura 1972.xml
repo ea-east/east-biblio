@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Early Vedāntic scholars subsequent to the Brahma-Sūtra</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Nakamura</namePart>
+    <namePart type="given">Hajime</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Ratnam</namePart>
+      <namePart type="given">Perala</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <publisher>New Delhi Internat. Acad. of Indian Culture</publisher>
+      <copyrightDate>1972</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Studies in Indo-Asian Art and Culture, Vol. 1. Commemoration Volume on the 69th Birthday of Acharya Raghu Vira</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

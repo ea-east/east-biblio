@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The phrase 'sa pṛthivīpradeśaś caityabhūto bhavet' in the Vajracchedikā: notes on the cult of the book in Mahāyāna</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Schopen</namePart>
+    <namePart type="given">Gregory</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>17</number>
+      </detail>
+      <extent unit="pages">
+        <start>147</start>
+        <end>181</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1975</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IIJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

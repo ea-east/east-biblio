@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Study of the Old Tibetan Inscriptions</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Li</namePart>
+    <namePart type="given">Fang Kuei</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Coblin</namePart>
+    <namePart type="given">W. South</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Nankang, Taipei</placeTerm>
+    </place>
+    <publisher>Institute of History and Philology, Academia Sinica</publisher>
+    <copyrightDate>1987</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

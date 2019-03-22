@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Art of Nepal. A Catalogue of the Los Angeles County Museum of Art Collection</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Pal</namePart>
+    <namePart type="given">Pratapaditya</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berkley, Los Angeles, London</placeTerm>
+    </place>
+    <publisher>Los Angeles County Museum of Art, University of California Press</publisher>
+    <copyrightDate>1985</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

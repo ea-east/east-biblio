@@ -1,0 +1,96 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-278f4977-e347-4e29-88dd-5f2e8cde153a" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Minor Buddhist Texts</title>
+        <subTitle>Part I. Asaṅga's commentary on the Vajracchedikā edited and translated - Analysis of the commentary on it by Vasubandhu - Mahāyānaviṃśikā of Nāgarjuna - Navaślokī of Kambalapāda - Catuḥstavasamārtha of Amṛtākara - Hetutattvopadeśa of Jitāri - Tarkasopāna of Vidyākaraśānti - With an Appendix containing the Gilgit Text of the Vajracchedikā, edited by N. P. Chakravarti</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Giuseppe</namePart>
+        <namePart type="family">Tucci</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">N.</namePart>
+        <namePart type="given">P.</namePart>
+        <namePart type="family">Chakravarti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Roma</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1956</dateIssued>
+        <publisher>IsMEO</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>XI, 310 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-7afde2bc-5d93-4f75-aea2-f6e28602e3db">
+        <language><languageTerm>ro</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Roma</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>SOR</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Serie Orientale Roma</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>9</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <titleInfo>
+            <title>Frauwallner Kleine Schriften</title>
+        </titleInfo>
+        <originInfo>
+            <edition>reprint</edition>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <form authority="marcsmd" type="technique">photomechanical print</form>
+        </physicalDescription>
+        <originInfo>
+            <place>
+                <placeTerm type="text">Kyōto</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1978</dateIssued>
+            <publisher>Rinsen</publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Tucci 1956</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Helmut Eimer, David Germano (ed.), Henk Blazer (managing ed.), The Many Canons of Tibetan Buddhismus. PIATS 2000: Tibetan Studies: Proceedings of the Ninth Seminar of the International Association for Tibetan Studies, Leiden 2000. Brill's Tibetan Studies Library 2/10</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Tropper</namePart>
+    <namePart type="given">Kurt</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>48/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>151</start>
+        <end>156</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2004</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>CAJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

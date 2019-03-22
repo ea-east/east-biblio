@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Pāṇini's view on meaning and its Western counterpart</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Bronkhorst</namePart>
+    <namePart type="given">Johannes</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Stamenov</namePart>
+      <namePart type="given">Maxim</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>455</start>
+        <end>464</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Amsterdam/Philadelphia</placeTerm>
+      </place>
+      <publisher>John Benjamins</publisher>
+      <copyrightDate>1992</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Current Advances in Semantic Theory (Current Issues in Linguistic Theory 73)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

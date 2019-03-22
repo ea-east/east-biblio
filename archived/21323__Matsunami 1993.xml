@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bonbun Sho-monji (ju-ni): Honjibunchu- Monshojo-ji (2): Shishojo-ji, wayaku, kamon (*The Sanskrit text of the Śrutamayībhūmi (12): Buddhavacanajñeya section (II), Cikitsāvidyā, Śabdavidyā and Śilpakarmavidyā sections.).</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Matsunami</namePart>
+    <namePart type="given">Yasuo</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>15</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>49</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1993</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Taishō Daigaku Sōgō Bukkyō Kenkyūjo Nenpō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Vasubandhu's Karmasiddhiprakaraṇa and the problem of the highest meditations</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Anacker</namePart>
+    <namePart type="given">Stefan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>22/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>247</start>
+        <end>258</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1972</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Philosophy East and West</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

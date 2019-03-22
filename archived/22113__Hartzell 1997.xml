@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tantric Yoga: A study of the Vedic precursors, historical evolution, literatures, cultures, doctrines, and practices of the 11th century Kaśmīri Śaivite and Buddhist unexcelled tantric yogas</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Hartzell</namePart>
+    <namePart type="given">James Francis</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">New York</placeTerm>
+    </place>
+    <publisher>Columbia University</publisher>
+    <copyrightDate>1997</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

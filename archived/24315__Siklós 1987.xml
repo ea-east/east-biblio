@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Robert A. F. Thurman, Tsong Khapa's Speech of Gold in the Essence of True Eloquence: Reason and Enlightenment in the Central Philosophy of Tibet. Princeton, New Jersey: Princeton University Press, 1984</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Siklós</namePart>
+    <namePart type="given">B.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>15/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>109</start>
+        <end>110</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1987</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIP</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

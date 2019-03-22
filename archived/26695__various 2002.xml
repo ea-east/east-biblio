@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Lives of great monks and nuns</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>various</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Li</namePart>
+    <namePart type="given">Rongxi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Dalia</namePart>
+    <namePart type="given">Albert A.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berkeley</placeTerm>
+    </place>
+    <publisher>Numata Center for Buddhist Translation and Research</publisher>
+    <copyrightDate>2002</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

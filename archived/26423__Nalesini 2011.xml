@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A short history of the Tibetan explorations of Giuseppe Tucci</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Nalesini</namePart>
+    <namePart type="given">Oscar</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Tabasso</namePart>
+      <namePart type="given">Marisa Laurenzi</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>17</start>
+        <end>28</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wien</placeTerm>
+      </place>
+      <publisher>Orientalis</publisher>
+      <copyrightDate>2011</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Visibilia invisibilium: non-invasive analyses on Tibetan paintings from the Tucci expeditions</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

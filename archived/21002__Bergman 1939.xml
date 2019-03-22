@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Archaeological researches in Sinkiang. Especially the Lop-nor region</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Bergman</namePart>
+    <namePart type="given">Folke</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Stockholm</placeTerm>
+    </place>
+    <publisher>Bokförlags Aktiebolaget Thule</publisher>
+    <copyrightDate>1939</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

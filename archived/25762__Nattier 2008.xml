@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Guide to the Earliest Chinese Buddhist Translations. Texts from the Eastern Han and Three Kingdoms Period</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Nattier</namePart>
+    <namePart type="given">Jan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Tokyo</placeTerm>
+    </place>
+    <publisher>The International Research Institute for Advanced Buddhology, Soka University</publisher>
+    <copyrightDate>2008</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

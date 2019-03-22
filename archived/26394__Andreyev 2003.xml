@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Soviet Russia and Tibet: The Debacle of Secret Diplomacy, 1918-1930s</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Andreyev</namePart>
+    <namePart type="given">Alexandre</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Leiden</placeTerm>
+    </place>
+    <publisher>Brill</publisher>
+    <copyrightDate>2003</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

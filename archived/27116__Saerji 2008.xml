@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Inscriptions of the Great Stupa of Gyantse: A Review of Their Transcription in Giuseppe Tucci's Indo-Tibetica and a Remark on the Calligraphic Conventions Used in the Inscriptions</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="corporate">
+    <namePart>Saerji</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>58 No. 1/4</number>
+      </detail>
+      <extent unit="pages">
+        <start>235</start>
+        <end>255</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2008</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>East and West</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

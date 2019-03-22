@@ -1,0 +1,20 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mahāyāna Texts Translated into Western Languages: A Bibliographical Guide</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Pfandt</namePart>
+    <namePart type="given">Peter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <publisher>E.J. Brill</publisher>
+    <copyrightDate>1986</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

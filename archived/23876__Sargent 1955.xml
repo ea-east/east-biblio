@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Les débats personnels de Tchou Hi en matière de méthodologie</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Sargent</namePart>
+    <namePart type="given">Galen Eugène</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>243</number>
+      </detail>
+      <extent unit="pages">
+        <start>213</start>
+        <end>228</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1955</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JA</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Zhiyi's Great Calming and Contemplation. "Contemplating Mental Activity as the Inconceivable Realm"</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Kantor</namePart>
+    <namePart type="given">Hans-Rudolf</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Edelglass</namePart>
+      <namePart type="given">William</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Garfield</namePart>
+      <namePart type="given">Jay</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>334</start>
+        <end>347</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">New York</placeTerm>
+      </place>
+      <publisher>Oxford University Press</publisher>
+      <copyrightDate>2009</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Buddhist Philosophy. Essential Readings</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

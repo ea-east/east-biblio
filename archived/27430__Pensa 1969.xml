@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On the Purification Concept in Indian Tradition, with Special Regard to Yoga</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Pensa</namePart>
+    <namePart type="given">Corrado</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>19</number>
+      </detail>
+      <extent unit="pages">
+        <start>194</start>
+        <end>228</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1969</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>East and West</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

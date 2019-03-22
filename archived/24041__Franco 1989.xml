@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review Article: Was the Buddha a Buddha? [Bespr. von: Tilmann Vetter, Der Buddha und seine Lehre in Dharmakīrtis Pramāṇavārttika. Der Abschnitt über den Buddha und die vier edlen Wahrheiten im Pramāṇasiddhi-Kapitel. WSTB 12, Wien, 1984]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Franco</namePart>
+    <namePart type="given">Eli</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>17/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>81</start>
+        <end>99</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1989</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIP</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

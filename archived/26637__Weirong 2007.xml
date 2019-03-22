@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On the history of the Gling tshang Principality of mDo khams during Yuan and Ming Dynasties. Studies on Sources concerning Tibet in Ming Shilu (I)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Weirong</namePart>
+    <namePart type="given">Shen</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Maurer</namePart>
+      <namePart type="given">Petra</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Schwieger</namePart>
+      <namePart type="given">Peter</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>227</start>
+        <end>265</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Bonn</placeTerm>
+      </place>
+      <publisher>Bier'sche Verlagsanstalt</publisher>
+      <copyrightDate>2007</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tibetstudien. Festschrift für Dieter Schuh zum 65. Geburtstag</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

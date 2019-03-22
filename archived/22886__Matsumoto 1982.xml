@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Yuichiki-ka no ichijō-shisō ni tsuite - ichijō-shisō no kenkyū (2) [The ekayāna theory of the Vijñānavādins - Studies on the ekayāna theory (2)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Matsumoto</namePart>
+    <namePart type="given">Shirō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>13</number>
+      </detail>
+      <extent unit="pages">
+        <start>312</start>
+        <end>290</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1982</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Komazawa Daigaku Bukkyō Gakubu Ronshū [Journal of Buddhist Studies, Komazawa University]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

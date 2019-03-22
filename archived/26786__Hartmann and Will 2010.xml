@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Apotropäisches von der Seidenstraße: eine zweite 'Löwenhandschrift'</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hartmann</namePart>
+    <namePart type="given">Jens-Uwe</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Will</namePart>
+    <namePart type="given">Klaus</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Franco</namePart>
+      <namePart type="given">Eli</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Zin</namePart>
+      <namePart type="given">Monica</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>365</start>
+        <end>388</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Lumbini</placeTerm>
+      </place>
+      <publisher>Lumbini International Research Institute</publisher>
+      <copyrightDate>2010</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>From Turfan to Ajanta. Festschrift for Dieter Schlingloff on the Occasion of his Eightieth Birthday</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

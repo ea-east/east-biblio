@@ -1,0 +1,147 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-73d62fff-d92d-4cba-8a76-8127ad077df3" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Buddhist Logic</title>
+        <subTitle>In Two Volumes. Vol. II Containing a Translation of the Short Treatise of Logic by Dharmakīrti, and of its Commentary by Dharmottara, with Notes Appendices and Indices</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">F.</namePart>
+        <namePart type="given">Th.</namePart>
+        <namePart type="family">Stcherbatsky</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Leningrad</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1930</dateIssued>
+        <publisher>Izdatel'stvo Akademii Nauk SSSR</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>IV, 469 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-fa6a0625-36d7-47f4-9d56-5e468304ebd2">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">St. Petersburg</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>BBu</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Bibliotheca Buddhica</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>26</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <publisher>Mouton</publisher>
+            <place>
+                <placeTerm type="text">'s Gravenhage</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1958</dateIssued>
+        </originInfo>
+        <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-10e7d120-e6d9-47a8-9b01-3c79dab8d14d">
+            <titleInfo>
+                <title>Indo-Iranian Reprints</title>
+            </titleInfo>
+            <originInfo script="Latn">
+                <issuance>continuing</issuance>
+            </originInfo>
+            <part>
+                <detail type="volume">
+                    <caption>vol.</caption>
+                    <number>4</number>
+                </detail>
+            </part>
+        </relatedItem>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <publisher>Dover Publ.</publisher>
+            <place>
+                <placeTerm type="text">New York</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1970</dateIssued>
+        </originInfo>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <publisher>Biblio Verlag</publisher>
+            <place>
+                <placeTerm type="text">Osnabrück</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1962</dateIssued>
+        </originInfo>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <publisher>Meicho Fukyūkai</publisher>
+            <place>
+                <placeTerm type="text">Tōkyō</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1977</dateIssued>
+        </originInfo>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <publisher>Motilal Banarsidass</publisher>
+            <place>
+                <placeTerm type="text">Delhi</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1992</dateIssued>
+        </originInfo>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <titleInfo>
+            <title>Buddhist Logic</title>
+            <subTitle> Parts I, II: With the text of Nyayabindu and a critical Introduction by Dr. R. V. Joshi, head of the Sanskrit Dept., University of Delhi</subTitle>
+        </titleInfo>
+        <originInfo>
+            <edition>reprint</edition>
+            <publisher>Bharatiya Vidya Prakashan</publisher>
+            <place>
+                <placeTerm type="text">Delhi</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1984</dateIssued>
+        </originInfo>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Stcherbatsky 1930</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

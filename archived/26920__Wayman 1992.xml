@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Kṣa Final in the Viśvalocana Lexicon</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Wayman</namePart>
+    <namePart type="given">Alex</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Shoren</namePart>
+      <namePart type="given">Ihara</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Zuiho</namePart>
+      <namePart type="given">Yamaguchi</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>863</start>
+        <end>871</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Tokyo</placeTerm>
+      </place>
+      <publisher>Naritasan Shinshoji</publisher>
+      <copyrightDate>1992</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tibetan Studies. Proceedings of the 5th Seminar of the International Association for Tibetan Studies, Narita 1989. Volume 2: Language, History and Culture</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

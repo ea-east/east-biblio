@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Mirrorwork of Tibetan Religious Historians: A Comparison of Buddhist and Bon Historiography</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Bjerken</namePart>
+    <namePart type="given">Zeff</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Ann Arbor</placeTerm>
+    </place>
+    <publisher>UMI</publisher>
+    <copyrightDate>2001</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Perfect Wisdom. The Short Prajñāpāramitā Texts - Perfection of Wisdom in 500 Lines, Perfection of Wisdom in 700 Lines, Heart Sutra, Diamond Sutra</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Conze</namePart>
+    <namePart type="given">Edward</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Totnes</placeTerm>
+    </place>
+    <publisher>Buddhist Publishing Group</publisher>
+    <copyrightDate>1993 (1973)</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

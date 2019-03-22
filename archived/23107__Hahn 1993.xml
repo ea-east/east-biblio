@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Sanskrit Metrics - As Studied at Buddhist Universities in the Eleventh and Twelfth Century</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hahn</namePart>
+    <namePart type="given">Michael</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>9</number>
+      </detail>
+      <extent unit="pages">
+        <start>57</start>
+        <end>76</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1993</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JNRC</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

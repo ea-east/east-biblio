@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Buddhist doctrine of Apoha. Presented at The 31st International Congress of Human Sciences in Asia and North Africa</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Agrawal</namePart>
+    <namePart type="given">Madan Mohan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">, Tokyo and Kyoto: Toho Gakkai (Institute of Eastern Culture)</placeTerm>
+    </place>
+    <copyrightDate>1983</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Chinesische Chan- und tibetische rDzogs chen-Lehre: eine komparatistische Untersuchung im Lichte des philosophischen Heilskonzeptes ‚Nicht-Vorstellen‘ anhand der Dunhuang-Dokumente des chinesischen Chan-Meister Wolun und des Werkes bSam gtan mig sgron des tibetischen Gelehrten gNubs chen Sangs rgyas ye shes</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Meinert</namePart>
+    <namePart type="given">Carmen</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Bonn</placeTerm>
+    </place>
+    <copyrightDate>2004</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

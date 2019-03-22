@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-4b1ceae0-0eac-443e-9994-eee2f3fe8e59" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Ninshiki to ronri (Tarkabhāṣā)</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Yuichi</namePart>
+        <namePart type="family">Kajiyama</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">book</genre>
+    <relatedItem type="otherVersion">
+        <titleInfo>
+            <title>Ronri no kotoba (Tarkabhāṣā)</title>
+        </titleInfo>
+        <originInfo>
+            <edition>special reprint</edition>
+            <dateIssued encoding="w3cdtf">1975</dateIssued>
+            <publisher>Chūō Kōronsha</publisher>
+            <place>
+                <placeTerm type="text">Tōkyō</placeTerm>
+            </place>
+        </originInfo>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

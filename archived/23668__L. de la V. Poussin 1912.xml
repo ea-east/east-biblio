@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Vasubandhu Viṃśakakārikāprakaraṇa. Traité des Vingt Ślokas avec le Commentaire de l'Auteur (Traduction tibétain et traduction française)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Poussin</namePart>
+    <namePart type="given">Louis de La Vallée</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>N.S. 13</number>
+      </detail>
+      <extent unit="pages">
+        <start>53</start>
+        <end>90</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1912</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Le Muséon</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

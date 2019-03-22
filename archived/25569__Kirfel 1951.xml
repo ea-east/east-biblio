@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Die fünf Elemente. Insbesondere Wasser und Feuer. Ihre Bedeutung für den Urspung altindischer und altmediterraner Heilkunde. (Beiträge zur Sprach- und Kulturgeschichte des Orients 4)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Kirfel</namePart>
+    <namePart type="given">Willibald</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Walldorf-Hessen</placeTerm>
+    </place>
+    <publisher>Verlag für Orientkunde</publisher>
+    <copyrightDate>1951</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Fourteenth Century Tibetan Cultural History 1 - Ta´i-Si-Tu Byang-Chub Rgyal-Mtshan as a Man of Religion</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kuijp</namePart>
+    <namePart type="given">Leonard W. J. van der</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>37</number>
+      </detail>
+      <extent unit="pages">
+        <start>139</start>
+        <end>149</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1994</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indo-Iranian</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

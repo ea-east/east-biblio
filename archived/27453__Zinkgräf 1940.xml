@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Vom Divyâvadâna zur Avadâna-Kalpalatâ : ein Beitrag zur Geschichte eines Avadâna</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Zinkgräf</namePart>
+    <namePart type="given">Willi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>21</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1940</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Materialien zur Kunde des Buddhismus</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

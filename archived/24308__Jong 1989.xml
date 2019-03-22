@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Mark Tatz, Asaṅga's Chapter of Ethics With the Commentary of Tsong-Kha-Pa, The Basic Path to Awakening, The Complete Bodhisattva (Studies in Asian Thought and Religion Vol.4). Lewiston/Queenston, The Edwin Mellen Press, 1986</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Jong</namePart>
+    <namePart type="given">J. W. de</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>32</number>
+      </detail>
+      <extent unit="pages">
+        <start>215</start>
+        <end>219</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1989</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IIJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

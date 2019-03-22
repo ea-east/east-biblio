@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>dBus pa blo gsal no "Shin Kyu Goi Shu" (brDa gsar rñiṅ gi rnam par dbye ba) Kōtei bon Shokō. [The brDa gsar rñiṅ gi rnam par dbye ba of dBus pa blo gsal - a first attempt at a critical edition.]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Mimaki</namePart>
+    <namePart type="given">Katsumi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>17</start>
+        <end>54</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Tokyo</placeTerm>
+      </place>
+      <copyrightDate>1990</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Asian Languages and General Linguistics. Festschrift for Prof. Tatsuo Nishida on the occasion of his 60th Birthday</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

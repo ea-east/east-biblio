@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Saṃghabhadra and Nāgārjuna über die Theorie der zwölfgliedrigen Kausalität</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kajiyama</namePart>
+    <namePart type="given">Yuichi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>6</number>
+      </detail>
+      <extent unit="pages">
+        <start>139</start>
+        <end>149</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1999</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Hōrin</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,24 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Chronological Stratification of the Tun-Huang Ch'an Manuscripts. Presented at The 31st International Congress of Human Sciences in Asia and North Africa, Tokyo and Kyoto</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ueyama</namePart>
+    <namePart type="given">Daishun</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <originInfo>
+      <dateIssued>1983</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Cishaan Seminar A-4, Toho Gakkai (Institute of Eastern Culture)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

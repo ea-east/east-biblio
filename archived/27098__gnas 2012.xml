@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>(Sa bcad dang po / rDo ring gi skor)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">gnas</namePart>
+    <namePart type="given">Go shul Grags pa 'byung</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>1–108 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Beijing</placeTerm>
+    </place>
+    <publisher>Mi rigs dpe skrun khang / Minzu chubanshe</publisher>
+    <copyrightDate>2012</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

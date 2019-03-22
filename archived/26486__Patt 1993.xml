@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>"Elucidating the Path to Liberation": A study of the commentary on the "Abhidharmakosa" by the first Dalai Lama</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Patt</namePart>
+    <namePart type="given">David</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Madison, Wisconsin</placeTerm>
+    </place>
+    <publisher>The University of Wisconsin - Madison</publisher>
+    <copyrightDate>1993</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

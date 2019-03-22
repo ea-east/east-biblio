@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhist Scriptures as Literature. Sacred Rhetoric and the Uses of Theory</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Flores</namePart>
+    <namePart type="given">Ralph</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Albany</placeTerm>
+    </place>
+    <publisher>State University of New York Press</publisher>
+    <copyrightDate>2008</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

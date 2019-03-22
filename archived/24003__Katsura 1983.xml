@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Chinese Translation of Buddhist texts on Logic</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Katsura</namePart>
+    <namePart type="given">Shoryu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Kyoto</placeTerm>
+      </place>
+      <copyrightDate>1983</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>31. Cishaan Section 3 (Sub-Section 8)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

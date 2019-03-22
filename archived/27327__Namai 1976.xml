@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Kōki Bukkyōto ni yoru Bārhaspatya Hihan (II)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Namai</namePart>
+    <namePart type="given">Mamoru</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>2</number>
+      </detail>
+      <extent unit="pages">
+        <start>33</start>
+        <end>74</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1976</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indological Review</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Concept of Apavarga in NyāyaVaiśeṣika and Professor M. Hiriyanna's Contribution to its Understanding</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Sharma</namePart>
+    <namePart type="given">Arvind</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <name type="personal">
+      <namePart type="family">(Ed.)</namePart>
+      <namePart type="given">Dr H. P. Malledevaru</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <detail type="volume">
+        <number>XIV</number>
+      </detail>
+      <extent unit="pages">
+        <start>88</start>
+        <end>92</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>(1985)*</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Mysore Orientalist</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

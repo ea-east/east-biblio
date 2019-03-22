@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Steinkellner, Ernst und Much, Michael Torsten: Texte der erkenntnistheoretischen Schule des Buddhismus. Systematische übersicht über die buddhistische Sanskrit Literatur II, Göttingen 1995</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Eltschinger</namePart>
+    <namePart type="given">Vincent</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>50/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>691</start>
+        <end>693</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1996</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>AS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Vaisesika Philosophy according to Dasapadartha-sastra: Chinese Text with Introduction, Translation, and Notes</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Ui</namePart>
+    <namePart type="given">H.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Thomas</namePart>
+    <namePart type="given">F. W.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">London</placeTerm>
+    </place>
+    <publisher>Royal Asiatic Society</publisher>
+    <copyrightDate>1917</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

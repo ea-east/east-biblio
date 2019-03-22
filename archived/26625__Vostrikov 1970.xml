@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tibetan Historical Literature</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Vostrikov</namePart>
+    <namePart type="given">A. I.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Calcutta</placeTerm>
+    </place>
+    <publisher>Indian Studies Past &amp; Present</publisher>
+    <copyrightDate>1970</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

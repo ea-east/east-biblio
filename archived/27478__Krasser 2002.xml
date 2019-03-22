@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Śaṅkaranandanas Īśvarāpākaraṇasaṅkṣepa: mit einem anonymen Kommentar und weiteren Materialien zur buddhistischen Gottespolemik</title>
+  </titleInfo>
+  <titleInfo type="abbreviated">
+    <title>Śaṅkaranandanas Īśvarāpākaraṇasaṅkṣepa</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Krasser</namePart>
+    <namePart type="given">Helmut</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wien</placeTerm>
+    </place>
+    <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+    <copyrightDate>2002</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <identifier type="isbn">3700130244  9783700130246</identifier>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <language>
+    <languageTerm type="text">German, Sanskrit romanized and Tibetan romanized.</languageTerm>
+  </language>
+  <recordInfo>
+    <recordContentSource>Open WorldCat</recordContentSource>
+  </recordInfo>
+</mods>

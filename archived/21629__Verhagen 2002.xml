@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Studies in Indo-Tibetan Buddhist hermeneutics (3): Grammatical models in Buddhist formulas</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Verhagen</namePart>
+    <namePart type="given">Peter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Blezer</namePart>
+      <namePart type="given">Henk</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>143</start>
+        <end>161</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Leiden et al</placeTerm>
+      </place>
+      <publisher>Brill</publisher>
+      <copyrightDate>2002</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Religion and Secular Culture in Tibet. Tibetan Studies II: Proceedings of the Ninth Seminar of the International Association for Tibetan Studies, Leiden 2000</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

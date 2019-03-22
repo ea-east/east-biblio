@@ -1,0 +1,24 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-f10bd5a8-be5c-4e1b-b0bf-57be571afb93" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Studies in Original Buddhism and Mahāyāna Buddhism</title>
+        <subTitle>in Commemoration of late Professor Dr. Fumimaro Watanabe</subTitle>
+        <partNumber>Vol. 2</partNumber>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Egaku</namePart>
+        <namePart type="family">Mayeda</namePart>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Kyōto</placeTerm>
+        </place>
+        <publisher>Nagata Bunshodo</publisher>
+        <dateIssued encoding="w3cdtf">1993</dateIssued>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">book</genre>
+<language><languageTerm>en</languageTerm></language></mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Se ra rje btsun Chos kyi rgyal mthsan no naihenjūron hihan [Se ra rje btsun Chos kyi rgyal mtshan's Kritik der antarvyāpti-Lehre]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Wakahara</namePart>
+    <namePart type="given">Yūshō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>35/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>869</start>
+        <end>867</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1987</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IBK</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

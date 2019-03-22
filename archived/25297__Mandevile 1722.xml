@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The voyages &amp; travels of Sir John Mandevile</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Mandevile</namePart>
+    <namePart type="given">Sir John</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">London</placeTerm>
+    </place>
+    <publisher>Printed by A. Wilde, for G. Conyers, T. Norris, and A. Bettesworth</publisher>
+    <copyrightDate>1722</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

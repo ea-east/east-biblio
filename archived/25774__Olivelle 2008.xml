@@ -1,0 +1,20 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Life of the Buddha by Ashva·ghosha</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Olivelle</namePart>
+    <namePart type="given">Patrick</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <publisher>New York University Press, JJC Foundation</publisher>
+    <copyrightDate>2008</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

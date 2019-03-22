@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>In Praise of the Light : a Critical Synoptic Edition with an Annotated Translation of Chapters 1-3 of Dharmarakṣa's Guang zan jing 光讚經, Being the Earliest Chinese Translation of the Larger Prajñāpāramitā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Zacchetti</namePart>
+    <namePart type="given">Stefano</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Tokyo</placeTerm>
+    </place>
+    <publisher>The International Research Institute for Advanced Buddhology</publisher>
+    <copyrightDate>2005</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

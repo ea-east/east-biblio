@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Kalimpong: A Guide &amp; Hand Book of Information With a forward by the famous Tibetan Scholar Mr. D. Macdonald</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Macdonald</namePart>
+    <namePart type="given">D. I.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Kalimpong</placeTerm>
+    </place>
+    <publisher>Himalayan Printing Works</publisher>
+    <copyrightDate>1949</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

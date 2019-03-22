@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Yaśastilaka, Part I</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Sūri</namePart>
+    <namePart type="given">Somadeva</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Sivadatta</namePart>
+    <namePart type="given">Mahamahopadhyaya Pandit</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Parab</namePart>
+    <namePart type="given">Kasinath Pandurang</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Bombay</placeTerm>
+    </place>
+    <publisher>Kāvyamālā 70</publisher>
+    <copyrightDate>1901</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

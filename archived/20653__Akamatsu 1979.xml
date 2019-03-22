@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmakīrti igo no Apoha-ron no tenkai - Dharmottara no baai (Developments in the Apoha theory after Dharmakīrti - in the Case of Dharmottara)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Akamatsu</namePart>
+    <namePart type="given">Akihiko</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>28/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>466</start>
+        <end>464</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1979</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IBK</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Transformed Rituals? Some Reflections on the Paradigm of the Transformation of Rituals in the Tibetan Context</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Dodin</namePart>
+    <namePart type="given">Thierry</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Buffetrille</namePart>
+      <namePart type="given">Katia</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>69</start>
+        <end>82</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Leiden, Boston</placeTerm>
+      </place>
+      <publisher>Brill</publisher>
+      <copyrightDate>2012</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Revisting Rituals in a Changing Tibetan World</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

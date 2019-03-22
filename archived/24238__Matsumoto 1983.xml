@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Mimaki Katsumi, "Blo gsal grub mtha'" [jap.]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Matsumoto</namePart>
+    <namePart type="given">Shirō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>22/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>232</start>
+        <end>245</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1983</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tōyō Gakujutsu Kenkyū</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Himalayan Frontier Trade: Newar diaspora merchants and Buddhism</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Lewis</namePart>
+    <namePart type="given">Todd T.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Ramble</namePart>
+      <namePart type="given">Charles</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Brauen</namePart>
+      <namePart type="given">Martin</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>165</start>
+        <end>178</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Zurich</placeTerm>
+      </place>
+      <publisher>Ethnological Museum of the University of Zurich</publisher>
+      <copyrightDate>1993</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Proceedings of the International Seminar on the anthropology of Tibet and the Himalaya, September 21-28, 1990, at the Ethnographic Museum of the University of Zurich</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

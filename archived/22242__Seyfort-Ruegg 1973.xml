@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On Translating the Buddhist Canon (a dictionary of Indo-Tibetan terminology in Tibetan and Mongolian: the Dag yig mkhas pa'i 'byung gnas of Rol pa'i rdo rje)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Seyfort-Ruegg</namePart>
+    <namePart type="given">David</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Ratnam</namePart>
+      <namePart type="given">Perala</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>243</start>
+        <end>261</end>
+      </extent>
+    </part>
+    <originInfo>
+      <copyrightDate>1973</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Studies in Asian Art and Culture. Vol 3. (Acarya Raghu Vira Commemoration Volume)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

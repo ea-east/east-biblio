@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Text, Sources and Bibliography of the Prajñāpāramhitā-hṛdaya</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Conze</namePart>
+    <namePart type="given">Edward</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>80 (1-2)</number>
+      </detail>
+      <extent unit="pages">
+        <start>33</start>
+        <end>51</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1948</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the Royal Asiatic Society of Great Britain and Ireland</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

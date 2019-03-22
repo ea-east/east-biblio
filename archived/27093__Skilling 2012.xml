@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>All Buddhas Venerate the Dhamma: Recontextualizations of the Uruvela-sutta in 14th-15th-century Southeast Asia</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Skilling</namePart>
+    <namePart type="given">Peter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>10</number>
+      </detail>
+      <extent unit="pages">
+        <start>21</start>
+        <end>31</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2012</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the Centre for Buddhist Studies Sri Lanka</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

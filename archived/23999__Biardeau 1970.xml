@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Comptes rendus: Tilmann Vetter, (1) Erkenntnisprobleme bei Dharmakīrti. Oesterreichische Akademie der Wissenschaften, philosophisch-historische Klasse. Veröffentlichungen der Kommission für Sprache und Kulturen Süd- und Ostasiens 1. Wien, 1964. (2) Dharmakīrti's Pramāṇaviniścayaḥ 1. Kapitel: Pratyakṣam, Einleitung, Text der tibetischen Uebersetzung, Sanskritfragmente, deutsche Uebersetzung, ibid. 3. Wien, 1966</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Biardeau</namePart>
+    <namePart type="given">M.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>257</number>
+      </detail>
+      <extent unit="pages">
+        <start>193</start>
+        <end>194</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1970</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal Asiatique</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

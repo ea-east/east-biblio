@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Approaches to Historic Indian and Indo-Tibetan Sculpture.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Luczanits</namePart>
+    <namePart type="given">Christian</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Dhar</namePart>
+      <namePart type="given">Parul Pandya</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>153</start>
+        <end>167</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">New Delhi</placeTerm>
+      </place>
+      <publisher>National Museum Institute &amp; D.K. Printworld</publisher>
+      <copyrightDate>2011</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indian Art History. Changing Perspectives</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

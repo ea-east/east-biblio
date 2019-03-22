@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Handbook of Pāli Literature</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Hinüber</namePart>
+    <namePart type="given">Oskar von</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berlin, New York</placeTerm>
+    </place>
+    <publisher>Walter de Gruyter</publisher>
+    <copyrightDate>1996</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

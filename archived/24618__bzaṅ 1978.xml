@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Draṅ ṅes legs bśad sñiṅ po of Tsoṅ kha pa [jap.]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">bzaṅ</namePart>
+    <namePart type="given">Tshul khrims skal</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>26/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>1016</start>
+        <end>1013</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1978</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IBK</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

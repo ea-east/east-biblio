@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>"Gotamī, Do Not Wish to Go from Home to Homelessness!": Patterns of Objections to Female Asceticism in Theravāda Buddhism</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hüsken</namePart>
+    <namePart type="given">Ute</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Freiberger</namePart>
+      <namePart type="given">Oliver</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>211</start>
+        <end>233</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">New York, etc.</placeTerm>
+      </place>
+      <publisher>Oxford University Press</publisher>
+      <copyrightDate>2006</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Asceticism and its critics: historical accounts and comparative perspectives</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

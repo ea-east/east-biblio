@@ -1,0 +1,19 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dkar čhag gsum. Bka' ma: According to the Brag-thog Dkar čhag; Rin čhen gter mjod: Mchur-phu redaction; Rñiṅ ma'i rgyud 'bum: Sde-dge redaction</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Smith</namePart>
+    <namePart type="given">Gene</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <copyrightDate>1973</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

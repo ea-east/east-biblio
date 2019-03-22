@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tibetan-English Dictionary of Buddhist Terminology (Revised and Enlarged Edition)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Rigzin</namePart>
+    <namePart type="given">Tsepak</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Dharamsala</placeTerm>
+    </place>
+    <publisher>Library of Tibetan Works and Archives</publisher>
+    <copyrightDate>1997</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

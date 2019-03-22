@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Connected Discources of the Buddha: A New Translation of the Saṃyutta Nikāya.Vol. II.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Bodhi</namePart>
+    <namePart type="given">Bhikkhu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Oxford</placeTerm>
+    </place>
+    <publisher>Wisdom Publications</publisher>
+    <copyrightDate>2000</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

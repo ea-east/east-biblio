@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The question of doctrinalism in the Buddhist epistemologists</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hayes</namePart>
+    <namePart type="given">Richard P.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>52/4</number>
+      </detail>
+      <extent unit="pages">
+        <start>645</start>
+        <end>670</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1984</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the American Academy of Religion</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Northern India according to the Shui-Ching-Chu</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Petech</namePart>
+    <namePart type="given">Luciano</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Rom</placeTerm>
+    </place>
+    <publisher>Ist. Ital. per il Medio ed Estremo Oriente</publisher>
+    <copyrightDate>1950</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhist philosophy</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Gombrich</namePart>
+    <namePart type="given">Richard.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Bruxelles</placeTerm>
+    </place>
+    <publisher>Revue internationale de philosophie</publisher>
+    <copyrightDate>2010</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <identifier type="isbn">9782930560045 2930560045</identifier>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+  </language>
+  <recordInfo>
+    <recordContentSource>Open WorldCat</recordContentSource>
+  </recordInfo>
+</mods>

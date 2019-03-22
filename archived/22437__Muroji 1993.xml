@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Vasubandhus Interpretation des Pratītyasamutpādā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Muroji</namePart>
+    <namePart type="given">Yoshito G.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>259 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Stuttgart</placeTerm>
+    </place>
+    <publisher>Franz Steiner</publisher>
+    <copyrightDate>1993</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

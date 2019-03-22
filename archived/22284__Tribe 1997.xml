@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mañjuśrī and 'The chanting of names' (Nāmasaṃgīti): wisdom and its embodiement in an Indian Mahāyāna Buddhist text</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Tribe</namePart>
+    <namePart type="given">Anthony</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Connolly</namePart>
+      <namePart type="given">Peter</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Hamilton</namePart>
+      <namePart type="given">Sue</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>109</start>
+        <end>136</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">London</placeTerm>
+      </place>
+      <publisher>Luzac Oriental</publisher>
+      <copyrightDate>1997</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indian Insights: Buddhism, Brahmanism and Bhakti. Papers from the annual Spalding symposium on Indian religions</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

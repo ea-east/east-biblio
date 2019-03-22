@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Ratnakīrti cho “shusaishin shōmei no ronbaku” wayaku kenkyū (chū) [An Annotated Japanese Translation of Ratnakīrti's Īśvarasādhanadūṣaṇa (II)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Moriyama</namePart>
+    <namePart type="given">Shinya</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40020560682/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <recordInfo>
+    <recordContentSource>CiNii</recordContentSource>
+  </recordInfo>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>10</number>
+      </detail>
+      <extent unit="pages">
+        <start>143</start>
+        <end>171</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2015</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">1881-2074</identifier>
+    <titleInfo>
+      <title>Minamiajia kotengaku [South Asian Classical Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

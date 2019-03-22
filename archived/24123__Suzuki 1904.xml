@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Philosophy of the Yogācāra. The Mādhyamika and the Yogācāra</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Suzuki</namePart>
+    <namePart type="given">D. Teitaro</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>N.S. 5</number>
+      </detail>
+      <extent unit="pages">
+        <start>370</start>
+        <end>386</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1904</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Le Muséon</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

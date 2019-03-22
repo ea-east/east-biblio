@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Der erste deutsche Bhikku. Das bewegte Leben des Ehrwürdigen Nyānatiloka (1878-1957) und seine Schüler</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>Hecker</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>Hellmuth</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Konstanz</placeTerm>
+    </place>
+    <publisher>Universität Konstanz</publisher>
+    <copyrightDate>1995</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

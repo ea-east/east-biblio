@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tattvasaṃgraha, Śabdārthaparīkṣā shō no kenkyū (2) [A study of Śabdārthaparīkṣā of Tattvasaṃgraha (2)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Okada</namePart>
+    <namePart type="given">Kenshō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40007226800/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>7</number>
+      </detail>
+      <extent unit="pages">
+        <start>37</start>
+        <end>67</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2005</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">13441981</identifier>
+    <titleInfo>
+      <title>Shūkyōgaku-Hikakushisōgaku ronshū {Tsukuba Journal of Religious Studies and Comparative Thoughts]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

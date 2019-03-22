@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Conditional Relations (Paṭṭhāna). Being Vol. I. of the Chaṭṭhasaṅgāyana Text of the Seventh Book of the Abhidhamma Piṭaka</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Nārada</namePart>
+    <namePart type="given">U.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">London</placeTerm>
+    </place>
+    <publisher>Luzac &amp; Company LTD</publisher>
+    <copyrightDate>1969</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

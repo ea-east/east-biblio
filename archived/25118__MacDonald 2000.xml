@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Prasannapadā: More Manuscripts from Nepal</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">MacDonald</namePart>
+    <namePart type="given">Anne</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>44</number>
+      </detail>
+      <extent unit="pages">
+        <start>165</start>
+        <end>181</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2000</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>WZKS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

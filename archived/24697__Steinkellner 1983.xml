@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tshad ma'i skyes bu. Meaning and historical significance of the term</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Steinkellner</namePart>
+    <namePart type="given">Ernst</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Steinkellner</namePart>
+      <namePart type="given">Ernst</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Tauscher</namePart>
+      <namePart type="given">Helmut</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>275</start>
+        <end>284</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wien</placeTerm>
+      </place>
+      <publisher>Arbeitskreis für tibetische und buddhistische Studien, Universität Wien</publisher>
+      <copyrightDate>1983</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Contributions on Tibetan and Buddhist Religion and Philosophy. Proceedings of the Csoma de Kőrös Symposium held at Velm-Vienna, Austria, 13-19 September 1981, vol. 2 (Wiener Studien zur Tibetologie und Buddhismuskunde 11)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bodhi (sattva) caryāvatāra to Śikṣāsamuccaya</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Saitō</namePart>
+    <namePart type="given">Akira</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>16/10</number>
+      </detail>
+      <extent unit="pages">
+        <start>353</start>
+        <end>326</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2001</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indo tetsugaku bukkyogaku (Indian Philosophy and Buddhist Studies)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhist hybrid Sanskrit: the original language</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Bronkhorst</namePart>
+    <namePart type="given">Johannes</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Mishra</namePart>
+      <namePart type="given">Kameshwar Nath</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Sarnath, Varanasi</placeTerm>
+      </place>
+      <publisher>Central Institute of Higher Tibetan Studies</publisher>
+      <copyrightDate>1993</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Aspects of Buddhist Sanskrit. Proceedings of the International Symposium on the Language of Sanskrit Buddhist Texts, Oct. 1-5, 1991 (Samyag-vāk Series VI)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

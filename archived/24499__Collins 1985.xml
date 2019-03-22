@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhism in recent British philosophy and theology</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Collins</namePart>
+    <namePart type="given">Steven</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>21</number>
+      </detail>
+      <extent unit="pages">
+        <start>475</start>
+        <end>493</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1985</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Religious Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

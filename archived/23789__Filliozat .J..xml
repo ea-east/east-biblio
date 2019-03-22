@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bibliographie - Franklin Edgerton, Buddhist Hybrid Sanskrit grammar and dictionary. New Haven, 1953. Buddhist Hybrid Sanskrit reader. New Haven, 1953</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Filliozat</namePart>
+    <namePart type="given">Jean</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>43/1-2</number>
+      </detail>
+      <extent unit="pages">
+        <start>147</start>
+        <end>171</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>.J.</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tirage à part du T'oung Pao</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

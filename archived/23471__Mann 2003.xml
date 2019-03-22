@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Early Cult of Skanda in North India: From Demon to Divine Son</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Mann</namePart>
+    <namePart type="given">Richard D.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Hamilton, Ontario</placeTerm>
+    </place>
+    <copyrightDate>2003</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

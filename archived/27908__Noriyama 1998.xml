@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Arcaṭa no “Suiri no kaimei”: Hetubinduṭīkā kenkyū (1) (pp.1-5) [Arcaṭa, On anumāna-vyutpādana: An Annotated Translation of Hetubinduṭīkā (1) (pp. 1-5)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Noriyama</namePart>
+    <namePart type="given">Satoru</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40005149220/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <language>
+    <languageTerm type="text">Japanese</languageTerm>
+  </language>
+  <recordInfo>
+    <recordContentSource>CiNii</recordContentSource>
+  </recordInfo>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>3</number>
+      </detail>
+      <extent unit="pages">
+        <start>111</start>
+        <end>128</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1998</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">13427377</identifier>
+    <titleInfo>
+      <title>Indogaku Chibettogaku Kenkyū [Jornal of Indian and Tibetan Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

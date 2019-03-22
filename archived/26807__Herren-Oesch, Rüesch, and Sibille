@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Transcultural History. Theory, Methods, Sources.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Herren-Oesch</namePart>
+    <namePart type="given">Madeleine</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Rüesch</namePart>
+    <namePart type="given">Martin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Sibille</namePart>
+    <namePart type="given">Christiane</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berlin, Heidelberg</placeTerm>
+    </place>
+    <publisher>Springer</publisher>
+    <copyrightDate>2012</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

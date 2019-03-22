@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Madhyamaka schools in India. A study of the Madhyamaka philosophy and of the division of the system into the Prāsaṅgika and Svātantrika schools</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Santina</namePart>
+    <namePart type="given">Peter della</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Delhi [u.a.]</placeTerm>
+    </place>
+    <publisher>Motilal Banarsidass</publisher>
+    <copyrightDate>1986</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bhāvaviveka no shoruikan. Soumoku ni kokoro ga aruka [Bhāvavivekas Ansicht über Lebewesen]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kawasaki</namePart>
+    <namePart type="given">Shinjo</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>14</number>
+      </detail>
+      <extent unit="pages">
+        <start>218</start>
+        <end>204</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1986</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Buzankyogakutaikai kiyo</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

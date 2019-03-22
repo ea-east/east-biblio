@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Studies in Ancient Indian Medicine V. The Composition of the Carakasamhita in the Light of the Bower Manuscript</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hoernle</namePart>
+    <namePart type="given">A. F. Rudolf</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>Oct. 1909</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1909</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the Royal Asiatic Society of Great Britain and Ireland</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

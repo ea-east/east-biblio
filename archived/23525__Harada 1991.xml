@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Japanese and Sanskrit translations of Pramāṇasamuccaya-vṛtti Chap. V (ad kk. 46-49) with Ṭīkā. Dignāga no "bunshō no imi" riron, "Chishikironshūsei-jichō" dai V shō dai 46-49 ge narabi ni, "Fukuchā" no wayaku to bongo kanen no kokoromi [Dignāgas Lehre von der Satzbedeutung, Versuch einer japanischen übersetzung und Sanskrit-Rekonstruktion der Texte von PS und PSV auf Grund der Fragmente]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Harada</namePart>
+    <namePart type="given">Wasō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>47</number>
+      </detail>
+      <extent unit="pages">
+        <start>70</start>
+        <end>92</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1991</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Studies in Buddhism (Bukkyōgaku-Kenkyū)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

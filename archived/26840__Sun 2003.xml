@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Phonological Profile of Zhongu: A New Tibetan Dialect of Northern Sichuan</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Sun</namePart>
+    <namePart type="given">Jackon T.-S.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>4(4)</number>
+      </detail>
+      <extent unit="pages">
+        <start>769</start>
+        <end>836</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2003</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Language and Linguistics</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

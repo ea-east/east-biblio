@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>La Sāṃkhyakārikā étudiée à la lumière de sa version chinoise</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Takakusu</namePart>
+    <namePart type="given">M. J.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>4</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1904</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bulletin de l'Ecole Française d'Extrême-Orient</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

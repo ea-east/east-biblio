@@ -1,0 +1,19 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tibetan Typeforms: an Historical and Visual Analysis of Tibetan Typefaces from their Inception in 1738 up to 2009</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Baerdemaeker</namePart>
+    <namePart type="given">JO A. J. De</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <copyrightDate>2009</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

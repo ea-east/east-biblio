@@ -1,0 +1,115 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-4c1311d5-742e-459d-be58-4276cc7c0f86" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo script="Hant" altRepGroup="1">
+        <title>無相思塵論</title>
+    </titleInfo>
+    <titleInfo transliteration="chinese/ala-lc" altRepGroup="1">
+        <title>Wu xiang si chen lun</title>
+    </titleInfo>
+    <name type="personal" lang="san" transliteration="sanskrit/iast" altRepGroup="2">
+        <namePart>Paramārtha</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateCreated encoding="w3cdtf" point="start" qualifier="questionable">557</dateCreated>
+        <dateCreated encoding="w3cdtf" point="end" qualifier="questionable">569</dateCreated>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>canonical scripture</genre>
+    <identifier type="Taisho Tripitaka No.">1619</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-e7281507-227f-41de-90f2-2d6748d6e96b"><extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-05-16T22:20:57.995+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<language>
+        <languageTerm authority="rfc3066" type="code">zh-CN</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Hani</scriptTerm>
+    </language>
+    <genre authority="marcgt">periodical</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent>100 vols.</extent>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Tōkyō</placeTerm>
+        </place>
+        <publisher>Taishō Issaikyō Kankōkai</publisher>
+        <dateIssued encoding="w3cdtf" point="start">1924</dateIssued>
+        <dateIssued encoding="w3cdtf" point="end">1935</dateIssued>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <name type="personal" script="latn" altRepGroup="3" transliteration="japanese/ala-lc">
+        <namePart type="given">Kaikyoku</namePart>
+        <namePart type="family">Watanabe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <name type="personal" script="latn" altRepGroup="2" transliteration="japanese/ala-lc">
+        <namePart type="given">Junirō</namePart>
+        <namePart type="family">Takakusu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <titleInfo type="abbreviated">
+        <title>Taishō</title>
+    </titleInfo>
+    <titleInfo script="latn" lang="jpn" altRepGroup="1" transliteration="japanese/ala-lc">
+        <title>Taishō shinshū dai zōkyō</title>
+    </titleInfo>
+    <titleInfo script="hrkt" lang="jpn" altRepGroup="1">
+        <title>大正新脩大藏經</title>
+    </titleInfo>
+    <part><detail/><detail type="canonNumber"><number>1619</number></detail></part></relatedItem>
+    <identifier type="Nanjio Catalogue No.">1172</identifier>
+    <identifier type="Koreana Tripitaka No.">629</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-86ee1912-88e7-4b34-a155-f07343b77581"><language>
+        <languageTerm authority="rfc3066" type="code">zh-CN</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Hani</scriptTerm>
+    </language>
+<genre authority="marcgt">periodical</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent>48 vol.</extent>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Seoul</placeTerm>
+        </place>
+        <publisher>Tongguk University Press</publisher>
+        <dateIssued encoding="w3cdtf">1976</dateIssued>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="alternative" lang="lat">
+        <title>Tripitaka Koreana</title>
+    </titleInfo>
+    <titleInfo lang="kor">
+        <title>Koryŏ taejanggyŏng</title>
+    </titleInfo>
+    <part><detail/><detail type="canonNumber"><number>629</number></detail></part></relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">zh-CN</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Hani</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">chinese/ala-lc</ext:transliterationOfResource>
+    </extension>
+</mods>

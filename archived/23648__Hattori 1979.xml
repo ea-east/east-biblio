@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Uddyotakara ni hihan sareru apoha-ron [Die Kritik an der apoha-Theorie von Uddyotakara]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hattori</namePart>
+    <namePart type="given">Masaaki</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>117</start>
+        <end>131</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Tōkyō: Tōhō Shuppan Kekkō</placeTerm>
+      </place>
+      <copyrightDate>1979</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Hō shinjō-Tanaka Junshō vyō kyōju shōtoku kinen, Bukkyōgaku ronbunshū</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

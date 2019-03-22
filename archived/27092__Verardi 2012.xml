@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Brahmanisation of Gandhāra and Greater Gandhāra</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Verardi</namePart>
+    <namePart type="given">Giovanni</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Lorenzetti</namePart>
+      <namePart type="given">Tizianna</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Scialpi</namePart>
+      <namePart type="given">Fabio</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>153</start>
+        <end>172</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Rome</placeTerm>
+      </place>
+      <publisher>Sapienza Universita Editrice</publisher>
+      <copyrightDate>2012</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Glimpses of Indian History and Art. Reflections on the Past, Perspectives for the Future. Proceedings of the International Congress, Rome, 18-19 April, 2011</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Die Buddhistische Philosophie in ihrer geschichtlichen Entwicklung</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Walleser</namePart>
+    <namePart type="given">Max</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Heidelberg</placeTerm>
+    </place>
+    <publisher>Carl Winter´s Universitätsbuchhandlung</publisher>
+    <copyrightDate>1904</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

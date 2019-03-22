@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Das Sramanyaphala-Sutra. Synoptische Übersetzung und Glossar der chinesischen Fassungen verglichen mit dem Sanskrit und Pali.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Meisig</namePart>
+    <namePart type="given">Konrad</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wiesbaden</placeTerm>
+    </place>
+    <publisher>Harrassowitz</publisher>
+    <copyrightDate>1987</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

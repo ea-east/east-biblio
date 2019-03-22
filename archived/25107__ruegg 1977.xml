@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review of: G. Tucci, Minor Buddhist Texts, vol. 3 (3rd Bhāvanākrama). Roma 1971.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">ruegg</namePart>
+    <namePart type="given">David Seyfort</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>97/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>89</start>
+        <end>90</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1977</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JAOS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

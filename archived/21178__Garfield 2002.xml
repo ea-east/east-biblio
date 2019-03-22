@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Natures and Three Naturlessnesses - Comments Concerning Cittamātra Conceptual Categories, Vasubandhu's Treatise on the Three Natures - A Translation and Commentary</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Garfield</namePart>
+    <namePart type="given">Jay L.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Oxford</placeTerm>
+      </place>
+      <publisher>Oxford University Press</publisher>
+      <copyrightDate>2002</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Empty Words - Buddhist Philosophy and Cross-Cultural Interpretation</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

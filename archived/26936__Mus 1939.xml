@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>La Lumière sur les Six Voies. Tableau de la transmigration bouddhique. D'après des sources sanskrites, pāli, tibétaines et chinoises en majeure partie inédites</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Mus</namePart>
+    <namePart type="given">Paul</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Paris</placeTerm>
+    </place>
+    <publisher>Institut d'Ethnologie</publisher>
+    <copyrightDate>1939</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

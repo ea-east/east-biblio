@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Tattva-Kaumudī. Vācaspati Miśra's Commentary on the Sāṃkhya-Kārikā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Jha</namePart>
+    <namePart type="given">Ganganath</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Poona</placeTerm>
+    </place>
+    <publisher>Oriental Book Agency</publisher>
+    <copyrightDate>1965</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

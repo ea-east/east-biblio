@@ -1,0 +1,93 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-046fb6ad-19d3-4f30-a183-928e3ab33a48" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dinnāga's Criticism of Vasubandhu</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mangala</namePart>
+        <namePart type="given">R.</namePart>
+        <namePart type="family">Chinchore</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="local">chapter</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-d6361303-0f4c-4e88-ac62-13504f810768">
+        <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+<recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <relatedItem type="series" xlink:href="#uuid-62de4449-145b-4bc3-9962-3b9f89975920">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+        <title>Samyag-vāk Series</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <genre>book</genre>
+    <originInfo script="Latn">
+        <place>
+            <placeTerm type="text">Sarnath</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1987</dateIssued>
+        <publisher>Central Institute of Higher Tibetan Studies</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <name type="personal">
+        <namePart type="given">N.</namePart>
+        <namePart type="given">H.</namePart>
+        <namePart type="family">Samtani</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <titleInfo>
+        <title>Śramanā Vidyā</title>
+        <subTitle>Studies in Buddhism. Prof. Jaganath Upadhyaya Commemoration Volume I</subTitle>
+    </titleInfo>
+    <part>
+            <extent unit="pages">
+                <start>47</start>
+                <end>63</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">contribution-to-anthology-latin-compact</ext:template>
+    </extension>
+</mods>

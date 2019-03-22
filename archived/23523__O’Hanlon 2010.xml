@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Letters Home: Banaras pandits and the Maratha regions in early modern India</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">O'Hanlon</namePart>
+    <namePart type="given">Rosalind</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>44</number>
+      </detail>
+      <extent unit="pages">
+        <start>201</start>
+        <end>240</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2010</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Modern Asian Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Science and the Colonial War-State: British India, 1790-1820</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Arnold</namePart>
+    <namePart type="given">David</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Boomgaard</namePart>
+      <namePart type="given">Peter</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>39</start>
+        <end>62</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">New York</placeTerm>
+      </place>
+      <publisher>Palgrave Macmillan</publisher>
+      <copyrightDate>2013</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Empire and Science in the Making. Dutch Colonial Scholarship in Comparative Global Perspective, 1760-1830</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

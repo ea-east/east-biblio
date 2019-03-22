@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Has Xuanzang really been in Mathurā? Interpretatio Sinica or Interpretatio Occidentalia - How to Critically Read the Records of the Chinese Pilgrim</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Deeg</namePart>
+    <namePart type="given">Max</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Wittern</namePart>
+      <namePart type="given">Christian</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Lishan</namePart>
+      <namePart type="given">Shi</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Kyoto</placeTerm>
+      </place>
+      <publisher>Editorial committee for the Festschrift in honour of Nishiwaki Tsuneki</publisher>
+      <copyrightDate>2007</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Essays on East Asian Religion and Culture. Festschrift in honour of Nishiwaki Tsuneki on the occasion of his 65th birthday</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

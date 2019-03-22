@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Gaikaijitsuzairon ni oite bukkyō ha seiritsu surunoka [Is a Buddhism that Completely Denies the Existence of the External World Philosophically Tenable?]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kobayashi</namePart>
+    <namePart type="given">Hisayasu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://tripitaka.l.u-tokyo.ac.jp/INBUDS/search.php?m=trdd&amp;usid=128359&amp;a=</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>78</number>
+      </detail>
+      <extent unit="pages">
+        <start>141</start>
+        <end>157</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2013</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">0910-3287</identifier>
+    <titleInfo>
+      <title>Nippon bukkyōgakkai Nenpō [The Journal of the Nippon Buddhist Research Association]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

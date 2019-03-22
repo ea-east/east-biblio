@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-f3b2ff72-a99a-4cd9-94cf-e58cc91fed37" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>tshad ma rnam hgrel leui danpo dan dehi hgrel pa</title>
+        <subTitle>First Chapter of Pramawa-Vartikka and its Commentary By Dharmakirti By Acharya Dharmakirti</subTitle>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Dharamsala</placeTerm>
+        </place>
+        <publisher>Council of Cultural and Religious Affairs of H. H. the Dalai Lama</publisher>
+        <dateIssued encoding="w3cdtf" qualifier="approximate">1970</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <physicalDescription>
+        <extent>267 p.</extent>
+    </physicalDescription>
+    <language>
+        <languageTerm authority="rfc3066" type="code">bo</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Tibt</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">de-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-07+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

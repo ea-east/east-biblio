@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tibetan-Sanskrit Dictionary</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Candra</namePart>
+    <namePart type="given">Lokesh</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Kyoto</placeTerm>
+    </place>
+    <publisher>Rinsen</publisher>
+    <copyrightDate>1976</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

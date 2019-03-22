@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Kumarasambhava 3.15. Kalidasa's Sources for Saiva Theology</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hanneder</namePart>
+    <namePart type="given">Jürgen</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Michael Hahn</namePart>
+      <namePart type="given">Jens-Uwe Hartmann und Roland Steiner</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>43</start>
+        <end>48</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Swisttal-Odendorf</placeTerm>
+      </place>
+      <publisher>Indica et Tibetica</publisher>
+      <copyrightDate>1996</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Suhṛllekhāḥ. Festgabe für Helmut Eimer</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

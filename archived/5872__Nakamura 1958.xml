@@ -1,0 +1,63 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-be267a29-f7f4-46bf-8f75-8791b5f38b17" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo lang="eng" supplied="yes">
+        <title>Japanese translation of the Nyāyapraveśa(tarka)śāstra</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">H.</namePart>
+        <namePart type="family">Nakamura</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued encoding="w3cdtf" point="start">1958</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-3541ee4d-5fce-40d9-8fb7-fbca93657f4c">
+        <language><languageTerm>fi</languageTerm></language><extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-06-21T12:01:51.057+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<originInfo script="Latn">
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm type="text">Tōkyō</placeTerm>
+        </place>
+        <publisher>Daitō Shuppansha</publisher>
+        <dateIssued encoding="w3cdtf" point="start">1929</dateIssued>
+        <dateIssued encoding="w3cdtf" point="end">1943</dateIssued>
+    </originInfo>
+    <name type="personal">
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <titleInfo>
+        <title>Kokuyaku Issaikyō</title>
+        <subTitle>Ronshūbu</subTitle>
+    </titleInfo>
+    <part>
+            <date encoding="w3cdtf">1958</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-14+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Nakamura 1958</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

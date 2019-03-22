@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Karṇabhāra: The Trial of Karṇa: An one-act play attributed to Bhāsa, based on episodes from the Mahābhārata.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Miller</namePart>
+    <namePart type="given">Barbara Stoler</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Sharma</namePart>
+      <namePart type="given">Arvind</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Leiden</placeTerm>
+      </place>
+      <publisher>Brill</publisher>
+      <copyrightDate>1991</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Essays on the Mahābhārata</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The script of the Abhisamācārika-Dharma Palm-leaf Manuscript</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Matsunami</namePart>
+    <namePart type="given">Yasuo</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>131</start>
+        <end>154</end>
+      </extent>
+    </part>
+    <originInfo>
+      <copyrightDate>..</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>A Guide to the Facsimile Edition of the Abhisamācārika-Dharma of the Mahāsāṃghika-Lokottaravādin</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

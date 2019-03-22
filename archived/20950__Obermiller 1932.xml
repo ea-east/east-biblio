@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>History of Buddhism in India and Tibet by Bu-ston</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Obermiller</namePart>
+    <namePart type="given">Eugène</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Heidelberg (Delhi)</placeTerm>
+    </place>
+    <publisher>Harrassowitz (repr. Sri Satguru Publications)</publisher>
+    <copyrightDate>1932 (1986)</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

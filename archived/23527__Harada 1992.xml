@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dignāga ni yoru Nyāya gakuha no chikakuron hihan - PS I NPrP &amp; Vṛtti [Die Kritik an der Wahrnehmungstheorie der Nyāya-Schule bei Dignāga, jap. Übers. von PS I NPrP &amp; Vṛtti]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Harada</namePart>
+    <namePart type="given">Wasō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>5</number>
+      </detail>
+      <extent unit="pages">
+        <start>95</start>
+        <end>115</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1992</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>RDBN</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

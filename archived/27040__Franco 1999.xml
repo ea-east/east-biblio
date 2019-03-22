@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Two Circles or Parallel Lines?</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Franco</namePart>
+    <namePart type="given">Eli</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Katsura</namePart>
+      <namePart type="given">Shoryu</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>63</start>
+        <end>72</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wien</placeTerm>
+      </place>
+      <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+      <copyrightDate>1999</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Dharmakīrti's Thought and Its Impact on Indian and Tibetan Philosophy. Proceedings of the Third International Dharmakīrti Conference, Hiroshima, November 4-6, 1997</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

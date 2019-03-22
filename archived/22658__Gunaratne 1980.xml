@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The logical form of Catuṣkoṭi: A new solution</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Gunaratne</namePart>
+    <namePart type="given">R. D.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>30/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>211</start>
+        <end>239</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1980</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Philosophy East and West</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

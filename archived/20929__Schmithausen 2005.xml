@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Man and world: on the myth of origin of the Aggaññasutta</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Schmithausen</namePart>
+    <namePart type="given">Lambert</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>165</start>
+        <end>182</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Kyoto</placeTerm>
+      </place>
+      <copyrightDate>2005</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Buddhism and Nature (Bukkyō to Shizen). Supplement to the Bulletin of the Research Institute of Bukkyo University</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

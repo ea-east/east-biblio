@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A study of the dKar chag 'Phang thang ma</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kawagoe</namePart>
+    <namePart type="given">Eishin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>51</number>
+      </detail>
+      <extent unit="pages">
+        <start>115</start>
+        <end>131</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2005</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Report of the Japanese Association for Tibetan Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

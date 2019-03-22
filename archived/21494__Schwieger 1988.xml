@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The biographies of the grand lamas of Dagyab (brag-g.yab) as a contribution to the history of East Tibet</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Schwieger</namePart>
+    <namePart type="given">Peter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Uebach</namePart>
+      <namePart type="given">Helga</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Panglung</namePart>
+      <namePart type="given">Jampa L.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>435</start>
+        <end>438</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">München</placeTerm>
+      </place>
+      <publisher>Kommission für Zentralasiatische Studien, Bayrische Akademie der Wissenschaften</publisher>
+      <copyrightDate>1988</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tibetan Studies: Proceedings of the 4th Seminar of the International Association for Tibetan Studies, Schloss Hohenkammer - Munich 1985. (Studia Tibetica. Quellen und Studien zur tibetischen Lexikographie, Band II)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

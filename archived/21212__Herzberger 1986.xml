@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bhartṛhari and the Buddhists: An essay in the development of fifth and sixth century Indian thought</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Herzberger</namePart>
+    <namePart type="given">Radhika</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Dordbrecht et al.</placeTerm>
+    </place>
+    <publisher>D. Reidel Publishing Company</publisher>
+    <copyrightDate>1986</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

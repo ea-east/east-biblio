@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dignāga oyobi sono shūhen no nendai - Fu ,sanji no kōsatsu` wayaku [Dignāga, sein Milieu und seine Zeit - Appendix ,Trikālaparīkṣā` jap. Übersetzung]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hattori</namePart>
+    <namePart type="given">Masaaki</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Kyōto</placeTerm>
+      </place>
+      <copyrightDate>1961</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tsukamoto Zenryū shōju kinen kai hankō. Tsukamoto Zenryū Bukkyō Shigaku Ronshū [Festschrift für Tsukamoto Zenryū].</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

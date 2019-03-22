@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A study of the five aggregates in Theravāda Buddhism: their order and their relation to the doctrine of the paṭiccasamuppāda</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Boisvert</namePart>
+    <namePart type="given">Mathieu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Ottawa, Ontario</placeTerm>
+    </place>
+    <publisher>National Library of Canada</publisher>
+    <copyrightDate>1992</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

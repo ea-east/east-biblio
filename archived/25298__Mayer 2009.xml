@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review of Buddhist Phenomenology: A Philosophical Investigation of Yogācāra Buddhism and the Ch’eng Wei-shih Lun</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Mayer</namePart>
+    <namePart type="given">Alexander L.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>16</number>
+      </detail>
+      <extent unit="pages">
+        <start>191</start>
+        <end>216</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2009</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of Buddhist Ethics</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

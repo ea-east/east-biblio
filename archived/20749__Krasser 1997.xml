@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>rNgog lotsāba on the sahopalambhaniyama proof in Dharmakīrti's Pramāṇaviniścaya</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Krasser</namePart>
+    <namePart type="given">Helmut</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Bareja-Starzynska</namePart>
+      <namePart type="given">Agata</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Mejor</namePart>
+      <namePart type="given">Marek</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>63</start>
+        <end>87</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Warsaw</placeTerm>
+      </place>
+      <publisher>Oriental Institute Warsaw University</publisher>
+      <copyrightDate>1997</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Aspects of Buddhism. Proceedings of the International Seminar on Buddhist Studies. LIW, 25 June 1994 (Studia Indologiczne tom 4)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

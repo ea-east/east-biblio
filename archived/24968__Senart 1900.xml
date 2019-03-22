@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bouddhisme et Yoga</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Senart</namePart>
+    <namePart type="given">Émile</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>42</number>
+      </detail>
+      <extent unit="pages">
+        <start>345</start>
+        <end>363</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1900</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Revue de l'Histoire des Religions</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

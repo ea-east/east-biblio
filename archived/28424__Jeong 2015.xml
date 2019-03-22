@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tattvasaṃgraha oyobi Tattvasaṃgrahapañjikā dai7shō dai6setsu ‘tokushibu ga kōsōfunbetsu suru ātman (pudgala) no kōsatsu’ text kō [Text critical Notes on the Tattvasaṃgraha(pañjikā), Chapter 7, Section 6 Titled “Examination of Self (Ātman) as Imagined by the Vātsīputrīya School”: Amendments to the Bauddha Bharati Edition]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Jeong</namePart>
+    <namePart type="given">SangKyo</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">https://repository.dl.itc.u-tokyo.ac.jp/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=36968&amp;item_no=1&amp;page_id=28&amp;block_id=31</url>
+  </location>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>23</number>
+      </detail>
+      <extent unit="pages">
+        <start>73</start>
+        <end>84</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2015</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">09197907</identifier>
+    <titleInfo>
+      <title>Indotetsugaku Bukkyōgaku Kenkyū</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

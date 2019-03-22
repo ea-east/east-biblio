@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bauddha-saṃskṛti</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Sāṅkṛtyāyana</namePart>
+    <namePart type="given">Rāhula</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Calcutta</placeTerm>
+    </place>
+    <publisher>Ādhunik pustak bhavan</publisher>
+    <copyrightDate>1952</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

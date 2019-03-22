@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mervyn Sprung (tr.), Lucid Exposition of the Middle Way. The Essential Chapters from the Prasannapadā of Candrakīrti. Translated from the Sanskrit by M. Sprung in collaboration with T.R.V. Murti and U.S. Vyas. London, Henley: Routledge &amp; Kegan Paul, 1979</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Jong</namePart>
+    <namePart type="given">J. W. De</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>23</number>
+      </detail>
+      <extent unit="pages">
+        <start>227</start>
+        <end>230</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1981</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indo-Iranian Journal</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

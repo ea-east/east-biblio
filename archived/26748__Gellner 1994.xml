@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Priests, Healers, Mediums and Witches: The Context of Possession in the Kathmandu Valley, Nepal</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Gellner</namePart>
+    <namePart type="given">David N.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>29(1)</number>
+      </detail>
+      <extent unit="pages">
+        <start>27</start>
+        <end>48</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1994</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Man</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

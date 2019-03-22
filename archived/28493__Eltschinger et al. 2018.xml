@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmakīrti’s Theory of Exclusion (apoha). Part I. On Concealing. An Annotated Translation of Pramāṇavārttikasvavṛtti 24,16–45,20 (Pramāṇavārttika 1.40–91)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Eltschinger</namePart>
+    <namePart type="given">Vincent</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Taber</namePart>
+    <namePart type="given">John</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Much</namePart>
+    <namePart type="given">Michael Torsten</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Ratié</namePart>
+    <namePart type="given">Isabelle</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Tokyo</placeTerm>
+    </place>
+    <publisher>International Institute for Buddhist Studies</publisher>
+    <copyrightDate>2018</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <relatedItem type="series">
+    <titleInfo>
+      <title>Studia Philologica Buddhica</title>
+    </titleInfo>
+    <part>
+      <detail type="volume">
+        <number>36</number>
+      </detail>
+    </part>
+  </relatedItem>
+</mods>

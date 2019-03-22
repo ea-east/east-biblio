@@ -1,0 +1,82 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-26eeff5b-eb24-4e7e-aa5a-3ed685281d3e" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-1dff5de6-d461-470c-8382-11e1677a919f">
+        <language><languageTerm>fi</languageTerm></language><extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-02-13T11:50:33.849+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<titleInfo type="abbreviated">
+        <title>BGH</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Bukkyōgaku kaihō</title>
+    </titleInfo>
+    <genre authority="marcgt">periodical</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Wakayama</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol</caption>
+                <number>12</number>
+            </detail>
+            <extent unit="pages">
+                <start>21</start>
+                <end>38</end>
+            </extent>
+            <date encoding="w3cdtf">1986</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-02-13T12:00:53.888+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-02-13T12:16:48.416+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-02-13T12:17:52.12+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-02-13T12:20:49.591+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <titleInfo supplied="yes">
+        <title>Dignāga no apoha ron kenkyū nōto 3: “Chishikiron shūsei” daigo shō no Sanskrit danpen wo chūshin ni shite</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>A study of the apoha theory of Dignāga 3</title>
+    </titleInfo>
+    <name>
+        <namePart type="family" transliteration="japanese/ala-lc">Harada</namePart>
+        <namePart type="given" transliteration="japanese/ala-lc">Wasō</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+</mods>

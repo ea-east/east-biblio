@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Survey of the Sanskrit Manuscripts in the Turfan Collection. (Vortrag anläßlich des Workshops Digitalisierung der chinesischen, tibetischen, syrischen und Sanskrit-Texte der Berliner Turfansammlung, Berlin, 02.06.2005)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Wille</namePart>
+    <namePart type="given">Klaus</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berlin</placeTerm>
+    </place>
+    <publisher>Berliner Turfansammlung</publisher>
+    <copyrightDate>2005</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Wonder that was India. A survey of the history and culture of the Indian sub-continent before the coming of the Muslims.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Basham</namePart>
+    <namePart type="given">Arthur Lewellyn</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">New York</placeTerm>
+    </place>
+    <publisher>Grove Press</publisher>
+    <copyrightDate>1959</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

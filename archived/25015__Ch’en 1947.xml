@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Study of the Svāgata Story in the Divyāvadāna in its Sanskrit, Pāli, Tibetan, and Chinese Versions</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ch'en</namePart>
+    <namePart type="given">Kenneth K. S.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>9/3-4</number>
+      </detail>
+      <extent unit="pages">
+        <start>207</start>
+        <end>314</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1947</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Harvard Journal of Asiatic Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

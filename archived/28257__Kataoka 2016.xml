@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>tadvat to apohavat: Genteikankei wo meguru Dignāga to Kumārila no ichi giron [Tadvat and Apohavat: Dignāga and Kumārila on viśeṣaṇaviśeṣyatva]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kataoka</namePart>
+    <namePart type="given">Kei</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40020930366/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>11</number>
+      </detail>
+      <extent unit="pages">
+        <start>49</start>
+        <end>74</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2016</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">1881-2074</identifier>
+    <titleInfo>
+      <title>Minamiajia kotengaku [South Asian Classical Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

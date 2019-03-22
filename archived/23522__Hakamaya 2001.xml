@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Pramāṇa-bhūta hoki [Ṇachtrag über Pramāṇa-bhūta]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hakamaya</namePart>
+    <namePart type="given">Noriaki</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>29</number>
+      </detail>
+      <extent unit="pages">
+        <start>433</start>
+        <end>448</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2001</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Komazawa-tankidaigaku Kenkyū-kiyo̅</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

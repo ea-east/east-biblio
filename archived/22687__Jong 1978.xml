@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Jeffrey Hopkins and Lati Rimpoche with Anne Klein (tr. and eds.), The Precious Garland and The Song of the Four Mindfulnesses (= The Wisdom of Tibet Series 2). London: George Allen and Unwin Ltd., 1975</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Jong</namePart>
+    <namePart type="given">J. W. De</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>20</number>
+      </detail>
+      <extent unit="pages">
+        <start>136</start>
+        <end>140</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1978</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indo-Iranian Journal</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

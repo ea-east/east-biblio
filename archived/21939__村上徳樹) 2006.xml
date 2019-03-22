@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>mKhas grub rje no PV III.338-340 no kaishaku ni tsuite [* On mKhas grub rje's interpretation of PV 3.338-340]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">(村上徳樹)</namePart>
+    <namePart type="given">Tokuki Murakami</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>54/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>1104</start>
+        <end>1101</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2006</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IBK</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

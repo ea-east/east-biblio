@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tibetan and Burmese [jap.]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Nishida</namePart>
+    <namePart type="given">Tatsuo</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>15</number>
+      </detail>
+      <extent unit="pages">
+        <start>64</start>
+        <end>48</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1957</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tōhōgaku [Eastern Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

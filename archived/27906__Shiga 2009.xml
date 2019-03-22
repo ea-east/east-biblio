@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tattvasaṃgraha oyobi Tattvasaṃgrahapañjikā dai 18 shō “suiri no kōsatsu (Anumānaparīkṣā)” wayaku to yakuchū (3) [An Annotated Translation of the 18th Chapter (Anumānaparīkṣā) of the Tattvasaṃgraha and Pañjikā thereon (3)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Shiga</namePart>
+    <namePart type="given">Kiyokuni</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40016958603/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <recordInfo>
+    <recordContentSource>CiNii</recordContentSource>
+  </recordInfo>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>13</number>
+      </detail>
+      <extent unit="pages">
+        <start>98</start>
+        <end>140</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2009</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">13427377</identifier>
+    <titleInfo>
+      <title>Indogaku Chibettogaku Kenkyū [Jornal of Indian and Tibetan Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

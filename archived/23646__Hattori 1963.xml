@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Shinri kōyō ni okeru ga ron hihan - Mīmāṃsā Sāṃkhya no sōtei suru ga no kōsatsu [Kritik der Ātman-Lehre im Tattvasaṃgraha - Betrachtungen über den Ātman, wie er in der Mīmāṃsā und im Sāṃkhya angenommen wird]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hattori</namePart>
+    <namePart type="given">Masaaki</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Hajime</namePart>
+      <namePart type="given">Nakamura</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>518</start>
+        <end>546</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Kyōto: Hegakuji (?)</placeTerm>
+      </place>
+      <copyrightDate>1963</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Jiga to Muga</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

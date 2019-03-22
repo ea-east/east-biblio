@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On the Method of the Nyāya Research (Translated from the German original by Piotr Balcerowicz)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Schayer</namePart>
+    <namePart type="given">Stanislaw</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <extent unit="pages">
+        <start>35</start>
+        <end>43</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2001</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The International Seminar: Argument and Reason in Indian Logic</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

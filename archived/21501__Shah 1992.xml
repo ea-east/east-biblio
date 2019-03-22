@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A study of Jayanta Bhaṭṭa's Nyāyamañjarī. A mature Sanskrit work on Indian Logic. Part 1</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Shah</namePart>
+    <namePart type="given">Nagin J.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Ahmedabad</placeTerm>
+    </place>
+    <publisher>Jagruti Dilip Sheth</publisher>
+    <copyrightDate>1992</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

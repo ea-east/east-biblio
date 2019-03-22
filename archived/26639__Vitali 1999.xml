@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On Byams pa and Thub chen lha khang of Glo sMos thang</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Vitali</namePart>
+    <namePart type="given">Roberto</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>24</number>
+      </detail>
+      <extent unit="pages">
+        <start>3</start>
+        <end>28</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1999</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Tibet Journal</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

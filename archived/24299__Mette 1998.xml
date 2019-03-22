@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Die Schule des Yogin</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Mette</namePart>
+    <namePart type="given">Adelheid</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Khoury</namePart>
+      <namePart type="given">A. Th</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Vanoni</namePart>
+      <namePart type="given">G.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>251</start>
+        <end>263</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Würzburg / Altenberge</placeTerm>
+      </place>
+      <publisher>Echter Verlag, Würz./Oros Verlag, Alten.</publisher>
+      <copyrightDate>1998</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>"Geglaubt habe ich, deshalb habe ich geredet". Festschrift für Andreas Bsteh zum 65. Geburtstag. Religionswissenschaftliche Studien 47</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

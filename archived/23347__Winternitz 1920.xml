@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Geschichte der indischen Litteratur. Bd. 2.1 und 2.2: Die buddhistische Litteratur und die heiligen Texte der Jainas.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Winternitz</namePart>
+    <namePart type="given">Moriz</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Leipzig</placeTerm>
+    </place>
+    <publisher>Amelangs</publisher>
+    <copyrightDate>1920</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

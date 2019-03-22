@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Eugène Burnouf: The Backgound to his Research into the Lotus Sutra</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Yuyama</namePart>
+    <namePart type="given">Akira</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Tokyo</placeTerm>
+    </place>
+    <publisher>IRIABS</publisher>
+    <copyrightDate>2000</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

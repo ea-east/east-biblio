@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>An Appendix to the New Edition to the Bodhicayāvatāra</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Mukhopadhyaya</namePart>
+    <namePart type="given">Sujitkumar</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>37</number>
+      </detail>
+      <extent unit="pages">
+        <start>287</start>
+        <end>292</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1961</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indian Historical Quaterly</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

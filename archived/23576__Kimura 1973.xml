@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Seiri Shōrongakuha no shinron ni Śāntarakushita ni okeru [Über den Īśvaravāda des Nyāya-Vaiśeṣika. Die Polemik der buddhistischen Logiker]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kimura</namePart>
+    <namePart type="given">Toshihiko</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>213</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1973</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Shūkyō Kenkyū</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Anmerkungen)</namePart>
+    <namePart type="given">Annandale et al (siehe</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>N.S. ,Vol.1 [1905]</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1906</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal and Proceedings of the Asiatic Society of Bengal</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

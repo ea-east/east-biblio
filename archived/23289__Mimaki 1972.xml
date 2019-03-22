@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Kōjōsei hihan Sthirasiddhidūṣaṇa - Ratnakīrti: Sthirasiddhidūṣaṇa to TS(P): Sthirabhāvaparīkṣā no hikaku [Buddhist Criticism on Permanent Existence - On the Relation of Śāntarakṣita's Sthirabhāvaparīkṣā and Ratnakīrti's Sthirasiddhidūṣaṇa]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Mimaki</namePart>
+    <namePart type="given">Katsumi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>20/2</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1972</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IBK</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

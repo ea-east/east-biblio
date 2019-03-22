@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Two Conquests of Zhang zhung and the Many Lig-Kings of Bon: A Structural Analysis of the Bon ma nub pa'i gtan tshigs</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Blezer</namePart>
+    <namePart type="given">Henk</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Chayet</namePart>
+      <namePart type="given">Anne</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Scherrer-Schaub</namePart>
+      <namePart type="given">Cristina</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Robin</namePart>
+      <namePart type="given">Françoise</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Achard</namePart>
+      <namePart type="given">Jean-Luc</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>19</start>
+        <end>63</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">München</placeTerm>
+      </place>
+      <publisher>Indus Verlag</publisher>
+      <copyrightDate>2010</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Edition, éditions: l'écrit au Tibet, évolution et devenir</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

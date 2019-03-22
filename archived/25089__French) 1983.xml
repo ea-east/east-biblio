@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Lalitavistara Sūtra. The Voice of the Buddha. The Beauty of Compassion (- 'Phags-pa rgya-cher-rol-pa zhes-bya-ba theg-pa chen-po'i mdo -) Vol. II</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">French)</namePart>
+    <namePart type="given">Gwendolyn Bays (tr into Engl from the</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berkeley, California</placeTerm>
+    </place>
+    <publisher>Dharma Publishing</publisher>
+    <copyrightDate>1983</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

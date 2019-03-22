@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmottara ha apoha ron de nani wo hitei shitanoka? [What did Dharmottara deny in his theory of apoha?]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kataoka</namePart>
+    <namePart type="given">Kei</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40019772774/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>8</number>
+      </detail>
+      <extent unit="pages">
+        <start>51</start>
+        <end>73</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2013</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">1881-2074</identifier>
+    <titleInfo>
+      <title>Minamiajia kotengaku [South Asian Classical Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

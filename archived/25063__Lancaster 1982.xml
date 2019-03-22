@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Paul Demiéville, Hubert Durt and Anna Seidel, Répertoire du Canon Bouddhique Sino-Japanais. Edition de Taishō. Fascicule Annexe du Hōbōgirin, Edition Révisée et Augmentée. L'Académie des Inscriptions et Belles-Lettres, Institut de France: Tōkyō and Paris, 1978</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Lancaster</namePart>
+    <namePart type="given">Lewis R.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>5/2</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1982</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIABS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

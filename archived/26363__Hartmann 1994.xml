@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Der Ṣaṭsūtraka-Abschnitt des in Ostturkistan überlieferten Dīrghāgama</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hartmann</namePart>
+    <namePart type="given">Jens-Uwe</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>324</start>
+        <end>334</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Stuttgart</placeTerm>
+      </place>
+      <publisher>Franz-Steiner</publisher>
+      <copyrightDate>1994</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>XXV. Deutscher Orientalistentag, 1991 (ZDMG-Suppl. 10)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

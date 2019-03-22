@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Concepts of Science in Europe and Asia [this lecture was delivered ... on the occasion of the official opening of the IIAS at Leiden on October 13,1993]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Staal</namePart>
+    <namePart type="given">Frits</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">(ed.)</namePart>
+    <namePart type="given">Paul van der Velde</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Leiden</placeTerm>
+    </place>
+    <publisher>IIAS</publisher>
+    <copyrightDate>1993</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

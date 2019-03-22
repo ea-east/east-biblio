@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Narrative paintings in 12th-13th century manuscripts: an examination of photographs taken by Rāhula Sāṅkṛtyāyana at the Ñor monastery, Tibet</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Allinger</namePart>
+    <namePart type="given">Eva</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>6</number>
+      </detail>
+      <extent unit="pages">
+        <start>101</start>
+        <end>115</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2001</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of Bengal Art</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review of: Susan Whitfield, Ursula Sims-Williams - The Silk Road. Trade, Travel, War and Faith (Serindia Publications, 2004)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Schmitt</namePart>
+    <namePart type="given">Rüdiger</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>158</number>
+      </detail>
+      <extent unit="pages">
+        <start>207</start>
+        <end>209</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2008</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>ZDMG</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

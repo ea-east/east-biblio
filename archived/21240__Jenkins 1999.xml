@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The circle of compassion: An interpretive study of karuṇā in Indian Buddhist literature</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Jenkins</namePart>
+    <namePart type="given">Stephen L.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Cambridge, Massachusetts</placeTerm>
+    </place>
+    <publisher>Harvard University</publisher>
+    <copyrightDate>1999</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

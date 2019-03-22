@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Pierre Hadot et les “exercices spirituels”: Quel modèle pour la philosophie bouddhique tardive?</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Eltschinger</namePart>
+    <namePart type="given">Vincent</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>62</number>
+      </detail>
+      <extent unit="pages">
+        <start>485</start>
+        <end>544</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2008</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Asiatische Studien / Études Asiatiques</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

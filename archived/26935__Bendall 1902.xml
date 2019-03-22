@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Çikshāsamuccaya. A Compendium of Buddhistic Teaching Compiled by Çāntideva Chefily from Earlier Mahāyāna-Sūtras.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Bendall</namePart>
+    <namePart type="given">Cecil</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">St.-Pétersbourg</placeTerm>
+    </place>
+    <publisher>Académie Imperiale des Sciences</publisher>
+    <copyrightDate>1902</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

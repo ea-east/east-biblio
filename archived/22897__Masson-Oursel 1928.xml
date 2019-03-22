@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>La spécificité de la psychologie indienne</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Masson-Oursel</namePart>
+    <namePart type="given">P.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>3</start>
+        <end>16</end>
+      </extent>
+    </part>
+    <originInfo>
+      <publisher>Melun Imprimerie Administrative</publisher>
+      <copyrightDate>1928</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Annuaire 1928-1929 de l'École Pratique des Hautes-Études - Section des sciences religieuses. Rapport sur l'Exercice 1927-1928. Programme des Conférences pour l'Exercice 1928-1929</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

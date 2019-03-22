@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Nichtselbst, Leerheit und altruistische Ethik im Bodhicaryāvatāra</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Schmithausen</namePart>
+    <namePart type="given">Lambert</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Preisendanz</namePart>
+      <namePart type="given">Karin</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Vienna</placeTerm>
+      </place>
+      <publisher>Österreichische Akademie der Wissenschaften</publisher>
+      <copyrightDate>2007</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Expanding and Merging Horizons. Contributions to South Asian and Cross-Cultural Studies in Commemoration of Wilhelm Halbfass</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

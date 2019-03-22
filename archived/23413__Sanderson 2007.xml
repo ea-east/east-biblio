@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Saiva Exegesis of Kashmir</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Sanderson</namePart>
+    <namePart type="given">Alexis</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Padoux</namePart>
+      <namePart type="given">Dominic Goodall &amp; André</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Pondicherry</placeTerm>
+      </place>
+      <publisher>Institut français d'Indologie / École française d'Extreme-Orient, 2007</publisher>
+      <copyrightDate>2007</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Mélanges tantriques à la mémoire d'Hélène Brunner / Tantric Studies in Memory of Hélène Brunner</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

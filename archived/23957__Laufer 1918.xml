@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Origin of Tibetan writing</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Laufer</namePart>
+    <namePart type="given">Berthold</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>38</number>
+      </detail>
+      <extent unit="pages">
+        <start>34</start>
+        <end>46</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1918</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JAOS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The origins and early history of the Mahāratnakūṭa tradition of Mahāyāna Buddhism with a study of the Ratnarāśisūtra and related materials. (Vols. 1 &amp; 2)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Silk</namePart>
+    <namePart type="given">Jonathan A.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Michigan</placeTerm>
+    </place>
+    <publisher>University of Michigan</publisher>
+    <copyrightDate>1994</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

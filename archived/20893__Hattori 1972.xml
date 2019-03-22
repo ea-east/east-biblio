@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Praśastapāda and Dignāga. A note on the development of the Vaiśeṣika theory of anumāna</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hattori</namePart>
+    <namePart type="given">Masaaki</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>16</number>
+      </detail>
+      <extent unit="pages">
+        <start>169</start>
+        <end>180</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1972</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>WZKS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

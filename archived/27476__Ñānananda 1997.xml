@@ -1,0 +1,20 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Concept and Reality in Early Buddhist Thought. An Essay on Papañca and Papañca-Sañña-Sankhā.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Ñānananda</namePart>
+    <namePart type="given">Bhikkhu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <publisher>Buddhist Publication Society</publisher>
+    <copyrightDate>1997</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

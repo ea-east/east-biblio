@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The dialectic which refutes errors. Establishing logical reasons - Ācārya Āryadeva</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Clark</namePart>
+    <namePart type="given">Robert W.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Jamspal</namePart>
+    <namePart type="given">Acharya Lozang</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>2/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>14</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1978</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Glory of India</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

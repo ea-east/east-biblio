@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>How Can the Word “Cow” Exclude Non-cows? Description of Meaning in Dignāga’s Theory of Apoha</title>
+  </titleInfo>
+  <titleInfo type="abbreviated">
+    <title>How Can the Word “Cow” Exclude Non-cows?</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Yoshimizu</namePart>
+    <namePart type="given">K</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+  </language>
+  <note>OCLC: 7161785013</note>
+  <recordInfo>
+    <recordContentSource>Open WorldCat</recordContentSource>
+  </recordInfo>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>45</number>
+      </detail>
+      <detail type="issue">
+        <number>5</number>
+      </detail>
+      <extent unit="pages">
+        <start>973</start>
+        <end>1012</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2017</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">0022-1791</identifier>
+    <titleInfo>
+      <title>JOURNAL OF INDIAN PHILOSOPHY</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

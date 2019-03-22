@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Mireille Helffer, Les chants dans l'épopée tibétaine de Ge-sar d'après le livre de la course de cheval. Version chantée de Blo-bzaṅ bstan-'jin. Centre de recherche d'histoire et de philologie de la IVe Section de l'École Pratique des Hautes Études Orientales 9. Genève: Librairie Droz, 1977</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kvaerne</namePart>
+    <namePart type="given">Per</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>21</number>
+      </detail>
+      <extent unit="pages">
+        <start>202</start>
+        <end>207</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1979</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IIJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

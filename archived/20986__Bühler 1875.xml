@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dr. Bühler on the Celebrated Bhaṇḍâr of Sanskṛit mss. at Jessalmir</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Bühler</namePart>
+    <namePart type="given">Georg</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>March 1875</number>
+      </detail>
+      <extent unit="pages">
+        <start>81</start>
+        <end>83</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1875</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Indian Antiquary</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

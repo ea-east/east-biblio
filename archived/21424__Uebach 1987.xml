@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>NEL-PA PAṆḌITAS CHRONIK ME-TOG PHREṄ-BA. Handschrift der Library of Tibetan Works and Archives. Tibetischer Text in Faksimile, Transkription und Übersetzung.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Uebach</namePart>
+    <namePart type="given">Helga</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">München</placeTerm>
+    </place>
+    <publisher>Kommission für zentralasiatische Studien. Bayerische Akademie der Wissenschaften.</publisher>
+    <copyrightDate>1987</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

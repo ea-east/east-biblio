@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Sanskrit-Kompendium. Ein Lehr-, Übungs- und Nachschlagewerk. Devanagari-Ausgabe (3., überarbeitete Auflage)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Stiehl</namePart>
+    <namePart type="given">Ulrich</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>308–351 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Heidelberg</placeTerm>
+    </place>
+    <publisher>Economica Verlag</publisher>
+    <copyrightDate>2004</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

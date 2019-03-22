@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="corporate">
+    <namePart>various</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <name type="personal">
+      <namePart type="family">Gellner</namePart>
+      <namePart type="given">David N.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <detail type="volume">
+        <number>XXI / 2</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1990</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the Anthropological Society of Oxford</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

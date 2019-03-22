@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Vyākaraṇa Mahābhāṣya of Patañjali on Pāṇini 3.1 (Āhnikas 1 to 6) (2)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Thompson</namePart>
+    <namePart type="given">Stephen Peter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>24</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>64</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2004</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Nagoya Studies in Indian Culture and Buddhism. Saṃbhāṣā</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Britain and Tibet 1765–1947: A Select Annotated Bibliography of British Relations with Tibet and the Himalayan States Including Nepal, Sikkim and Bhutan. Revised and Updated to 2003</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Marshall</namePart>
+    <namePart type="given">Julie G.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">London &amp; New York</placeTerm>
+    </place>
+    <publisher>RoutledgeCurzon</publisher>
+    <copyrightDate>2005</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Brief Survey of Japanese Studies on the Philosophical School of the Mahāyāna</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Nakamura</namePart>
+    <namePart type="given">Hajime</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>1</number>
+      </detail>
+      <extent unit="pages">
+        <start>56</start>
+        <end>88</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1960</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Acta Asiatica - Bulletin of the Institute of Eastern Culture</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

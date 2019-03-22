@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Kumārila, Īśvarasena, and Dharmakīrti in Dialogue. A New Interpretation of Pramāṇavārttika I 33</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Steinkellner</namePart>
+    <namePart type="given">Ernst</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Kiefer-Pülz</namePart>
+      <namePart type="given">Petra</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Hartmann</namePart>
+      <namePart type="given">Jens-Uwe</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <detail type="volume">
+        <number>30</number>
+      </detail>
+      <extent unit="pages">
+        <start>625</start>
+        <end>646</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Swisttal-Odendorf</placeTerm>
+      </place>
+      <publisher>Indica and Tibetica Verlag</publisher>
+      <copyrightDate>1997</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bauddhavidyāsudhākaraḥ, Studies in Honour of Heinz Bechert on the Occasion of His 65th Birthday</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

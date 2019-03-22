@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmakīrti's Pramāṇaviniścaya</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Hugon</namePart>
+    <namePart type="given">Pascale</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Tomabechi</namePart>
+    <namePart type="given">Toru</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Beijing, Vienna</placeTerm>
+    </place>
+    <publisher>China Tibetology Research Center, Austrian Academy of Sciences</publisher>
+    <copyrightDate>2011</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="series">
+    <titleInfo>
+      <title>Sanskrit Texts From the Tibetan Autonomous Region</title>
+    </titleInfo>
+    <part>
+      <detail type="volume">
+        <number>8</number>
+      </detail>
+    </part>
+  </relatedItem>
+</mods>

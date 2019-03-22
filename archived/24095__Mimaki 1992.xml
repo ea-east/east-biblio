@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Annotated translation of the chapter on the Yogācāra of the Blo gsal grub mtha' - part one</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Mimaki</namePart>
+    <namePart type="given">Katsumi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>31</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>49</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1992</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Memoirs of the Faculty of Letters</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

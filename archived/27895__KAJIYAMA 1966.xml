@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>AN INTRODUCTION TO BUDDHIST PHILOSOPHY : AN ANNOTATED TRANSLATION OF THE TARKABHASA OF MOKSAKARAGUPTA</title>
+  </titleInfo>
+  <titleInfo type="abbreviated">
+    <title>AN INTRODUCTION TO BUDDHIST PHILOSOPHY</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">KAJIYAMA</namePart>
+    <namePart type="given">YUICHI</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display" dateLastAccessed="CURRENT_TIMESTAMP">http://ci.nii.ac.jp/naid/110000056860</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <recordInfo>
+    <recordContentSource>CiNii</recordContentSource>
+  </recordInfo>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>10</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>173</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>March 1966</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">04529774</identifier>
+    <titleInfo>
+      <title>Memoirs of the Department of Literature, Kyoto University</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

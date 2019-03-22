@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhist Yoga. A Comprehensive Course</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">(tr.)</namePart>
+    <namePart type="given">Thomas Cleary</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">New Delhi</placeTerm>
+    </place>
+    <publisher>Rupa &amp; Co (Shambhala South Asia Editions)</publisher>
+    <copyrightDate>1999 (1995)</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

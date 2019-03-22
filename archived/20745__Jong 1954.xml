@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Shackleton Bailey, D. R.: The Śatapañcāśatka of Mātṛceṭa. Sanskrit text, Tibetan translation &amp; commentary and Chinese translation, University Pess, 1951, XI + 237 p.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Jong</namePart>
+    <namePart type="given">J. W. de</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>42/5</number>
+      </detail>
+      <extent unit="pages">
+        <start>397</start>
+        <end>405</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1954</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>TP</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

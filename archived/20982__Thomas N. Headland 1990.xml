@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Emics and Etics. The Insider/Outsider Debate.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Thomas N. Headland</namePart>
+    <namePart type="given">Marvin Harris, Kenneth L. Pike</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Newbury Park/London/Delhi</placeTerm>
+    </place>
+    <publisher>Sage Publications</publisher>
+    <copyrightDate>1990</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

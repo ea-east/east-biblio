@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Grammar of Epic Sanskrit [Indian Philology and South Asian Studies 5]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Oberlies</namePart>
+    <namePart type="given">Thomas</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>601 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berlin-New York</placeTerm>
+    </place>
+    <publisher>Walter de Gruyter</publisher>
+    <copyrightDate>2003</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

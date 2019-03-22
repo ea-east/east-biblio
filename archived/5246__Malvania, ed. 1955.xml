@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-b54eb4df-5c6f-4946-afef-d1f88ed2b9c1" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Paṇḍita Durveka Miśra's Dharmottarapradīpa</title>
+        <subTitle>Being a sub-commentary on Dharmottara's Nyāyabinduṭīkā, a commentary on Dharmakīrti's Nyāyabindu</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Dalsukhbhai</namePart>
+        <namePart type="family">Malvania</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Patna</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1955</dateIssued>
+        <publisher>K. P. Jayaswal Research Institute</publisher>
+    </originInfo>
+    <physicalDescription>
+        <extent>VII, LX, 303 p.</extent>
+    </physicalDescription>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <dateIssued encoding="w3cdtf">1971</dateIssued>
+            <edition>second revised edition</edition>
+        </originInfo>
+        <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-7eab5bd6-4e78-480f-bb05-de526a75c8de">
+            <part>
+                <detail type="volume">
+                    <caption>vol.</caption>
+                    <number>2</number>
+                </detail>
+            </part>
+        </relatedItem>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">sa</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Deva</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

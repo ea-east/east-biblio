@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Indian Buddhist Mahādeva in Tibetan Sources</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Silk</namePart>
+    <namePart type="given">Jonathan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>15</number>
+      </detail>
+      <extent unit="pages">
+        <start>27</start>
+        <end>55</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2008</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Studies in Indian Philosophy and Buddhism</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

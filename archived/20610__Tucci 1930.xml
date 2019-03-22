@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Nyāyamukha of Dignāga. The oldest Buddhist Text on Logic after Chinese and Tibetan materials</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Tucci</namePart>
+    <namePart type="given">Giuseppe</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Heidelberg</placeTerm>
+    </place>
+    <copyrightDate>1930</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

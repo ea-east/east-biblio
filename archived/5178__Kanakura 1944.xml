@@ -1,0 +1,72 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-3c545c2f-6b09-4460-b373-600935054a1c" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Hōshō no Ryōkyōshaku to Jaina kyōsetsu</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Dharmakīrti's Pramāṇavārttika and the Jaina system</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Yenshō</namePart>
+        <namePart type="family">Kanakura</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Tōkyō</placeTerm>
+        </place>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-d2029aed-5c3b-4039-b4cb-9450ebbea5d0">
+        <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+<language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Japn</scriptTerm>
+    </language>
+    <originInfo script="Latn">
+        <place>
+            <placeTerm type="text">Tōkyō</placeTerm>
+        </place>
+        <publisher>Baifūkan</publisher>
+        <dateIssued encoding="w3cdtf">1944</dateIssued>
+    </originInfo>
+    <titleInfo lang="jap" script="jpan">
+        <title>印度精神文化の研究</title>
+        <subTitle>特にヂャイナを中心として</subTitle>
+    </titleInfo>
+    <titleInfo lang="jap" transliteration="japanese/ala-lc">
+        <title>Indo seishin bunka no kenkyū</title>
+        <subTitle>toku ni Jaina o chūshin to shite</subTitle>
+    </titleInfo>
+    <part>
+            <extent unit="pages">
+                <start>355</start>
+                <end>396</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Japn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-07+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

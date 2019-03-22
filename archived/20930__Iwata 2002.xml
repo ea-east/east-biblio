@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bukkyō ronrigaku ni yoru seson no ryōsei shōmei ni okeru himin. Compassion in Proving the Buddha's Authority within the Buddhist Logical School</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Iwata</namePart>
+    <namePart type="given">Takashi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>104</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>2002</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>THG</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

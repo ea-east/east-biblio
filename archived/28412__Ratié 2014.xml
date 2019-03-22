@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Une critique bouddhique du Soi selon la Mīmāṃsā: présentation, édition critique et traduction de la "Mīmāṃsākaparikalpitātmaparīkṣā" de Sāntarakṣita ("Tattvasaṅgraha"222-284 et "Pañjikā")</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Ratié</namePart>
+    <namePart type="given">Isabelle</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>XIII, 371 S. p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wien</placeTerm>
+    </place>
+    <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+    <copyrightDate>2014</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <identifier type="isbn">978-3-7001-7665-7</identifier>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="series">
+    <titleInfo>
+      <title>Beiträge zur Kultur- und Geistesgeschichte Asiens</title>
+    </titleInfo>
+    <part>
+      <detail type="volume">
+        <number>84</number>
+      </detail>
+    </part>
+  </relatedItem>
+</mods>

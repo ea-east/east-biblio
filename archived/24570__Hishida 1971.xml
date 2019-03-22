@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tattvasaṃgraha no wayaku-keisetsu (2) [Tattvasaṃgraha translated into Japanese with Annotation (2)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hishida</namePart>
+    <namePart type="given">Kunio</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>15</number>
+      </detail>
+      <extent unit="pages">
+        <start>215</start>
+        <end>234</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1971</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Nagoya Shōka Daigaku Ronshū [Bulletin of Faculty of Commerce - Nagoya Commercial University]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

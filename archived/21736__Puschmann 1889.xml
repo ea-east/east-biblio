@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Geschichte des medicinischen Unterrichts von der ältesten Zeit bis zur Gegenwart</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Puschmann</namePart>
+    <namePart type="given">Theodor</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>191–399 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Leipzig</placeTerm>
+    </place>
+    <publisher>Veit &amp; Comp.</publisher>
+    <copyrightDate>1889</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Die Anschauungen von den Konstitutionstypen in der Medizin Altindiens und unserer Zeit</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hilgenberg</namePart>
+    <namePart type="given">Luise</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="corporate">
+      <namePart>Heffening</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Kirfel</namePart>
+      <namePart type="given">W. ;</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>W.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>156</start>
+        <end>162</end>
+      </extent>
+    </part>
+    <originInfo>
+      <publisher>Brill</publisher>
+      <copyrightDate>1935</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Studien zur Geschichte und Kultur des Nahen und Fernen Ostens</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

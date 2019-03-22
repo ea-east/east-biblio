@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-10310880-44bf-4ec9-8ce0-1addcb90a521" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Bukkyō ronrigakuha no hashin ron</title>
+        <subTitle>Śubhagupta to Sāntarakṣita no baai</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>The</nonSort>
+        <title>refutation of the Īśvara doctrine by the Buddhist school of logic</title>
+        <subTitle>the case of Śubhagupta and Śāntarakṣita</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given" transliteration="japanese/ala-lc">Shigeaki</namePart>
+        <namePart type="family" transliteration="japanese/ala-lc">Watanabe</namePart>
+        <namePart type="given" lang="jpn" script="jpan">重朗</namePart>
+        <namePart type="family" lang="jpn" script="jpan">渡辺</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-c15c77ce-8b1f-47bd-b6b7-7251e6dabd44">
+        <language><languageTerm>fi</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>Mikkyōgaku</title>
+    </titleInfo>
+    <titleInfo lang="jpn" script="jpan">
+        <title>密教学</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc">
+        <title>Mikkyōgaku</title>
+    </titleInfo>
+    <part>
+            <date encoding="w3cdtf">1977</date>
+            <extent unit="pages">
+                <start>579</start>
+                <end>593</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-15+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Watanabe 1977b</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

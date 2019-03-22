@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Sūtra-samuccaya no Sakusha ni tsuite [The Author of Sūtra-samuccaya]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ichishima</namePart>
+    <namePart type="given">Masao</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>16/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>844</start>
+        <end>846</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1968</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indogaku Bukkyōgaku Kenkyū [Journal of Indian and Buddhist Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

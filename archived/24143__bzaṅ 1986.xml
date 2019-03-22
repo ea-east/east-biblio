@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tshad ma'i lo rgyus dar ṭīka mdzes rgyan. rtsom pa po ācarya khaṅ dkar tshul khrims skal bzaṅ [A History of Logical Studies in Tibet (in Tibetan)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">bzaṅ</namePart>
+    <namePart type="given">Tshul khrim skal</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>7</number>
+      </detail>
+      <extent unit="pages">
+        <start>55</start>
+        <end>96</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1986</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Saṃbhāṣā</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

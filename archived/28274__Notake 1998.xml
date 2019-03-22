@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Fuhen (sāmānya) no chikaku wo meguru giron: Tattvasaṃgraha, vv. 721-731 [Study on the Universal (sāmānya) in the Tattvasaṃgraha]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Notake</namePart>
+    <namePart type="given">Miyako</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40005116000/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>43</number>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+      </detail>
+      <extent unit="pages">
+        <start>15</start>
+        <end>26</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1998</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">13417517</identifier>
+    <titleInfo>
+      <title>Waseda Daigaku Daigakuin Bungaku Kenkyūka Kiyō. Daiichi Bunsatsu [Bulletin of the Graduate Division of Literature of Waseda University. I]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

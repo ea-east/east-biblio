@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Two main sorts of nihilism distinguished by Rol-pa'i rdo-rje relying on rJe Tsong-kha-pa</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Fehér</namePart>
+    <namePart type="given">Judit</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Sárközi</namePart>
+      <namePart type="given">Alice</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Rákos</namePart>
+      <namePart type="given">Attila</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>126</start>
+        <end>137</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Budapest</placeTerm>
+      </place>
+      <publisher>Research Group for Altaic Studies, Hungarian Academy of Sciences</publisher>
+      <copyrightDate>2003</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Altaica Budapestinensia MMII. Proceedings of the 45th Permanent International Altaistic Conference (PIAC), Budapest, Hungary, June 23-28, 2002</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

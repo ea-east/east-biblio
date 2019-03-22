@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>German Indologists. Biographies of scholars in Indian studies writing in German. With a summary of Indology in German speaking countries (Dialogue '80/81)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Stache-Rosen</namePart>
+    <namePart type="given">Valentina</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">New Delhi</placeTerm>
+    </place>
+    <publisher>Max Mueller Bhavan</publisher>
+    <copyrightDate>1981</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

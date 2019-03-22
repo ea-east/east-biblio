@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Nyoraikan no ichi-kousatu: bosatuji to hannyatoron-kouchu no hikaku wo toshite [Eine Ansicht von tathāgata: Der Vergleich des Bodhisattvabhūmi mit der Prajñāpradīpaṭīkā]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Furusaka</namePart>
+    <namePart type="given">Koichi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>67/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>762</start>
+        <end>763</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1994</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Syukyoukenkyu</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tantric Treasures: Three Collections of Mystical Verse from Buddhist India</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Jackson</namePart>
+    <namePart type="given">Roger R.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">New York/Oxford</placeTerm>
+    </place>
+    <publisher>Oxford University Press</publisher>
+    <copyrightDate>2004</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

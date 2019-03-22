@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Lien Yü chu Tsang tsou-kao</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">chu-pien</namePart>
+    <namePart type="given">Wu Feng-yu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Pei-ching</placeTerm>
+    </place>
+    <publisher>China National Microforms</publisher>
+    <copyrightDate>198?</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

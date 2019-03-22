@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>"Tattvasaṃgraha" no chokusetsu-chikaku-ron [Die Wahrnehmungslehre des Tattvasaṃgraha]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hattori</namePart>
+    <namePart type="given">Masaaki</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>25</number>
+      </detail>
+      <extent unit="pages">
+        <start>111</start>
+        <end>128</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1960</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Nihon Bukkyō Gakkai Nenpō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

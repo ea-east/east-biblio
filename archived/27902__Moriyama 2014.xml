@@ -1,0 +1,71 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Omniscience and religious authority: a study on Prajñākaragupta's Pramāṇavārttikālaṅkārabhāṣya ad Pramāṇavārttika II 8-10 and 29-33</title>
+  </titleInfo>
+  <titleInfo type="abbreviated">
+    <title>Omniscience and religious authority</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Moriyama</namePart>
+    <namePart type="given">Shinya</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>313 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Munster</placeTerm>
+    </place>
+    <publisher>Lit Verlag</publisher>
+    <copyrightDate>2014</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <identifier type="isbn">978-3-643-90477-5</identifier>
+  <classification>181/.043</classification>
+  <subject>
+    <topic>Authority</topic>
+  </subject>
+  <subject>
+    <topic>Buddhist logic</topic>
+  </subject>
+  <subject>
+    <topic>Dharmakīrti</topic>
+  </subject>
+  <subject>
+    <topic>Omniscience (Theory of knowledge)</topic>
+  </subject>
+  <subject>
+    <topic>Prajñākaragupta</topic>
+  </subject>
+  <subject>
+    <topic>Pramāṇavārtikabhāṣya</topic>
+  </subject>
+  <subject>
+    <topic>Pramāṇavārttika</topic>
+  </subject>
+  <subject>
+    <topic>Religious aspects Buddhism</topic>
+  </subject>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <recordInfo>
+    <recordContentSource>Library of Congress ISBN</recordContentSource>
+  </recordInfo>
+  <relatedItem type="series">
+    <titleInfo>
+      <title>Leipziger Studien zu Kultur und Geschichte Süd- und Zentralasiens</title>
+    </titleInfo>
+    <part>
+      <detail type="volume">
+        <number>Band 4</number>
+      </detail>
+    </part>
+  </relatedItem>
+</mods>

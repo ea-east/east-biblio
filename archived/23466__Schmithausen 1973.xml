@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Spirituelle Praxis und philosophische Theorie im Buddhismus</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Schmithausen</namePart>
+    <namePart type="given">Lambert</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>57</number>
+      </detail>
+      <extent unit="pages">
+        <start>161</start>
+        <end>186</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1973</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Zeitschrift für Missionswissen­schaft und Religionswissenschaft</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

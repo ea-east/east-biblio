@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>“Tattvasaṃgraha” ‘Gaikaitaishō no kentō’ shō ni okeru Śāntarakṣita to Śubhagupta no Issaichisharonsō [A Controversy over the Omniscient in the Bahirarthaparīkṣā of the Tattvasaṃgraha]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Matsuoka</namePart>
+    <namePart type="given">Hiroko</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">ir.lib.hiroshima-u.ac.jp/ja/00037084</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <recordInfo>
+    <recordContentSource>Hiroshima University Institutional Repository</recordContentSource>
+  </recordInfo>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>8</number>
+      </detail>
+      <extent unit="pages">
+        <start>245</start>
+        <end>254</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2011</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">18806376</identifier>
+    <titleInfo>
+      <title>Hikaku ronrigaku kenkyū [The annals of the research project center for the comparative study of logic]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

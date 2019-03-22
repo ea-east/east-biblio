@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Śrīmadumāsvātiviracitam Sabhāṣyatattvārthādhigamasūtram</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>N/A</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">(Bombay)</placeTerm>
+    </place>
+    <publisher>Nirṇayasāgarākyamudraṇālaya</publisher>
+    <copyrightDate>1906 (Vī 2432)</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

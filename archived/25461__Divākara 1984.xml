@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Saṃmatitarka-Prakaraṇam, with Abhayadevasūri´s Commentary, Tattvabodhavidhāyinī</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Divākara</namePart>
+    <namePart type="given">Siddhasena</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <part>
+    <detail type="volume">
+      <number>Vol. I</number>
+    </detail>
+  </part>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Kyoto</placeTerm>
+    </place>
+    <publisher>Rinsen Book</publisher>
+    <copyrightDate>1984</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

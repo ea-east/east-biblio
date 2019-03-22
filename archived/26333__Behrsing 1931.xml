@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Das Chung-Tsi-King des chinesischen Dīrghāgama. Übersetzt und mit Anmerkungen versehen.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Behrsing</namePart>
+    <namePart type="given">Siegfried</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>7/1-2</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1931</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Asia Major</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

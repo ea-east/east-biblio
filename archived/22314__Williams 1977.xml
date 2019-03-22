@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Nāgārjuna: Selections from the Madhyamakakārikā. Together with excerpts from the commentaries</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Williams</namePart>
+    <namePart type="given">Paul</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>52</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1977-78</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Middle Way. Journal of the Buddhist Society</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Horst Lasic: Jñānaśrīmitras Vyāpticarcā. Sanskrittext, Übersetzung, Analyse. (Wiener Studien zur Tibetologie und Buddhismuskunde, Heft 48.) Vienna: Arbeitskreis für tibetische und buddhistische Studien Universität Wien, 2000. HORST LASIC: Ratnakirtis Vyaptinirnaya. Sanskrittext, Übersetzung, Analyse. (Wiener Studien zur Tibetologie und Buddhismuskunde, Heft 49.) 95 pp. Vienna: Arbeitskreis für tibetische und buddhistische Studien Universität Wien, 2000.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Werner</namePart>
+    <namePart type="given">Karel</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>65/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>198</start>
+        <end>201</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2002</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>BSOAS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

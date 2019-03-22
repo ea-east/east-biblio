@@ -1,0 +1,20 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Guide-catalogue du Musée Guimet - Les Collections Bouddhiques (Exposé Historique et Iconographique): Inde Centrale et Gandhâra, Turkestan, Chine septentrionale, Tibet.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Hackin</namePart>
+    <namePart type="given">J.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <publisher>G. Van Oest &amp; Cie</publisher>
+    <copyrightDate>1923</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Ratnākaraśānti no chūdō shisō - Madhyamālaṅkāropadeśa ni okeru</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hayashima</namePart>
+    <namePart type="given">Osamu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>26/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>1012</start>
+        <end>1008</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1978</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bukkyōgaku Kenkyū [Journal of Indian and Buddhist Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

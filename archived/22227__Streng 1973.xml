@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The significance of pratītyasamutpāda for understanding the relationship between saṃvṛti and paramārthasatya in Nāgārjuna</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Streng</namePart>
+    <namePart type="given">Frederick J.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Sprung</namePart>
+      <namePart type="given">M.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Dordrecht</placeTerm>
+      </place>
+      <publisher>D. Reidel</publisher>
+      <copyrightDate>1973</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Two Truths in Buddhism and Vedānta</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

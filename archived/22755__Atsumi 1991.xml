@@ -1,0 +1,24 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tamura Yoshirō Bukkyōgaku-Ronshū zen 2 Karu no Kankō wo Kini Bukkyō-gakkai deno Saikin no Ronsō no Dōkō ni Fereru [Bemerkung über die Tendenz der jüngsten Diskussion unter Buddologen anläßlich der Erscheinung der zweibändigen gesammelten Werke von Dr. TAMURA Yoshirō]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Atsumi</namePart>
+    <namePart type="given">Kazuhisa</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <originInfo>
+      <dateIssued>1991</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Shūkan Dokushojin 22.4.1991</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

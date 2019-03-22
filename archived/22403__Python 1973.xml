@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Vinaya-viniścaya-upāli-paripṛcchā. Enquête d'Upāli pour une exégèse de la discipline</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Python</namePart>
+    <namePart type="given">Pierre</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Paris</placeTerm>
+    </place>
+    <publisher>Adrien-Maisonneuve</publisher>
+    <copyrightDate>1973</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

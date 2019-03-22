@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Rapports entre la Théorie Bouddhique de la Connaissance et l'enseignement des autres Écoles philosophiques de l'inde</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Stcherbatskoï</namePart>
+    <namePart type="given">Th de</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>5</number>
+      </detail>
+      <extent unit="pages">
+        <start>129</start>
+        <end>171</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1904</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Le Muséon</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

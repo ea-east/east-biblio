@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review Article: Bimal Krishna Matilal, The Navya-Nyāya Doctrine of Negation: The Semantics and Ontology of Negative Statements in Navya-Nyāya Philosophy. Ed. by Daniel H.H. Ingalls. Harvard Oriental Studies 46. Cambridge: Harvard University Press, 1968</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Copi</namePart>
+    <namePart type="given">Irving M.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>22</number>
+      </detail>
+      <extent unit="pages">
+        <start>221</start>
+        <end>226</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1972</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Philosophy East and West</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

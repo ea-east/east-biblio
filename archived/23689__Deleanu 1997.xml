@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Preliminary Study on an Shigao's Translation of the Yogācārabhūmi</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Deleanu</namePart>
+    <namePart type="given">Florin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>Vol. 17</number>
+      </detail>
+      <extent unit="pages">
+        <start>33</start>
+        <end>52</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1997</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>J.Dept.Liberal Arts Kansai Med.Univ.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

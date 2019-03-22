@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The origin of the Bengali script</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Banerji</namePart>
+    <namePart type="given">R. D.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Calcutta</placeTerm>
+    </place>
+    <publisher>Nababharat Publishers</publisher>
+    <copyrightDate>1919/1973</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

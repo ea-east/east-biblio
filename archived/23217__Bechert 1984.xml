@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Die Ethik der Buddhisten</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Bechert</namePart>
+    <namePart type="given">Heinz</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>114</start>
+        <end>135</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Stuttgart</placeTerm>
+      </place>
+      <publisher>Kohlhammer Verlag</publisher>
+      <copyrightDate>1984</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Ethik in nichtchristlichen Kulturen (Band 3 der Reihe ,Ethik. Lehr- und Studienbücher`, hsg. von R. Mokrosch, S.H. Pfürtner, H. Schmidt).</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

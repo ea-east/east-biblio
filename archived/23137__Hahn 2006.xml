@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Some Highlights of the Work of a "Frequent User" of the NGMPP (I)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hahn</namePart>
+    <namePart type="given">Michael</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <extent unit="pages">
+        <start>4</start>
+        <end>9</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2006</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Newsletter of the NGMCP, Number 1: July 2006</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Implications of the Buddhist-Jaina dispute over the fallacious example in Nyāya-bindu and Nyāyāvatāra-vivr̥ti.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Balcerowicz</namePart>
+    <namePart type="given">Piotr</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Flügel</namePart>
+      <namePart type="given">Peter</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>117</start>
+        <end>152</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">London</placeTerm>
+      </place>
+      <publisher>Routledge</publisher>
+      <copyrightDate>2006</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Studies in Jaina History and Culture: Disputes and Dialogues. Routledge Advances in Jaina Studies. Vol. 1.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

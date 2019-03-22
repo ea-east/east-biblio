@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Vaidalya, Mahāyāna, and Bodhisattva in India: An Essay towards Historical Understanding.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Skilling</namePart>
+    <namePart type="given">Peter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Nyanatusita</namePart>
+      <namePart type="given">Bhikkhu</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>69</start>
+        <end>162</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Kandy</placeTerm>
+      </place>
+      <publisher>Buddhist Publication Society</publisher>
+      <copyrightDate>2013</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Bodhisattva Ideal: Essays on the Emergence of Mahāyāna.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Pāṇini's Kāraka-Theory</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Devasthali</namePart>
+    <namePart type="given">G. V.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Joshi</namePart>
+      <namePart type="given">S. D.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Pune</placeTerm>
+      </place>
+      <publisher>University of Poona</publisher>
+      <copyrightDate>1980</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Proceedings of the Winter Institute on Ancient Indian Theories on Sentence-Meaning (held in March 1979) [PCASS 6]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Sāṃkhya und Yoga im Śiśupālavadha</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="corporate">
+    <namePart>Hultzsch</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>Eugen</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">(u.a.)</namePart>
+      <namePart type="given">Julius von Negelein</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>79</start>
+        <end>83</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Erlangen</placeTerm>
+      </place>
+      <publisher>Verlag von Palm und Enke in Erlangen</publisher>
+      <copyrightDate>1927</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Aus Indiens Kultur. Festgabe für Richard von Garbe dem Forscher und Lehrer zu seinem 70. Geburtstag dargebracht von seinen Freunden, Verehrern und Schülern</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

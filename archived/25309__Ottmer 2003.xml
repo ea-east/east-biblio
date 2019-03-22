@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Finger, die auf den Mond zeigen. Eine Gegenüberstellung europäischer und buddhistischer Sprachtheorien am Beispiel Ferdinand de Saussures und Sakya Panditas</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Ottmer</namePart>
+    <namePart type="given">Eva</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Goettingen</placeTerm>
+    </place>
+    <publisher>Vandenhoeck &amp; Ruprecht</publisher>
+    <copyrightDate>2003</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

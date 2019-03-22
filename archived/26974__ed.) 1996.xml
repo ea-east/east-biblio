@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tho ling dpal dpe med lhun gyis grub pa'i gtsug lag khang phyag btab nas lo gcig stong 'khor ba'i rjes dran dus deb / Commemorative Volume of 1000 Years of Tholing Temple, containing a number of documents significant to the history and culture of Mnga' ris, West Tibet</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">(ed.)</namePart>
+    <namePart type="given">Tashi Tsering</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">McLeod Ganj</placeTerm>
+    </place>
+    <publisher>Tho ling gtsug lag khang phyag btab nas lo gcig stong 'khor ba'i rjes dran mdzad sgo'i go sgrig ...</publisher>
+    <copyrightDate>1996</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

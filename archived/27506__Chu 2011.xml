@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Sanskrit Fragments of Dharmakīrti’s Santānāntarasiddhi</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">conferencePaper</genre>
+  <name type="personal">
+    <namePart type="family">Chu</namePart>
+    <namePart type="given">Junjie</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://hw.oeaw.ac.at/?arp=0x0028ffe1</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">conference publication</genre>
+    <part>
+      <extent unit="pages">
+        <start>33</start>
+        <end>42</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wien</placeTerm>
+      </place>
+      <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+      <dateCreated>2011</dateCreated>
+      <issuance>monographic</issuance>
+    </originInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Abhisamayālaṃkāra-kārikā-śāstra-vivṛti, Haribhadra's Commentary on the Abhisamayālaṃkāra-kārikā-śāstra, Edited for the First Time from a Sanskrit Manuscript</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Amano</namePart>
+    <namePart type="given">Koei H.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Kyoto</placeTerm>
+    </place>
+    <publisher>Heirakuji Shoten</publisher>
+    <copyrightDate>2000</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

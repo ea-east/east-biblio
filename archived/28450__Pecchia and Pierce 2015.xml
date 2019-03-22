@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmakīrti on the cessation of suffering: a critical edition with translation and comments of Manorathanandin's Vṛtti and Vibhūticandra's glosses on Pramāṇavārttika II. 190-216</title>
+  </titleInfo>
+  <titleInfo type="abbreviated">
+    <title>Dharmakīrti on the cessation of suffering</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Pecchia</namePart>
+    <namePart type="given">Cristina</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Pierce</namePart>
+    <namePart type="given">Philip</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Leiden; Boston</placeTerm>
+    </place>
+    <publisher>Brill</publisher>
+    <copyrightDate>2015</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <identifier type="isbn">9789004293410</identifier>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+  </language>
+  <note>OCLC: 932601201</note>
+  <recordInfo>
+    <recordContentSource>Open WorldCat</recordContentSource>
+  </recordInfo>
+</mods>

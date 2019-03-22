@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Śālikanāthas Lehre von der Wahrnehmung im Pratyakṣapariccheda des Pramāṇapārāyaṇa der Prakaraṇapañcikā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Prandstetter</namePart>
+    <namePart type="given">Joachim</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wien</placeTerm>
+    </place>
+    <copyrightDate>1994</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Madhyamakālaṃkāra of Śāntarakṣita with his own commentary or Vṛtti and with the subcommentary Pañjikā of Kamalaśīla</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Ichigo</namePart>
+    <namePart type="given">Masamichi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Kyoto</placeTerm>
+    </place>
+    <publisher>Buneido</publisher>
+    <copyrightDate>1985</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-dbd5c727-f2d7-40ed-9c57-0c4d2e6f5230" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-afb54b68-4003-4ff9-892f-921635e92455">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Tōkyō</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>TShSh</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Tōyō no Shisō to Shūkyū</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>11</number>
+            </detail>
+            <extent unit="pages">
+                <start>1</start>
+                <end>25</end>
+            </extent>
+            <date encoding="w3cdtf">1994</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-05-16T13:24:28.254+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-05-16T13:25:32.038+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-05-16T13:26:31.212+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <titleInfo lang="eng" type="translated">
+        <title>Study and Annotated Translation of the Pramāṇaviniścaya (Third Chapter) Ad v.2</title>
+        <subTitle>Interpretation of Svadṛṣṭa in the Definition of the Parārthānumāna (2)</subTitle>
+    </titleInfo>
+    <titleInfo supplied="yes">
+        <title>“Chishikiron Kettaku” (Pramāṇaviniścaya) Dai 3 Shō (tasha No Tame No Suiron Shō) Wayaku Kenkyū Ad v.2</title>
+        <subTitle>Tasha No Tame No Suiron No Teigi No Svadṛṣṭa Ni Tsuite (2)
+      </subTitle>
+    </titleInfo>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Medical-Cultural System Among the Tibetan and Newar Buddhist: Ceremonial Medicine</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Stablein</namePart>
+    <namePart type="given">William George</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>1/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>193</start>
+        <end>203</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1973</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Kailash</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

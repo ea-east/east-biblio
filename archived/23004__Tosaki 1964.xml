@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Hosshō ni okeru ,ryō no nishusei`no ronshō - ,Pramāṇavārttika` Genryō-shō no Wayaku-Kenkyū (3) [Der Beweis der Zweifachheit des Erkenntnismittels bei Dharmakīrti - Japanische Übersetzung und Anmerkungen des Pramāṇavārttika pratyakṣa-pariccheda (3)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Tosaki</namePart>
+    <namePart type="given">Hiromasa</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <extent unit="pages">
+        <start>11</start>
+        <end>123</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1964</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Hikatahakushi koki kinen ronbunshū</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

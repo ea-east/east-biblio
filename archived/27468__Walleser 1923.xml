@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Ga las hjigs med: die tibetische Version von Nāgārjuna's Kommentar Akutobhayā zur Madhyamaka-kārikā; nach der Pekinger Ausg. des Tanjur</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Walleser</namePart>
+    <namePart type="given">Max</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>2</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1923</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Materialien zur Kunde des Buddhismus</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

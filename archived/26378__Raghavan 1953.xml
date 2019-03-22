@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Kavīndrakalpalatikā of Kavīndrācārya Sarasvatī</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Raghavan</namePart>
+    <namePart type="given">V.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>335–341 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Bombay</placeTerm>
+    </place>
+    <publisher>Heras Institute of Indian History and Culture</publisher>
+    <copyrightDate>1953</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

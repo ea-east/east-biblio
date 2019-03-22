@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Did Dharmakīrti Criticize Dignāga's Assertion?: On the Purpose of Stating vyatireka in the Pramāṇaviniścaya</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Choi</namePart>
+    <namePart type="given">Kyeong-jin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/120005246036/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>19</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>18</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2012</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">0919-7907</identifier>
+    <titleInfo>
+      <title>Indotetsugaku Bukkyōgaku Kenkyū [Studies in Indian Philosophy and Buddhism]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

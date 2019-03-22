@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Besprechung: Paul Hacker, Vivarta. Studien zur Geschichte der illusionistischen Kosmologie und Erkenntnistheorie der Inder. Mainz: Verlag der Akademie d. Wiss. u. d. Literatur, in Komm. Fr. Steiner, Wiesbaden 1953</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Regamey</namePart>
+    <namePart type="given">Constantin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>3-4 (50. Jg.)</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1955</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Orientalistische Literaturzeitung</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

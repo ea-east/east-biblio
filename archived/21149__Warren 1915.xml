@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhism in translations</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Warren</namePart>
+    <namePart type="given">Henry Clarke</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Cambridge, MA</placeTerm>
+    </place>
+    <publisher>Harvard University Press</publisher>
+    <copyrightDate>1915</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

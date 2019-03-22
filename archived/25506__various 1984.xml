@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhist Studies in Honour of Hammalava Saddhātissa</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>various</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Dhammapala</namePart>
+    <namePart type="given">Gatare</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Gombrich</namePart>
+    <namePart type="given">Richard</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Norman</namePart>
+    <namePart type="given">K. R.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Nugegoda, Sri Lanka</placeTerm>
+    </place>
+    <publisher>Buddhist Research Library Trust</publisher>
+    <copyrightDate>1984</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

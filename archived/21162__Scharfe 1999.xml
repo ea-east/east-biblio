@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Doctrine of the Three Humors in Traditional Indian Medicine and the Alleged Antiquity of Tamil Siddha Medicine.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Scharfe</namePart>
+    <namePart type="given">Hartmut</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>119, No. 4</number>
+      </detail>
+      <extent unit="pages">
+        <start>609</start>
+        <end>629</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1999</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the American Oriental Society</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

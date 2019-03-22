@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Argi and the "Tokharians"</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Henning</namePart>
+    <namePart type="given">W. B.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>9</number>
+      </detail>
+      <extent unit="pages">
+        <start>545</start>
+        <end>571</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1937-1939</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bulletin of the School of Oriental Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

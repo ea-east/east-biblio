@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Text Critical Study on Candrakīrti's Bodhisattvayogācāracatuḥśatakaṭīkā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Suzuki</namePart>
+    <namePart type="given">Koshin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>205</start>
+        <end>250</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Tokyo</placeTerm>
+      </place>
+      <copyrightDate>1992</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Mano Ryūkai Hakase Shōju Kinen Ronbunshū "Hannya-Haramitta-Shisō Ronshū" ["Study of Prajñāpāramitā-Philosophy", Dr. Ryūkai Mano felicitation volume]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

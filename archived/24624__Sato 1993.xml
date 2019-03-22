@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tāranātha no Chūgan-tetsugaku - "Takū Shinzui" Wayaku [Tāranāthas Madhyamaka Philosophie - Japanische Übersetzung des gŹan stoṅ sñiṅ po]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Sato</namePart>
+    <namePart type="given">Michio</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>991</start>
+        <end>1012</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Kyoto</placeTerm>
+      </place>
+      <publisher>Hozokan</publisher>
+      <copyrightDate>1993</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indogaku Mikkyōgaku Kenkyū, Essays in Honour of Dr. Yūshō Miyasaka on his 70th Birthday</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

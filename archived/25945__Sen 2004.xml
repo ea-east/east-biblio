@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhism, Diplomacy, and Trade; The Realignment of Sino-Indian Relations, 600-1400</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Sen</namePart>
+    <namePart type="given">Tansen</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">New Delhi</placeTerm>
+    </place>
+    <publisher>Manohar</publisher>
+    <copyrightDate>2004</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

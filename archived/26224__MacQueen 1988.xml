@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Study of the Sramanyaphala-Sutra</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">MacQueen</namePart>
+    <namePart type="given">Graeme</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wiesbaden</placeTerm>
+    </place>
+    <publisher>Otto Harrassowitz</publisher>
+    <copyrightDate>1988</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

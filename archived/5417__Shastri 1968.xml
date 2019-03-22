@@ -1,0 +1,88 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-dfae18e4-08e8-4312-b797-6827b5ff7ad2" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Tattvasaṅgraha of Ācārya Shāntarakṣita</title>
+        <subTitle>With the Commentary 'Pañjikā' of Shrī Kamalashīla. Critically Ed. in two volumes</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Dwarika</namePart>
+        <namePart type="given">Das</namePart>
+        <namePart type="family">Shastri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Varanasi</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1968</dateIssued>
+        <publisher>Bauddha Bharati</publisher>
+    </originInfo>
+    <physicalDescription>
+        <extent>XXX, 592 p.; XV, 593-1130, 94 p.</extent>
+    </physicalDescription>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-60bb4086-8b60-4080-bedf-9c9d64e5170f">
+        <language><languageTerm>id</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Varanasi</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>BBhS</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Bhauddha Bharati Series</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>1</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <dateIssued encoding="w3cdtf" point="start">1981</dateIssued>
+            <dateIssued encoding="w3cdtf" point="end">1982</dateIssued>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <form authority="marcsmd" type="technique">photomechanical print</form>
+        </physicalDescription>
+    </relatedItem>
+    <relatedItem type="constituent">
+        <titleInfo>
+            <partNumber>Appendix II</partNumber>
+            <partName>A List of Corrections to Shastri’s Edition</partName>
+        </titleInfo>
+        <part>
+            <extent unit="pages">
+                <start>120</start>
+                <end>121</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

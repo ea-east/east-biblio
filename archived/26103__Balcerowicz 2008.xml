@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Some Remarks on the Opening Sections in Jaina Epistemological Treatises</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Balcerowicz</namePart>
+    <namePart type="given">Piotr</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Slaje</namePart>
+      <namePart type="given">Walter</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>25</start>
+        <end>81</end>
+      </extent>
+    </part>
+    <originInfo>
+      <copyrightDate>2008</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Śāstrārambha. Inquiries into the Preamble in Sanskrit.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

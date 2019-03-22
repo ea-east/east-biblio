@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Patañjalasūtrāṇi (sic). With the Scholium of Vyāsa and the Commentary of Vāchaspati. (Pātañjalasūtrāṇi. Vyāsabhāṣyavācaspatyasahitāni)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Bodas</namePart>
+    <namePart type="given">Rājārām Shāstrī</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Bombay</placeTerm>
+    </place>
+    <publisher>Government Central Book Depot</publisher>
+    <copyrightDate>1892</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

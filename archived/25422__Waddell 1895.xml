@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Buddhism of Tibet or Lamaism With Its Mystic Cults, Symbolism and Mythology and in Its Relation to Indian Buddhism</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Waddell</namePart>
+    <namePart type="given">Laurence Austine</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">London</placeTerm>
+    </place>
+    <publisher>W.H. Allen &amp; Co.</publisher>
+    <copyrightDate>1895</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Personalpronomina in der Lebensbeschreibung des Mi la ras pa, Kapitel III</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hill</namePart>
+    <namePart type="given">Nathan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>36</number>
+      </detail>
+      <extent unit="pages">
+        <start>277</start>
+        <end>287</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2007</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Zentralasiatische Studien</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

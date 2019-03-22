@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Dalai Lama's formulation of engaged Buddhism: implications for Tibet and the international community</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Puri</namePart>
+    <namePart type="given">Bharati</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="corporate">
+      <namePart>Mongolian</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">(?)</namePart>
+      <namePart type="given">Tibetan Affairs Commission</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>586</start>
+        <end>619</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Taipei</placeTerm>
+      </place>
+      <publisher>Mongolian and Tibetan Affairs Commission</publisher>
+      <copyrightDate>2004</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>21st Century Tibet Issue. Symposium on Contemporary Tibetan Studies. Collected Papers</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

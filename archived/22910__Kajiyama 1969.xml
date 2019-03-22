@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bukkyō ni okeru meisō to tetsugaku [Meditation and Philosophy in Buddhism - a lecture given in the annual meeting of the Kyoto Philosophical Society on Nov.2, 1968]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kajiyama</namePart>
+    <namePart type="given">Yūichi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>44/6</number>
+      </detail>
+      <extent unit="pages">
+        <start>419</start>
+        <end>438</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1969</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tetsugaku Kenkyū [Journal of Philosophical Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Inserte, Marginalien und Fragmente. Zu Formen und Inhalten mittelalterlicher Selbstreferantialität.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Schmolinsky</namePart>
+    <namePart type="given">Sabine</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Spreitzer</namePart>
+      <namePart type="given">Christian Gastgeber-Christine Glassner- Kornelia Holzner-Tobisch- Renate</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wien</placeTerm>
+      </place>
+      <publisher>Verlag der Österreichsichen Akademie der Wissenschaften</publisher>
+      <copyrightDate>2010</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Fragemente. Der Umgang mit lückenhafter Quellenüberlieferung in der Mittelalterforschung</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

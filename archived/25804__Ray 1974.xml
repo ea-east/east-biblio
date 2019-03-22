@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Understanding Tantric Buddhism: Some Questions of Method</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ray</namePart>
+    <namePart type="given">Reginald</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>34/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>169</start>
+        <end>175</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1974</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of Asian Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

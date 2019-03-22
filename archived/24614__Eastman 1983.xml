@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mahāyoga Texts at Tun-huang</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Eastman</namePart>
+    <namePart type="given">K. W.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>22</number>
+      </detail>
+      <extent unit="pages">
+        <start>43</start>
+        <end>60</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1983</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bulletin of the Institute of Buddhist Cultural Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Geschichte der Philologie</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Wilamowitz-Moellendorf</namePart>
+    <namePart type="given">U. von</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Leipzig</placeTerm>
+    </place>
+    <publisher>B. G. Teubner</publisher>
+    <copyrightDate>1959 (1921)</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,126 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d212979b-ebb9-4b43-8b5b-63d3cd4b5ba7" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <typeOfResource>text</typeOfResource>
+    <genre>chapter</genre>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <titleInfo>
+        <title>Dharmakīrti on punarbhava</title>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-1544a048-7b55-496a-8caa-3bf3293f6da0">
+        <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">edited-volume-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-16T21:39:09.249+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-16T21:57:43.985+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2015-10-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <relatedItem type="series">
+        <name type="personal">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <name type="corporate">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo script="Latn">
+            <issuance>continuing</issuance>
+        </originInfo>
+    </relatedItem>
+    <genre authority="local">editedVolume</genre>
+    <genre authority="marcgt">book</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <originInfo>
+        <place>
+            <placeTerm type="text">京都市</placeTerm>
+            <placeTerm type="text" script="Latn">Kyōto-shi</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1993</dateIssued>
+        <publisher>永田文昌堂</publisher>
+        <publisher script="Latn">Nagata Bunshōdō</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <name type="personal">
+        <namePart type="given">惠學</namePart>
+        <namePart type="family">前田</namePart>
+        <namePart type="given" script="Latn">Maeda</namePart>
+        <namePart type="family" script="Latn">Egaku</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+        </role>
+    </name>
+    <titleInfo lang="eng" script="Latn" type="translated">
+        <title>Studies in Original Buddhism and Mahāyāna Buddhism</title>
+        <subTitle>in Commemoration of Late Professor Dr. Fumimaro Watanabe</subTitle>
+    </titleInfo>
+    <titleInfo script="Latn" type="translated">
+        <title>Genshi Bukkyō to Daijō Bukkyō</title>
+        <subTitle>Watanabe Fumimaro Hakushi tsuitō kinen ronshū</subTitle>
+    </titleInfo>
+    <titleInfo>
+        <title>原始仏教と大乗仏教</title>
+        <subTitle>渡邊文麿博士追悼記念論集</subTitle>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>1</number>
+            </detail>
+            <extent unit="pages">
+                <start>111</start>
+                <end>130</end>
+            </extent>
+            <date encoding="w3cdtf">1993</date>
+        </part>
+    </relatedItem>
+    <name type="personal">
+        <namePart type="given">Richard</namePart>
+        <namePart type="given">P.</namePart>
+        <namePart type="family">Hayes</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Hayes 1993</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T12:42:01.481+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T12:44:49.202+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Sānkhya Kārikā: Or Memorial Verses on the Sānkhya Philosophy and The Bhāshya or Commentary of Gaurapāda</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Krishna</namePart>
+    <namePart type="given">Iswara</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Oxford</placeTerm>
+    </place>
+    <publisher>Oriental Translation Fund of Great Britain and Ireland</publisher>
+    <copyrightDate>1837</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

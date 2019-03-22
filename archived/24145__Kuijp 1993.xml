@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Two Mongol Xylographs (Hor Par Ma) of the Tibetan Text of Sa Skya Paṇḍita's Work on Buddhist Logic and Epistemology</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kuijp</namePart>
+    <namePart type="given">Leonard W. J. van der</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>16/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>279</start>
+        <end>298</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1993</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JIABS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

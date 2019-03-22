@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Encyclopedia of Indian Philosophies, Vol. IX, Buddhist Philosophy from 350 to 600 A.D. ed by Karl H. Potter, 2003. Motilal Banarasidass Publishers Private Limited, Delhi</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Shravak</namePart>
+    <namePart type="given">Lalji</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>5</number>
+      </detail>
+      <extent unit="pages">
+        <start>233</start>
+        <end>237</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2004</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Indian International Journal of Buddhist Studies</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Biography of Dharmasvāmin (Chag lo-tsa-ba Chos-rje-dpal): a Tibetan monk pilgrim</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Roerich</namePart>
+    <namePart type="given">George</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Patna</placeTerm>
+    </place>
+    <publisher>K. P. Jayaswal Research Institute</publisher>
+    <copyrightDate>1959</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

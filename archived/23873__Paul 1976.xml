@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>(1) Review: Alex and Hideko Wayman, The Lion's Roar of Queen Śrīmālā: A Buddhist Scripture on the Tathāgatagarbha Theory. Translated, with Introduction and Notes. N.Y.: Columbia University Press, 1974. (2) Alex and Hideko Wayman, Reply to Diana Paul &amp; Diana Paul, Rejoinder to A. and H. Wayman's Reply</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Paul</namePart>
+    <namePart type="given">Diana Y.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>(1)26/3;(2)26/4</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1976</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Philosophy East and West</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

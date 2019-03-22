@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Note on the Prāmāṇyavāda of the Nyāya school</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Varadachari</namePart>
+    <namePart type="given">V.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>17/3-4</number>
+      </detail>
+      <extent unit="pages">
+        <start>265</start>
+        <end>273</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1961</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the Ganganatha Jha Research Institute</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

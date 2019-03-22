@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Sanskrit philosophy of language</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Staal</namePart>
+    <namePart type="given">J. F.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Sebeok</namePart>
+      <namePart type="given">Thomas A.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>499</start>
+        <end>531</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">The Hague [u.a.]</placeTerm>
+      </place>
+      <publisher>Mouton</publisher>
+      <copyrightDate>1969</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Current Trends in Linguistics Vol.5: Linguistics in South Asia</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

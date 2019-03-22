@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Avayavinirākaraṇa of Paṇḍita Aśoka: Sanskrit text edited with an annotated English translation</title>
+  </titleInfo>
+  <titleInfo type="abbreviated">
+    <title>The Avayavinirākaraṇa of Paṇḍita Aśoka</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Tola</namePart>
+    <namePart type="given">Fernando</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Dragonetti</namePart>
+    <namePart type="given">Carmen</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Tokyo</placeTerm>
+    </place>
+    <publisher>International Institute for Buddhist Studies</publisher>
+    <copyrightDate>1994</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <identifier type="isbn">4906267351 9784906267354</identifier>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <language>
+    <languageTerm type="text">Text in Sanskrit</languageTerm>
+  </language>
+</mods>

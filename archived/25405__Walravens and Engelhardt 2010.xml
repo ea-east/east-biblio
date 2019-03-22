@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The first Tibetan serial : August Hermann Francke's La-dvags-kyi-ag-bâr (1904 - 1907) ; facsimile of a unique set in the archives of the Evangelische Brüderunität, Herrnhut / Staatsbibliothek zu Berlin. Ed., with an introd. by Hartmut Walravens. With a contribution on Tharchin's Yul-phyogs so-so'i gsar-'gyur me-long (1925 ff) by Isrun Engelhardt</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Walravens</namePart>
+    <namePart type="given">Hartmut</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Engelhardt</namePart>
+    <namePart type="given">Isrun</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berlin</placeTerm>
+    </place>
+    <publisher>Staatsbibliothek Berlin</publisher>
+    <copyrightDate>2010</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

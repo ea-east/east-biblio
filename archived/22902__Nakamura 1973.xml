@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhist influence upon the Vākyapadīya</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Nakamura</namePart>
+    <namePart type="given">Hajime</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>29/1-4</number>
+      </detail>
+      <extent unit="pages">
+        <start>367</start>
+        <end>387</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1973</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the Ganganatha Jha Kendriya Sanskrit Vidyapeetha</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

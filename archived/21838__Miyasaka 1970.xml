@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Darumakīrute no shōgai to sakuhin [* Life and works of Dharmakīrti]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Miyasaka</namePart>
+    <namePart type="given">Yusho</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>93 u. 94</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1970, 1971</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Mikkyō Bunka</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

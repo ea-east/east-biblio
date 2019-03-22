@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Buddhist Pratimālakṣaṇa: "Defining the Image"</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Willemen</namePart>
+    <namePart type="given">Charles</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Kawamura</namePart>
+      <namePart type="given">Leslie</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Haynes</namePart>
+      <namePart type="given">Sarah</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>152</start>
+        <end>168</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Berkeley, CA</placeTerm>
+      </place>
+      <publisher>Institute of Buddhist Studies</publisher>
+      <copyrightDate>2007</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Pacific World Journal Third Series No. 9: Special Issue: Essays Celebrating the Twentieth Anniversary of the Numata Chair in Buddhist Studies at the University of Calgary</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

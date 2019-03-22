@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bu ston to "Nyu bosatsu gyo ron kaisetsu (-saiso)" [Bu ston und Byang chub sems dpa'i spyod pa la 'jug pa'i rnam par bshad pa ('i dka 'grel)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Saito</namePart>
+    <namePart type="given">Akira</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>48/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>118</start>
+        <end>123</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2000</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indogaku bukkyo gaku</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

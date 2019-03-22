@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The language of the gods in the world of men. Sanskrit, culture and power in premodern India</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Pollock</namePart>
+    <namePart type="given">Sheldon</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berkeley, etc.</placeTerm>
+    </place>
+    <publisher>University of California Press</publisher>
+    <copyrightDate>2006</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

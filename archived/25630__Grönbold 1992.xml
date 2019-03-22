@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Zwei Ādibuddha-Texte</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Grönbold</namePart>
+    <namePart type="given">Günter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Hartmann</namePart>
+      <namePart type="given">Jens-Uwe</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Wille</namePart>
+      <namePart type="given">Klaus</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Vogel</namePart>
+      <namePart type="given">Claus</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Grönbold</namePart>
+      <namePart type="given">Günter</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>112</start>
+        <end>161</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Göttingen</placeTerm>
+      </place>
+      <publisher>Vandenhoeck &amp; Ruprecht</publisher>
+      <copyrightDate>1992</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Sanskrit-Texte aus dem buddhistischen Kanon: Neuentdeckungen und Neueditionen. (Sanskrit-Wörterbuch der buddhistischen Texte aus den Turfan-Funden, Beiheft 4)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

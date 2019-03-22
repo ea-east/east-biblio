@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Unaltered Ritual in Transformed Religion. The pūjā According to Ahirbudhnyasaṃhitā 28 and the Nityagrantha</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Rastelli</namePart>
+    <namePart type="given">Marion</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">al</namePart>
+      <namePart type="given">Jörg Gengnagel et</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>115</start>
+        <end>152</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wiesbaden</placeTerm>
+      </place>
+      <publisher>Harrassowitz Verlag</publisher>
+      <copyrightDate>2005</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Words and deeds: Hindu and Buddhist rituals in South Asia (Ethno-Indology. Heidelberg Studies in South Asian Rituals, Vol. 1)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

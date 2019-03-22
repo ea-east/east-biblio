@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Digambara Jainas of South Maharashtra and North Karnataka since the Late 19th Century: Towards the Establishment of Collective Religious Identity and a Digambara Jaina Community</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Scholz</namePart>
+    <namePart type="given">Sabine</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Manchester</placeTerm>
+    </place>
+    <publisher>PhD Thesis</publisher>
+    <copyrightDate>2011</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

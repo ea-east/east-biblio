@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The paradox of the negative judgement and Indian Logic (typescript)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Sharma</namePart>
+    <namePart type="given">Dhirendra</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>2/1</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>8</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1964</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Vishveshvaranand Indological Journal</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

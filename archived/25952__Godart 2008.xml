@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>‘‘Philosophy’’ or ‘‘Religion’’? The Confrontation with Foreign Categories in Late Nineteenth Century Japan</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Godart</namePart>
+    <namePart type="given">Gerard Clinton</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>69 (1)</number>
+      </detail>
+      <extent unit="pages">
+        <start>71</start>
+        <end>91</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2008</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the History of Ideas</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

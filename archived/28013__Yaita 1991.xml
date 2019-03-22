@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Tarkarahasya kenkyū (V) [The Study of Tarkarahasya (V)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Yaita</namePart>
+    <namePart type="given">Hideomi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://tripitaka.l.u-tokyo.ac.jp/INBUDS/search.php?m=trdd&amp;usid=33735&amp;a=</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>14</number>
+      </detail>
+      <extent unit="pages">
+        <start>129</start>
+        <end>149</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1991</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">0385-4825</identifier>
+    <titleInfo>
+      <title>Naritasan Bukkyōkenkyūsho kiyō [Journal of Naritasan Institute for Buddhist Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

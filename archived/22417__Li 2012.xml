@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Further Inquiries into the Four Gāndhārī Samyuktāgama Sūtras (in the Senior Collection) – Discussion Based on Four Gāndhārī Samyuktāgama Sūtras: Senior Kharoṣṭhī 5 by Andrew Glass</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Li</namePart>
+    <namePart type="given">Ying</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>18</number>
+      </detail>
+      <extent unit="pages">
+        <start>48</start>
+        <end>63</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2012</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>China Tibetology</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

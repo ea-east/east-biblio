@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Enjikisen Gejinmikkyōsho no chibettoyaku ni tsuite [Über die tibetische Übersetzung von Yüan-tsê's Kommentar zum Saṃdhinirmocanasūtra]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Inaba</namePart>
+    <namePart type="given">Shōju</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>25/1-2</number>
+      </detail>
+      <extent unit="pages">
+        <start>50</start>
+        <end>65</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1944</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Ōtani Gakuhō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

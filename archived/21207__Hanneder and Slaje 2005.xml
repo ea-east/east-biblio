@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Noch einmal zur langen und kurzen Version des Yogavāsiṣṭha in ihrem Verhältnis zur Mokṣopāya-Rezension</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hanneder</namePart>
+    <namePart type="given">Jürgen</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Slaje</namePart>
+    <namePart type="given">Walter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>59/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>509</start>
+        <end>531</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2005</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>AS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

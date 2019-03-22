@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>In quest of the original Pañcatantra. A methodological discussion.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Maten</namePart>
+    <namePart type="given">E. P.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <detail type="volume">
+        <number>8-9</number>
+      </detail>
+      <extent unit="pages">
+        <start>243</start>
+        <end>252</end>
+      </extent>
+    </part>
+    <originInfo>
+      <copyrightDate>1980-81</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Dr. Ludwik Sternbach Commemoration Volume.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

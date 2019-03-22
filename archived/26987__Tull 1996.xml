@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Killing that Is Not Killing: Men, Cattle, and the Origins of Non-Violence (ahiṃsā) in the Vedic Sacrifice</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Tull</namePart>
+    <namePart type="given">Herman W.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>39</number>
+      </detail>
+      <extent unit="pages">
+        <start>223</start>
+        <end>244</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1996</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indo-Iranian Journal</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

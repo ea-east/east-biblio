@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Le Traité de l'acte de Vasubandhu: Karmasiddhiprakaraṇa</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Lamotte</namePart>
+    <namePart type="given">Étienne</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>4</number>
+      </detail>
+      <extent unit="pages">
+        <start>151</start>
+        <end>263</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1935-1936</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Mélanges Chinois et Bouddhiques</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

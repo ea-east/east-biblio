@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review Article: The Sa-skya Paṇḍita, the White Panacea, and Clerical Buddhism's Current Credibility Crisis (David Jackson, Enlightenment by a Single Means: Tibetan Controversies on the "Self-Sufficient White Remedy" - dkar po chig thub. Vienna, 1994)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Mayer</namePart>
+    <namePart type="given">Robert</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>22/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>79</start>
+        <end>105</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1997</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Tibet Journal</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

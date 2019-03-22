@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Latin tarentum Accas, the ludi Saeculares, and Indo-European Eschatology</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Watkins</namePart>
+    <namePart type="given">Calvert</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Lehmann</namePart>
+      <namePart type="given">Winfred P.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Hewitt</namePart>
+      <namePart type="given">Helen-Jo Jakusz</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>135</start>
+        <end>147</end>
+      </extent>
+    </part>
+    <originInfo>
+      <publisher>John Benjamins Publishing Co.</publisher>
+      <copyrightDate>1991</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Language Typology 1988 - Typological Models in Reconstruction</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

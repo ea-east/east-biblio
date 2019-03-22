@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Phone, Phoneme, and Graph in the old Tibetan grammarians</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Miller</namePart>
+    <namePart type="given">Roy Andrew</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>34/1-3</number>
+      </detail>
+      <extent unit="pages">
+        <start>153</start>
+        <end>162</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1980</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Acta Orientalia Academiae Scientiarum Hung.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

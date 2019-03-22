@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Textcritical Remarks on the Ninth Chapter of the Abhidharmakośabhāṣya</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ejima</namePart>
+    <namePart type="given">Yasunori</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>20</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>40</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1987</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bukkyō Bunka [Buddhist Culture], Tōkyōdaigaku Bukkyō-seinen-kai [Society of Young Buddhists of Tokyo University]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bhāvaviveka's Prajñāpradīpa: A translation of chapters six, examination of desire and the one who desires, and seven, examination of origin, duration and cessation [from the Tibetan]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ames</namePart>
+    <namePart type="given">William</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>2</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>91</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2000</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Buddhist Literature</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

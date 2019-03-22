@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Miscellanea etymologica tibetica VIII. Ting nge 'dzin et alia</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Hahn</namePart>
+    <namePart type="given">Michael</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="corporate">
+      <namePart>Huber</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Widmer</namePart>
+      <namePart type="given">Volkart &amp;</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>107</start>
+        <end>118</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Halle (Saale)</placeTerm>
+      </place>
+      <publisher>International Institute for Tibetan and Buddhist Studies GmbH</publisher>
+      <copyrightDate>2008</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Chomolangma, Demawend und Kasbek, Festschrift für Roland Bielmeier zu seinem 65. Geburtstag</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

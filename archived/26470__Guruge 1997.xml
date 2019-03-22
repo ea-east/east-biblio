@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Impact of Buddhism on Education and Social Equality in south Asian Cultures</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Guruge</namePart>
+    <namePart type="given">Ananda W. P.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Dhammaratana</namePart>
+      <namePart type="given">Bhikkhu Tampalawela</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>115</start>
+        <end>133</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Paris</placeTerm>
+      </place>
+      <publisher>Editions You Feng</publisher>
+      <copyrightDate>1997</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Dharmadūta: Mélanges offerts au Vénérable Thích Huyen-Vi à l'occasion de son soixante-dixième anniversaire</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

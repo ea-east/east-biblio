@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Chie no gainen [Der Begriff des Wissens] (The Concepts of Jñāna and Prajñā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Sasaki</namePart>
+    <namePart type="given">Genjun</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>6</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>O.A.</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Ōtani Daigaku Kenkyū Nenpō (The Annual Report of Researches of The Otani University)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

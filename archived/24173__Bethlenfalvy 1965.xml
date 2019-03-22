@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Three Pañcatantra tales in an unedited commentary to the Tibetan Subhāṣiratnanidhi</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Bethlenfalvy</namePart>
+    <namePart type="given">Géza</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>18</number>
+      </detail>
+      <extent unit="pages">
+        <start>317</start>
+        <end>338</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1965</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Acta Orientalia Hung.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

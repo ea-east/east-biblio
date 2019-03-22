@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Detailed report of a Tour in Search of Sanskrit Mss. made in Kāsmīr, Rajputana, and central India. Extra number of the Journal of the Bombay branch of the Royal Asiatic Society</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Bühler</namePart>
+    <namePart type="given">Georg</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Bombay, London</placeTerm>
+    </place>
+    <publisher>Royal Asiatic Society</publisher>
+    <copyrightDate>1877</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

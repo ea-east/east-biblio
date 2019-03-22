@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmottara ni okeru Taishōninshiki: Funbetsu to Mufunbetsu no aida [Dharmottara's Theory of Cognition of the Object: Between the Conceptual and the Non-conceptual]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Miyo</namePart>
+    <namePart type="given">Mai</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/120005708784/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>4</number>
+      </detail>
+      <extent unit="pages">
+        <start>26</start>
+        <end>40</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2012</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">2188-0247</identifier>
+    <titleInfo>
+      <title>Kuwon</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

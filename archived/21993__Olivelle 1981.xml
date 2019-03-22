@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Contributions to the Semantic History of Saṃnyāsa</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Olivelle</namePart>
+    <namePart type="given">Patrick</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>101</number>
+      </detail>
+      <extent unit="pages">
+        <start>265</start>
+        <end>274</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1981</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JAOS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

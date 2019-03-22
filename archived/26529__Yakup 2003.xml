@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On the Newly Unearthed Uyghur Buddhist Texts from the Northern Grottoes of Dunhuang</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Yakup</namePart>
+    <namePart type="given">Abdurishid</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Bretfeld</namePart>
+      <namePart type="given">Sven</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Wilkens</namePart>
+      <namePart type="given">Jens</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>259</start>
+        <end>276</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Wiesbaden</placeTerm>
+      </place>
+      <publisher>Harrassowitz</publisher>
+      <copyrightDate>2003</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indien und Zentralasien. Sprach- und Kulturkontakt. Vorträge des Göttinger Symposions vom 7. bis 10. Mai 2001</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

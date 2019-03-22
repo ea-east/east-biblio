@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Direct Path to the Buddha Within: Gö Lotsāwa's Mahāmudrā Interpretation of the Ratnagotravibhāga (Studies in Indian and Tibetan Buddhism)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Mathes</namePart>
+    <namePart type="given">Klaus-Dieter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Boston</placeTerm>
+    </place>
+    <publisher>Wisdom Publications</publisher>
+    <copyrightDate>2008</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

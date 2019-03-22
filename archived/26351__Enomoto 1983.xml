@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Formation and Development of the Sarvāstivāda Scriptures. Presented at The 31st International Congress of Human Sciences in Asia and North Africa, Tokyo and Kyoto: Toho Gakkai (Institute of Eastern Culture)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Enomoto</namePart>
+    <namePart type="given">Fumio</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>1–18 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Tokyo, Kyoto</placeTerm>
+    </place>
+    <publisher>Toho Gakkai</publisher>
+    <copyrightDate>1983</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

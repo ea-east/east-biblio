@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Un problème de l'ontologie bouddhique. L'existence ultra-phénoménale</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Oltramare</namePart>
+    <namePart type="given">Paul</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>33</number>
+      </detail>
+      <extent unit="pages">
+        <start>3</start>
+        <end>23</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1915-16</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Le Muséon</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

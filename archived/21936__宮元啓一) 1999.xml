@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Shin-kōteibon: Kan-yaku "Ejōron" (A newly revised Chinese version of the Vigrahavyāvartanī)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">(宮元啓一)</namePart>
+    <namePart type="given">Keiichi MIYAMOTO</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>37</number>
+      </detail>
+      <extent unit="pages">
+        <start>73</start>
+        <end>99</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1999</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Kokugakuin Daigaku Kiyō (Transactions of Kokugakuin University)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

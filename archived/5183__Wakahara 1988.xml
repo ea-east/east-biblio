@@ -1,0 +1,67 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-421fbbb9-c1dc-4f33-a4f0-996fabbdb46f" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Mantra no kōka to zenchisha</title>
+        <subTitle>Pramāṇavārttikasvavṛtti kenkyū (1) (vv. 292-311)</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>The</nonSort>
+        <title>efficacy of mantras and the omniscient being</title>
+        <subTitle>Studies in the Pramāṇavārttikasvavṛtti (1) (vv. 292-311)</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Yushō</namePart>
+        <namePart type="family">Wakahara</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-954360ad-cd64-41e7-8a79-4c1ecd76af02">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>BSK</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Journal of the History of Buddhism</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Bukkyō Shigaku Kenkyū</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>31</number>
+            </detail>
+            <extent unit="pages">
+                <start>1</start>
+                <end>27</end>
+            </extent>
+            <date encoding="w3cdtf">1988</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Wakahara 1988</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

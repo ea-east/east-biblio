@@ -1,0 +1,109 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-ec0253e6-6673-42dc-b7a1-dbbf83d5dedc" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>"Shōshinjitsuron" gaikyō hihan shō yakuchū </title>
+        <partNumber>1</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>An</nonSort>
+        <title>annotated translation of the Bahirarthaparīkṣā of the Tattvasaṅgraha</title>
+        <partNumber>1</partNumber>
+    </titleInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="local">chapter</genre>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-15+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <name type="personal">
+        <namePart type="given">Akira</namePart>
+        <namePart type="family">Suganuma</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-0b8b9483-7eec-44e9-8ae0-274777e5f67f">
+        <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">edited-volume-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-27T11:23:38.506+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2017-03-27+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <relatedItem type="series">
+        <name type="personal">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <name type="corporate">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo script="Latn">
+            <issuance>continuing</issuance>
+        </originInfo>
+    </relatedItem>
+    <genre authority="local">editedVolume</genre>
+    <genre authority="marcgt">book</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <originInfo>
+        <place>
+            <placeTerm type="text" script="Latn">Tōkyō</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1981</dateIssued>
+        <publisher script="Latn">Shunjusha</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <name type="personal">
+        <role>
+            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+        </role>
+    </name>
+    <titleInfo lang="eng" script="Latn" type="translated">
+        <title>Festschrift in Honor of the 70th Birthday of Dr. Shunkyō Katsumata</title>
+        <subTitle>From Mahāyāna to Esoteric Buddhism</subTitle>
+    </titleInfo>
+    <titleInfo>
+        <title>Katsumata Shunkyō Hakase Koki Kinen Ronbunshū</title>
+        <subTitle>Daijō Bukkyō Kara Mikkyō He</subTitle>
+    </titleInfo>
+    <part>
+            <date encoding="w3cdtf">1981</date>
+            <extent unit="pages">
+                <start>573</start>
+                <end>585</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Suganuma 1981</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-27T11:26:30.432+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

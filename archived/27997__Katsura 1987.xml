@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Inmyō shōrimonron kenkyū [7] [A Study of the Nyāyamukha (VII)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Katsura</namePart>
+    <namePart type="given">Shoryu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <identifier type="doi">10.15027/27799</identifier>
+  <location>
+    <url usage="primary display">http://doi.org/10.15027/27799</url>
+  </location>
+  <abstract>-Synopsis-
+10.14. Prāptyaprāptisama &amp; ahetusama explained / 5a7-5a18
+(Verse 24)
+10.15. Prāptyaprāptisama &amp; ahetusama refuted / 5a18-5a27
+10.16. *Anukti-,anutpatti- &amp; kārya-sama enumerated / 5a28-5b2
+(Verse 25 &amp; 26)
+10.17 *Anuktisama explained / 5b3-5b6
+10.18. Anutpattisama explained / 5b7-5b13
+10.19. Kāryasama explained / 5b13-5b16
+10.20. The three jātis refuted / 5b17-5c3
+10.21. Prasangasama explained &amp; refuted / 5c4-5c9
+(Verse 27)
+10.22. Nityasama explained &amp; refuted / 5c10-5c18
+(Verse 28)
+11. Concluding remarks on jātis / 5c19-5c26
+12. Nigrahasthānas &amp; other logical categories / 5c26-6a6
+(Concluding verse 29)
+
+This is the final portion of my study of the Nyāyamukha. It took me ten years to finish editing and translating this small but difficult work. On this occasion I would like to thank those who have sent me their comments on and corrections of my translations and notes. I promise to publish a revised English version in the future. Meanwhile, I would like to work on what Prof. M. Hahn calls 'working edition' of the Pramāṇasamuccaya-vṛtti and Ṭīkā, as well as to translate the portions of the Pramāṇasamuccaya-vṛtti which have not been touched by Profs. Hattori and Kitagawa. I originally intended to evaluate Dignāga's logical system by using modern symbolic logic. However, my interest on that area has somehow decreased and I will expect someone to take over that task.</abstract>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>46</number>
+      </detail>
+      <extent unit="pages">
+        <start>46</start>
+        <end>65</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1987</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">0437-5564</identifier>
+    <titleInfo>
+      <title>Hiroshima daigaku bungakubu kiyō [The Hiroshima University Studies, Faculty of Letters]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

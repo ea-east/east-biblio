@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Erkenntnistheorie und Logik der klassischen Zeit</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Frauwallner</namePart>
+    <namePart type="given">Erich</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Steinkellner</namePart>
+      <namePart type="given">Ernst</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>66</start>
+        <end>87</end>
+      </extent>
+    </part>
+    <originInfo>
+      <copyrightDate>1984</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Nachgelassene Werke, Vol. 1: Aufsätze, Beiträge, Skizzen.</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Translation of Pramāṇavārttika 1 and Svavr̥tti (2)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ota</namePart>
+    <namePart type="given">Shinkai</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>26</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>19</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1980</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bulletin of Saga Ryūkoku Junior College [Saga Ryūkoku Tanki Daigaku Kiyō]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

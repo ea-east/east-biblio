@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>[Aṣṭādhyāyi, Sanskrit und Deutsch] Pāṇini's Grammatik. Herausgegeben, übersetzt, erläutert und mit verschiedenen Indices versehen von Otto Böhtlingk.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>Pāṇini</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Leipzig</placeTerm>
+    </place>
+    <publisher>H. Hassel</publisher>
+    <copyrightDate>1887</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

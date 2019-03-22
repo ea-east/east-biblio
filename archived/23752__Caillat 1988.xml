@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Notes Grammaticales sur les Documents Kharoṣṭhī de Niya</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Caillat</namePart>
+    <namePart type="given">Colette</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>9</start>
+        <end>24</end>
+      </extent>
+    </part>
+    <originInfo>
+      <copyrightDate>1988-1989</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Actes du Colloque Franco-Japonais, Documents d'Archives d'Asie Centrale. Tokyo-Kyoto 1988. Kyoto 1989</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

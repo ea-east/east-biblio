@@ -1,0 +1,19 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Vergleich von Verwaltungsstrukturen und wirtschaftlichen Entscheidungsprozessen tibetischbuddhistischer Klöster in der Autonomen Region Tibet, China und Indien</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Dagyab</namePart>
+    <namePart type="given">Namri</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <copyrightDate>2009</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

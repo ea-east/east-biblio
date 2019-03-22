@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Concept of yoga in the Vaiśeṣikasūtra</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Nozawa</namePart>
+    <namePart type="given">Masanobu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Toko</placeTerm>
+      </place>
+      <publisher>Shunjū-sha</publisher>
+      <copyrightDate>1996</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indian Thoughts and Buddhist Culture. Essays in Honour of Professor Junkichi Imanishi on His Sixtieth Birthday</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

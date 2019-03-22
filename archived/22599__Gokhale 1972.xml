@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The second chapter of Bhavya's Madhyamakahr̥daya</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Gokhale</namePart>
+    <namePart type="given">V. V.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>14/1-2</number>
+      </detail>
+      <extent unit="pages">
+        <start>40</start>
+        <end>45</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1972</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indo-Iranian Journal</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

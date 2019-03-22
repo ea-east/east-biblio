@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Hiromasa Tosaki, Bukkyō Ninshikiron no Kenkyū - Hosshō-cho Pramāṇavārttika no Genryō-ron [A Study of Buddhist Epistemology - The Theory of Perception in the Pramāṇavārttika of Dharmakīrti], Part 1. Tokyo: Daitō Shuppanasha, 1979. IIJ 25, 58-61.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hattori</namePart>
+    <namePart type="given">Masaaki</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>25</number>
+      </detail>
+      <extent unit="pages">
+        <start>58</start>
+        <end>61</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1983</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IIJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

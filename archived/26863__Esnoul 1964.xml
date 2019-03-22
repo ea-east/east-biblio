@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Les Strophes de Sāṃkhya (Sāṃkhya-Kārikā). Avec le commentaire de Gauḍapāda. Texte Sanskrit et traduction annotée</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Esnoul</namePart>
+    <namePart type="given">Anne-Marie</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Paris</placeTerm>
+    </place>
+    <publisher>Societé d'edition</publisher>
+    <copyrightDate>1964</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

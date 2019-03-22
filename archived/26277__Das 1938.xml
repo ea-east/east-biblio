@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Concordance-Dictionary to the Yoga-Sūtra-s of Paṭanjali and the Bhāshya of Vyāsa</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Das</namePart>
+    <namePart type="given">Bhagavan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Benares</placeTerm>
+    </place>
+    <publisher>Kāshi-Vidyā Pītha</publisher>
+    <copyrightDate>1938</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Sanskrit: an easy introduction to an enchanting language. Vol 1: Tools: Grammatical, Part B consisting of appendices to vol. 1A and other study-aids (Svādhyāya Sanskrit series; 1.1B)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Aklujkar</namePart>
+    <namePart type="given">Ashok</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Richmond</placeTerm>
+    </place>
+    <copyrightDate>1992</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

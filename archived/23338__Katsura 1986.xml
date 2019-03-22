@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>On the origin and development of the concept of vyāpti in Indian logic</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Katsura</namePart>
+    <namePart type="given">Shoryu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>38</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>16</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1986</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Hiroshima-Tetsugaku-Kai</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

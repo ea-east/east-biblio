@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Shōyō zō "Bosabu-honshoman ron" ni okeru Shōken to Jaken no Isō [Aspekte richtiger Lehren und falscher Lehren in Āryaśūras Jātakamālā]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Namai</namePart>
+    <namePart type="given">Mamoru</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>48</number>
+      </detail>
+      <extent unit="pages">
+        <start>67</start>
+        <end>85</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>.A.</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Nihon Bukkyō Gakkai Nenpō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

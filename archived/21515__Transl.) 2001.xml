@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Abhidharmasamuccaya: The Compendium of the Higher Teaching (Philosophy) by Asaṅga (Sara Boin-Webb, Transl.)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">(Transl.)</namePart>
+    <namePart type="given">Walpola Rahula</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Berkeley</placeTerm>
+    </place>
+    <publisher>Asian Humanity Press</publisher>
+    <copyrightDate>2001</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

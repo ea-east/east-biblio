@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Anne-Marie Blondeau (ed. and tr.), Matériaux pour l'étude de l'hippologie et de l'hippiatrie tibétaines (à partir des manuscrits de Touen-houang). (Centre de Recherches d'Histoire et de Philologie de la IVe Section de l'École Pratique des Hautes Études. [Série] II. Hautes Études Orientales 2), Genève: Librairie Droz, 1972</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Emmerick</namePart>
+    <namePart type="given">R. E.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>36</number>
+      </detail>
+      <extent unit="pages">
+        <start>698</start>
+        <end>700</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1973</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>BSOAS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

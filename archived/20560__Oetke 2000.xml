@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Meaning of Verse 25 of the Saṃbandha-samuddeśa and Its Context</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Oetke</namePart>
+    <namePart type="given">Claus</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Balcerowicz</namePart>
+      <namePart type="given">Piotr</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Mejor</namePart>
+      <namePart type="given">Marek</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>301</start>
+        <end>341</end>
+      </extent>
+    </part>
+    <originInfo>
+      <copyrightDate>2000</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>On the Understanding of Other Cultures. Proceedings ... Schayer Conference, Warsaw, October 7-10, 1999</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

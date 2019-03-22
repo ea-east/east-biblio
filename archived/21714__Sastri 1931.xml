@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Madhyamārthasaṅgraha of Bhāvaviveka (restored from the Tibetan version with an English translation); Extracts from Jayananda's commentary on the Madhyamakāvatāra, chap. VI. Retranslated into Sanskrit from the Tibetan version</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Sastri</namePart>
+    <namePart type="given">N. Ayyaswami</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>5/1; 6/2; 7/1 u. 3</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1931/1932/1933</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JORM</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

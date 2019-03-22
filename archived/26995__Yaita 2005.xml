@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Three Sanskrit Texts from the Buddhist Pramāṇa Tradition. The Hetuvidyā Section in the Yogācārabhūmi, the Dharmottaraṭippanaka, and the Tarkarahasya</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Yaita</namePart>
+    <namePart type="given">Hideomi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Narita</placeTerm>
+    </place>
+    <publisher>Naritasan Shinshoji (Monograph Series of Naritasan Institute for Buddhist Studies, vol. 4)</publisher>
+    <copyrightDate>2005</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

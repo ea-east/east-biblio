@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Le commentaire de Mi-pham au chapitre IX du Bodhicaryāvatāra de Śāntideva: Échos modernes d une controverse du XVème siècle (Mémoire/M.A. thesis)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Arguillère</namePart>
+    <namePart type="given">Stéphane</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Paris</placeTerm>
+    </place>
+    <publisher>Université de Paris-IV-Sorbonne</publisher>
+    <copyrightDate>1994</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

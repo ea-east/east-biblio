@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Suiri no taishō toshiteno fuhen ni tsuite: “Ryōkettaku” to rNam nges dgongs pa rab gsal wo chūshin ni [On Sāmānya as an Object of the Inference in the Pramāṇaviniścaya and the rNam nges dgongs pa rab gsal]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Choi</namePart>
+    <namePart type="given">Kyeongjin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40019438507/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>2</number>
+      </detail>
+      <extent unit="pages">
+        <start>91</start>
+        <end>107</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2011</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">1884-7382</identifier>
+    <titleInfo>
+      <title>Indo ronrigaku kenkyū [Indian Logic]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

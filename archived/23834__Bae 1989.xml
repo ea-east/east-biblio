@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Warum Bodhi-Dharma in den Orient aufbrach? Dharmaga tongjogŭro kan kkadalgŭn? Südkorea 1989</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Bae</namePart>
+    <namePart type="given">Yong-Kyun</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>1–47 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wien</placeTerm>
+    </place>
+    <publisher>Pandora Film, Verleih. (Filmpresse Gisela Meuser). Filmhaus Stöbergasse</publisher>
+    <copyrightDate>1989</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

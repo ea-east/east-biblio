@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Bernard W. J. van der Kuijp, Contributions to the development of Tibetan Buddhist epistemology (from the eleventh to the thirteenth century). Wiesbaden: Franz Steiner Verlag, 1983</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Matilal</namePart>
+    <namePart type="given">Bimal Krishna</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>48</number>
+      </detail>
+      <extent unit="pages">
+        <start>161</start>
+        <end>163</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1985</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>BSOAS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

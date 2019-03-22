@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Lhasa and Its Mysteries: With a Record of the Expedition of 1903–1904.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Waddell</namePart>
+    <namePart type="given">Laurence Austine</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">New York</placeTerm>
+    </place>
+    <publisher>E.P. Dutton &amp; Company</publisher>
+    <copyrightDate>1906</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

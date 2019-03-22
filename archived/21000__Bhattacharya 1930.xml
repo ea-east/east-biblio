@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mahāyānaviṃśaka of Nāgārjuna. Restored in Sanskrit from the Tibetan and Chinese versions and translated into English</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Bhattacharya</namePart>
+    <namePart type="given">Vidhushekhara</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>8/1&amp;2</number>
+      </detail>
+      <extent unit="pages">
+        <start>108</start>
+        <end>150</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1930-31</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Visva-Bharati Quaterly</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

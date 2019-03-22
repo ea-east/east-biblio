@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Notes Apropos to the Oeuvre of Si tu Paṇ chen Chos kyi 'byung gnas (1699?-1774) (3): The "Editor" Si tu Paṇ chen</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Verhagen</namePart>
+    <namePart type="given">Pieter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">al</namePart>
+      <namePart type="given">Anne Chayet et</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>465</start>
+        <end>482</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">München</placeTerm>
+      </place>
+      <publisher>Indus Verlag</publisher>
+      <copyrightDate>2010</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Edition, éditions: l'écrit au Tibet, évolution et devenir</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

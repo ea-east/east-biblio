@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Ascription of Linguistic Properties and Varieties of Content. Two Studies on Problems of Self-Reference</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Oetke</namePart>
+    <namePart type="given">Claus</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Stockholm</placeTerm>
+    </place>
+    <publisher>Stockholm University</publisher>
+    <copyrightDate>2012</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

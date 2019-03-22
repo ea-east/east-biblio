@@ -1,0 +1,19 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Communities, Innovation, and Critical Mass: Understanding the Impact of Digitization on Scholarship in the Humanities Through the Case of Tibetan and Himalayan Studies</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Madsen</namePart>
+    <namePart type="given">Christine McCarthy</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <copyrightDate>2010</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

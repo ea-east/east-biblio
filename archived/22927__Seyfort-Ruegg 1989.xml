@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Allusiveness and Obliqueness in Buddhist Texts: Saṃdha, saṃdhi, saṃdhyā and abhisaṃdhi</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Seyfort-Ruegg</namePart>
+    <namePart type="given">D.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Caillat</namePart>
+      <namePart type="given">Collette</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Paris</placeTerm>
+      </place>
+      <publisher>Collège de France</publisher>
+      <copyrightDate>1989</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Dialectes dans les littératures indo-aryenne (Publications de l`Institut de Civilisation Indienne, Série in-8(, Fasc. 56),</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

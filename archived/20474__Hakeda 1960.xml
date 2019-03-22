@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Characteristics of the language of the epics of Aśvaghoṣa especially as compared with the epics of Kālidāsa</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Hakeda</namePart>
+    <namePart type="given">Yoshito</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Yale</placeTerm>
+    </place>
+    <copyrightDate>1960</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

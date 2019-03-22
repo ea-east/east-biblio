@@ -1,0 +1,19 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Kṣaṇabhaṅgasiddhi-Anvayātmikā: An Eleventh-Century Buddhist Work On Existence and Causal Theory</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Woo</namePart>
+    <namePart type="given">Jeson</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <copyrightDate>1999</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

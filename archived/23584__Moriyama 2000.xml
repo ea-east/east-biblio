@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Issaichisya no jikan-ninshiki: Pramāṇavārttikālaṅkāra ad PV II vv. 136-137 no kaidoku [Sarvajñ̃ā's Cognition of the Past and the Future: Some Remarks on the Pramāṇavārttikālaṅkāra ad PV II 136-137]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Moriyama</namePart>
+    <namePart type="given">Shinya</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>4</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>2000</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bukkyo Bunka Kenkyu Ronshu</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

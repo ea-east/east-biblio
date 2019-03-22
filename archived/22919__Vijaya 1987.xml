@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Significance and meaning of pratītya-samutpāda (With special reference to Kumārila's Ślokavārttika)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Vijaya</namePart>
+    <namePart type="given">Rani</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>11</start>
+        <end>15</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Calcutta</placeTerm>
+      </place>
+      <publisher>Sanskrit Pustak Bhandar</publisher>
+      <copyrightDate>1987</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Philosophical Essays, Professor Anantalal Thakur Felicitation Volume</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

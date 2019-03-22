@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Legends and Theories of the Buddhists</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Hardy</namePart>
+    <namePart type="given">R. Spence</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">London, Edinburgh</placeTerm>
+    </place>
+    <publisher>Williams and Norgate</publisher>
+    <copyrightDate>1866</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

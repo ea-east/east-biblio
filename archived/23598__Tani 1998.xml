@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Jñānaśrīmitra shunkanteki shōmetsu (setsunametsu) Kṣaṇabhaṅga shiyaku [1] saikō (3). Reconstruction of a Trial Translation of Jñānaśrīmitra's "Kṣaṇabhaṅga Adhyāya" [3]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Tani</namePart>
+    <namePart type="given">Tadashi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>42</number>
+      </detail>
+      <extent unit="pages">
+        <start>49</start>
+        <end>69</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1998</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Kōchi Kōgyō Kōtō Senmon Gakkō Gakujutsu Kiyō (= The Bulletin of the Kōchi National College of Technology)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

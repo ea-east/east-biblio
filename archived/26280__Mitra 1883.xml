@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Yoga Aphorisms of Patanjali with the Commentary of Bhoja Raja</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Mitra</namePart>
+    <namePart type="given">Rajendralala</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Calcutta</placeTerm>
+    </place>
+    <publisher>Asiatic Society of Bengal</publisher>
+    <copyrightDate>1883</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

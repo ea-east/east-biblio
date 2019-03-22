@@ -1,0 +1,105 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-b0c65f76-1dc9-4791-a86e-a605a2c674f0" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Tattvasaṅgraha of Śāntarakṣita</title>
+        <subTitle>With the Commentary of Kamalaśīla. Ed. with an Introduction in Sanskrit</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Embar</namePart>
+        <namePart type="family">Krishnamacharya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Baroda</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1926</dateIssued>
+        <publisher>Central Library</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <physicalDescription>
+        <extent>CLVII, 80, 582, 6 p.; 593-936, 102 p.</extent>
+    </physicalDescription>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-70f39bcf-a05f-4f7b-ba86-d826e5ba2953">
+        <language><languageTerm>af</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Baroda</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>GOS</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Gaekwad's Oriental Series</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>30-31</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>2</edition>
+            <publisher>Oriental Institute</publisher>
+            <place>
+                <placeTerm type="text">Baroda</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1984</dateIssued>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+        </part>
+        <physicalDescription>
+            <extent>CXVII, 80, 582 p.</extent>
+        </physicalDescription>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>2</edition>
+            <publisher>Oriental Institute</publisher>
+            <place>
+                <placeTerm type="text">Baroda</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1988</dateIssued>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>2</number>
+            </detail>
+        </part>
+        <physicalDescription>
+            <extent>IV, 593-936, 97 p.</extent>
+        </physicalDescription>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Krishnamacharya 1926b</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

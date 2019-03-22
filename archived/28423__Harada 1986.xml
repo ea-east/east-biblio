@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dignāga no apoha ron kenkyū nōto 3: “Chishikiron shūsei” daigo shō no Sanskrit danpen wo chūshin ni shite [*A study of the apoha theory of Dignāga 3]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Harada</namePart>
+    <namePart type="given">Wasō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">https://ci.nii.ac.jp/naid/40004029199</url>
+  </location>
+  <language>
+    <languageTerm type="text">Japanese</languageTerm>
+  </language>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>12</number>
+      </detail>
+      <extent unit="pages">
+        <start>21</start>
+        <end>38</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1986</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">02866420</identifier>
+    <titleInfo>
+      <title>Bukkyōgaku Kaihō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

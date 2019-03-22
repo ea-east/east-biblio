@@ -1,0 +1,25 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Abstracts from: Akira Saito: Recent controversy over the origins and reality of Mahāyāna Buddhism; Paul Harrison: Mediums and messages: reflections on the production of Mahāyāna sūtras; Masahiro Shimoda: The debate about the origin(s) of Mahāyāna and the transformation of the methodology of Buddhist studies; Shizuka Sasaki: What constitutes the origins of Mahāyāna Buddhism; Juhyung Rhi: Gandharan Art and Mahāyāna Buddhism: evidence old and new; Noritoshi Aramaki: Toward a new working hypothesis on the origins of Mahāyāna Buddhism: an attempted criticism of some eight misconceptions. Akira Saito (Chairperson's report): Symposium IV: Mahāyāna Buddhism: its origins and reality.</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">al</namePart>
+    <namePart type="given">Akira Saito et</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <originInfo>
+      <publisher>The Tōhō Gakkai</publisher>
+      <copyrightDate>2003</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Offprint from: Transactions of the International Conference of Eastern Studies No. 48</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

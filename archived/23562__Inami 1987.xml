@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmakīrti niyoru rinne no ronsho (2)[A Study in Pramāṇavārttika, Chap. II .. Dharmakīrti's Proof of Transmigration (Part II)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Inami</namePart>
+    <namePart type="given">Masahiro</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>57</number>
+      </detail>
+      <extent unit="pages">
+        <start>32</start>
+        <end>49</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1987</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Nanto Bukkyo</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

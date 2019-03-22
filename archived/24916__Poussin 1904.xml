@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Notices of Books: C. M. Pleyte, Bijdrage tot de Kennis van het Mahāyāna op Java. I, Opmerkingen naar anleiding van Grünwedel's "Mythologie du Bouddhisme au Tibet et en Mongolie"; II, Vajrapāṇi als Dharmapāla (Bijdr. tot de Taal-, Land-, en Volkenkunde van Nederlandsch-Indie), 1901-2</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Poussin</namePart>
+    <namePart type="given">Louis de la Vallée</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <extent unit="pages">
+        <start>553</start>
+        <end>557</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1904</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JRAS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

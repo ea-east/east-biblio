@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Inmyō shōrimonron kenkyū [5] [A Study of the Nyāyamukha (V)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Katsura</namePart>
+    <namePart type="given">Shoryu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <identifier type="doi">10.15027/27797</identifier>
+  <location>
+    <url usage="primary display">http://doi.org/10.15027/27797</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>42</number>
+      </detail>
+      <extent unit="pages">
+        <start>82</start>
+        <end>99</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1982</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">0437-5564</identifier>
+    <titleInfo>
+      <title>Hiroshima daigaku bungakubu kiyō [The Hiroshima University Studies, Faculty of Letters]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

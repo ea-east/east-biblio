@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Second Report of Operations in Search of Sanskrit Mss. in the Bombay Circle. April 1883 – March 1884. Extra Number of the Journal of the Bombay Branch of the Royal Asiatic Society</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Peterson</namePart>
+    <namePart type="given">Peter</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Bombay - London</placeTerm>
+    </place>
+    <copyrightDate>1884</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Leben und historische Bedeutung des ersten Dalai Lama dGe 'dun grub pa dpal bzang po (1391-1474): Ein Beitrag zur Geschichte der dGe lugs pa-Schule und der Institution der Dalai Lamas</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Weirong</namePart>
+    <namePart type="given">Shen</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Sankt Augustin</placeTerm>
+    </place>
+    <publisher>Steyler Verlag</publisher>
+    <copyrightDate>2002</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

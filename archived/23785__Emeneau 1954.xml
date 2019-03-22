@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Reviews: (1) Buddhist Hybrid Sanskrit grammar and dictionary. By Franklin Edgerton. (William Dwight Whitney linguistic series) New Haven: Yale University Press, 1953. (2) Buddhist Hybrid Sanskrit reader. Edited with notes by Franklin Edgerton. (William Dwight Whitney linguistic series) New Haven: Yale University Press, 1953</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Emeneau</namePart>
+    <namePart type="given">M. B.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>30/4</number>
+      </detail>
+      <extent unit="pages">
+        <start>474</start>
+        <end>485</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1954</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Language - Journal of the Linguistic Society of America</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

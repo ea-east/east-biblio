@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Sudhana's miraculous journey in the temple of Ta pho. The inscriptional text of the Gaṇḍavyūhasūtra, edited with introductory remarks</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Steinkellner</namePart>
+    <namePart type="given">Ernst</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Roma</placeTerm>
+    </place>
+    <publisher>Istituto Italiano per l'Africa e l'Oriente</publisher>
+    <copyrightDate>1995</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

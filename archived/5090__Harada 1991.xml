@@ -1,0 +1,69 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-239f7fbc-ab4e-467a-9655-2fbe64ab57db" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dignāga no bunshō no imi riron</title>
+        <subTitle>"Chishikironshūsei-jichū" dai V shō dai 46-49 ge narabi ni, "Fukuchū" no wayaku to bongo kanen no kokoromi</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Dignāga's theory of sentence meaning</title>
+        <subTitle>A tentative Japanese translation and reconstruction into Sanskrit of Pramāṇasamuccayavṛtti and Pramāṇasamuccayaṭīkā V 46-49</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Wasō</namePart>
+        <namePart type="family">Harada</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3fe4da1b-93bd-4562-abee-b774a9a32c16">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Kyōto</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>BGK</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Studies in Buddhism</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Bukkyōgaku Kenkyū</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>47</number>
+            </detail>
+            <extent unit="pages">
+                <start>70</start>
+                <end>92</end>
+            </extent>
+            <date encoding="w3cdtf">1991</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-13+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Harada 1991</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

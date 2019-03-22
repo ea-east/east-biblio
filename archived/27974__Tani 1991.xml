@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Jñānaśrīmitra ‘shunkanteki shōmetsu (setsunametsu) kṣaṇabhaṅga no shō’ shiyaku [1]* [A Trial Translation of Jñānaśrīmitra's kṣaṇabhaṅga-Adhyāya (chapter of Momenntary Destruction) [1]*: Critical Text and Sub-commentaries]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Tani</namePart>
+    <namePart type="given">Tadashi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://tripitaka.l.u-tokyo.ac.jp/INBUDS/search.php?m=trdd&amp;usid=30921&amp;a=</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>34</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>12</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1991</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">04541170</identifier>
+    <titleInfo>
+      <title>Kōchi kōgyōkōtōsenmongakkō gakujutu kiyō [The Bulletin of Kochi National College of Technology]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Guide through the Abhidhamma-Pitaka: being a synopsis of the philosophical collection belonging to the Buddhist Pali canon followed by an essay on the paticca-samuppāda</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Mahathera</namePart>
+    <namePart type="given">Nyanatiloka</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Kandy</placeTerm>
+    </place>
+    <publisher>Buddhist Publication Society</publisher>
+    <copyrightDate>1983 (1938)</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

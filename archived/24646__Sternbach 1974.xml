@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Subhāṣita, Gnomic and Didactic Literature - A History of Indian Literature Vol. 4/Part 1/1</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Sternbach</namePart>
+    <namePart type="given">Ludwik</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wiesbaden</placeTerm>
+    </place>
+    <publisher>Otto Harrassowitz</publisher>
+    <copyrightDate>1974</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

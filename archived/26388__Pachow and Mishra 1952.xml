@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Prātomokṣa Sūtra of the Mahāsāṅghikas</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Pachow</namePart>
+    <namePart type="given">W.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Mishra</namePart>
+    <namePart type="given">Ramakanta</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>9/2-4</number>
+      </detail>
+      <extent unit="pages">
+        <start>239</start>
+        <end>260</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1952</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the Ganganatha Jha Research Institute</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Shinnyo chi o motomuru shō daisan [A translation into Japanese of the Madhyamaka-hṛdaya-vṛtti-tarka-jvāla] (1)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Nozawa</namePart>
+    <namePart type="given">J.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>28-31</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1954-55</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Mikkyō Bunka</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

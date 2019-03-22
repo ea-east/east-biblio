@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>How Jains know what they now: a lay Jain curriculum</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Cort</namePart>
+    <namePart type="given">John E.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Dhaky</namePart>
+      <namePart type="given">M. A.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Shah</namePart>
+      <namePart type="given">Jitendre B.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>399</start>
+        <end>413</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Ahmedabad</placeTerm>
+      </place>
+      <publisher>Sharadaben Chimanbhai Educational Research Centre</publisher>
+      <copyrightDate>2004?</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Jambū-jyoti (Munivar Jambūvijaya Festschrift). Shresthi Kasturbhai Lalbhai Smarak Nidhi Vol.7</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

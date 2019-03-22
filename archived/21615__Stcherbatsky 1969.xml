@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Establishment of the existence of other minds. A free translation of Dharmakīrti's Santānāntara-siddhi and Vinītadeva's Santānāntarasiddhi-ṭīkā</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Stcherbatsky</namePart>
+    <namePart type="given">Theodore</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>73</start>
+        <end>121</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Calcutta</placeTerm>
+      </place>
+      <copyrightDate>1969</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Papers of Th. Stcherbatsky. Translated for the first time into English by Harish C. Gupta (Soviet Indology Series No. 2)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

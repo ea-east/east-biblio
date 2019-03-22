@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Japanese translation of Sthiramati's Pañcaskandhaprakaraṇabhāṣya, Saṃskāraskandha (1)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Minoura</namePart>
+    <namePart type="given">Akio</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Birthday</namePart>
+      <namePart type="given">Committee for the Felicitation of Dr Hojun Nagasaki's Seventieth</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>267</start>
+        <end>288</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Kyoto</placeTerm>
+      </place>
+      <publisher>Committee for the Felicitation of Dr. Hojun Nagasaki's Seventieth Birthday</publisher>
+      <copyrightDate>2005</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Buddhism and Jainism. Essays in Honour of Dr. Hojun Nagasaki on His Seventieth Birthday</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

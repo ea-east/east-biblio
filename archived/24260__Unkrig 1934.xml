@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Zur Gegenwartswertung der lamaistischen Heilkunde und über ihr Instrumentarium</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Unkrig</namePart>
+    <namePart type="given">W. A.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>4</number>
+      </detail>
+      <extent unit="pages">
+        <start>139</start>
+        <end>144</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1934</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Die Medizinische Welt</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

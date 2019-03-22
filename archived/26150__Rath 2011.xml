@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Vedic Education in early medieaval India according to North Indian Charters</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Rath</namePart>
+    <namePart type="given">Saraju</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Bucarest</namePart>
+      <namePart type="given">Bibliothèque Métropolitaine</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>393</start>
+        <end>424</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Bucarest</placeTerm>
+      </place>
+      <publisher>Editeur Bibliothèque de Bucarest</publisher>
+      <copyrightDate>2011</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The International Symposium. The Book. Romania. Europa.10-24. September 2010. (Travaux de Symposium International. Le Livre. La Roumanie. L'Europe.)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

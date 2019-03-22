@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhism and Nineteenth-Century German Philosophy</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Dumoulin</namePart>
+    <namePart type="given">Heinrich</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>42.3</number>
+      </detail>
+      <extent unit="pages">
+        <start>457</start>
+        <end>470</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1981</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of the History of Ideas</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

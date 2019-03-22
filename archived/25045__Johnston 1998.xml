@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Aśvaghoṣa’s Buddhacarita or Acts of the Buddha. Complete Sanskrit Text with English Translation Cantos I to XIV translated from the Original Sanskrit supplemented by the Tibetan Version together with an introduction and notes</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Johnston</namePart>
+    <namePart type="given">E. H.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Delhi</placeTerm>
+    </place>
+    <publisher>Motilal Banarsidass</publisher>
+    <copyrightDate>1998 (1 .1936)</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

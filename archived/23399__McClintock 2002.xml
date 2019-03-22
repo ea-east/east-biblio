@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Omniscience and the Rhetoric of Reason in the &lt;i&gt;Tattvasaṃgraha&lt;/i&gt; and &lt;i&gt;Tattvasaṃgrahapañjikā&lt;/i&gt;</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">McClintock</namePart>
+    <namePart type="given">Sara Louise</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Cambridge, Mass.</placeTerm>
+    </place>
+    <copyrightDate>2002</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

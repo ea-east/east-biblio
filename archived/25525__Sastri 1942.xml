@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>An alphabetical index of Sanskrit manuscripts in the Government Oriental Manuscripts Library, Madras, Part III</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Sastri</namePart>
+    <namePart type="given">P. P. Subrahmanya</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Madras</placeTerm>
+    </place>
+    <publisher>Superintendant, Government Press</publisher>
+    <copyrightDate>1942</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

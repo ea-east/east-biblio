@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Gaṅgādāsa and his Father Gopāladāsa</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Bhattacharya</namePart>
+    <namePart type="given">Dinesh Chandra</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>24</number>
+      </detail>
+      <extent unit="pages">
+        <start>312</start>
+        <end>313</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1948</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Indian Historical Quarterly</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

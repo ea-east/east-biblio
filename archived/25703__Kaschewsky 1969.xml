@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bericht über eine literarische und buddhologische Sammelarbeit in Nepal 1968/69</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kaschewsky</namePart>
+    <namePart type="given">Rudolf</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>3</number>
+      </detail>
+      <extent unit="pages">
+        <start>289</start>
+        <end>319</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1969</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Zentralasiatische Studien</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

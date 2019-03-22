@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhistisches Wörterbuch. Kurzgefaßtes Handbuch der buddhistischen Lehren und Begriffe in alphabetischer Anordnung</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>Nyanatiloka</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Konstanz</placeTerm>
+    </place>
+    <publisher>Christiani</publisher>
+    <copyrightDate>1983</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

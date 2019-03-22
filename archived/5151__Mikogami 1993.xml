@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-159d6c80-293d-402a-a706-e7e2187d4447" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Śubhagupta no communication ron</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Śubhagupta's theory of communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Eshō</namePart>
+        <namePart type="family">Mikogami</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>chapter</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-f10bd5a8-be5c-4e1b-b0bf-57be571afb93">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">book</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Kyōto</placeTerm>
+        </place>
+        <publisher>Nagata Bunshodo</publisher>
+        <dateIssued encoding="w3cdtf">1993</dateIssued>
+    </originInfo>
+    <name type="personal">
+        <namePart type="given">Egaku</namePart>
+        <namePart type="family">Mayeda</namePart>
+    </name>
+    <titleInfo>
+        <title>Studies in Original Buddhism and Mahāyāna Buddhism</title>
+        <subTitle>in Commemoration of late Professor Dr. Fumimaro Watanabe</subTitle>
+        <partNumber>Vol. 2</partNumber>
+    </titleInfo>
+    <part>
+            <extent unit="pages">
+                <start>151</start>
+                <end>167</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="jpn" script="Jpan">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

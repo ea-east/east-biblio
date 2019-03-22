@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Buddhist Thought in India. Three Phases of Buddhist Philosophy</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Conze</namePart>
+    <namePart type="given">Edward</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">London, et al.</placeTerm>
+    </place>
+    <publisher>George Allen &amp; Unwin</publisher>
+    <copyrightDate>1962 (R 1983)</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

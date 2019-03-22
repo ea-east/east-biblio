@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Kiraṇāvalī Prakāśa (Guṇa) by Vardhamāna Upādhyāya, Vol. II</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Kaviraj</namePart>
+    <namePart type="given">Gopi Nath</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Allahabad</placeTerm>
+    </place>
+    <publisher>Government Press</publisher>
+    <copyrightDate>1936</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A descriptive catalogue of Sanskrit manuscripts in the government collection under the care of the Asiatic Society of Bengal. Vol. 1: Buddhist manuscripts</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Shastri</namePart>
+    <namePart type="given">Hara Prasad</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Calcutta</placeTerm>
+    </place>
+    <publisher>Baptist Mission Press</publisher>
+    <copyrightDate>1917</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

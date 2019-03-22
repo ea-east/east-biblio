@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Newly Discovered Folios of the Bodhisattvacaryāvatāra in the Tabo Collection</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Ishida</namePart>
+    <namePart type="given">Chiko</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Almogi</namePart>
+      <namePart type="given">Orna</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>25</start>
+        <end>44</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Halle (Saale)</placeTerm>
+      </place>
+      <publisher>International Institute for Tibetan and Buddhist Studies</publisher>
+      <copyrightDate>2008</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Contributions to Tibetan Buddhist Literature. PIATS 2006: Tibetan Studies: Proceedings of the Eleventh Seminar of the International Association for Tibetan Studies, Königswinter 2006</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

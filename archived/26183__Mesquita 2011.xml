@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Rezension von: Thomas K. Gugler: Ozeanisches Gefühl der Unsterblichkeit.Der Krishnamritamaharnava des Madhva. Sanskrittext mit annotierter Übersetzung nebst Einführung in Madhvas Leben, Lerhe, Werke und Wirken. Berlin u.a.: Lit Verlag 2009. (leipziger Studien zur Kultur und Geschichte Süd- und Zentralasiens 3).</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Mesquita</namePart>
+    <namePart type="given">Roque</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>161,2</number>
+      </detail>
+      <extent unit="pages">
+        <start>504</start>
+        <end>509</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2011</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Zeitschrift der Deutschen Morgenländischen Gesellschaft</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

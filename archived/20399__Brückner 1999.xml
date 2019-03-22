@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Manuscripts and performance traditions of the so-called „Trivandrum-Plays“ ascribed to Bhāsa – A report on work in progress</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Brückner</namePart>
+    <namePart type="given">Heidrun</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>17-18</number>
+      </detail>
+    </part>
+    <originInfo>
+      <dateIssued>1999-2000</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>BEI</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

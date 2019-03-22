@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Inscriptions of Aśoka</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Hultzsch</namePart>
+    <namePart type="given">E.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Delhi/Varanasi</placeTerm>
+    </place>
+    <publisher>Indological Book House</publisher>
+    <copyrightDate>1969</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

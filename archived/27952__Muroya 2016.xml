@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Nyāyamukha and udghaṭitajña</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Muroya</namePart>
+    <namePart type="given">Yasutaka</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <identifier type="doi">10.1007/s10781-016-9309-8</identifier>
+  <location>
+    <url usage="primary display">http://link.springer.com/article/10.1007%2Fs10781-016-9309-8</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <originInfo>
+      <dateIssued>2016</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">0022-1791</identifier>
+    <titleInfo>
+      <title>Journal of Indian Philosophy</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

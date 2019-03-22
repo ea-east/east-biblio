@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmasaṃgrahaṇīvr̥ttimāṃ āvatā ek avataraṇanuṃ ṭibeṭan graṃthane ādhāre mūl̥asthāna</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Jambūvijayaji</namePart>
+    <namePart type="given">Muni</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>11</start>
+        <end>13</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Bombay</placeTerm>
+      </place>
+      <copyrightDate>1968</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Śrī Mahāvīra Jaina Vidyālaya Suvarṇamahotsava Grantha</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

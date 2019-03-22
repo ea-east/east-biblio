@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Dharmottara no Shōmetsu no mugen'insei ni kansuru rikai: gTsang nag pa no Pramāṇaviniścaya chūshaku ni motoduite [Dharmottara's Interpretation of the Causelessness of Destruction: With gTsang nag pa's commentary on the Pramāṇaviniścaya]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Choi</namePart>
+    <namePart type="given">Kyeongjin</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/110008897774/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <recordInfo>
+    <recordContentSource>CiNii</recordContentSource>
+  </recordInfo>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>60</number>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+      </detail>
+      <extent unit="pages">
+        <start>480</start>
+        <end>483</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2011</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">00194344</identifier>
+    <titleInfo>
+      <title>Indo-gaku Bukkyō-gaku Kenkyū [Journal of Indian and Buddhist Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

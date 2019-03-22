@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Suvarnasaptati Sastra. Sāṅkhya Kārikā Saptati of Īśvara Kṛṣṇa with a Commentary. Reconstructed into Sanskrit from the Chinese Translation of Paramārtha and Edited with English Notes, Introduction and Appendices</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Sastri</namePart>
+    <namePart type="given">N. Aiyaswami</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Tirupati</placeTerm>
+    </place>
+    <publisher>Tirumalai-Tirupati Devasthanams Press</publisher>
+    <copyrightDate>1944</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

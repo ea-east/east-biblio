@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Jinendrabuddhi's Viśālamalāvatī Pramāṇasamuccayaṭīkā. Chapter 2. Part I: Critical Edition, Part II: Diplomatic Edition</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Lasic</namePart>
+    <namePart type="given">Horst</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Krasser</namePart>
+    <namePart type="given">Helmut</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Steinkellner</namePart>
+    <namePart type="given">Ernst</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Beijing – Vienna</placeTerm>
+    </place>
+    <publisher>China Tibetology Publishing House/Austrian Academy of Sciences Press</publisher>
+    <copyrightDate>2012</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="series">
+    <titleInfo>
+      <title>Sanskrit Texts from the Tibetan Autonomous Region</title>
+    </titleInfo>
+    <part>
+      <detail type="volume">
+        <number>15</number>
+      </detail>
+    </part>
+  </relatedItem>
+</mods>

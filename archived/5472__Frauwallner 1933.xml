@@ -1,0 +1,84 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-3486b6fd-5740-4e5d-aa9e-2f408dd6e9cc" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dignāga und anderes</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Erich</namePart>
+        <namePart type="family">Frauwallner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>chapter</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-4d5f9c36-7bf1-4aef-87f9-07902300ac53">
+        <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+<recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <language>
+        <languageTerm authority="rfc3066" type="code">de-DE</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <genre authority="marcgt">Festschrift</genre>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Leipzig</placeTerm>
+        </place>
+        <publisher>Harrassowitz</publisher>
+        <dateIssued encoding="w3cdtf">1933</dateIssued>
+    </originInfo>
+    <titleInfo>
+        <title>Festschrift für Moritz Winternitz</title>
+    </titleInfo>
+    <part>
+            <extent unit="pages">
+                <start>237</start>
+                <end>242</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+        </originInfo>
+        <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-cbdabbb9-d62a-49da-bc85-10562cee63c5">
+            <titleInfo>
+                <title>Frauwallner Kleine Schriften</title>
+            </titleInfo>
+            <part>
+                <extent unit="pages">
+                    <start>484</start>
+                    <end>489</end>
+                </extent>
+            </part>
+            <physicalDescription>
+                <form authority="marcform">print</form>
+                <form authority="marcsmd" type="technique">photomechanical print</form>
+            </physicalDescription>
+        </relatedItem>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">de-DE</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-14+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

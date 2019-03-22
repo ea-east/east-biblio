@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bhā-viveka (ca. 590-570)'s Madhyamaka-hṛdaya-kārikā, Tattvajñānaiṣanā, verses 137-266. An English translation and explanation</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Watanabe</namePart>
+    <namePart type="given">Chikafumi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Vancouver</placeTerm>
+    </place>
+    <publisher>Univ. of British Columbia</publisher>
+    <copyrightDate>1994</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

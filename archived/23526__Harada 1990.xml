@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Hyōji, gani, Kitni no riron (III). The Theories of Abhidhāna, Ākṣepa, and Ākāṅkṣā (III) - Dignāga vs. Bhartṛhari (2)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Harada</namePart>
+    <namePart type="given">Wasō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>168</number>
+      </detail>
+      <extent unit="pages">
+        <start>43</start>
+        <end>78</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1990</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Mikkyō Bunka (Quarterly Reports on Esoteric Buddhism)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

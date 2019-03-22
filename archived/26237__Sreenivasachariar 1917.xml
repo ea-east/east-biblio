@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bhagavaḍ-Geeṭa of Bhagavan Sri Kṛiṣhṇa and The Geeṭarṭha-Sangraha of Maharshi Gobhila</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Sreenivasachariar</namePart>
+    <namePart type="given">K. T.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Madras</placeTerm>
+    </place>
+    <copyrightDate>1917</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

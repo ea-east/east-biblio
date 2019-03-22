@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>“Pramāṇavārttika” Pramānasiddhi shō no kenkyū (11) [Studies of The Pramāṇasiddhi Chapter of Pramāṇavārttika (11)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Inami</namePart>
+    <namePart type="given">Masahiro</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://hdl.handle.net/2309/2707</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>56</number>
+      </detail>
+      <extent unit="pages">
+        <start>125</start>
+        <end>140</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2005</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">03878929</identifier>
+    <titleInfo>
+      <title>Tokyo Gakugei Daigaku Kiyō: dai 2 bumon [Bulletin of Tokyo Gakugei University. Section II Humanities]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

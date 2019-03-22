@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>A Biographical Study of Tz'ŭ-ên</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Weinstein</namePart>
+    <namePart type="given">Stanley</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>15/1-2</number>
+      </detail>
+      <extent unit="pages">
+        <start>119</start>
+        <end>149</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1959</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Monumenta Nipponica</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

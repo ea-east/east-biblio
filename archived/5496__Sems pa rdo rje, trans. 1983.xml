@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-7e917ac1-7a7f-4cdd-8b59-92c83ec3e12c" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Nyāyapraveśasūtram Haribhadrasūtrikṛta-Nyāyapraveśavṛttisahitam</title>
+        <subTitle>Anuvādak evaṃ sampādak Sempā Dorje [Sems pa rdo rje]</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart>Sems pa rdo rje</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Vārāṇasī</placeTerm>
+        </place>
+        <publisher>Kendriya Ucca Tibbati Śikṣā Saṃsthān</publisher>
+        <issuance>monographic</issuance>
+        <dateIssued encoding="w3cdtf">1983</dateIssued>
+    </originInfo>
+    <physicalDescription>
+        <extent>XII, 136, 275 p.</extent>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-b7480926-906a-4995-b541-6ceaac907486">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Sarnath</placeTerm>
+        </place>
+        <publisher>Central Institute of Higher Tibetan Studies</publisher>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>BITS</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Bibliotheca Indo Tibetica Series</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>6</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">hi</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Deva</scriptTerm>
+    </language>
+    <recordInfo lang="hin" script="Deva">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

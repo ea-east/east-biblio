@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Yuishikisei ronsho ni kansuru ichi kosatsu - Anekāntajayapatāta to Tattvasaṃgraha wo chūshin ni (Eine Untersuchung zum cittamātratā-Beweis - mit besonderer Berücksichtigung von A. und T.)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ando</namePart>
+    <namePart type="given">Yoshinori</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>16</number>
+      </detail>
+      <extent unit="pages">
+        <start>313</start>
+        <end>290</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1984</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Sotoshū Kenkyūin Kenkyūsei Kenkyū Kiyo</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

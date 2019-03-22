@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8ed448e3-7c9c-41a3-8d59-9b9adebee31f" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Šilγadaγ ǰokis-dur oroqu-yin egüde(n) kemegdeküi-yi sayitur üiledügsen</title>
+    </titleInfo>
+    <titleInfo lang="eng" supplied="yes">
+        <title>Mongolian translation of Nyāyapraveśa</title>
+    </titleInfo>
+    <originInfo>
+        <dateCreated encoding="w3cdtf" point="start">1741</dateCreated>
+        <dateCreated encoding="w3cdtf" point="end">1749</dateCreated>
+    </originInfo>
+    <genre>canonical scripture</genre>
+    <identifier type="Mongolian Tanjur Han No.">95</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-a0282ede-6d76-4b53-a4ca-19fd0e4d9b34">
+        <language><languageTerm>id</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>Mongolian Tanjur</title>
+    </titleInfo>
+    <part>
+            <extent unit="pages">
+                <start>259b</start>
+                <end>266a</end>
+            </extent>
+        </part>
+    <part><detail/><detail type="canonNumber"><number>95</number></detail></part></relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">mn-MN</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Mong</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">suebs-tibetan</ext:template>
+    </extension>
+</mods>

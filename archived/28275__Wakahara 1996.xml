@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Bukkyōto no Jainakyō hihan (2): Tattvasaṅgraha(-pañjikā), Syādvādaparīkṣā kenkyū [Buddhist's Criticism on Jainism (2)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Wakahara</namePart>
+    <namePart type="given">Yūshō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <location>
+    <url usage="primary display">http://ci.nii.ac.jp/naid/40005149222/</url>
+  </location>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="issue">
+        <number>1</number>
+      </detail>
+      <extent unit="pages">
+        <start>57</start>
+        <end>85</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1996</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">13427377</identifier>
+    <titleInfo>
+      <title>Indogaku Chibettogaku Kenkyu [Journal of Indian and Tibetan Studies]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

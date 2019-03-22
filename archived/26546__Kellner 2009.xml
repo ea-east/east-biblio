@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Towards a Critical Edition of Dharmakīrti's Pramāṇavārttika</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kellner</namePart>
+    <namePart type="given">Birgit</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>52/53</number>
+      </detail>
+      <extent unit="pages">
+        <start>161</start>
+        <end>211</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2009-2010</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Wiener Zeitschrift für die Kunde Südasiens</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

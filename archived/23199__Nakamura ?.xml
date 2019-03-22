@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Sestu issaiu bu no tachiba - 'tu' girisha shisō tono renkan no mondai [Der Standpunkt der Sārvastivādins und das Problem des Verkehrs mit den griechischen Gedanken)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Nakamura</namePart>
+    <namePart type="given">Hajime</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>6</number>
+      </detail>
+      <extent unit="pages">
+        <start>241</start>
+        <end>260</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>?</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Rinrigaku Nenpō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

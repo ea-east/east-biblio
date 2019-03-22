@@ -1,0 +1,98 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-a4195694-8d0d-4885-b044-29bd73996b7a" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>A</nonSort>
+        <title>Study of kalpanāpoḍha</title>
+        <subTitle>A Translation of the Tattvasaṃgraha vv. 1212-1263 by Śāntarakṣita and the Tattvasaṃgrahapañjikā by Kamalaśīla on the Definition of Direct Perception</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Toru</namePart>
+        <namePart type="family">Funayama</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-4a28b762-bfb9-4401-a424-c99c36278a22">
+        <language><languageTerm>en</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Kyōto</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>Zinbun</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Zinbun: memoirs of the Research Institute for Humanistic Studies</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>27</number>
+            </detail>
+            <extent unit="pages">
+                <start>33</start>
+                <end>128</end>
+            </extent>
+            <date encoding="w3cdtf">1992</date>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent">
+        <titleInfo>
+            <partNumber>Appendix I</partNumber>
+            <partName>Secondary Usages of Pramāṇavārttika / Pramāṇaviniścaya and Pramāṇavārttikapañjikā</partName>
+        </titleInfo>
+        <part>
+            <extent unit="pages">
+                <start>117</start>
+                <end>119</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent">
+        <titleInfo>
+            <partNumber>Appendix II</partNumber>
+            <partName>A List of Corrections to Shastri’s Edition</partName>
+        </titleInfo>
+        <part>
+            <extent unit="pages">
+                <start>120</start>
+                <end>121</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent">
+        <titleInfo>
+            <partName>Index</partName>
+        </titleInfo>
+        <part>
+            <extent unit="pages">
+                <start>122</start>
+                <end>128</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Funayama 1992</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

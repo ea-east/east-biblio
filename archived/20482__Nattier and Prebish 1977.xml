@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mahāsāṃghika Origins: The Beginnnings of Buddhist Sectarianism</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Nattier</namePart>
+    <namePart type="given">Jan</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Prebish</namePart>
+    <namePart type="given">Charles</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>16/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>232</start>
+        <end>272</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1977</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>History of Religions</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

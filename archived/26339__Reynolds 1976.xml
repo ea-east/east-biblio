@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Many Lives of Buddha: A Study of Sacred Biography and Theravāda Tradition</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Reynolds</namePart>
+    <namePart type="given">Frank E.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Reynolds</namePart>
+      <namePart type="given">Frank E.</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Capps</namePart>
+      <namePart type="given">Donald</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>37</start>
+        <end>61</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">The Hague</placeTerm>
+      </place>
+      <publisher>Mouton</publisher>
+      <copyrightDate>1976</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Biographical Process: Studies in the History and Psychology of Religion</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

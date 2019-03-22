@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Āyurvedīya Mahakośa arthāt āyurvedīya śabdakośaḥ</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Josi</namePart>
+    <namePart type="given">Venimadhavasastri</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>250–399 p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <copyrightDate>1968</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

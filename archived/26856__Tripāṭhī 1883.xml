@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Sāṅkhyakārikā. With an Exposition Called Chandrikā by Nārāyaṇa Tīrtha, and Gauḍapādāchārya's Commentary. (Sāṃkhyakārikā. Nārāyaṇatīrthaviracitayā Candrikāvyākhyayā Gauḍapādācāryaviracitena bhāṣyeṇa ca sahitā)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Tripāṭhī</namePart>
+    <namePart type="given">Bechanarāma</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Benares</placeTerm>
+    </place>
+    <publisher>Braj B. Das &amp; Co.</publisher>
+    <copyrightDate>1883</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

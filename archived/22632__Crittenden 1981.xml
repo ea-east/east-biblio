@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Everyday reality as fiction - a Mādhyamika interpretation</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Crittenden</namePart>
+    <namePart type="given">Charles</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>9</number>
+      </detail>
+      <extent unit="pages">
+        <start>323</start>
+        <end>333</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1981</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Journal of Indian Philosophy</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

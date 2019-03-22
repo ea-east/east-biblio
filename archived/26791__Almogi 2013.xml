@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Yogācāra in the Writings of the Eleventh-Century Rnying ma Scholar Rong zom Chos kyi bzang po</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Almogi</namePart>
+    <namePart type="given">Orna</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Kragh</namePart>
+      <namePart type="given">Ulrich Timme</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>1330</start>
+        <end>1361</end>
+      </extent>
+    </part>
+    <originInfo>
+      <copyrightDate>2013</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>The Foundation for Yoga Practitioners The Buddhist Yogācārabhūmi Treatise and Its Adaptation in India, East Asia, and Tibet</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

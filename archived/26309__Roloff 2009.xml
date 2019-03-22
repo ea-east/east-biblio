@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Red mda' ba - Buddhist Yogi-Scholar of the Fourteenth Century.The Forgotten Reviver of Madhyamaka Philosophy in Tibet</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Roloff</namePart>
+    <namePart type="given">Carola</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wiesbaden</placeTerm>
+    </place>
+    <publisher>Dr. Ludwig Reichert Verlag</publisher>
+    <copyrightDate>2009</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

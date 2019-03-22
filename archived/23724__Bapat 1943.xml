@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Obituary Notices: Mrs. C. A. F. Rhys Davids</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Bapat</namePart>
+    <namePart type="given">P. V.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>24/1-2</number>
+      </detail>
+      <extent unit="pages">
+        <start>145</start>
+        <end>146</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1943</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Annals of the Bhandarkar Oriental Research Institute</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Hinnyo no itto monogatari. Syouzenjoubutsu no haikei (1) [Tale of a poor woman who gave a lump to the Buddha: A background of becoming Buddhas through small good (1)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Hakamaya</namePart>
+    <namePart type="given">Noriaki</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>29</number>
+      </detail>
+      <extent unit="pages">
+        <start>449</start>
+        <end>470</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2001</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Komazawatankidaigaku kenkyu kiyo</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

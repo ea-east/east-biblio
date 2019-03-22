@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Étienne Lamotte (tr.), Le Traité de la Grande Vertu de Sagesse de Nāgārjuna (Mahāprajñāpāramitāśāstra) avec une étude sur la vacuité. Tome 4 (Publications de l'Institut Orientaliste de Louvain 12). Louvain: Institut Orientaliste, Université Louvain, 1976</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ruegg</namePart>
+    <namePart type="given">David Seyfort</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>56</number>
+      </detail>
+      <extent unit="pages">
+        <start>179</start>
+        <end>181</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1978</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>JRAS</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

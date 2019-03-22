@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Kōki Chūgan-ha no Kū-shisō - "yugagyō-Chūgan-ha" ni tsuite [śūnyatā thought of the later Mādhyamikas - on "Yogācāra-Mādhyamika"]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Matsumoto</namePart>
+    <namePart type="given">Shirō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>610/3</number>
+      </detail>
+      <extent unit="pages">
+        <start>140</start>
+        <end>158</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1984</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Risō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

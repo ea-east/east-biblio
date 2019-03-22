@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Europe ni okeru indogaku bukkyōgaku no genjō - Austria, German [Gegenwärtiger Stand der Indologie und Buddhismuskunde in Europa]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Kumoi</namePart>
+    <namePart type="given">Shōzen</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>12/2</number>
+      </detail>
+      <extent unit="pages">
+        <start>763</start>
+        <end>773</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1964</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IBK</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

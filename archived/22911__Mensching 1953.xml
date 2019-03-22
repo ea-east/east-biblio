@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Glasenapp, Helmut von, Vedānta und Buddhismus. Mainz: Akademie der Wissenschaft und der Literatur (in Komm. bei Franz Steiner Verlag Wiesbaden), 1950</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Mensching</namePart>
+    <namePart type="given">Gustav</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>6</number>
+      </detail>
+      <extent unit="pages">
+        <start>332</start>
+        <end>332</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1953</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Theologische Literaturzeitung</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

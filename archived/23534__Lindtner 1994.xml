@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Review: Takashi Iwata: Sahopalambhaniyama: Struktur und Entwicklung des Schlusses von der Tatsache, dass Erkenntnis und Gegenstand ausschliesslich zusammen wahrgenommen werden, auf deren Nichtverschiedenheit. Teil I-II. Alt- und Neu-Indische Studien 29. Franz Steiner Verlag Stuttgart 1991</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Lindtner</namePart>
+    <namePart type="given">Christian</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>37</number>
+      </detail>
+      <extent unit="pages">
+        <start>272</start>
+        <end>275</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1994</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>IIJ</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Ancient Palm-Leaves containing the Pragñā-Pāramitā-Hṛdaya Sūtra and the Ushnīsha Vigaya Dhāranī</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Müller</namePart>
+    <namePart type="given">F. Max</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Nanjio</namePart>
+    <namePart type="given">Buniyu</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Oxford</placeTerm>
+    </place>
+    <publisher>At the Clarendon Press</publisher>
+    <copyrightDate>1884</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

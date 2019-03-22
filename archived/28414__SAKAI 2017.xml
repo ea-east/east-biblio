@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Material for Considering Dharmakīrti’s Analysis of Buddhahood</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">SAKAI</namePart>
+    <namePart type="given">Masamichi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+  </language>
+  <note>OCLC: 7291022899</note>
+  <recordInfo>
+    <recordContentSource>Open WorldCat</recordContentSource>
+  </recordInfo>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>65</number>
+      </detail>
+      <detail type="issue">
+        <number>2</number>
+      </detail>
+      <extent unit="pages">
+        <start>920</start>
+        <end>913</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2017</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <identifier type="issn">0019-4344</identifier>
+    <titleInfo>
+      <title>JIBS Journal of Indian and Buddhist Studies (Indogaku Bukkyogaku Kenkyu)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

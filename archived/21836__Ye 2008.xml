@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>The Mūlamadhyamakakārikā and Buddhapālita’s Commentary (2): Romanized Texts Based on the Newly Identified Sanskrit Manuscripts from Tibet</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Ye</namePart>
+    <namePart type="given">Shaoyong</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>XI</number>
+      </detail>
+      <extent unit="pages">
+        <start>105</start>
+        <end>151</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>2008</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Annual Report of The International Research Institute for Advanced Buddhology (ARIRIAB)</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

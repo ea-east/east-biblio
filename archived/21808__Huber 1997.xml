@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Colonial Archaeology, International Missionary Buddhism and the First Example of Modern Tibetan Literature</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Huber</namePart>
+    <namePart type="given">Toni</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Kieffer-Pülz</namePart>
+      <namePart type="given">Petra</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal">
+      <namePart type="family">Hartmann</namePart>
+      <namePart type="given">Jens-Uwe</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>297</start>
+        <end>318</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Swisttal-Odendorf</placeTerm>
+      </place>
+      <publisher>Indica et Tibetica Verlag</publisher>
+      <copyrightDate>1997</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Bauddhavidyāsudhākaraḥ. Studies in Honour of Heinz Bechert on the Occasion of His 65th Birthday</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

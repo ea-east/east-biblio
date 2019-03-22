@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Die Zweiförmigkeit der Erkenntnis und das Selbstbewußtsein, von Bhartṛhari bis Dignāga. (chi no nikeisōsei to jikoninshiki - Bhartṛhari kara Dignāga)</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Harada</namePart>
+    <namePart type="given">Wasō</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>4</number>
+      </detail>
+      <extent unit="pages">
+        <start>44</start>
+        <end>37</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1990</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Ryūkoku Daigaku Bukkyōgaku Kenkyūshitsu Nenpō</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

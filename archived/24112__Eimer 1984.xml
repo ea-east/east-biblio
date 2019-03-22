@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Zur Stellung des Narthang-Druckes in der Überlieferung des tibetischen Kanjur</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">Eimer</namePart>
+    <namePart type="given">Helmut</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+      <namePart type="family">Ligeti</namePart>
+      <namePart type="given">Louis</namePart>
+      <role>
+        <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+      </role>
+    </name>
+    <part>
+      <extent unit="pages">
+        <start>199</start>
+        <end>205</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Budapest</placeTerm>
+      </place>
+      <publisher>Akadémiai Kiadó</publisher>
+      <copyrightDate>1984</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Tibetan and Buddhist Studies. Commemorating the 200th anniversary of the birth of Alexander Csoma de Körös. Bibliotheca Orientalis Hungarica 19/1</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Pramāṇavārttikam. Ācāryamanorathanandikṛtayā vṛttyā saṃvalitam</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Sāṅkṛtyāyana</namePart>
+    <namePart type="given">Rāhula</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Patna</placeTerm>
+    </place>
+    <publisher>Bihar and Orissa Research Society</publisher>
+    <copyrightDate>1938-1940</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

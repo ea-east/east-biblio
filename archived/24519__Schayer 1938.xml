@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Mit, kult i etyka buddyzmu</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Schayer</namePart>
+    <namePart type="given">Stanisl̷aw</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>194</number>
+      </detail>
+      <extent unit="pages">
+        <start>70</start>
+        <end>100</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1938</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Przegląd Współczesny</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

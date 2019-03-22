@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Weben und Flechten im Vedischen Indien</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Rau</namePart>
+    <namePart type="given">Wilhelm</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Wiesbaden</placeTerm>
+    </place>
+    <publisher>Akademie d. Wiss. u. d. Lit. Mainz / Kommision bei Franz Steiner Verlag</publisher>
+    <copyrightDate>197</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

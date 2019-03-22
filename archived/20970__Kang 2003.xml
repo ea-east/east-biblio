@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Die Debatte im alten Indien - Untersuchungen zum Sambhāṣāvidhi und verwandten Themen in der Carakasaṃhitā Vimānasthāna 8.15-28. Philosophica Indica Einsichten Ansichten Bd.6</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Kang</namePart>
+    <namePart type="given">Sung Yong</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Reinbek</placeTerm>
+    </place>
+    <publisher>Dr. Inge Wezler, Verlag für Orientalistische Fachpublikationen</publisher>
+    <copyrightDate>2003</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

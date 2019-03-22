@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Zen und Shin. Indische Grundlage des japanischen Buddhismus</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Sasaki</namePart>
+    <namePart type="given">Genjun H.</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>2 (14.Jg.)</number>
+      </detail>
+      <extent unit="pages">
+        <start>179</start>
+        <end>197</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1967</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Oriens Extremus</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

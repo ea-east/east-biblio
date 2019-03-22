@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Shōben cho "Chie no tomoshibi" dai ni shō wagaku-kaisetsu (I) [Japanische übersetzung des 2. Kapitels von Bhāvavivekas Prajñāpradīpa (I)]</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">journalArticle</genre>
+  <name type="personal">
+    <namePart type="family">Tachikawa</namePart>
+    <namePart type="given">Musashi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">journal</genre>
+    <part>
+      <detail type="volume">
+        <number>84/28</number>
+      </detail>
+      <extent unit="pages">
+        <start>1</start>
+        <end>26</end>
+      </extent>
+    </part>
+    <originInfo>
+      <dateIssued>1982</dateIssued>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>daigaku Bungakubu Ronshū [Journal of Faculty of Letters Nagoya University]</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Self and Other in the Yogācāra Tradition</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">bookSection</genre>
+  <name type="personal">
+    <namePart type="family">能宜)</namePart>
+    <namePart type="given">Nobuyoshi Yamabe (山部</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <relatedItem type="host">
+    <genre authority="marcgt">book</genre>
+    <part>
+      <extent unit="pages">
+        <start>15</start>
+        <end>41</end>
+      </extent>
+    </part>
+    <originInfo>
+      <place>
+        <placeTerm type="text">Kyōto</placeTerm>
+      </place>
+      <copyrightDate>1998</copyrightDate>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <titleInfo>
+      <title>Nihon-bukkyō-bunka-ronshū: Kitabatake Tensei hakushi koki-kinen-ronshū</title>
+    </titleInfo>
+  </relatedItem>
+</mods>
