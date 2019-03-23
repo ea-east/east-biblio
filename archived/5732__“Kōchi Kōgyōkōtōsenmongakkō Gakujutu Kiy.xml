@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-e94eb90e-4820-4d62-81bb-cb5e25bb2803" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō</title>
+    </titleInfo>
+    <titleInfo type="translated">
+        <title>The Bulletin of Kochi National College of Technology</title>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Kōchi</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T15:34:20.295+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T15:37:27.83+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T15:37:52.565+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<language><languageTerm>sw</languageTerm></language></mods>

@@ -1,0 +1,20 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-798864a0-ca8e-4612-8cb2-0fcffd7041cb" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Bibliotheca Indo-Buddhica</title>
+    </titleInfo>
+    <titleInfo type="abbreviated">
+        <title>BIB</title>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Delhi</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+<language><languageTerm>en</languageTerm></language></mods>

@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-be798327-27f2-47d2-ac94-472018e990d9" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-07-28T22:36:34.862+02:00</ext:when>
+            <ext:who>manuel.batsching@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <titleInfo>
+        <title>Sanskrit Texts from Giuseppe Tucci's Collection</title>
+        <subTitle>Part I</subTitle>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Roma</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">2008</dateIssued>
+        <publisher>Istituto Italiano per l'Africa e l'Oriente</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

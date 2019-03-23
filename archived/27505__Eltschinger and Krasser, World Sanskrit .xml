@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Scriptural authority, reason and action: proceedings of a panel at the 14th World Sanskrit Conference, Kyoto, September 1st-5th, 2009</title>
+  </titleInfo>
+  <titleInfo type="abbreviated">
+    <title>Scriptural authority, reason and action</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="personal">
+    <namePart type="family">Eltschinger</namePart>
+    <namePart type="given">Vincent,</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Krasser</namePart>
+    <namePart type="given">Helmut,</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>World Sanskrit Conference</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <copyrightDate>2013</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <identifier type="isbn">9783700175513  3700175515</identifier>
+  <subject>
+    <topic>undefined</topic>
+  </subject>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+  </language>
+  <recordInfo>
+    <recordContentSource>Open WorldCat</recordContentSource>
+  </recordInfo>
+</mods>

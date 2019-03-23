@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-1ca47aa8-fa44-4ea2-9079-580771896c0a" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Philosophical Essays</title>
+        <subTitle>Professor Anantalal Thakur Felicitation Volume</subTitle>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Calcutta</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1987</dateIssued>
+        <publisher>Sanskrit Pustak Bhandar</publisher>
+    </originInfo>
+    <genre>book</genre>
+    <typeOfResource>text</typeOfResource>
+    <language>
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

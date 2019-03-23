@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-7b323501-289e-4740-967f-c3ce5be073b1" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo lang="eng" supplied="yes">
+        <title>Sanskrit Manuscript of Āgamasiddhikārikā</title>
+    </titleInfo>
+    <typeOfResource manuscript="yes">text</typeOfResource>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-41ab6c1b-6800-4579-b75b-a76dfb2ad97c">
+        <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+<language>
+        <languageTerm authority="rfc3066" type="code">sa</languageTerm>
+    </language>
+    <typeOfResource manuscript="yes" collection="yes">text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Patna</placeTerm>
+        </place>
+    </originInfo>
+    <titleInfo supplied="yes" lang="eng">
+        <title>Glass negative collection of the Bihar Research Society</title>
+    </titleInfo>
+    <part>
+            <extent unit="folios">
+                <start>29b3</start>
+                <end>31a7</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">sa</languageTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ext="http://exist-db.org/mods/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d9a300bf-f8bc-4573-b386-aacdbd9151f8" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Beiträge zur Kultur- und Geistesgeschichte Asiens</title>
+    </titleInfo>
+    <titleInfo type="abbreviated">
+        <title>BKGA</title>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text"/>
+        </place>
+        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+        <dateIssued encoding="w3cdtf" point="start"/>
+        <dateIssued encoding="w3cdtf" point="end"/>
+        <issuance>continuing</issuance>
+        <frequency/>
+    </originInfo>
+    <part/>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent/>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+    <subject authority="" lang="" script="" transliteration="" xlink:href="">
+        <topic authority=""/>
+        <geographic/>
+        <titleInfo>
+            <nonSort/>
+            <title/>
+            <subTitle/>
+        </titleInfo>
+    </subject>
+    <classification authority="lcc" displayLabel="" lang=""/>
+    <abstract/>
+    <tableOfContents lang="" script="" transliteration="" type=""/>
+    <note lang="" type=""/>
+    <relatedItem type="succeeding">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+    </relatedItem>
+    <relatedItem type="preceding">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+    </relatedItem>
+    <identifier/>
+    <location/>
+    <accessCondition/>
+<language><languageTerm>de</languageTerm></language></mods>

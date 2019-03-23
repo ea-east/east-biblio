@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-3d454154-33db-470a-b0b7-a0bac1254154" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <originInfo>
+        <place>
+            <placeTerm type="text">Madras</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+    <titleInfo>
+        <title>Brahmavidyā</title>
+        <subTitle>The Adyar Library Bulletin</subTitle>
+    </titleInfo>
+    <titleInfo type="abbreviated">
+        <title>ALB</title>
+    </titleInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-18T14:08:07.655+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<language><languageTerm>en</languageTerm></language></mods>

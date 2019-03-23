@@ -1,0 +1,66 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-7e5d3167-a0c3-4529-8689-526999c174ae" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo supplied="yes">
+        <title>Ninshiki no taishō ni kansuru kōsatsu</title>
+        <subTitle>Tattvasaṃgraha, Bahirarthaparīkṣā no wayaku kenkyū</subTitle>
+        <partNumber>2</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>An</nonSort>
+        <title>inquiry into the object of cognition</title>
+        <subTitle>A Japanese translation and study of the  Bahirarthaparīkṣā, Tattvasaṅgraha</subTitle>
+        <partNumber>2</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-137e1ddf-1d31-4be4-99d0-d6dab3442bff">
+        <language><languageTerm>en</languageTerm></language><extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T17:25:10.003+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T17:25:47.291+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<genre authority="marcgt">periodical</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Saga</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="translated">
+        <title>Bulletin of Saga Ryūkoku Junior College</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Saga Ryūkoku Tanki Daigaku Kiyō</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>17</number>
+            </detail>
+            <extent unit="pages">
+                <start>26</start>
+                <end>44</end>
+            </extent>
+            <date encoding="w3cdtf">1970</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

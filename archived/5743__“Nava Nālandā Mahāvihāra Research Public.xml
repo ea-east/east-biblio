@@ -1,0 +1,14 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-fbe8e74f-8d07-48ce-9000-1b8fb6c99c33" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Nava Nālandā Mahāvihāra Research Publication</title>
+    </titleInfo>
+    <originInfo>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+<language><languageTerm>en</languageTerm></language></mods>

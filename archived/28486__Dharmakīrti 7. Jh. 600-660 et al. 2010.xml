@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Darumakīruti cho "Ryōhyōshaku" dai2shō "Ryō no seiritsu" to Tarumarinchen cho "Dōshakuron gedatsudō samyō" dai2shō no wayaku kenkyū</title>
+  </titleInfo>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="local">book</genre>
+  <genre authority="marcgt">book</genre>
+  <name type="corporate">
+    <namePart>Dharmakīrti 7. Jh. 600-660</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>Dar-ma-rin-chen 1364-1432</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>Tshul-khrims-skal-bzang 1942-</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart type="family">Fujinaka</namePart>
+    <namePart type="given">Takashi</namePart>
+    <role>
+      <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+    </role>
+  </name>
+  <physicalDescription>
+    <extent>404 Seiten p.</extent>
+  </physicalDescription>
+  <originInfo>
+    <place>
+      <placeTerm type="text">Kyōto Ningen Bunka Kenkyū Kikō March 2010</placeTerm>
+    </place>
+    <publisher>Ningen Bunka Kenkyū Kikō</publisher>
+    <copyrightDate>2010</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <relatedItem type="series">
+    <titleInfo>
+      <title>Chibetto Bukkyō ronrigaku ninshikiron no kenkyū 1</title>
+    </titleInfo>
+  </relatedItem>
+</mods>

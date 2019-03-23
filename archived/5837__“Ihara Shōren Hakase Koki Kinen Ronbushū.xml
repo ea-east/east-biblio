@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-968b1927-8ad4-4322-af6a-c05271703cd9" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo altRepGroup="1">
+        <title>Ihara Shōren Hakase Koki Kinen Ronbushū</title>
+        <subTitle>Ihara Shōren hakase koki kinenkai</subTitle>
+    </titleInfo>
+    <titleInfo altRepGroup="1" type="translated" lang="eng">
+        <title>Essays in Honor of Dr. Shoren Ihara on his Seventieth Birthday</title>
+        <subTitle>Committee for the Commemoration of Dr. Shoren Ihara's Seventieth Birthday</subTitle>
+    </titleInfo>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <publisher>Kyūshū University</publisher>
+        <place>
+            <placeTerm type="text">Fukuoka</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1991</dateIssued>
+    </originInfo>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

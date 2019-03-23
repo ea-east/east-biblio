@@ -1,0 +1,57 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-7e8c4f7b-0184-4074-9e38-97a81320bbc4" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo supplied="yes">
+        <title>Tattvasaṃgraha no wayaku kaisetsu </title>
+        <partNumber>6</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>An</nonSort>
+        <title>annotated Japanese translation of the Tattvasaṅgraha</title>
+        <partNumber>6</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-d0f5df53-20a4-426e-a9b3-b71407fad469">
+        <language><languageTerm>sw</languageTerm></language><genre authority="marcgt">periodical</genre>
+<typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Kariya</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo type="abbreviated">
+        <title>AKDKH</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Bulletin of Aichi University of Education</title>
+    </titleInfo>
+    <titleInfo>
+        <title>Aichi Kyōiko Daigaku Kenkyū Hōkoku</title>
+    </titleInfo>
+    <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>30</number>
+            </detail>
+            <extent unit="pages">
+                <start>79</start>
+                <end>96</end>
+            </extent>
+            <date encoding="w3cdtf">1981</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

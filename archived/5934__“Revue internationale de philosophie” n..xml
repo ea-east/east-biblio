@@ -1,0 +1,72 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-fd836554-15fc-4667-92fa-5a879f9aec7a">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Revue internationale de philosophie</mods:title>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="corporate">
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3" script="latn">
+        <mods:issuance>continuing</mods:issuance>
+    </mods:originInfo>
+    <mods:physicalDescription xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:form authority="marcform">print</mods:form>
+    </mods:physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre type="code" authority="marcgt">periodical</genre>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" type="preceeding">
+        <mods:name type="corporate">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo script="latn">
+            <mods:issuance>continuing</mods:issuance>
+        </mods:originInfo>
+        <mods:genre type="code" authority="marcgt">periodical</mods:genre>
+    </mods:relatedItem>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" type="succeeding">
+        <mods:name type="corporate">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo script="latn">
+            <mods:issuance>continuing</mods:issuance>
+        </mods:originInfo>
+        <mods:genre type="code" authority="marcgt">periodical</mods:genre>
+    </mods:relatedItem>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="rfc3066" type="code">fr-FR</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-08-14+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">periodical-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-08-14T22:10:55.309+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-09-04T22:54:23.216+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-09-04T22:56:19.417+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-09-04T22:57:15.27+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

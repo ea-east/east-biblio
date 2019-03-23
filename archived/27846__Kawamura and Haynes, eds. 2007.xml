@@ -1,0 +1,73 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-a2c10703-e3ca-46a6-bbe2-9b9d3b53cce8">
+    <titleInfo>
+        <title>Pacific World. Journal of the Institute of Buddhist Studies  </title>
+        <subTitle>Third Series Number 9. Fall 2007. Special Issue: Essays Celebrating the Twentieth Anniversary of the Numata Chair in Buddhist Studies at the University of Calgary</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Leslie</namePart>
+        <namePart type="family">Kawamura</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sarah</namePart>
+        <namePart type="family">Haynes</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Berkeley, CA</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">2007</dateIssued>
+        <publisher>Institute of Buddhist Studies</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">book</genre>
+    <relatedItem type="series">
+        <name type="personal">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <name type="corporate">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+    </relatedItem>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="rfc3066" type="code">en-US</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2015-10-17+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">edited-volume-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T22:35:44.707+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T22:42:39.034+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T22:43:09.271+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

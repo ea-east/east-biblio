@@ -1,0 +1,82 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-f3caff4f-926f-47c0-973b-cc9ee8e84dad" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <language objectPart="introduction">
+        <languageTerm authority="rfc3066" type="code">en-US</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <language>
+        <languageTerm authority="rfc3066" type="code">sa</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <titleInfo>
+        <title>Jinendrabuddhi's Viśālamalāvatī Pramāṇasamuccayaṭīkā</title>
+        <subTitle>Chapter I. Part I: Critical Edition. Part II: Diplomatic Edition with a Manuscript Description by Anne MacDonald</subTitle>
+    </titleInfo>
+    <genre>book</genre>
+    <name type="personal">
+        <namePart type="given">Ernst</namePart>
+        <namePart type="family">Steinkellner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helmut</namePart>
+        <namePart type="family">Krasser</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Horst</namePart>
+        <namePart type="family">Lasic</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo script="Latn">
+        <place>
+            <placeTerm type="text">Beijing, Vienna</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">2005</dateIssued>
+        <publisher>China Tibetology Publishing House and Austrian Academy of Sciences Press</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem>
+        <titleInfo>
+            <title>Sanskrit Texts from the Tibetan Autonomous Region</title>
+        </titleInfo>
+        <part>
+            <detail>
+                <number>1</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Steinkellner, Krasser and Lasic 2005</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-07-08T18:43:28.837+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-07-08T18:50:00.664+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-07-08T18:58:18.348+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-07-08T19:00:43.554+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

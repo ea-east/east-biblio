@@ -1,0 +1,90 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-5c6291bf-53c9-4f8b-9d5e-d6dbd542eefd" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo supplied="yes">
+        <title>Hōshō cho "Pramāṇa-viniścaya" dai isshō genryō (chikaku) ron no wayaku</title>
+        <partNumber>3</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>A</nonSort>
+        <title>Japanese translation of the theory of perception in the first chapter of Dharmakīrti's Pramāṇaviniścaya, chapter I</title>
+        <partNumber>3</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-85192f72-2314-4889-ae31-9392b725767d">
+        <language><languageTerm>en</languageTerm></language><extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-05T23:28:45.609+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-05T23:30:34.439+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T12:27:24.22+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T12:29:36.322+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T12:31:54.385+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T12:33:32.392+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T12:34:07.885+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T16:18:19.888+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+<recordInfo lang="jpn" script="Jpan">
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <languageTerm type="text">English</languageTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <genre authority="marcgt">periodical</genre>
+    <typeOfResource>text</typeOfResource>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Fukuoka-shi</placeTerm>
+        </place>
+        <publisher>Kyūshū Daigaku Bungakubu</publisher>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <titleInfo lang="jpn" transliteration="japanese/ala-lc">
+        <title>Tetsugaku Nenpō</title>
+    </titleInfo>
+    <titleInfo type="translated">
+        <title>Annual of Philosophy</title>
+    </titleInfo>
+    <part>
+            <extent unit="pages">
+                <start>327</start>
+                <end>340</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="rfc3066" type="code">ja-JP</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>
