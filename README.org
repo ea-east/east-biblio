@@ -1,9 +1,49 @@
 #+TITLE: README for EAST bibliographic records
+#+AUTHOR: Patrick McAllister (pma@rdorte.org)
 
 
-- General idea: replace Tamboti
+This repository is intended as a replacement for Tamboti.
 
-- Repository URL: gitolite@rdorte.org:east-biblio (admin is Patrick McAllister)
+The “official” repository URL is: gitolite@rdorte.org:east-biblio
+
+The admin of that repository is Patrick McAllister.
+
+
+* General workflow
+
+Before starting to edit anything, *always* make sure your repository
+is up to date. You can do this with
+
+- ~git status~: checks for local changes
+- ~git pull~: gets updates from the remote repositories
+
+After you have finished your work, adding or changing entries, you
+will usually want to share your changes, typically:
+
+1) ~git commit~: add a short message describing what you did
+2) ~git push~: send changes to central repository
+
+** Adding new entries
+
+1) Copy one of the entries in file:./archived/ to a new file with a
+   meaningful (e.g., author + year) and unique name *in the same
+   directory*, without the numeric prefix.
+2) Edit as intended, keeping to the following rules:
+   1) The root element must start with a tag like ~<mods xmlns="http://www.loc.gov/mods/v3" xml:id="east-XXXX">~
+   2) The most important thing is to add a unique identifier, the
+      ~@xml:id~ attribute.  It’s best to use UUIDs (e.g., open or
+      refresh https://www.uuidgenerator.net/, and copy the one
+      suggested on the top). Please make sure it starts with a letter,
+      for example by adding a prefix like “east-” to it.
+   3) The file should be well-formed.  Validity will be checked at the
+      backend (after a “git push”; TODO@pma: not yet implemented).
+3) Be sure to tell git that you want to track the new file with ~git
+   add~.
+
+
+** Updating entries
+
+- Simply open the file, and edit as you see fit.
 
 
 * Git useful commands
