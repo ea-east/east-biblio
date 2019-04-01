@@ -9,6 +9,19 @@ The “official” repository URL is: gitolite@rdorte.org:east-biblio
 The admin of that repository is Patrick McAllister.
 
 
+* Layout of this repository
+
+
+1) Two files:
+   1) README.org
+   2) README.html (derived from the org file, do not edit!)
+2) Directories:
+   1) file:./archived: contains all the bibliographic data in a
+      normalized (mods) xml format
+   2) file:./archived/sources: this directory contains all the
+      bibliographic sources, in the raw format (they are not all MODS
+      files).
+
 * General workflow
 
 Before starting to edit anything, *always* make sure your repository
