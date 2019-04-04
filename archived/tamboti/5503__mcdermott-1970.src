@@ -1,0 +1,61 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8fe98631-38e5-4249-a487-db06ebc5a31c" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:nonSort>An</mods:nonSort>
+        <mods:title>Eleventh-Century Buddhist Logic of 'Exists'</mods:title>
+        <mods:subTitle>Ratnakīrti's Kṣaṇabhaṅgasiddhiḥ Vyatirekātmikā. Edited with Introd., Translation and Notes by A. C. Senape McDermott</mods:subTitle>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">A. C. Senape</mods:namePart>
+        <mods:namePart type="family">McDermott</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:place>
+            <mods:placeTerm type="text">Dordrecht</mods:placeTerm>
+        </mods:place>
+        <mods:dateIssued encoding="w3cdtf">1970</mods:dateIssued>
+        <mods:publisher>D. Reidel</mods:publisher>
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-a224705c-8492-448b-9796-2c2af26568de">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>11</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="isReferencedBy" xlink:href="#uuid-e5c10a93-a401-47f5-bc26-bc8af58425aa"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="isReferencedBy" xlink:href="#uuid-e0af0069-2907-4ea5-bcd3-26970987ac60"/>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:physicalDescription xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:extent>X, 88 p.</mods:extent>
+    </mods:physicalDescription>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">McDermott 1970</mods:identifier>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-11T15:42:50.714+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-11T15:49:26.893+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

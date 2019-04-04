@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-71aec97f-8833-45dd-922b-b8c2573e46c6" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Pāṇini</title>
+        <subTitle>a survey of research</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">George</namePart>
+        <namePart type="family">Cardona</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">The Hague</placeTerm>
+        </place>
+        <place>
+            <placeTerm type="text">Paris</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1976</dateIssued>
+        <publisher>Mouton</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-4d4515ff-4a40-4b31-b136-ac02db046325">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>6</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Cardona 1976</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

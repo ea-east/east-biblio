@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-2bdbae79-067c-4b36-9b52-d9b9f1f4032c" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Penser l'autorité des Écritures</title>
+        <subTitle>La polemique de Dharmakīrti contre la notion brahmanique orthodoxe d'un Veda sans auteur. Autour de Pramāṇavārttika 1.213-268 et Svavṛtti</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Vincent</namePart>
+        <namePart type="family">Eltschinger</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-d2cf1661-d4d5-4798-b432-78386b21d804">
+        <mods:part>
+            <mods:detail type="volume">
+                <mods:caption>vol.</mods:caption>
+                <mods:number>56</mods:number>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="otherVersion" xlink:href="#uuid-51e83604-f274-4c6c-bd06-5a647cb93f79">
+        <mods:originInfo>
+            <mods:edition>Revised and expanded version</mods:edition>
+        </mods:originInfo>
+    </mods:relatedItem>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Wien</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">2007</dateIssued>
+        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Eltschinger 2007</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-11T18:48:05.18+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-02-09T16:03:18.082+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d3199722-7b86-4b0c-97b0-0e7c972e1e0f" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Bāhyārthasiddhikārikā kk. 59-60 de Śubhagupta</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Katsumi</namePart>
+        <namePart type="family">Mimaki</namePart>
+        <role>
+            <roleTerm type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-e9a3b46a-d132-44bc-9d8a-ce2b73b0817a">
+        <part>
+            <detail type="volume">
+                <title>Professor Colette Caillat Felicitation Volume</title>
+                <caption>vol.</caption>
+                <number>14</number>
+            </detail>
+            <extent unit="pages">
+                <start>275</start>
+                <end>283</end>
+            </extent>
+            <date encoding="w3cdtf" point="start">1987</date>
+            <date encoding="w3cdtf" point="end">1988</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Mimaki 1987</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-aa42705c-76bf-42b1-a9bf-75917371e2a2">
+    <titleInfo>
+        <title>Tattvasaṃgraha Oyobi Tattvasaṃgrahapañjikā dai7shō dai6setsu “tokushibu Ga Kōsōfunbetsu Suru ātman (pudgala) No Kōsatsu” Text Kō</title>
+    </titleInfo>
+    <titleInfo lang="eng" script="Latn" type="translated">
+        <title>Text Critical Notes on the Tattvasaṃgraha(pañjikā), Chapter 7, Section 6 Titled “Examination of Self (Ātman) as Imagined by the Vātsīputrīya School”</title>
+        <subTitle>Amendments to the Bauddha Bharati Edition</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">SangKyo</namePart>
+        <namePart type="family">Jeong</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-83e395de-efd5-4bc5-94c9-5853f3f36e32">
+        <part>
+            <detail type="volume">
+                <number>23</number>
+            </detail>
+            <extent unit="pages">
+                <start>73</start>
+                <end>84</end>
+            </extent>
+            <date encoding="w3cdtf">2015</date>
+        </part>
+    </relatedItem>
+    <identifier type="local">Jeong 2015</identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2018-04-24+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-04-24T14:58:58.147+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2018-04-24T15:08:14.383+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

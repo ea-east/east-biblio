@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-e84c7e28-c95e-446b-b71c-539875ae8384" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo supplied="yes">
+        <title>Hōshō cho "Pramāṇa-viniścaya" dai isshō genryō (chikaku) ron no wayaku</title>
+        <partNumber>10</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>A</nonSort>
+        <title>Japanese translation of the theory of perception in the first chapter of Dharmakīrti's Pramāṇaviniścaya, chapter I</title>
+        <partNumber>10</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-27f678a6-a33c-4324-8f50-2de3e0f4b066">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>15</number>
+            </detail>
+            <extent unit="pages">
+                <start>1</start>
+                <end>13</end>
+            </extent>
+            <date encoding="w3cdtf">1993</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-d6cea387-718a-4049-b3b2-b983dbf28574"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

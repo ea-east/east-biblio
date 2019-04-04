@@ -1,0 +1,66 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-2d540641-bf4d-4b7e-b8d2-30856cd800db" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>La</nonSort>
+        <title>théorie de la connaissance et la logique chez les Bouddhistes tardifs</title>
+        <subTitle>Traduit par M. I. Manziarly et P. Masson-Oursel</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Th.</namePart>
+        <namePart type="family">Stcherbatsky</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M.</namePart>
+        <namePart type="given">I.</namePart>
+        <namePart type="family">Manziarly</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P.</namePart>
+        <namePart type="family">Masson-Oursel</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Paris</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1926</dateIssued>
+        <publisher>Libraire Orientaliste Paul Guenther</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>XI, 252 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-ed947c88-66f5-4d89-9ae7-0544f91dc6dc">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>36</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Stcherbatsky 1926</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

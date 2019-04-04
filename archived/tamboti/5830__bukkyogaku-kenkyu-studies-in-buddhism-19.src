@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-aaa11b4a-14cf-47bb-b85b-84a865fb6db0" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>TSP ni okeru ātman setsu hihan</title>
+        <subTitle>Pudgala setsu o megutte</subTitle>
+        <partNumber>II.2</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Criticism of the ātman doctrine in the Tattvasaṅgrahapañjikā</title>
+        <subTitle>On the pudgala doctrine</subTitle>
+        <partNumber>II.2</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3fe4da1b-93bd-4562-abee-b774a9a32c16">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>41</number>
+            </detail>
+            <extent unit="pages">
+                <start>20</start>
+                <end>51</end>
+            </extent>
+            <date encoding="w3cdtf">1985</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-ff3c7076-b808-4fe4-8872-46fe9337faa2"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-7b8d07ea-3470-415c-ab54-6385c6f03f06"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

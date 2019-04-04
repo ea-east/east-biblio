@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-55ee3402-1bf3-4fd6-81a9-763fec82446c" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Bhāmaha ni inyō sareru Dignāga to Vasubandhu</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">N.</namePart>
+        <namePart type="family">Kobayashi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-b7f42666-72d5-4441-a6c7-bc5576ecf0e0">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>25</number>
+            </detail>
+            <detail type="issue">
+                <caption>no.</caption>
+                <number>2</number>
+            </detail>
+            <extent unit="pages">
+                <start>898</start>
+                <end>893</end>
+            </extent>
+            <date encoding="w3cdtf">1977</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-01+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Kobayashi 1977</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

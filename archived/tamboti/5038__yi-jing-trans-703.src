@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-86fe47a6-f8b7-4331-b672-c20180bb2690" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo script="Hani" altRepGroup="1">
+        <title>取因假設論</title>
+    </titleInfo>
+    <titleInfo transliteration="chinese/ala-lc" altRepGroup="1">
+        <title>Qu yin jia she lun</title>
+    </titleInfo>
+    <name type="personal" script="Hani" altRepGroup="2">
+        <namePart>義淨</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <name type="personal" transliteration="chinese/ala-lc" altRepGroup="2">
+        <namePart>Yi Jing</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateCreated encoding="w3cdtf">703</dateCreated>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>canonical scripture</genre>
+    <identifier type="Taisho Tripitaka No.">1622</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-e7281507-227f-41de-90f2-2d6748d6e96b"/>
+    <identifier type="Nanjio Catalogue No.">1228</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="isReferencedBy" xlink:href="#uuid-905f854b-cb44-4ffe-abb6-fcbfae60c10f"/>
+    <identifier type="Koreana Tripitaka No.">636</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-86ee1912-88e7-4b34-a155-f07343b77581"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">chi</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Hani</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">chinese/ala-lc</ext:transliterationOfResource>
+    </extension>
+</mods>

@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-1537019d-2459-46d4-ae41-e7296a08d58a" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Shōrimonron chūshakusha</title>
+        <subTitle>Pramāṇavārttika 4. 27. shiron</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Nyāyamukhaṭīkākāra</title>
+        <subTitle>an essay on Pramāṇavārttika IV 27</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given" transliteration="japanese/ala-lc">Shigeaki</namePart>
+        <namePart type="family" transliteration="japanese/ala-lc">Watanabe</namePart>
+        <namePart type="given" lang="jpn" script="jpan">重朗</namePart>
+        <namePart type="family" lang="jpn" script="jpan">渡辺</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-ebf60b27-db8a-4af2-910d-fb6b9340cf95">
+        <part>
+            <date encoding="w3cdtf">1976</date>
+            <extent unit="pages">
+                <start>973</start>
+                <end>985</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-15+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Watanabe 1976</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

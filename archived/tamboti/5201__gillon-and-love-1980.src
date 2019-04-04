@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-62805cfb-b0bf-43cf-b9db-e7ac0c32fdf3" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Indian Logic Revisited</title>
+        <subTitle>Nyāyapraveśa Reviewed</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Brendan</namePart>
+        <namePart type="given">S.</namePart>
+        <namePart type="family">Gillon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martha</namePart>
+        <namePart type="given">Lile</namePart>
+        <namePart type="family">Love</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-340963de-1e7e-4c1d-97c1-324881b25c61">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>8</number>
+            </detail>
+            <extent unit="pages">
+                <start>349</start>
+                <end>384</end>
+            </extent>
+            <date encoding="w3cdtf">1980</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Gillon 1980</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

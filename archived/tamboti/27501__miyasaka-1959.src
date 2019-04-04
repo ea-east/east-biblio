@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-b670743c-9d74-41d4-947a-4e1c6f2a05d3">
+    <titleInfo>
+        <title>シュバグプタのことば論</title>
+    </titleInfo>
+    <titleInfo script="Latn" type="translated">
+        <title>Śubhagupta no kotobaron</title>
+    </titleInfo>
+    <titleInfo lang="eng" script="Latn" type="translated">
+        <title>Philological Theory of Śubhagupta</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Yūshō</namePart>
+        <namePart type="family">Miyasaka</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-0770249f-be97-47cb-ab18-02c1add092b1">
+        <part>
+            <detail type="volume">
+                <number>7</number>
+            </detail>
+            <extent unit="pages">
+                <start>53</start>
+                <end>71</end>
+            </extent>
+            <date encoding="w3cdtf">1959</date>
+        </part>
+    </relatedItem>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2014-11-11+01:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2014-11-11T10:00:05.035+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

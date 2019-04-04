@@ -1,0 +1,67 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-09daad70-c2b2-4f07-ae24-8fd65a15239d" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo lang="tib" transliteration="tibetan/ewts">
+        <title>tshad ma kun las btus pa</title>
+    </titleInfo>
+    <name type="personal" altRepGroup="1">
+        <namePart lang="tib" transliteration="tibetan/ewts">gser gyi go cha</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <name type="personal" altRepGroup="1">
+        <namePart lang="san" transliteration="sanskrit/iast">Kanakavarman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart lang="tib" transliteration="tibetan/ewts">(mar thung) dad pa'i shes rab</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateCreated encoding="w3cdtf" qualifier="approximate">1100</dateCreated>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>canonical scripture</genre>
+    <identifier type="sNar thang Tripitaka No.">3691</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-ad760b76-3284-44d9-a8a5-0729e23934ba">
+        <part>
+            <detail type="part">
+                <number>ce</number>
+            </detail>
+            <extent unit="pages">
+                <start>1</start>
+                <end>13a</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <identifier type="Peking Tripitaka No.">5700</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-0f950cee-ab4e-419a-aef1-a63ad35f9dc1">
+        <part>
+            <detail type="part">
+                <number>ce</number>
+            </detail>
+            <extent unit="pages">
+                <start>1</start>
+                <end>13a5</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">tib</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Tibt</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">de-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">suebs-tibetan</ext:template>
+    </extension>
+</mods>

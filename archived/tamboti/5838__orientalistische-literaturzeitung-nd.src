@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-4d786126-0b74-422b-959f-026904313f21" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" type="abbreviated">
+        <mods:title>OLZ </mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Orientalistische Literaturzeitung</mods:title>
+    </mods:titleInfo>
+    <originInfo>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-21T21:21:40.056+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-3d04fff6-c6a6-425a-a799-b316272401b2" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Kāshi Sanskrit Series</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" type="abbreviated">
+        <mods:title>KSS</mods:title>
+    </mods:titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Benares</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-11-09T17:00:43.175+01:00</ext:when>
+            <ext:who>dulip.withanage@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-11-09T17:00:51.794+01:00</ext:when>
+            <ext:who>dulip.withanage@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-11-09T17:00:59.498+01:00</ext:when>
+            <ext:who>dulip.withanage@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

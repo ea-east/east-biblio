@@ -1,0 +1,61 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-11508c8f-60b1-4fde-983a-62b8eca1ec46" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Denkar-Ma</title>
+        <subTitle>An oldest Catalogue of the Tibetan Buddhist Canons</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Shūki</namePart>
+        <namePart type="family">Yoshimura</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Kyōto</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1950</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem type="otherVersion">
+        <titleInfo>
+            <title>Indo Daijō Bukkyō Shisō Kenkyū</title>
+        </titleInfo>
+        <originInfo>
+            <edition>reprint</edition>
+            <place>
+                <placeTerm type="text">Kyōto</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1977</dateIssued>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <form authority="marcsmd" type="technique">photomechanical print</form>
+        </physicalDescription>
+        <part>
+            <extent unit="pages">
+                <start>99</start>
+                <end>199</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Yoshimura 1950</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

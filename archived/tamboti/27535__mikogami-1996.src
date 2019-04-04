@@ -1,0 +1,110 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-7f20e8d7-edb3-4ff5-bc5c-96169d4d9879">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>唯識学派による外界対象の考察(3)</mods:title>
+        <mods:subTitle>TattvasaṃgrahaとTattvasaṃgrahapañjikāの第23章外界対象の考察</mods:subTitle>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" script="Latn" type="alternative">
+        <mods:title>Yūishikigakuha ni yoru gaikaitaishō no kōsatsu (3)</mods:title>
+        <mods:subTitle>Tattvasaṃgraha to Tattvasaṃgrahapañjikā no dai 23 shō- gaikaitaishō no kōsatsu</mods:subTitle>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn" type="translated">
+        <mods:title>Vijñānavādins' Criticism of External Objects (3)</mods:title>
+        <mods:subTitle>A Translation with the Interpretation of the Chapter 23 of Tattvasaṃgraha and its pañjikā</mods:subTitle>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Eshō </mods:namePart>
+        <mods:namePart type="family">Mikogami</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3accf764-33f5-49ad-8661-288af6ed7c37">
+        <mods:name type="corporate">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo>
+            <mods:issuance>continuing</mods:issuance>
+        </mods:originInfo>
+        <mods:genre type="code" authority="marcgt">periodical</mods:genre>
+        <mods:part>
+            <mods:detail type="volume">
+                <mods:number>449</mods:number>
+            </mods:detail>
+            <mods:extent unit="pages">
+                <mods:start>42</mods:start>
+                <mods:end>65 </mods:end>
+            </mods:extent>
+            <mods:date encoding="w3cdtf">1996</mods:date>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Mikogami 1996b</mods:identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2013-01-27+01:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2013-01-27T22:36:16.866+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2013-01-27T22:38:25.075+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-03-26T22:08:57.665+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-03-26T22:09:59.332+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-03-31T18:29:48.669+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-04-29T08:41:49.477+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-04-29T08:43:18.183+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-04-29T08:54:41.882+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-04-29T08:58:17.943+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-04-29T08:58:40.564+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-04-29T08:58:53.057+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-04-29T09:04:29.992+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-90c572ed-2b63-4d44-b418-632a944e91b4" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-10T13:25:36.911+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-10T13:27:56.218+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-07T13:59:13.239+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-07T13:59:59.37+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-6248e3c6-7201-404a-a719-c5dcb9987aef">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>46</number>
+            </detail>
+            <extent unit="pages">
+                <start>46</start>
+                <end>65</end>
+            </extent>
+            <date encoding="w3cdtf">1987</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-ca04cf9f-8f54-4a44-9806-ff2bc5c2b535"/>
+    <titleInfo supplied="yes">
+        <title>Inmyō Shōrimonron Kenkyū [7]</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>A</nonSort>
+        <title>Study of the Nyāyamukha (VII)</title>
+    </titleInfo>
+    <name>
+        <namePart type="given">Shoryu</namePart>
+        <namePart type="family">Katsura</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+</mods>

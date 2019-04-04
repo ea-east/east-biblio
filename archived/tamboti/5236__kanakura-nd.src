@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-a42cdbbe-c170-4c90-8b7f-9eb21a1def5d" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Hōshō no "ri" to Jaina kyōsetsu</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>"Apoha" in Dharmakīrti and the Jaina system</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Yenshō</namePart>
+        <namePart type="family">Kanakura</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-1a56d1e7-f621-4aec-9c75-f314e7282200"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="otherVersion" xlink:href="#uuid-3c545c2f-6b09-4460-b373-600935054a1c">
+        <titleInfo>
+            <title>Hōshō no Ryōkyōshaku to Jaina kyōsetsu</title>
+        </titleInfo>
+    </relatedItem>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Japn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-07+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

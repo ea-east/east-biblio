@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-0e359d3e-a717-450c-9e98-c834e235fa48" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>TSP ni okeru ātman setsu hihan</title>
+        <subTitle>Mīmāṃsā gakuha no kōsō suru ātman setsu o megutte</subTitle>
+        <partNumber>IV.1</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Criticism of the ātman doctrine in the Tattvasaṅgrahapañjikā</title>
+        <subTitle>On the ātman doctrine of the Mīmāṃsā school</subTitle>
+        <partNumber>IV.1</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-b7f42666-72d5-4441-a6c7-bc5576ecf0e0">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>37</number>
+            </detail>
+            <detail type="issue">
+                <caption>no.</caption>
+                <number>1</number>
+            </detail>
+            <extent unit="pages">
+                <start>356</start>
+                <end>353</end>
+            </extent>
+            <date encoding="w3cdtf">1986</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-09b6da22-e109-4e02-a154-8593f8b05445"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-b42bf40e-f07c-49e6-92f2-4a50c7d959ec"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

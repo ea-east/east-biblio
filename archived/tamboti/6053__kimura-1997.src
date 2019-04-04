@@ -1,0 +1,66 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-01cc421d-df1d-4b1a-8b36-1610ca1f1d8f">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" type="translated">
+        <mods:title>Definition and the Definition of the Pramāṇa</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="jpn" transliteration="japanese/ala-lc" type="alternative">
+        <mods:title>Teigi to pramāṇa no teigi</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="jpn" script="jpan">
+        <mods:title>定義とプラマーナの定義</mods:title>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <namePart type="given">Seiji</namePart>
+        <namePart type="family">Kimura</namePart>
+        <mods:namePart type="given">誠司</mods:namePart>
+        <mods:namePart type="family">木村</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code">author</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-92d4cf49-b67f-4d07-b279-d25e05a72228">
+        <mods:part>
+            <mods:detail type="volume">
+                <mods:number>3</mods:number>
+            </mods:detail>
+            <mods:extent unit="pages">
+                <mods:start>244</mods:start>
+                <mods:end>260</mods:end>
+            </mods:extent>
+            <mods:date encoding="w3cdtf">1997 </mods:date>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Kimura 1997 </mods:identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-10-27+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-27T21:40:39.722+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T23:24:39.412+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T23:25:16.39+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

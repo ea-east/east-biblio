@@ -1,0 +1,74 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-f39f366a-0106-46d3-aa0d-fdd6f7a3b133" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Erkenntnistheorie und Logik nach der Lehre der späteren Buddhisten</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Th.</namePart>
+        <namePart type="family">Stcherbatsky</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">O.</namePart>
+        <namePart type="family">Strauss</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">München-Neubiberg</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1924</dateIssued>
+        <publisher>Verlag Oskar Schloss</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>296 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem type="constituent">
+        <titleInfo>
+            <title>O. Strauss: Dharmakīrti’s Leben and Werke</title>
+            <partNumber>Appendix I</partNumber>
+        </titleInfo>
+        <note type="content" lang="eng">Summary of Ščerbatskoj’s introduction to Vol. 2</note>
+        <part>
+            <extent unit="pages">
+                <start>254</start>
+                <end>258</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent">
+        <titleInfo>
+            <title>Ščerbatskoj: Nachträge zu Kapitel I</title>
+            <partNumber>Appendix II</partNumber>
+        </titleInfo>
+        <note type="content" lang="eng">Additions to Chapter II of Vol. 2: On the History of Indian Philosophy</note>
+        <part>
+            <extent unit="pages">
+                <start>259</start>
+                <end>266</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Stcherbatsky 1924</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

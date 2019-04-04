@@ -1,0 +1,25 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d66bb959-7ba7-4b2c-b78c-c2f2f007f113" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo lang="eng" supplied="yes">
+        <title>Sanskrit Manuscript of Anyāpohasiddhikārikā</title>
+    </titleInfo>
+    <typeOfResource manuscript="yes">text</typeOfResource>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-41ab6c1b-6800-4579-b75b-a76dfb2ad97c">
+        <part>
+            <extent unit="folios">
+                <start>9b3</start>
+                <end>11b4</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">san</languageTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

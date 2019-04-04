@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-aa0797e0-a490-4e3f-98d3-f34dda6a98e6" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Pramāṇavārttika IV. 202-206</title>
+        <subTitle>Towards the correct understanding of svabhāvapratibandha</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Shōryū</namePart>
+        <namePart type="family">Katsura</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-b7f42666-72d5-4441-a6c7-bc5576ecf0e0">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>40</number>
+            </detail>
+            <detail type="issue">
+                <caption>no.</caption>
+                <number>2</number>
+            </detail>
+            <extent unit="pages">
+                <start>1052</start>
+                <end>1047</end>
+            </extent>
+            <date encoding="w3cdtf">1992</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Katsura 1992</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

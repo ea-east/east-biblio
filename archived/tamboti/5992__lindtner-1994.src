@@ -1,0 +1,97 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-7b93976c-94f3-446f-bb56-8c3ef7a75585">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Review</mods:title>
+        <mods:subTitle>Dharmottaras kurze Untersuchung der Gültigkeit einer Erkenntnis. By Helmut Krasser. Laghuprāmāṇyaparīkṣā. Teil I: Tibetischer Text und Sanskritmaterialien. Teil II: Übersetzung. Wien 1991</mods:subTitle>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Christian</mods:namePart>
+        <mods:namePart type="family">Lindtner</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="references" xlink:href="#uuid-4527be91-2b51-45b6-ac9f-d5f1a671e4fd">
+        <mods:name type="personal">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+        </mods:originInfo>
+        <mods:targetAudience authority="marctarget">adult</mods:targetAudience>
+        <mods:typeOfResource>text</mods:typeOfResource>
+        <mods:genre type="code" authority="marcgt">book</mods:genre>
+    </mods:relatedItem>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3d454154-33db-470a-b0b7-a0bac1254154">
+        <mods:part>
+            <mods:detail type="volume">
+                <mods:number>58 </mods:number>
+            </mods:detail>
+            <mods:extent unit="pages">
+                <mods:start>265</mods:start>
+                <mods:end>267 </mods:end>
+            </mods:extent>
+            <mods:date encoding="w3cdtf">1994 </mods:date>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="references" xlink:href="#uuid-981eb45a-d237-42b8-86b4-f049a50e58eb">
+        <mods:name type="personal">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+        </mods:originInfo>
+        <mods:targetAudience authority="marctarget">adult</mods:targetAudience>
+        <mods:typeOfResource>text</mods:typeOfResource>
+        <mods:genre type="code" authority="marcgt">book</mods:genre>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Lindtner 1994 </mods:identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-10-21+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-book-review-in-periodical</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-21T21:02:16.5+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-21T21:08:42.266+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-21T21:11:18.826+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-21T21:12:03.514+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-21T21:14:22.993+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-21T21:15:53.635+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

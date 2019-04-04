@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-c8846af9-806d-4946-8c0a-fab48278520e" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <titleInfo>
+        <title>Dharmakīrti No Seiten Kan</title>
+        <subTitle>“Pramāṇavārttika” Dai 1 Shō Oyobi Jichū No Wayaku (1)</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Dharmakīrti on Scriptures</title>
+        <subTitle>A Translation of the Pramāṇavārttika, Chapter I and Svavṛtti (I)</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Futoshi</namePart>
+        <namePart type="family">Ōmae</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-85192f72-2314-4889-ae31-9392b725767d">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>47</number>
+            </detail>
+            <extent unit="pages">
+                <start>15</start>
+                <end>36</end>
+            </extent>
+            <date encoding="w3cdtf">1988</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-0551598a-0989-4824-a8f3-177e3a26c467"/>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Ōmae 1988</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T11:40:48.005+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T11:42:32.883+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T11:43:40.738+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T11:44:55.906+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

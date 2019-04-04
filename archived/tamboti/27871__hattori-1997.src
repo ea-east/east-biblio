@@ -1,0 +1,78 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-e5415c68-92d1-4519-ba33-e1ef8408c82a">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Review: Raffaele Torella, The Īśvarapratyabhijñākārikā of Utpaladeva with the Author’s Vṛtti. Critical Edition and Annotated Translation (Serie Orientale Roma, LXXI). Roma: Istituto Italiano per il Medio ed Estremo Oriente, 1994</mods:title>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Masaaki</mods:namePart>
+        <mods:namePart type="family">Hattori</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-340963de-1e7e-4c1d-97c1-324881b25c61">
+        <mods:part>
+            <mods:detail type="volume">
+                <mods:number>25</mods:number>
+            </mods:detail>
+            <mods:detail type="issue">
+                <mods:number>2</mods:number>
+            </mods:detail>
+            <mods:extent unit="pages">
+                <mods:start>257</mods:start>
+                <mods:end>261</mods:end>
+            </mods:extent>
+            <mods:date encoding="w3cdtf">1997</mods:date>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="references" xlink:href="#uuid-6fd73406-d462-4830-a185-f9f747af1aa9">
+        <mods:name type="personal">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+        </mods:originInfo>
+        <mods:targetAudience authority="marctarget">adult</mods:targetAudience>
+        <mods:typeOfResource>text</mods:typeOfResource>
+        <mods:genre type="code" authority="marcgt">book</mods:genre>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Hattori 1997b</mods:identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2015-10-16+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-book-review-in-periodical-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-16T19:33:37.03+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-16T19:57:46.221+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-16T20:02:29.517+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-16T20:09:15.616+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

@@ -1,0 +1,61 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-ca04cf9f-8f54-4a44-9806-ff2bc5c2b535" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-6248e3c6-7201-404a-a719-c5dcb9987aef">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>44</number>
+            </detail>
+            <extent unit="pages">
+                <start>43</start>
+                <end>74</end>
+            </extent>
+            <date encoding="w3cdtf">1984</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-5f0b320e-30bb-4c16-81dc-050ed9bed601"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-90c572ed-2b63-4d44-b418-632a944e91b4"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-10T13:24:55.942+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-07T13:56:37.365+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-07T13:57:37.138+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-07T13:58:38.758+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <titleInfo supplied="yes">
+        <title>Inmyō Shōrimonron Kenkyū [6]</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>A</nonSort>
+        <title>Study of the Nyāyamukha (VI)</title>
+    </titleInfo>
+    <name>
+        <namePart type="given">Shoryu</namePart>
+        <namePart type="family">Katsura</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+</mods>

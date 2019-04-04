@@ -1,0 +1,70 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-7d00d9d3-8b7f-48b0-892d-dda22b7a2bee" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-66c86577-2d98-4520-a8ab-61622b1ee866">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>48</number>
+            </detail>
+            <extent unit="pages">
+                <start>11</start>
+                <end>35</end>
+            </extent>
+            <date encoding="w3cdtf">1997</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-6ccb23f4-9d09-447a-b7da-cd901116ed4a"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-2adff05b-14ce-4282-a052-5cdf944353c5"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-17T21:24:19.606+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-16T22:51:14.801+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-16T22:58:56.417+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-16T23:02:39.282+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="jpn" type="alternative">
+        <mods:title>“Pramāṇavārttika” Pramāṇasiddhi shō no kenkyū</mods:title>
+        <mods:partNumber>6</mods:partNumber>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" supplied="yes" lang="jpn" script="jpan">
+        <mods:title>『プラマーナ・ヴァールティカ』プラマーナシッディ章の研究</mods:title>
+        <mods:partNumber>6</mods:partNumber>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" type="translated">
+        <mods:nonSort>A</mods:nonSort>
+        <mods:title>Study of the Pramāṇasiddhi Chapter of the Pramāṇavārttika</mods:title>
+        <mods:partNumber>6</mods:partNumber>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:namePart type="family">稲見</mods:namePart>
+        <mods:namePart type="given">正浩</mods:namePart>
+        <mods:namePart type="family">Inami</mods:namePart>
+        <mods:namePart type="given">Masahiro</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Inami 1997</mods:identifier>
+</mods>

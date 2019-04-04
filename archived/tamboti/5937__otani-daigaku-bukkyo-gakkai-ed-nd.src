@@ -1,0 +1,83 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-00003925-848e-440e-838d-e9e2bf99a521">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>仏教学セミナー</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" script="latn" type="translated">
+        <mods:title>Bukkyōgaku seminā</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="latn" type="translated">
+        <mods:title>Buddhist Seminar </mods:title>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="corporate">
+        <mods:namePart>大谷大学. 佛教学会</mods:namePart>
+        <mods:namePart script="latn">Ōtani Daigaku. Bukkyō Gakkai</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3" script="latn">
+        <mods:place>
+            <mods:placeTerm type="text">京都市</mods:placeTerm>
+            <mods:placeTerm type="text" script="latn">Kyōto-shi</mods:placeTerm>
+        </mods:place>
+        <mods:publisher>大谷大学佛教学会</mods:publisher>
+        <mods:publisher script="latn">Ōtani Daigaku Bukkyō Gakkai </mods:publisher>
+        <mods:issuance>continuing</mods:issuance>
+    </mods:originInfo>
+    <mods:physicalDescription xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:form authority="marcform">print</mods:form>
+    </mods:physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre type="code" authority="marcgt">periodical</genre>
+    <relatedItem type="preceeding">
+        <name type="corporate">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo script="latn">
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre type="code" authority="marcgt">periodical</genre>
+    </relatedItem>
+    <relatedItem type="succeeding">
+        <name type="corporate">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo script="latn">
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre type="code" authority="marcgt">periodical</genre>
+    </relatedItem>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-10-27+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-27T20:56:33.564+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T21:48:41.78+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T21:50:10.544+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

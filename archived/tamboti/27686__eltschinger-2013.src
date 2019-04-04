@@ -1,0 +1,91 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-1f52d523-34a2-49cb-b919-d51bf231f63d">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Scriptural Authority, Reason and Action</mods:title>
+        <mods:subTitle>Proceedings of a Panel at the 14th World Sanskrit Conference, Kyoto, September 1st-5th, 2009</mods:subTitle>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Vincent </mods:namePart>
+        <mods:namePart type="family">Eltschinger</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Helmut </mods:namePart>
+        <mods:namePart type="family">Krasser</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:place>
+            <mods:placeTerm type="text">Wien</mods:placeTerm>
+        </mods:place>
+        <mods:dateIssued encoding="w3cdtf">2013</mods:dateIssued>
+        <mods:publisher>Verlag der Österreichischen Akademie der Wissenschaften</mods:publisher>
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">book</genre>
+    <genre authority="local">editedVolume</genre>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uuid-d9a300bf-f8bc-4573-b386-aacdbd9151f8 ">
+        <mods:part>
+            <mods:detail>
+                <mods:number>79</mods:number>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-6ead0f1c-c308-40d5-9d9a-75941b4a7abc">
+        <mods:name type="personal">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:name type="corporate">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo script="Latn">
+            <mods:issuance>continuing</mods:issuance>
+        </mods:originInfo>
+        <mods:part>
+            <mods:detail type="volume">
+                <mods:number>847</mods:number>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Eltschinger and Krasser 2013</mods:identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2015-07-09+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">edited-volume-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-09T21:52:57.796+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-09T21:59:51.338+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-09T22:20:50.259+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-09T22:23:26.467+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

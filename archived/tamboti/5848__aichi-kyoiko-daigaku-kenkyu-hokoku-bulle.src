@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-57dd9c1c-1322-4e72-ae12-3c3822d69bda" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo supplied="yes">
+        <title>Tattvasaṃgraha no wayaku kaisetsu </title>
+        <partNumber>9</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>An</nonSort>
+        <title>annotated Japanese translation of the Tattvasaṅgraha</title>
+        <partNumber>9</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-d0f5df53-20a4-426e-a9b3-b71407fad469">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>32</number>
+            </detail>
+            <extent unit="pages">
+                <start>73</start>
+                <end>87</end>
+            </extent>
+            <date encoding="w3cdtf">1983</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-76031dc3-df32-4807-a35e-fd61eb107cf5"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

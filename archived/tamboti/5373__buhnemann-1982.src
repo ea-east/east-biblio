@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-96fccfb4-794d-4165-9ab7-3e77cd217465" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Jitāri, Kleine Texte</title>
+        <subTitle>Beschrieben und ediert</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Gudrun</namePart>
+        <namePart type="family">Bühnemann</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Wien</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1982</dateIssued>
+        <publisher>Arbeitskreis für Tibetische und Buddhistische Studien</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>48 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-c61c4c32-6826-42ad-a131-054769af3e84">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>8</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <titleInfo>
+            <title>O filozofowaniu Hindusów</title>
+        </titleInfo>
+        <originInfo>
+            <edition>2</edition>
+            <dateIssued encoding="w3cdtf">1985</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Bühnemann 1982</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

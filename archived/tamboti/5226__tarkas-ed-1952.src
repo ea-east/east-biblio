@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8acd97d2-2a92-45b9-ae17-5b2430c02dcd" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Ācārya-Dharmakīrtipraṇītaḥ Nyāyabinduḥ</title>
+        <subTitle>Dharmottarācāryapraṇīta Nyāyabinduṭīkā sametaḥ</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">P.</namePart>
+        <namePart type="given">I.</namePart>
+        <namePart type="family">Tarkas</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Akola</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1952</dateIssued>
+        <publisher>Nutan Mudranalaya</publisher>
+    </originInfo>
+    <physicalDescription>
+        <extent>96, 8 p.</extent>
+    </physicalDescription>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-1ab50305-e3c1-4b67-9131-4c9371f4d3ee">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>1</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

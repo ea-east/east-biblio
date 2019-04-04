@@ -1,0 +1,91 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-ac6fe89f-537f-4294-96e0-0f92bb28e98a" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="tib" transliteration="tibetan/ewts">
+        <mods:title>gtan tshigs kyi 'khor lo gtan la dbab pa</mods:title>
+    </mods:titleInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">canonical scripture</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-ad760b76-3284-44d9-a8a5-0729e23934ba">
+        <part>
+            <detail type="part">
+                <number>ce</number>
+            </detail>
+            <extent unit="pages">
+                <start>193b</start>
+                <end>194b</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-cc2623e4-8c30-4a3a-b8b0-1279e60b56df">
+        <part>
+            <detail type="part">
+                <number>ce</number>
+            </detail>
+            <extent unit="pages">
+                <start>93a1</start>
+                <end>93a7</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-a76d6022-6255-4b26-876a-84a48a54d12a">
+        <part>
+            <detail type="part">
+                <number>ce</number>
+            </detail>
+            <extent unit="pages">
+                <start>92b6</start>
+                <end>93a7</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-0f950cee-ab4e-419a-aef1-a63ad35f9dc1">
+        <part>
+            <detail type="part">
+                <number>ce</number>
+            </detail>
+            <extent unit="pages">
+                <start>189a7</start>
+                <end>189b8</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">tib</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">tibt</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">de-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-11+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart>za hor mkhas pa bodhisattva</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">trl</mods:roleTerm>
+        </mods:role>
+        <mods:namePart lang="san" transliteration="sanskrit/iast">Śāntarakṣita</mods:namePart>
+    </mods:name>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart lang="san" transliteration="sanskrit/iast">Dharmāloka</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">trl</mods:roleTerm>
+        </mods:role>
+        <mods:namePart lang="san" transliteration="sanskrit/iast">Dharmāśoka</mods:namePart>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:dateCreated encoding="w3cdtf" point="start" qualifier="approximate">763</mods:dateCreated>
+        <mods:dateCreated encoding="w3cdtf" point="end" qualifier="approximate">788</mods:dateCreated>
+    </mods:originInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="sNar thang Tripitaka No.">3699</mods:identifier>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="sDe dge Tripitaka No.">4209</mods:identifier>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="Peking Tripitaka No.">5708</mods:identifier>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">suebs-tibetan</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-09-01T17:01:20.294+02:00</ext:when>
+            <ext:who>manuel.batsching@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

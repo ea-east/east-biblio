@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-f0a5d757-3ef6-4d8f-ac50-495f9f8a629e" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Indices to Pramāṇavārtika Bhāshya of Prajñākaragupta</title>
+        <subTitle>Being a commentary on Dharmakīrti's Pramāṇavārtikam</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Rāhula</namePart>
+        <namePart type="family">Sāṅkṛtyāyana</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Patna</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1957</dateIssued>
+        <publisher>K. P. Jayaswal Research Institute</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-7eab5bd6-4e78-480f-bb05-de526a75c8de">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>1-2</number>
+            </detail>
+            <extent unit="pages">
+                <start>649</start>
+                <end>692</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Sāṅkṛtyāyana 1957</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

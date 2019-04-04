@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-00d51ea8-ec6c-415b-9477-f46d0968de76" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Probleme der buddhistischen Logik in der Darstellung des Tattvasaṅgraha</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Arnold</namePart>
+        <namePart type="family">Kunst</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Kraków</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1939</dateIssued>
+        <publisher>Polska Akademia Umiejętności</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>IX, 145 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-009a0bc5-5eef-41f8-9f5c-98d6ab704550">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>33</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Kunst 1939</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

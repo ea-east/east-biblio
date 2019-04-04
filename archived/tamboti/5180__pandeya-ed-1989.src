@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-3e8f7c79-d5c5-42f3-b49b-95759459b78e" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Pramāṇavārttikam of Ācārya Dharmakīrti</title>
+        <subTitle>With the Commentaries Svopajñavṛtti of the author and Pramāṇavārttikavṛtti of Manorathanandin</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ram</namePart>
+        <namePart type="given">Chandra</namePart>
+        <namePart type="family">Pandeya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Delhi</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1989</dateIssued>
+        <publisher>Motilal Banarsidass</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>457 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

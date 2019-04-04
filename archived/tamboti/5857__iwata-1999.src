@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-37d583f7-9459-411c-8729-66996507ddd0" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-cc8b1dd2-24c3-408a-9d62-6d6a9282df04">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>43</number>
+            </detail>
+            <extent unit="pages">
+                <start>213</start>
+                <end>230</end>
+            </extent>
+            <date encoding="w3cdtf">1999</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-745540ad-1c74-4e52-9b3c-a727ec0dafd4"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-11-26T23:06:45.476+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-11-26T23:10:16.678+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" supplied="yes">
+        <mods:title>Pramāṇaviniṣcaya III </mods:title>
+        <mods:subTitle>Die Definition des parārthānumāna</mods:subTitle>
+        <mods:partNumber>3</mods:partNumber>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:namePart type="given">Takashi</mods:namePart>
+        <mods:namePart type="family">Iwata</mods:namePart>
+    </mods:name>
+</mods>

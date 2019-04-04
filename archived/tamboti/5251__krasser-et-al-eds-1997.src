@@ -1,0 +1,80 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-baef4b9b-1667-41c5-83d8-b0cbaa8f2c91" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">book</genre>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Proceedings of the 7th Seminar of the International Association for Tibetan Studies, Graz 1995</mods:title>
+        <mods:partNumber>1</mods:partNumber>
+        <mods:partName>Tibetan Studies</mods:partName>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Helmut</mods:namePart>
+        <mods:namePart type="family">Krasser</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">edt</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Michael</mods:namePart>
+        <mods:namePart type="given">Torsten</mods:namePart>
+        <mods:namePart type="family">Much</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">edt</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Ernst</mods:namePart>
+        <mods:namePart type="family">Steinkellner</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">edt</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Helmut</mods:namePart>
+        <mods:namePart type="family">Tauscher</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">edt</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-08T00:01:52.028+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-08T00:03:00.771+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-11-06T16:23:01.459+01:00</ext:when>
+            <ext:who>birgit.kellner@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T14:42:33.222+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T14:43:30.988+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:place>
+            <mods:placeTerm type="text">Wien</mods:placeTerm>
+        </mods:place>
+        <mods:publisher>Verlag der Österreichischen Akademie der Wissenschaften</mods:publisher>
+        <mods:dateIssued encoding="w3cdtf">1997</mods:dateIssued>
+    </mods:originInfo>
+</mods>

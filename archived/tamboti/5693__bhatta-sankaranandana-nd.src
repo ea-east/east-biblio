@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-08b4c37f-0384-481a-a3dc-712ba325e013" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo supplied="yes">
+        <title lang="eng">Manuscript of Benares Hindu University</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart>Bhaṭṭa Śaṅkaranandana</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>17,3 x 13,5; 15 p.; 18 to 20 lines each</extent>
+        <form type="material">Paper</form>
+        <note>Condition: good</note>
+        <note>Complete</note>
+    </physicalDescription>
+    <location>
+        <physicalLocation>Benares Hindu University</physicalLocation>
+    </location>
+    <note>Catalogue No. 3E/2700; Acc. No. C493</note>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">san</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Shrd</scriptTerm>
+        <scriptTerm type="text">Śāradā</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

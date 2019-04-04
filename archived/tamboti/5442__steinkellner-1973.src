@@ -1,0 +1,64 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-2d475e7e-3bfd-484a-94a4-677c6ab9c279" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dharmakīrti's Pramāṇaviniścayaḥ</title>
+        <subTitle>Zweites Kapitel: Svārthānumāna</subTitle>
+        <partNumber>Teil 1</partNumber>
+        <partName>Tibetischer Text und Sanskrittexte</partName>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ernst</namePart>
+        <namePart type="family">Steinkellner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Wien</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1973</dateIssued>
+        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>119 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-6ead0f1c-c308-40d5-9d9a-75941b4a7abc">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>287</number>
+            </detail>
+            <detail type="issue">
+                <caption>Abh.</caption>
+                <number>4</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-a34efc21-25a3-47cf-9991-6b983aae8f1f">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>12</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Steinkellner 1973</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

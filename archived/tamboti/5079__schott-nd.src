@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-f3f2f89f-c806-42c5-8048-4cbd6dfad72c" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Sein als Bewußtsein</title>
+        <subTitle>Ein Beitrag zur Mahāyāna-Philosophie</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Magdalene</namePart>
+        <namePart type="family">Schott</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">book</genre>
+    <originInfo script="Latn">
+        <publisher>Carl Winters Universitätsbuchhandlung</publisher>
+        <place>
+            <placeTerm type="text">Heidelberg</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-b6636ab9-fe85-49dd-907f-86945791902d">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>28</number>
+            </detail>
+            <extent unit="pages">
+                <start>25</start>
+                <end>50</end>
+            </extent>
+            <date encoding="w3cdtf">1935</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-61ef6f9e-2c1e-48ea-b16a-a7734b2a8966">
+    <titleInfo>
+        <title>Jinendrabuddhi Ni Yoru Ichikaku Kaishaku</title>
+    </titleInfo>
+    <titleInfo lang="eng" script="Latn" type="translated">
+        <title>Jinendrabuddhi’s Interpretation of Mental Perception</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given" script="Latn">Akira</namePart>
+        <namePart type="family" script="Latn">Yoshida</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3fe4da1b-93bd-4562-abee-b774a9a32c16">
+        <part>
+            <detail type="volume">
+                <number>68</number>
+            </detail>
+            <extent unit="pages">
+                <start>95</start>
+                <end>114</end>
+            </extent>
+            <date encoding="w3cdtf">2012</date>
+        </part>
+    </relatedItem>
+    <identifier type="local">Yoshida 2012</identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2017-05-16+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-05-16T16:47:25.916+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-05-16T16:49:41.279+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

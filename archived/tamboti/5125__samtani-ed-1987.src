@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d6361303-0f4c-4e88-ac62-13504f810768" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Śramanā Vidyā</title>
+        <subTitle>Studies in Buddhism. Prof. Jaganath Upadhyaya Commemoration Volume I</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">N.</namePart>
+        <namePart type="given">H.</namePart>
+        <namePart type="family">Samtani</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <originInfo script="Latn">
+        <place>
+            <placeTerm type="text">Sarnath</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1987</dateIssued>
+        <publisher>Central Institute of Higher Tibetan Studies</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-62de4449-145b-4bc3-9962-3b9f89975920">
+        <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-7e49595a-bbb9-4d52-ad4f-c6d937bf73f8" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo lang="tib" transliteration="tibetan/ewts">
+        <title>tshad ma kun las btus pa'i 'grel pa</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart lang="tib" transliteration="tibetan/ewts">zha ma seng (ge) rgyal (mtshan)</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <name type="personal" altRepGroup="1">
+        <namePart lang="san" transliteration="sanskrit/iast">Sudhanarakṣita</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <name type="personal" altRepGroup="1">
+        <namePart lang="san" transliteration="sanskrit/iast">Vasudhararakṣita</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-d1456bf6-3048-4a2b-bac9-92828dbadaf2">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>1</number>
+            </detail>
+            <extent unit="pages">
+                <start>27</start>
+                <end>189</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">tib</languageTerm>
+        <scriptTerm authority="iso15924" type="code">tibt</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">de-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-13+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">suebs-tibetan</ext:template>
+    </extension>
+</mods>

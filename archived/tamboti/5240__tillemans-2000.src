@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-aabc76ba-f640-470a-a860-710ff94d1f5c" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dharmakīrti's Pramāṇavārttika</title>
+        <subTitle>An annotated translation of the fourth chapter (parārthānumāna)</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Tom</namePart>
+        <namePart type="given">J.</namePart>
+        <namePart type="given">F.</namePart>
+        <namePart type="family">Tillemans</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">book</genre>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Wien</placeTerm>
+        </place>
+        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+        <dateIssued encoding="w3cdtf">2000</dateIssued>
+    </originInfo>
+    <physicalDescription>
+        <extent>XXXVIII, 256 p.</extent>
+    </physicalDescription>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Tillemans 2000</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

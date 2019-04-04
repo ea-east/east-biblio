@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-40584184-7ac1-4953-807e-e91060c95099" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo lang="tib" transliteration="tibetan/ewts">
+        <title>rtsod pa'i rigs pa zhes bya ba'i rab tu
+            byed pa</title>
+    </titleInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-d1456bf6-3048-4a2b-bac9-92828dbadaf2">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>1</number>
+            </detail>
+            <extent unit="pages">
+                <start>534</start>
+                <end>648</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">tib</languageTerm>
+        <scriptTerm authority="iso15924" type="code">tibt</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">de-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-13+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">suebs-tibetan</ext:template>
+    </extension>
+</mods>

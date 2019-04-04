@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-dd99a15b-f485-4f34-9132-bdf095c8498e" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Blue Annals</title>
+        <subTitle>pt. I-II</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">G.</namePart>
+        <namePart type="given">N.</namePart>
+        <namePart type="family">Roerich</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">book</genre>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Calcutta</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1949</dateIssued>
+    </originInfo>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <dateIssued encoding="w3cdtf">1976</dateIssued>
+            <place>
+                <placeTerm type="text">Calcutta</placeTerm>
+            </place>
+        </originInfo>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Roerich 1949</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

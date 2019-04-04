@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-ee9060a9-1904-4e3e-b043-532d770c8a56" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Sadvitīyaprayogaḥ ni kansuru nisan no shiryō</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Materials on sadvitīyaprayoga</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given" lang="jpn" transliteration="japanese/ala-lc">Shigeaki</namePart>
+        <namePart type="family" lang="jpn" transliteration="japanese/ala-lc">Watanabe</namePart>
+        <namePart type="given" lang="jpn" script="jpan">重朗</namePart>
+        <namePart type="family" lang="jpn" script="jpan">渡辺</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-172b35bf-7a99-48ff-abeb-acb33f0df830">
+        <part>
+            <detail type="volume">
+                <title>Bukkyō bunkashi ronshū II</title>
+                <caption>vol.</caption>
+                <number>15</number>
+            </detail>
+            <extent unit="pages">
+                <start>657</start>
+                <end>687</end>
+            </extent>
+            <date encoding="w3cdtf">1992</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Watanabe 1992</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

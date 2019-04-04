@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-62d11399-bca4-41b5-b0cd-f55a834cfa64">
+    <titleInfo>
+        <nonSort>A</nonSort>
+        <title>controversy between Udayana and Buddhists over the theory of trairūpya</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Koji</namePart>
+        <namePart type="family">Ezaki</namePart>
+        <role>
+            <roleTerm type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-b7f42666-72d5-4441-a6c7-bc5576ecf0e0">
+        <part>
+            <detail type="volume">
+                <number>53</number>
+            </detail>
+            <detail type="issue">
+                <number>2</number>
+            </detail>
+            <extent unit="pages">
+                <start>5</start>
+                <end>7</end>
+            </extent>
+            <date encoding="w3cdtf">2005</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+    </language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-07-09+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical</ext:template>
+    </extension>
+</mods>

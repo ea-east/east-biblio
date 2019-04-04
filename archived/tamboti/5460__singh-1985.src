@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-207eacb5-d022-45e7-97c2-00f917e2c3d9" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Bauddha-Tarkabhasa of Moksakaragupta</title>
+        <subTitle>with Vipanchitartha comm. of Acharya Shantarakshita, with Hindi tr. by D. D. Shastri and Sambandhapariksa of Acharya Dharmakirtti with comm. of Prabhachandra, ed. Swami D. D. Shastri. Edited &amp; Translated with Exhaustive Notes</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">B.</namePart>
+        <namePart type="given">N.</namePart>
+        <namePart type="family">Singh</namePart>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Varanasi</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1985</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>Asha Prakashan</publisher>
+    </originInfo>
+    <physicalDescription>
+        <extent>134, 2 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

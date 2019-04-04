@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d25183da-a056-4c82-9b3a-2f8a8b903c7c" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Ratnakīrtis Vyāptinirṇaya</mods:title>
+        <mods:subTitle>Sanskrittext, Übersetzung, Analyse</mods:subTitle>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Horst</mods:namePart>
+        <mods:namePart type="family">Lasic</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">ger</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:place>
+            <mods:placeTerm type="text">Wien</mods:placeTerm>
+        </mods:place>
+        <mods:dateIssued encoding="w3cdtf">2000</mods:dateIssued>
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <mods:physicalDescription xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:extent>95 p.</mods:extent>
+    </mods:physicalDescription>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-c61c4c32-6826-42ad-a131-054769af3e84">
+        <mods:part>
+            <mods:detail type="volume">
+                <mods:caption>vol.</mods:caption>
+                <mods:number>49</mods:number>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Lasic 2000b</mods:identifier>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-07T22:29:58.968+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

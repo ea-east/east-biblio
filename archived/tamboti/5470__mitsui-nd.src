@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-33da81ca-b7a2-4109-8991-b7181c1820d1" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Inmyō nisshōriron</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Tanishin</namePart>
+        <namePart type="family">Mitsui</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3dc6768a-8534-4110-ba86-b31004b6886b">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>9</number>
+            </detail>
+            <extent unit="pages">
+                <start>443</start>
+                <end>452</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <place>
+                <placeTerm type="text">Tōkyō</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf" point="end">1977</dateIssued>
+        </originInfo>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

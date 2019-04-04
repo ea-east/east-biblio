@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-7e5d3167-a0c3-4529-8689-526999c174ae" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo supplied="yes">
+        <title>Ninshiki no taishō ni kansuru kōsatsu</title>
+        <subTitle>Tattvasaṃgraha, Bahirarthaparīkṣā no wayaku kenkyū</subTitle>
+        <partNumber>2</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>An</nonSort>
+        <title>inquiry into the object of cognition</title>
+        <subTitle>A Japanese translation and study of the  Bahirarthaparīkṣā, Tattvasaṅgraha</subTitle>
+        <partNumber>2</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-137e1ddf-1d31-4be4-99d0-d6dab3442bff">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>17</number>
+            </detail>
+            <extent unit="pages">
+                <start>26</start>
+                <end>44</end>
+            </extent>
+            <date encoding="w3cdtf">1970</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-574739bf-2260-4463-8c28-99b76e5a8bdc"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

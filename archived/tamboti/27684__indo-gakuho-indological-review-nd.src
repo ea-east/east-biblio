@@ -1,0 +1,74 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-e7b47d44-b027-4fd4-93f3-a61b822e3402">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>インド学報</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" script="Latn" type="translated">
+        <mods:title>Indo gakuhō</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn" type="translated">
+        <mods:title>Indological Review</mods:title>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="corporate">
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:place>
+            <mods:placeTerm type="text">Kyōto</mods:placeTerm>
+        </mods:place>
+        <mods:issuance>continuing</mods:issuance>
+    </mods:originInfo>
+    <mods:physicalDescription xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:form authority="marcform">print</mods:form>
+    </mods:physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+    <relatedItem type="preceeding">
+        <name type="corporate">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo script="Latn">
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre type="code" authority="marcgt">periodical</genre>
+    </relatedItem>
+    <relatedItem type="succeeding">
+        <name type="corporate">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo script="Latn">
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre type="code" authority="marcgt">periodical</genre>
+    </relatedItem>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2015-07-10+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-10T14:38:47.065+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-10T14:40:23.45+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

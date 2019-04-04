@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-745f2fa2-8032-4a00-a2ee-22db8e0404e6" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo supplied="yes">
+        <title>Hōshō cho "Pramāṇa-viniścaya" dai isshō genryō (chikaku) ron no wayaku</title>
+        <partNumber>5</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>A</nonSort>
+        <title>Japanese translation of the theory of perception in the first chapter of Dharmakīrti's Pramāṇaviniścaya, chapter I</title>
+        <partNumber>5</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-85192f72-2314-4889-ae31-9392b725767d">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>49</number>
+            </detail>
+            <extent unit="pages">
+                <start>61</start>
+                <end>79</end>
+            </extent>
+            <date encoding="w3cdtf">1990</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-c755c6c5-87f0-4581-8632-500075635a5e"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-3b91c601-aa2e-4cd1-8166-506a78c4130d"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

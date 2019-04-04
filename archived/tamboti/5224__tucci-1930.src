@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8869e1fd-8a21-4a05-a21d-f7cc3abb904d" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>On</nonSort>
+        <title>some aspects of the doctrines of Maitreya(nātha) and Asaṅga</title>
+        <subTitle>A Tibetan Chrestomathy. With Introduction, Skeleton Grammar, Notes, Texts and Vocabularies</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Giuseppe</namePart>
+        <namePart type="family">Tucci</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Calcutta</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1930</dateIssued>
+        <publisher>University of Calcutta</publisher>
+    </originInfo>
+    <physicalDescription>
+        <extent>82 p.</extent>
+    </physicalDescription>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-c2f102e2-fad4-42ea-96b8-739a5ffda772"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

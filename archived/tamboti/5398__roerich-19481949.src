@@ -1,0 +1,77 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-bfcb7339-98bb-4ec0-a944-db491ab404e2" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Paralokasiddhi</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">G.</namePart>
+        <namePart type="given">N.</namePart>
+        <namePart type="family">Roerich</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-23ba0456-04a8-4368-94e8-d4e4749f4a57">
+        <part>
+            <detail type="volume">
+                <title>B. M. Barua Commemoration Vol.</title>
+                <caption>vol.</caption>
+                <number>15</number>
+            </detail>
+            <extent unit="pages">
+                <start>213</start>
+                <end>222</end>
+            </extent>
+            <date encoding="w3cdtf" point="start">1948</date>
+            <date encoding="w3cdtf" point="end">1949</date>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <titleInfo>
+            <title>Izbrannye trudy</title>
+        </titleInfo>
+        <name type="personal">
+            <namePart type="given">Ju.</namePart>
+            <namePart type="given">N.</namePart>
+            <namePart type="family">Rerih</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm type="text">Moskva</placeTerm>
+            </place>
+            <edition>reprint</edition>
+            <publisher>Izdatel'stvo Nauka</publisher>
+            <dateIssued encoding="w3cdtf">1967</dateIssued>
+        </originInfo>
+        <part>
+            <extent unit="pages">
+                <start>235</start>
+                <end>240</end>
+            </extent>
+        </part>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <form authority="marcsmd" type="technique">photomechanical print</form>
+        </physicalDescription>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Roerich 1948</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-164811a6-0c5b-4afc-9aab-e64939b2ee42" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dignāga, Examen de l'Objet de la Connaissance (Ālambanaparīkṣā)</title>
+        <subTitle>Textes tibétain et chinois et traduction des stances et du commentaire,
+    éclairissement et notes d'après le commentaire tibétain de Vinītadeva, en collaboration
+    avec Henriette Meyer</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Susumu</namePart>
+        <namePart type="family">Yamaguchi</namePart>
+        <role>
+            <roleTerm type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-c34cc284-5a06-4dda-936f-6717f43f4eee">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>214</number>
+            </detail>
+            <extent unit="pages">
+                <start>1</start>
+                <end>65</end>
+            </extent>
+            <date encoding="w3cdtf">1929</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Yamaguchi 1929</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

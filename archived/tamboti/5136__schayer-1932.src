@@ -1,0 +1,57 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-024ec30b-1d83-4474-9525-792de160456b" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Kamalaśīlas Kritik des Pudgalavāda</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Stanisław</namePart>
+        <namePart type="family">Schayer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-18074ebc-2c70-4085-bd89-9a1b73f93401">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>8</number>
+            </detail>
+            <extent unit="pages">
+                <start>68</start>
+                <end>93</end>
+            </extent>
+            <date encoding="w3cdtf">1932</date>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <titleInfo>
+            <title>O filozofowaniu Hindusów</title>
+        </titleInfo>
+        <originInfo>
+            <edition>reprint</edition>
+        </originInfo>
+        <part>
+            <extent unit="pages">
+                <start>433</start>
+                <end>458</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Schayer 1932</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

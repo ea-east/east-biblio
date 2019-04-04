@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-340963de-1e7e-4c1d-97c1-324881b25c61" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Journal of Indian Philosophy</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" type="abbreviated">
+        <mods:title>JIP</mods:title>
+    </mods:titleInfo>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:place>
+            <mods:placeTerm type="text">Dordrecht</mods:placeTerm>
+        </mods:place>
+        <mods:issuance>continuing</mods:issuance>
+    </mods:originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <mods:targetAudience xmlns:mods="http://www.loc.gov/mods/v3" authority="marctarget">adult</mods:targetAudience>
+    <mods:typeOfResource xmlns:mods="http://www.loc.gov/mods/v3">text</mods:typeOfResource>
+    <mods:genre xmlns:mods="http://www.loc.gov/mods/v3" authority="marcgt">periodical</mods:genre>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2016-02-20T19:47:12.925+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

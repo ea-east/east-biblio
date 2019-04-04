@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-83b36d38-6bc2-4600-9345-a5a410177833" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-f25ecc89-2807-49bd-8704-005e1079ef78">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>1</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">tib</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">tibt</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="tib" script="Tibt">
+        <recordContentSource authority="marcorg">de-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>sde dge Tibetan Tripiṭaka bstan hgyur</mods:title>
+    </mods:titleInfo>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:place>
+            <mods:placeTerm type="text">Tōkyō</mods:placeTerm>
+        </mods:place>
+        <mods:publisher>Sekai seiten kanko kyokai</mods:publisher>
+        <mods:dateIssued encoding="w3cdtf">1981</mods:dateIssued>
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-08-01T11:37:10.896+02:00</ext:when>
+            <ext:who>manuel.batsching@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

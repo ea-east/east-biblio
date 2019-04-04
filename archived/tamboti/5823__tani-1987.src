@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-c5abecfc-0571-4a94-ae64-83fb09ad0667" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-e94eb90e-4820-4d62-81bb-cb5e25bb2803">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>27</number>
+            </detail>
+            <extent unit="pages">
+                <start>1</start>
+                <end>16</end>
+            </extent>
+            <date encoding="w3cdtf">1987</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-b93aaf1c-3cd7-4284-95a1-612f463324a0"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-aaebf6c2-e084-438f-ad91-fd24d0fd9716"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-07T14:22:29.532+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Problem of Interpretation on Pramāṇaviniścaya III ad vv. 22-25</title>
+        <subTitle>with the Text and a Translation</subTitle>
+    </titleInfo>
+    <name>
+        <namePart type="given">Tadashi</namePart>
+        <namePart type="family">Tani</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+</mods>

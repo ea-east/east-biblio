@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-fd3e844c-8071-465c-bc1a-5c30ba6ac365" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Collation of the editions of the Sanskrit text of the Nyāyabindu and the Nyāyabinduṭīkā</title>
+        <subTitle>published in the BI and the Bibliotheca Buddhica</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">D.</namePart>
+        <namePart type="family">Chatterji</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-ab31c4c6-d30f-4df5-a139-8188136c3aca">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>28</number>
+            </detail>
+            <extent unit="pages">
+                <start>251</start>
+                <end>294</end>
+            </extent>
+            <date encoding="w3cdtf">1932</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

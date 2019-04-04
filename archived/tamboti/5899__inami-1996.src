@@ -1,0 +1,76 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-6ccb23f4-9d09-447a-b7da-cd901116ed4a" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-319a99f0-f948-4c76-8c73-cb738f4c0935">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>3</number>
+            </detail>
+            <extent unit="pages">
+                <start>77</start>
+                <end>100</end>
+            </extent>
+            <date encoding="w3cdtf">1996</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-83fe6b09-1414-4aa8-967f-af0b073485d0"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-7d00d9d3-8b7f-48b0-892d-dda22b7a2bee"/>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" supplied="yes" lang="jpn" script="jpan">
+        <mods:title>『プラマーナ・ヴァールティカ』プラマーナシッディ章の研究</mods:title>
+        <mods:partNumber>5</mods:partNumber>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="jpn" transliteration="japanese/ala-lc" type="alternative">
+        <mods:title>“Pramāṇavārttika” pramāṇasiddhi shō no kenkyū</mods:title>
+        <mods:partNumber>5</mods:partNumber>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" type="translated">
+        <mods:nonSort>A</mods:nonSort>
+        <mods:title>Study of the Pramāṇasiddhi Chapter of the Pramāṇavārttika</mods:title>
+        <mods:partNumber>5</mods:partNumber>
+    </mods:titleInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-17T21:08:52.059+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2013-04-17T17:03:50.246+02:00</ext:when>
+            <ext:who>jens.petersen@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2013-04-17T17:05:12+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T00:01:42.222+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-10-17T00:10:55.349+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:namePart type="family">稲見</mods:namePart>
+        <mods:namePart type="given">正浩</mods:namePart>
+        <mods:namePart type="family">Inami</mods:namePart>
+        <mods:namePart type="given">Masahiro</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Inami 1996</mods:identifier>
+</mods>

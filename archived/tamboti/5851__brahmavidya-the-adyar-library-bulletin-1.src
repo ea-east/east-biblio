@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-9ef46904-c96f-4a64-87b6-93b6d36412a1" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo supplied="yes">
+        <title>Ālambanaparīkṣā and Vṛtti by Diṅnāga</title>
+        <subTitle>With the commentary of Dharmapāla. Restored into Sanskrit from the Tibetan and
+      Chinese Versions and edited with English Translation and Notes with copious extracts
+      from Vinītadeva's Commentary</subTitle>
+        <partNumber>3</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3d454154-33db-470a-b0b7-a0bac1254154">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>5</number>
+            </detail>
+            <date encoding="w3cdtf">1941</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-4b0c2656-ef00-4ae0-999c-de77d51ecf5d"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-e5b3ed3f-9964-47ac-bd79-db9588475c18"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

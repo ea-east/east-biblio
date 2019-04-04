@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-1e3877fc-2789-4f55-bcf3-98a85326dc30" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Mind Only</title>
+        <subTitle>A Philosophical and Doctrinal Analysis of the Vijñānavāda</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Thomas</namePart>
+        <namePart type="given">E.</namePart>
+        <namePart type="family">Wood</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Honolulu</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1991</dateIssued>
+        <publisher>University of Hawaii Press</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-8dc0357c-ab8f-40f5-a3e6-511afe16bf0e">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>9</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <physicalDescription>
+        <extent>XIV, 290 p.</extent>
+    </physicalDescription>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-01+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

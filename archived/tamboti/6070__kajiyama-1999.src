@@ -1,0 +1,67 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-61fcdf67-6aeb-454b-9ec5-b1f0b7e86644">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:nonSort>The </mods:nonSort>
+        <mods:title>Antarvyāptisamarthana of Ratnākaraśānti</mods:title>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Yūichi </mods:namePart>
+        <mods:namePart type="family">Kajiyama</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:place>
+            <mods:placeTerm type="text">Tōkyō</mods:placeTerm>
+        </mods:place>
+        <mods:copyrightDate encoding="w3cdtf">1999 </mods:copyrightDate>
+        <mods:publisher>The International Research Institute for Advanced Buddhology, Soka University</mods:publisher>
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre type="code" authority="marcgt">book</genre>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" type="series">
+        <mods:titleInfo>
+            <mods:title>Bibliotheca philologica et philosophica Buddhica</mods:title>
+        </mods:titleInfo>
+        <mods:name type="personal">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:name type="corporate">
+            <mods:role>
+                <mods:roleTerm type="code" authority="marcrelator">edt</mods:roleTerm>
+            </mods:role>
+        </mods:name>
+        <mods:originInfo>
+            <mods:issuance>continuing</mods:issuance>
+        </mods:originInfo>
+        <mods:part>
+            <mods:detail type="volume">
+                <mods:number>2</mods:number>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Kajiyama 1999 </mods:identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-10-27+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-10-27T22:03:38.517+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

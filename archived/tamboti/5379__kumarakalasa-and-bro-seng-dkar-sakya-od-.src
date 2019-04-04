@@ -1,0 +1,84 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-a00ec01c-fb15-4a9f-93d7-726a213e4b5d" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo lang="tib" transliteration="tibetan/ewts">
+        <title>nang gi khyab pa</title>
+    </titleInfo>
+    <typeOfResource>text</typeOfResource>
+    <name type="personal">
+        <namePart lang="san" transliteration="sanskrit/iast">Kumārakalaśa</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart lang="tib" transliteration="tibetan/ewts">('bro seng dkar) śākya 'od</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateCreated encoding="w3cdtf" qualifier="approximate">1050</dateCreated>
+    </originInfo>
+    <genre>canonical scripture</genre>
+    <identifier type="sNar thang Tripitaka No.">3749</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-ad760b76-3284-44d9-a8a5-0729e23934ba">
+        <part>
+            <detail type="part">
+                <number>ze</number>
+            </detail>
+            <extent unit="pages">
+                <start>338b</start>
+                <end>344b</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <identifier type="sDe dge Tripitaka No.">4260</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-cc2623e4-8c30-4a3a-b8b0-1279e60b56df">
+        <part>
+            <detail type="part">
+                <number>zhe</number>
+            </detail>
+            <extent unit="pages">
+                <start>309b4</start>
+                <end>314a5</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-a76d6022-6255-4b26-876a-84a48a54d12a">
+        <part>
+            <detail type="part">
+                <number>zhe</number>
+            </detail>
+            <extent unit="pages">
+                <start>303b3</start>
+                <end>308a5</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <identifier type="Peking Tripitaka No.">5757</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-0f950cee-ab4e-419a-aef1-a63ad35f9dc1">
+        <part>
+            <detail type="part">
+                <number>ze</number>
+            </detail>
+            <extent unit="pages">
+                <start>329b6</start>
+                <end>335a4</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">tib</languageTerm>
+        <scriptTerm authority="iso15924" type="code">tibt</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">de-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">suebs-tibetan</ext:template>
+    </extension>
+</mods>

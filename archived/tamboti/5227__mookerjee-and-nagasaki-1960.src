@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8c34f29d-83ed-453e-b9a0-112393caf5a4" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:nonSort>The</mods:nonSort>
+        <mods:title>Pramāṇavārttikam of Dharmakīrti</mods:title>
+        <mods:subTitle>An English Translation of the First Chapter with the Autocommentary and with Elaborate Comments</mods:subTitle>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Satkari</mods:namePart>
+        <mods:namePart type="family">Mookerjee</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Hojun</mods:namePart>
+        <mods:namePart type="family">Nagasaki</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-fbe8e74f-8d07-48ce-9000-1b8fb6c99c33">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>4</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:place>
+            <mods:placeTerm type="text">Patna</mods:placeTerm>
+        </mods:place>
+        <mods:dateIssued encoding="w3cdtf">1960</mods:dateIssued>
+        <mods:publisher>Nava Nālandā Mahāvihāra</mods:publisher>
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <mods:physicalDescription xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:extent>IV, 134 p.</mods:extent>
+    </mods:physicalDescription>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Mookerjee 1960</mods:identifier>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-11-06T13:23:01.993+01:00</ext:when>
+            <ext:who>birgit.kellner@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

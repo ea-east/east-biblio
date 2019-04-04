@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-61a00995-ff2d-4e32-974b-9cc2f30125c6" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo supplied="yes">
+        <title>Vinītadeva's Nyāyabindu-ṭīkā</title>
+        <subTitle>Sanskrit original reconstructed from the extant Tibetan version, with English translation and annotations</subTitle>
+        <partNumber>2</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-7218b814-6d72-473c-8b11-cdc4e10d411f">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>13</number>
+            </detail>
+            <extent unit="pages">
+                <start>3</start>
+                <end>122</end>
+            </extent>
+            <date encoding="w3cdtf">1971</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-885417a8-4c94-424d-bf2f-8f9b154437e4"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-86ee1912-88e7-4b34-a155-f07343b77581" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo lang="kor">
+        <title>Koryŏ taejanggyŏng</title>
+    </titleInfo>
+    <titleInfo type="alternative" lang="lat">
+        <title>Tripitaka Koreana</title>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Seoul</placeTerm>
+        </place>
+        <publisher>Tongguk University Press</publisher>
+        <dateIssued encoding="w3cdtf">1976</dateIssued>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent>48 vol.</extent>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">chi</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Hani</scriptTerm>
+    </language>
+</mods>

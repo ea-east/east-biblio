@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-41ab6c1b-6800-4579-b75b-a76dfb2ad97c" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo supplied="yes" lang="eng">
+        <title>Glass negative collection of the Bihar Research Society</title>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Patna</placeTerm>
+        </place>
+    </originInfo>
+    <typeOfResource manuscript="yes" collection="yes">text</typeOfResource>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">san</languageTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-ca714f29-04de-4f06-9ff8-cf72a93f65e2" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Śāntarakṣita no tsutaeru yuibutsuron tetsugaku</title>
+        <subTitle>Tattvasaṃgrahapañjikā Chap. XXII o chūshin toshite</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Lokāyata philosophy as presented by Śāntarakṣita</title>
+        <subTitle>with a focus on Tattvasaṅgrahapañjikā chapter XXII</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Yūshō</namePart>
+        <namePart type="family">Miyasaka</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-34a1f1b2-dd21-4239-86fe-bf48f8935cbd">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>71-72</number>
+            </detail>
+            <extent unit="pages">
+                <start>122</start>
+                <end>138</end>
+            </extent>
+            <date encoding="w3cdtf">1965</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-02+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Miyasaka 1965</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

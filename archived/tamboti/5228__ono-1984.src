@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8d15b551-bfca-427f-a5f8-07df79ed42e9" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dharmakīrti ni okeru kotoba to ronri</title>
+        <subTitle>PV.IV.1-14</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Language and logic in Dharmakīrti</title>
+        <subTitle>Pramāṇavārttika IV.1-14</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Motoi</namePart>
+        <namePart type="family">Ono</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-e0f9dc03-985b-4241-ab54-7467fed306be">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>3</number>
+            </detail>
+            <extent unit="pages">
+                <start>42</start>
+                <end>59</end>
+            </extent>
+            <date encoding="w3cdtf">1984</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Ono 1984</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

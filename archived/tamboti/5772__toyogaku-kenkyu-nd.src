@@ -1,0 +1,20 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-7a14cf6a-ed2d-459a-9630-cd7c441b58f0" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Tōyōgaku Kenkyū</title>
+    </titleInfo>
+    <titleInfo type="abbreviated">
+        <title>TGK</title>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Tōkyō</placeTerm>
+        </place>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+</mods>

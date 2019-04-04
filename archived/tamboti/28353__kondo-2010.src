@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-189a149d-46e9-477c-821a-5dec4e12b3ac">
+    <titleInfo>
+        <title>Pramāṇasamuccayaṭīkā Dai Isshō Ni Miru Ṣaṣṭitantra Chūsyakusho No Chikakuron</title>
+        <subTitle>Yuktidīpikā Tono Kanren Wo Chūshin Ni</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" script="Latn" type="translated">
+        <title>Perception Theories of the *Ṣaṣṭitantravṛtti in the Pramāṇasamuccayaṭīkā (Chapter 1)</title>
+        <subTitle>In Relation to the Yuktidīpikā</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given" script="Latn">Hayato</namePart>
+        <namePart type="family" script="Latn">Kondo</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-83e395de-efd5-4bc5-94c9-5853f3f36e32">
+        <part>
+            <detail type="volume">
+                <number>17</number>
+            </detail>
+            <extent unit="pages">
+                <start>25</start>
+                <end>40</end>
+            </extent>
+            <date encoding="w3cdtf">2010</date>
+        </part>
+    </relatedItem>
+    <identifier type="local">Kondo 2010</identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2017-05-16+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-05-16T16:41:52.357+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-05-16T16:45:35.186+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d177d7e7-1ac0-4962-aa51-b94703794c87" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Jainācārya-Śrī-Hemacandrasūri-mukhaśiṣyābhyām ācārya-Rāmacandra-Guṇacandrābhyāṃ viracitāyām Dravyālaṅkāra-svopajjña-ṭīkāyāṃ Bauddhagrantebhya uddhṛtāḥ pāṭhāḥ</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart>Muni Jambūvijayajī</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-18d6e4be-a4f8-44d3-b591-dc757c188b7e">
+        <part>
+            <extent unit="pages">
+                <start>129</start>
+                <end>149</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <genre>article</genre>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">hin</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Deva</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-f57f002d-b169-4205-8d2d-605bf99d90fa" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>A</nonSort>
+        <title>History of Indian Literature</title>
+    </titleInfo>
+    <titleInfo type="abbreviated">
+        <title>HIL</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jan</namePart>
+        <namePart type="family">Gonda</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Göttingen</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf" point="start">1973</dateIssued>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+</mods>

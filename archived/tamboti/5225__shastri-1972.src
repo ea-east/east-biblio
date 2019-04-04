@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-88eaa99f-0a41-4a06-afd3-43ba9209914f" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Vadanyayaprakaraṇa of Acharya Dharmakirtti with the Commentary Vipanchitārthā of Acharya Śāntirakṣita and Sambandhaparīkṣā with the Commentary of Acharya Prabhachandra</title>
+        <subTitle>Critically edited</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Dwarika</namePart>
+        <namePart type="given">Das</namePart>
+        <namePart type="family">Shastri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Varanasi</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1972</dateIssued>
+        <publisher>Bauddha Bharati</publisher>
+    </originInfo>
+    <physicalDescription>
+        <extent>VIII, 168 p.</extent>
+    </physicalDescription>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-aea8a3dc-53da-44d9-ab37-be732b459d77">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>2</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-60bb4086-8b60-4080-bedf-9c9d64e5170f">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>8</number>
+            </detail>
+            <detail type="issue">
+                <caption>no.</caption>
+                <number>2</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

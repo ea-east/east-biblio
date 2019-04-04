@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-f58a7596-8c2c-4442-a480-2e01a012a1b4">
+    <titleInfo>
+        <nonSort>A </nonSort>
+        <title>Hindu Critique of Buddhist Epistemology</title>
+        <subTitle>Kumārila on Perception: the "Determination of Perception" Chapter of Kumārila Bhaṭṭa’s Ślokavārttika</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="family">Taber</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text" authority="marccountry">London</placeTerm>
+        </place>
+        <place>
+            <placeTerm type="text">New York</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">2005</dateIssued>
+        <publisher>Routledge Curzon</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre type="code" authority="marcgt">book</genre>
+    <relatedItem type="series">
+        <name type="personal">
+            <role>
+                <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+    </language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2012-07-09+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">latn</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

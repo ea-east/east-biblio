@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-4ec256e4-3b8e-43ca-a2c4-c4fa44303024" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>A</nonSort>
+        <title>History of Indien Logic</title>
+        <subTitle>Ancient, Mediæval and Modern Schools</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Satis</namePart>
+        <namePart type="given">Chandra</namePart>
+        <namePart type="family">Vidyabhusana</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Calcutta</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1921</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <place>
+                <placeTerm type="text">Delhi</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1977</dateIssued>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <form authority="marcsmd" type="technique">photomechanical print</form>
+        </physicalDescription>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Vidyabhusana 1921</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

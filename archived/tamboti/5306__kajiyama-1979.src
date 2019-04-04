@@ -1,0 +1,148 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-0f6065e1-f7c2-4355-b94f-6f000cf9a9c3" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Hasseiki Indo ni okeru bukkyō to tagakuha to no tairitsu to kōshō</title>
+        <subTitle>("Tattvasaṃgraha" kenkyū), kenkyū hōkoku</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Confrontation of and relationship between Buddhism and other schools in eighth century India</title>
+        <subTitle>(A study of the Tattvasaṅgraha), a research report</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Yūichi</namePart>
+        <namePart type="family">Kajiyama</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Kyōto</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1979</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>II, 63 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-d275948d-36d4-4b7c-928e-684e61686c38">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>53</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent">
+        <titleInfo>
+            <title>Saikōshin no kōsatsu</title>
+        </titleInfo>
+        <note type="content">Īśvaraparīkṣā</note>
+        <name type="personal">
+            <namePart type="given">Chijun</namePart>
+            <namePart type="family">Tamura</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+            </role>
+        </name>
+        <part>
+            <extent unit="pages">
+                <start>1</start>
+                <end>13</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent">
+        <titleInfo>
+            <title>Kūiha ni yotte sōtei sareru ātman no kōsatsu</title>
+        </titleInfo>
+        <note type="content">Digambaraparikalpitātmaparīkṣā</note>
+        <name type="personal">
+            <namePart type="given">Kyōshū</namePart>
+            <namePart type="family">Tsuchihashi</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+            </role>
+        </name>
+        <part>
+            <extent unit="pages">
+                <start>14</start>
+                <end>19</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent">
+        <titleInfo>
+            <title>Undō no kōsatsu</title>
+        </titleInfo>
+        <note type="content">Karma(padārtha)parīkṣā</note>
+        <name type="personal">
+            <namePart type="given">Kunio</namePart>
+            <namePart type="family">Hishida</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+            </role>
+        </name>
+        <part>
+            <extent unit="pages">
+                <start>20</start>
+                <end>32</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent">
+        <titleInfo>
+            <title>Fuhen no kōsatsu</title>
+        </titleInfo>
+        <note type="content">Sāmānyaparīkṣā</note>
+        <name type="personal">
+            <namePart type="given">Tomoyasu</namePart>
+            <namePart type="family">Takenaka</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+            </role>
+        </name>
+        <part>
+            <extent unit="pages">
+                <start>33</start>
+                <end>54</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent">
+        <titleInfo>
+            <title>Sanze no kōsatsu</title>
+        </titleInfo>
+        <note type="content">Trikālaparīkṣā</note>
+        <name type="personal">
+            <namePart type="given">Shinkai</namePart>
+            <namePart type="family">Ōta</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+            </role>
+        </name>
+        <part>
+            <extent unit="pages">
+                <start>55</start>
+                <end>63</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="jpn" script="Jpan">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Kajiyama 1979</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

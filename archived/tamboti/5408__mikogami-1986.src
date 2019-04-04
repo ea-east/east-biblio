@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d018e76c-71fe-4698-8f88-c82371f53605" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Computer shiyō ni yoru bukkyō bunken no kenkyū </title>
+        <partNumber>2</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Research on Buddhist texts with computers</title>
+        <partNumber>2</partNumber>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Eshō</namePart>
+        <namePart type="family">Mikogami</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-c3324839-b128-4a70-9ae2-0702f64fe1d6">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>25</number>
+            </detail>
+            <extent unit="pages">
+                <start>43</start>
+                <end>104</end>
+            </extent>
+            <date encoding="w3cdtf">1986</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Mikogami 1986b</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

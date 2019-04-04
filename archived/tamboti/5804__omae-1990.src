@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-951558ae-fb26-4f49-999f-edf3af020e93" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-27f678a6-a33c-4324-8f50-2de3e0f4b066">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>12</number>
+            </detail>
+            <extent unit="pages">
+                <start>15</start>
+                <end>24</end>
+            </extent>
+            <date encoding="w3cdtf">1990</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-f3d60ff4-da7f-40ba-9377-59186021b5f3"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-2860546b-29fe-46b3-bb34-609936fbbbc9"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T12:05:24.345+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T12:06:47.344+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <titleInfo supplied="yes">
+        <title>Dharmakīrti No Seiten Kan</title>
+        <subTitle>“Pramāṇavārttika” Dai 1 Shō Oyobi Jichū No Wayaku (5)</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Dharmakīrti on Scriptures</title>
+        <subTitle>A Translation of the Pramāṇavārttika, Chapter I and Svavṛtti (V)</subTitle>
+    </titleInfo>
+    <name>
+        <namePart type="given">Futoshi</namePart>
+        <namePart type="family">Ōmae</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+</mods>

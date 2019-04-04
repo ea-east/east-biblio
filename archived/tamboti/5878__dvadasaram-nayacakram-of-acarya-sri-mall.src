@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-4355675a-ba53-47a8-a24c-2bc0e7670df8" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dvādaśāraṃ Nayacakraṃ of Ācārya Śrī Mallavadī Kṣamāśramaṇa</title>
+        <subTitle>With the commentary Nyāyāgamanānusāriṇī of Śrī Siṃhasūri Gaṇi Vādi Kṣamāśramaṇa. Edited with critical notes.</subTitle>
+        <partNumber>3</partNumber>
+        <partName>9-12 Aras</partName>
+    </titleInfo>
+    <originInfo>
+        <dateIssued encoding="w3cdtf">1988</dateIssued>
+        <publisher>Sri Jain Atmanand Sabha</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>IV, XXX, 738-936 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-f60a7ee0-b651-4372-bbf8-6b163d2b439c">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>94</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-505ee5e3-861b-4291-80eb-a5d58c885f93"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

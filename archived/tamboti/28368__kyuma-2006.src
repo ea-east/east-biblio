@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-72816c5d-90e9-4ff7-b46c-a95f85ecd297">
+    <titleInfo>
+        <title>Setsunametsu Ronshō Ni Okeru Shudaishozokusei (pakṣadharmatā) Wo Meguru Ichi Kōsatsu</title>
+        <subTitle>Jñānaśrīmitra Ni Yoru Shudai (pakṣa) to Ronshōin (hetu) No Nishu No Kaishaku</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" script="Latn" type="translated">
+        <title>*A Study on the Pakṣadharmatā in the Proof of Momentariness</title>
+        <subTitle>Jñānaśrīmitra’s Two Interpretation of Pakṣa and Hetu</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given" script="Latn">Taiken</namePart>
+        <namePart type="family" script="Latn">Kyūma</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-768f95dd-7f6f-48b7-9bcd-797712c835e4">
+        <part>
+            <detail type="volume">
+                <number>12</number>
+            </detail>
+            <extent unit="pages">
+                <start>87</start>
+                <end>98</end>
+            </extent>
+            <date encoding="w3cdtf">2006</date>
+        </part>
+    </relatedItem>
+    <identifier type="local">Kyūma 2006</identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2017-05-16+02:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-05-16T15:17:54.97+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-05-16T15:19:51.414+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

@@ -1,0 +1,63 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-2e9fe025-27ca-4fd6-8e3a-89d8fdfac2fd" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>Die</nonSort>
+        <title>lHan kar ma</title>
+        <subTitle>ein früher Katalog der ins Tibetische übersetzten buddhistischen Texte. Kritische Neuausgabe mit Einleitung und Materialien.</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Adelheid</namePart>
+        <namePart type="family">Herrmann-Pfandt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo script="Latn">
+        <place>
+            <placeTerm type="text">Wien</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">2008</dateIssued>
+        <publisher>Verlag der Österreichischen Akadademie der Wissenschaften</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <genre>book</genre>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="ger" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-245e20df-9a75-4b16-807d-117f1cbb85d4">
+        <mods:part>
+            <mods:detail type="volume">
+                <mods:caption>vol.</mods:caption>
+                <mods:number>367</mods:number>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-d2cf1661-d4d5-4798-b432-78386b21d804">
+        <mods:part>
+            <mods:detail type="volume">
+                <mods:caption>vol.</mods:caption>
+                <mods:number>59</mods:number>
+            </mods:detail>
+        </mods:part>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Herrmann-Pfandt 2008</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-11T18:57:16.924+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-04-11T19:00:44.589+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

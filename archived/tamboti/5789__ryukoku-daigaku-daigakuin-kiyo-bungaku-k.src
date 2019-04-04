@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-ef1e1616-31b5-4681-8ccf-3c547dbf3cfb" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dharmakīrti no Veda seiten hihan</title>
+        <subTitle>Pramāṇavārttikasvavṛtti kenkyū (2) (vv. 312-340)</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Dharmakīrti's criticism of Vedic scripture</title>
+        <subTitle>Studies on the Pramāṇavārttikasvavṛtti (2) (vv. 312-340)</subTitle>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-00c6fc4f-cbd1-4dd9-a619-e33244f13466">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>11</number>
+            </detail>
+            <extent unit="pages">
+                <start>10</start>
+                <end>33</end>
+            </extent>
+            <date encoding="w3cdtf">1990</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-421fbbb9-c1dc-4f33-a4f0-996fabbdb46f"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

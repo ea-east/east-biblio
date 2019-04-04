@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-93a89782-e67c-417e-8778-dbb97ecbdecf" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>TSP ni okeru ātman setsu hihan</title>
+        <subTitle>Kumārila no ātman setsuho riron "kubetsu to zuihan" e no hihan</subTitle>
+        <partNumber>IV.3</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Criticism of the ātman doctrine in the Tattvasaṅgrahapañjikā</title>
+        <subTitle>Criticism of "vyāvṛttyanugama" in Kumārila's approach to the ātman doctrine</subTitle>
+        <partNumber>IV.3</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3fe4da1b-93bd-4562-abee-b774a9a32c16">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>44</number>
+            </detail>
+            <extent unit="pages">
+                <start>61</start>
+                <end>80</end>
+            </extent>
+            <date encoding="w3cdtf">1988</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-b42bf40e-f07c-49e6-92f2-4a50c7d959ec"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-2b69a3b0-9efc-4d13-b3cf-0ae6237a6a73"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

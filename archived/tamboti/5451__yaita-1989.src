@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-0677e277-e9c6-4e41-816c-713b4ca881b8" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Bukkyō ninshikiron no ichi kōyōsho ni okeru genryō teigiron</title>
+        <subTitle>Tarkarahasya shiyaku </subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>The</nonSort>
+        <title>definition of perception in Wahrnehmungsdogmatik in an outline of Buddhist epistemology</title>
+        <subTitle>
+            <nonSort>A</nonSort> tentative translation of the Tarkarahasya</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Hideomi</namePart>
+        <namePart type="family">Yaita</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-d3340d45-fc80-40ab-8ed1-bde1535867ea">
+        <part>
+            <detail type="volume">
+                <title>Hattori Masaaki hakase taikan kinen ronshū</title>
+                <caption>vol.</caption>
+                <number>6</number>
+            </detail>
+            <extent unit="pages">
+                <start>95</start>
+                <end>103</end>
+            </extent>
+            <date encoding="w3cdtf">1989</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Yaita 1989a</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

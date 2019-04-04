@@ -1,0 +1,66 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-f51d5904-b7aa-4bc4-b16a-68f14e1626a3" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>A</nonSort>
+        <title>Refutation of Solipsism</title>
+        <subTitle>Annotated translation of Saṃtānāntarasiddhi</subTitle>
+        <partNumber>1</partNumber>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Hidenori</namePart>
+        <namePart type="family">Kitagawa</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3cb45d7d-8681-4085-a2a6-9bd24dbd2c3d">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>14</number>
+            </detail>
+            <detail type="issue">
+                <caption>no.</caption>
+                <number>1</number>
+            </detail>
+            <extent unit="pages">
+                <start>55</start>
+                <end>73</end>
+            </extent>
+            <date encoding="w3cdtf">1955</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-e5d01cba-1359-43d9-968c-0f5b14e88cae"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="otherVersion" xlink:href="#uuid-4508677c-23f8-47bd-87d6-efe8f36211fc">
+        <originInfo>
+            <edition>reprint</edition>
+        </originInfo>
+        <part>
+            <detail type="part">
+                <caption>App.</caption>
+                <number>A</number>
+            </detail>
+            <extent unit="pages">
+                <start>407</start>
+                <end>429</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-02+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Kitagawa 1955</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

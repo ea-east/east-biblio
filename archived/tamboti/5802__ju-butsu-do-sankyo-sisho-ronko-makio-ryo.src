@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-46064423-8508-467b-98bb-78b04f5d2d47" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <originInfo script="Latn">
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm type="text">Tōkyō</placeTerm>
+        </place>
+        <publisher>Sankibo Busshorin</publisher>
+        <dateIssued encoding="w3cdtf">1991</dateIssued>
+    </originInfo>
+    <genre>periodical</genre>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T18:03:29.819+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T18:05:45.334+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T18:07:21.815+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <titleInfo>
+        <title>Ju, Butsu, Dō Sankyō Sishō Ronkō</title>
+        <subTitle>Makio Ryōkai Hakase Kiju Kinen</subTitle>
+    </titleInfo>
+    <titleInfo>
+        <title>Confucianism, Buddhism, Taoism: Studies on the Thoughts in the Three Religions: A Festschrift in Honor of 77th Birthday of Dr. Ryōkai Makio</title>
+    </titleInfo>
+</mods>

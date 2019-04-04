@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-0f950cee-ab4e-419a-aef1-a63ad35f9dc1" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo lang="eng">
+        <nonSort>The</nonSort>
+        <title>Tibetan Tripiṭaka</title>
+        <subTitle>Peking Edition. Reprinted under the Supervision of the Otani University, Kyoto</subTitle>
+    </titleInfo>
+    <titleInfo type="abbreviated">
+        <title>Peking</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Daisetsu</namePart>
+        <namePart type="given">Teitaro</namePart>
+        <namePart type="family">Suzuki</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Tōkyō</placeTerm>
+        </place>
+        <place>
+            <placeTerm type="text">Kyōto</placeTerm>
+        </place>
+        <publisher>Tibetan Tripiṭaka Research Institute</publisher>
+        <dateIssued encoding="w3cdtf" point="start">1955</dateIssued>
+        <dateIssued encoding="w3cdtf" point="end">1961</dateIssued>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent>168 vols.</extent>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">tib</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Tibt</scriptTerm>
+    </language>
+</mods>

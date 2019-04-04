@@ -2,25 +2,34 @@
 #+AUTHOR: Patrick McAllister (pma@rdorte.org)
 
 
-This repository is intended as a replacement for Tamboti.
+This repository contains the bibliographic data for EAST
+(https://east.ikga.oeaw.ac.at).
 
-The “official” repository URL is: gitolite@rdorte.org:east-biblio
+The “official” repository URL is:
+git@gitlab.com:east-bibliography/bibdata.git
 
-The admin of that repository is Patrick McAllister.
+The admin of that repository is Patrick McAllister.  The repository is
+private, which means that to push or pull you will need to register on
+gitlab, and then ask the admin to add you to the group.
 
 
 * Layout of this repository
 
+The most important files are:
 
-1) Two files:
-   1) README.org
-   2) README.html (derived from the org file, do not edit!)
-2) Directories:
-   1) file:./archived: contains all the bibliographic data in a
-      normalized (mods) xml format
-   2) file:./archived/sources: this directory contains all the
-      bibliographic sources, in the raw format (they are not all MODS
-      files).
+1) README.org (this file)
+2) file:./bib/east.bib: A single BibLaTeX file, to be edited by a
+   program of choice (e.g., http://www.jabref.org/)
+
+Other directories contain files that should not be edited, normally.
+They contain automatically generated content (pulled from EAST’s
+database), and the content is subject to change.
+
+1) file:./archived: contains all the bibliographic data in a
+   normalized (mods) xml format
+2) file:./archived/sources: this directory contains all the
+   bibliographic sources, in the raw format (they are not all MODS
+   files).
 
 * General workflow
 
@@ -36,27 +45,23 @@ will usually want to share your changes, typically:
 1) ~git commit~: add a short message describing what you did
 2) ~git push~: send changes to central repository
 
-** Adding new entries
+The overall aim is then to add or update an entry in the main
+bibliographic file, file:./bib/east.bib
 
-1) Copy one of the entries in file:./archived/ to a new file with a
-   meaningful (e.g., author + year) and unique name *in the same
-   directory*, without the numeric prefix.
-2) Edit as intended, keeping to the following rules:
-   1) The root element must start with a tag like ~<mods xmlns="http://www.loc.gov/mods/v3" xml:id="east-XXXX">~
-   2) The most important thing is to add a unique identifier, the
-      ~@xml:id~ attribute.  It’s best to use UUIDs (e.g., open or
-      refresh https://www.uuidgenerator.net/, and copy the one
-      suggested on the top). Please make sure it starts with a letter,
-      for example by adding a prefix like “east-” to it.
-   3) The file should be well-formed.  Validity will be checked at the
-      backend (after a “git push”; TODO@pma: not yet implemented).
-3) Be sure to tell git that you want to track the new file with ~git
-   add~.
+** Guidelines for adding/updating entries
 
-
-** Updating entries
-
-- Simply open the file, and edit as you see fit.
+- We follow the BibLaTeX standards, as described in Chapter 2
+  (“Database Guide”) of
+  http://tug.ctan.org/macros/latex/exptl/biblatex/doc/biblatex.pdf,
+  with *the following additional rule(s)*:
+  - Bibliographic entries that contain data fields in multiple
+    languages or scripts need to have the following format:
+    ~transcribed-title-or-name [*translated title or name]~.  For example:
+    #+BEGIN_SRC 
+    title = {Ninshikiron: chikaku no riron to sono tenkai [*Epistemology: the Theory of Perception and its Development]},
+    #+END_SRC
+    Note that in such cases we do not use Biblatex’s ~subtitle~ field!
+- We use unicode encoding in the bib file.
 
 
 * Git useful commands
@@ -112,4 +117,74 @@ will usually want to share your changes, typically:
            --unicode-no-bom \
            --no-latex \
            ::: *.bib > /tmp/east-bibs.mods
+#+END_SRC
+
+
+* Database/Django commands
+
+To generate initial data from what’s in the Django backend, do
+something like this:
+
+#+BEGIN_SRC python
+  import os
+  import shutil
+  from biblio.models import BibliographicEntry
+  from biblio.stuff import *
+  from django.utils.text import slugify
+  from lxml import etree
+
+  outdir = "/tmp/east-biblio-exports"
+
+  if os.path.exists(outdir):
+      shutil.rmtree(outdir)
+
+  os.makedirs(outdir)
+
+  def write_bibs(bibs, subdir):
+      """Write useful formats (mods, source, bib) of every bib in bibs (a
+  query object) into outputdir/subdir."""
+      suboutdir = os.path.join(outdir, subdir)
+
+      if os.path.exists(suboutdir):
+          shutil.rmtree(suboutdir)
+      os.makedirs(suboutdir)
+    
+
+      for bib in bibs:
+          basename = "%s__%s" % (bib.id,
+                                 slugify(bib.pretty_short)[:40])
+          modsoutfile = open(
+              os.path.join(suboutdir,
+                           "%s.mods.xml" % (basename)),
+              "w")
+
+          print("Writing %s" % modsoutfile)
+          modsoutfile.write(
+              etree.tostring(
+                  etree.fromstring(bib.get_mods()),
+                  encoding=str,
+                  pretty_print=True
+              ))
+          modsoutfile.close()
+
+          biboutfile = open(
+              os.path.join(suboutdir,
+                           "%s.bib" % (basename)),
+              "w")
+
+          print("Writing %s" % biboutfile)
+          biboutfile.write(bib.get_bibtex(putids=True))
+          biboutfile.close()
+
+          sourceoutfile = open(
+              os.path.join(suboutdir,
+                           "%s.src" % (basename)),
+              "w")
+          print("Writing %s" % sourceoutfile)
+          sourceoutfile.write(bib.source)
+          sourceoutfile.close()
+
+
+
+  write_bibs(BibliographicEntry.objects.filter(repository="TAMB"), "tamboti")
 #+END_SRC

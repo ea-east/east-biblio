@@ -1,0 +1,24 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-885e8eb3-430d-4d8d-8394-ce3cb2b35ca8" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Tōyō Daigaku Dagakuin Kiyō</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Bulletin of the of the Academy</title>
+    </titleInfo>
+    <titleInfo type="abbreviated">
+        <title>TDDK</title>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Tōkyō</placeTerm>
+        </place>
+        <publisher>Toyo University</publisher>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+    </physicalDescription>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">periodical</genre>
+</mods>

@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-465879e5-a78f-421f-8c3b-182a923d0f02" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Nyāyabinduṭīkā of Dharmottara Āchārya</title>
+        <subTitle>To which is added the Nyāyabindu</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Peter</namePart>
+        <namePart type="family">Peterson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Calcutta</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1889</dateIssued>
+        <publisher>Asiatic Soc.</publisher>
+    </originInfo>
+    <physicalDescription>
+        <extent>XV, 134 p.</extent>
+    </physicalDescription>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-ae52bbda-ae5d-46b0-932e-d21c20ef62f4">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>128</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>2</edition>
+            <dateIssued encoding="w3cdtf">1929</dateIssued>
+        </originInfo>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

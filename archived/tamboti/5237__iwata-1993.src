@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-a62499ed-3214-4b70-a074-744773d9a745" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>"Chishikiron kettaku" (Pramāṇaviniścaya) daisan shō (tasha no tame no suiron shō)</mods:title>
+        <mods:subTitle>wayaku kenkyū ad v. 1, tasha no tame no suiron no teigi no svadṛṣṭa ni tsuite
+    </mods:subTitle>
+        <mods:partNumber>1</mods:partNumber>
+    </mods:titleInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" type="translated">
+        <mods:title>Pramāṇaviniścaya III (parārthānumāna)</mods:title>
+        <mods:subTitle>Japanese translation and study of v. 1, on "svadṛṣṭa" in the definition of  parārthānumāna</mods:subTitle>
+        <mods:partNumber>1</mods:partNumber>
+    </mods:titleInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-afb54b68-4003-4ff9-892f-921635e92455">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>10</number>
+            </detail>
+            <extent unit="pages">
+                <start>21</start>
+                <end>48</end>
+            </extent>
+            <date encoding="w3cdtf">1993</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-dbd5c727-f2d7-40ed-9c57-0c4d2e6f5230"/>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Takashi</mods:namePart>
+        <mods:namePart type="family">Iwata</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Iwata 1993b</mods:identifier>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2015-07-13T18:31:43.011+02:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

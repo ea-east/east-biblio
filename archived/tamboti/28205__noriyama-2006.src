@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd" ID="uuid-f1def769-db3a-44c8-8101-712b99bd08ea">
+    <titleInfo>
+        <title>Arcaṭa no “Shudaishozokusei ron”</title>
+        <subTitle>Hetubinduṭīkā kenkyū (3) (pp. 11,4-17,23)</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" script="Latn" type="translated">
+        <title>Arcaṭa On the Pakṣadharmatā</title>
+        <subTitle>An Annotated Translation of Hetubinduṭīkā (3) (pp. 11,4-17,23)</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given" script="Latn">Satoru</namePart>
+        <namePart type="family" script="Latn">Noriyama</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <targetAudience authority="marctarget">adult</targetAudience>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-b2fc9b29-9e1b-4ae7-9796-8517d6991dbc">
+        <part>
+            <detail type="volume">
+                <number>9/10</number>
+            </detail>
+            <extent unit="pages">
+                <start>56</start>
+                <end>80</end>
+            </extent>
+            <date encoding="w3cdtf">2006</date>
+        </part>
+    </relatedItem>
+    <identifier type="local">Noriyama 2006</identifier>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+    </mods:language>
+    <mods:recordInfo xmlns:mods="http://www.loc.gov/mods/v3" lang="eng" script="Latn">
+        <mods:recordContentSource authority="marcorg">DE-16-158</mods:recordContentSource>
+        <mods:recordCreationDate encoding="w3cdtf">2017-03-24+01:00</mods:recordCreationDate>
+        <mods:languageOfCataloging>
+            <mods:languageTerm authority="iso639-2b" type="code">jpn</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">Jpan</mods:scriptTerm>
+        </mods:languageOfCataloging>
+    </mods:recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">related-article-in-periodical-transliterated</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">japanese/ala-lc</ext:transliterationOfResource>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T10:56:03.161+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T10:58:26.489+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

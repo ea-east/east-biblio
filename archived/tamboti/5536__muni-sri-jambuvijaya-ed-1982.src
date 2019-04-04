@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-fb726996-f91f-4edc-9cc5-e25da5b6b2bf" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Vaiśeṣikasūtra of Kaṇāda</title>
+        <subTitle>with the commentary of Candrānanda. Critically ed. by Muni Śrī Jambuvijaya</subTitle>
+    </titleInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">book</genre>
+    <name type="personal">
+        <namePart>Muni Śrī Jambuvijaya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <edition>2. ed. (reprint)</edition>
+        <place>
+            <placeTerm type="text">Baroda</placeTerm>
+        </place>
+        <publisher>Oriental Institute</publisher>
+        <dateIssued encoding="w3cdtf">1982</dateIssued>
+    </originInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-9f35574a-a22b-4009-9e21-15fa026bf085">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>136</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

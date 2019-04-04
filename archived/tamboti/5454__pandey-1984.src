@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-0e432887-9383-4f69-b03f-d7e87d1300f9" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Ācāryaratnakīrtiviracitam Udayananirākaraṇam</mods:title>
+        <mods:subTitle>Deciphered and critically edited by Ragunath Pandey</mods:subTitle>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Ragunath</mods:namePart>
+        <mods:namePart type="family">Pandey</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-798864a0-ca8e-4612-8cb2-0fcffd7041cb">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>10</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="isReferencedBy" xlink:href="#uuid-152b3357-74d2-4661-b86c-cd655bd86ba8"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="isReferencedBy" xlink:href="#uuid-5bd31963-7130-4388-bdc7-b375b18348d2"/>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3" script="Latn">
+        <mods:place>
+            <mods:placeTerm type="text">New Delhi</mods:placeTerm>
+        </mods:place>
+        <mods:dateIssued encoding="w3cdtf">1984</mods:dateIssued>
+        <mods:publisher>Sri Satguru Publications</mods:publisher>
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <mods:physicalDescription xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:extent>95 p.</mods:extent>
+    </mods:physicalDescription>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Pandey 1984</mods:identifier>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-11-06T13:20:07.571+01:00</ext:when>
+            <ext:who>birgit.kellner@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

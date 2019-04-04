@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-c28b3ec1-d7dd-4737-9071-5f689a7b6ff0" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Is enlightenment possible?</mods:title>
+        <mods:subTitle>An analysis of some arguments in the Buddhist philosophical tradition with special attention to the Pramāṇasiddhi chapter of Dharmakīrti's Pramāṇavārttika</mods:subTitle>
+    </mods:titleInfo>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Roger</mods:namePart>
+        <mods:namePart type="given">Reid</mods:namePart>
+        <mods:namePart type="family">Jackson</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:originInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:dateIssued encoding="w3cdtf">1983</mods:dateIssued>
+        <mods:publisher>University of Wisconsin-Madison</mods:publisher>
+        <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <mods:physicalDescription xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:extent>1020 p.</mods:extent>
+    </mods:physicalDescription>
+    <mods:relatedItem xmlns:mods="http://www.loc.gov/mods/v3" type="otherVersion">
+        <mods:titleInfo>
+            <mods:title>Is enlightenment possible?</mods:title>
+            <mods:subTitle>Dharmakīrti and rGyal tshab rje on knowledge, rebirth, no-self and liberation</mods:subTitle>
+        </mods:titleInfo>
+        <mods:originInfo>
+            <mods:dateIssued encoding="w3cdtf">1993</mods:dateIssued>
+            <mods:publisher>Snow Lion</mods:publisher>
+            <mods:place>
+                <mods:placeTerm type="text">Ithaca</mods:placeTerm>
+            </mods:place>
+            <mods:edition>reprint</mods:edition>
+        </mods:originInfo>
+    </mods:relatedItem>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Jackson 1983</mods:identifier>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-07-27T16:11:40.844+02:00</ext:when>
+            <ext:who>manuel.batsching@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+</mods>

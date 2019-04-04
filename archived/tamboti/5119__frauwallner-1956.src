@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-a9f04e61-9607-4e36-85a3-419ad3b00c02" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>Die</nonSort>
+        <title>Philosophie des Buddhismus</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Erich</namePart>
+        <namePart type="family">Frauwallner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Berlin</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1956</dateIssued>
+        <publisher>Akademie-Verlag</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-bc72488a-528e-449c-bc7c-3df8dd508fab">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>2</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>2</edition>
+            <dateIssued encoding="w3cdtf">1958</dateIssued>
+        </originInfo>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>3</edition>
+            <dateIssued encoding="w3cdtf">1969</dateIssued>
+        </originInfo>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>4</edition>
+            <dateIssued encoding="w3cdtf">1994</dateIssued>
+        </originInfo>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Frauwallner 1956</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

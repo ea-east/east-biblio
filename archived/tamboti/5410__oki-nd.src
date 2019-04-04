@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d68a2a9e-38ff-40ae-8619-56dd44a68b25" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="jpn" script="Jpan">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <titleInfo>
+        <title>Dharmottara no "ryō-ryōka hibetsutai ron"</title>
+        <subTitle>Nyāyabinduṭīkā ni okeru</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Dharmottara's theory of the non-difference of pramāṇa and pramāṇaphala</title>
+        <subTitle>in the Nyāyabinduṭīkā</subTitle>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-c86bee0a-06d7-4bf0-9b29-b78e7b0f4d54">
+        <part>
+            <extent unit="pages">
+                <start>119</start>
+                <end>136</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <name type="personal">
+        <namePart type="given">Kazufumi</namePart>
+        <namePart type="family">Oki</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T11:22:54.487+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+</mods>

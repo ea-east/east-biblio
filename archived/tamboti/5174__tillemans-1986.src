@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-37d85c9e-dbdc-4473-b9b0-d3feb6785120" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-cc8b1dd2-24c3-408a-9d62-6d6a9282df04">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>30</number>
+            </detail>
+            <extent unit="pages">
+                <start>143</start>
+                <end>162</end>
+            </extent>
+            <date encoding="w3cdtf">1986</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-84f2a6fa-7646-4859-b774-c467c63add1a"/>
+    <mods:language xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+        <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+    </mods:language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:titleInfo xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:title>Pramānavārttika IV</mods:title>
+        <mods:partNumber>1</mods:partNumber>
+    </mods:titleInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Tillemans 1986a</mods:identifier>
+    <mods:extension xmlns:mods="http://www.loc.gov/mods/v3">
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical</ext:template>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-07-27T14:04:57.827+02:00</ext:when>
+            <ext:who>manuel.batsching@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2012-07-27T14:06:19.086+02:00</ext:when>
+            <ext:who>manuel.batsching@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </mods:extension>
+    <mods:name xmlns:mods="http://www.loc.gov/mods/v3" type="personal">
+        <mods:namePart type="given">Tom J. F.</mods:namePart>
+        <mods:namePart type="family">Tillemans</mods:namePart>
+        <mods:role>
+            <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+</mods>

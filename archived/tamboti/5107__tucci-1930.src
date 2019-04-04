@@ -1,0 +1,67 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-70bf0baa-a9bb-48c4-9ffe-89df3fc079cb" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Bhāmaha and Dignāga</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Giuseppe</namePart>
+        <namePart type="family">Tucci</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-2f76567f-2e3a-4fed-9f43-1637a2fc3874">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>59</number>
+            </detail>
+            <extent unit="pages">
+                <start>142</start>
+                <end>147</end>
+            </extent>
+            <date encoding="w3cdtf">1930</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="otherVersion" xlink:href="#uuid-b1487d1d-f343-41d9-b02c-51fd82b82e0d">
+        <titleInfo>
+            <title>Opera Minora</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued encoding="w3cdtf">1972</dateIssued>
+            <edition>reprint</edition>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>2</number>
+            </detail>
+            <extent unit="pages">
+                <start>185</start>
+                <end>193</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-3" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+        <ext:scriptTypeOfResource xmlns:ext="http://exist-db.org/mods/extension">Latin</ext:scriptTypeOfResource>
+        <ext:scriptTypeOfCataloging xmlns:ext="http://exist-db.org/mods/extension">Latin</ext:scriptTypeOfCataloging>
+    </extension>
+</mods>

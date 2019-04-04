@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-c69de312-600e-460c-b1cd-0ff437174c48" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-922c6390-eee0-4ce2-8232-dd26fcf7543c">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>32</number>
+            </detail>
+            <extent unit="pages">
+                <start>181</start>
+                <end>197</end>
+            </extent>
+            <date encoding="w3cdtf">1986</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-1355cf15-8b98-4bbf-b48c-b322c0f84675"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-28d1df00-1072-4c29-bc53-acbd01bd610a"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T13:57:05.513+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+        <ext:modified xmlns:ext="http://exist-db.org/mods/extension">
+            <ext:when>2017-03-24T14:01:59.844+01:00</ext:when>
+            <ext:who>pei-lin.chiou@ad.uni-heidelberg.de</ext:who>
+        </ext:modified>
+    </extension>
+    <titleInfo supplied="yes">
+        <title>Dharmakīrti (Hosshō) Cho “Tadashii Ninshiki Ni Kansuru Hyōshaku: Jiko Suiri Shō” Oyobi Jichū</title>
+        <subTitle>Wayaku (2), Dai 107 Ge - Dai 123 Ge</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>A Translation of Chapter of Inference for One’s Own Self, Verses 107-123 of Pramāṇa-Vārttika and Svavṛtti</title>
+    </titleInfo>
+    <name>
+        <namePart type="given">Shinkai</namePart>
+        <namePart type="family">Ōta</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+        </role>
+    </name>
+</mods>

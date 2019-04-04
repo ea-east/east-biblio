@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d2029aed-5c3b-4039-b4cb-9450ebbea5d0" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo lang="jap" transliteration="japanese/ala-lc">
+        <title>Indo seishin bunka no kenkyū</title>
+        <subTitle>toku ni Jaina o chūshin to shite</subTitle>
+    </titleInfo>
+    <titleInfo lang="jap" script="jpan">
+        <title>印度精神文化の研究</title>
+        <subTitle>特にヂャイナを中心として</subTitle>
+    </titleInfo>
+    <originInfo script="Latn">
+        <place>
+            <placeTerm type="text">Tōkyō</placeTerm>
+        </place>
+        <publisher>Baifūkan</publisher>
+        <dateIssued encoding="w3cdtf">1944</dateIssued>
+    </originInfo>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Japn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

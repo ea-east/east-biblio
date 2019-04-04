@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-bfcd1a31-4480-4e91-b243-166dbdf0d50e" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Dharmakīrti's Pramāṇavārttika with a commentary by Manorathanandin</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Rāhula</namePart>
+        <namePart type="family">Sāṅkṛtyāyana</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-51a3073d-c822-403c-a28c-c92b6e2df912">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>24-26</number>
+            </detail>
+            <extent unit="pages">
+                <start>349</start>
+                <end>384</end>
+            </extent>
+            <date encoding="w3cdtf" point="start">1938</date>
+            <date encoding="w3cdtf" point="end">1940</date>
+        </part>
+    </relatedItem>
+    <physicalDescription>
+        <extent>IV, 16, 531, 51 p.</extent>
+    </physicalDescription>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Sāṅkṛtyāyana 1938b</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

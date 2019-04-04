@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-faef9f88-706f-4a3c-80f8-f070295bfd6b" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Philosophy of Relations</title>
+        <subTitle>Containing the Sanskrit Text and English Translation of Dharma Kīrti's Sambandha-parīkṣā with Prabhācandra's Commentary</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">V.</namePart>
+        <namePart type="given">N.</namePart>
+        <namePart type="family">Jha</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo script="Latn">
+        <place>
+            <placeTerm type="text">Delhi</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1990</dateIssued>
+        <publisher>Sri Satguru Publications</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>xlviii, 52 p.</extent>
+    </physicalDescription>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-798864a0-ca8e-4612-8cb2-0fcffd7041cb">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>66</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Jha 1990</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

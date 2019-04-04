@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-07608aa2-120a-4796-8087-e1179d8e9200" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Satkārya in der Darstellung seiner buddhistischen Gegner</title>
+        <subTitle>Die prakṛti-parīkṣā im Tattvasaṃgraha des Śāntarakṣita zusammen mit der Pañjikā des Kamalaśīla übersetzt und ausführlich interpretiert</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Walter</namePart>
+        <namePart type="family">Liebenthal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Stuttgart-Berlin</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1934</dateIssued>
+        <publisher>W. Kohlhammer</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-b0c65ffb-e6e0-4454-b02e-9493a24770e9">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>9</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <physicalDescription>
+        <extent>XVI, 151 p.</extent>
+    </physicalDescription>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Liebenthal 1934</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

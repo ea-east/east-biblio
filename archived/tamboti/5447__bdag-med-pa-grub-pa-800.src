@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-ca508f87-a55b-4f99-96ec-63ff28416a54" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo lang="tib" transliteration="tibetan/ewts">
+        <title>bdag med pa grub pa</title>
+    </titleInfo>
+    <originInfo>
+        <dateCreated encoding="w3cdtf" qualifier="approximate">800</dateCreated>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>canonical scripture</genre>
+    <identifier type="lHan kar Catalogue No. (Lalou)">712</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="isReferencedBy" xlink:href="#uuid-88441de1-fe3b-4004-9795-1db90a2062e9"/>
+    <identifier type="lHan kar Catalogue No. (Yoshimura)">706</identifier>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="isReferencedBy" xlink:href="#uuid-5f3825d4-4910-4ddb-902d-cb61627e3a05"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">tib</languageTerm>
+        <scriptTerm authority="iso15924" type="code">tibt</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">de-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-02-06+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">suebs-tibetan</ext:template>
+    </extension>
+</mods>

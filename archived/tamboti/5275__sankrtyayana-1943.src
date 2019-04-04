@@ -1,0 +1,63 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-db6b0a8f-e523-46e3-acf9-d40d6aef9d2b" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Ācārya-Dharmakīrteḥ Pramāṇavārttikam (svārthānumānaparicchedaḥ) svopajñavṛttyā</title>
+        <subTitle>Karṇakagomiviracitayā taṭṭīyakā, Karṇakagomiviracitayā taṭṭīkayā ca sahitam</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Rāhula</namePart>
+        <namePart type="family">Sāṅkṛtyāyana</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Ilāhābād</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf">1943</dateIssued>
+        <publisher>Kitāb Mahal</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+        <extent>14, 623 p.</extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem type="otherVersion">
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <form authority="marcsmd" type="technique">photomechanical print</form>
+        </physicalDescription>
+        <originInfo>
+            <place>
+                <placeTerm type="text">Kyoto</placeTerm>
+            </place>
+            <publisher>Rinsen Book Co.</publisher>
+            <dateIssued encoding="w3cdtf">1982</dateIssued>
+        </originInfo>
+        <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-ad2e08b6-94d7-44dd-865c-5040c9b103c5">
+            <part>
+                <detail type="volume">
+                    <caption>vol.</caption>
+                    <number>1</number>
+                </detail>
+            </part>
+        </relatedItem>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">san</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Deva</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Sāṅkṛtyāyana 1943</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

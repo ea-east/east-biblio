@@ -1,0 +1,66 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-9bec6d30-ee71-4122-b96c-c7001e33acdb" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Ālambanaparīkṣā and Vṛtti by Diṅnāga</title>
+        <subTitle>With the commentary of Dharmapāla. Restored into Sanskrit from the Tibetan and
+    Chinese Versions and edited with English Translation and Notes with copious extracts
+    from Vinītadeva's Commentary</subTitle>
+        <partNumber>1</partNumber>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Aiyaswami</namePart>
+        <namePart type="family">Sastri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3d454154-33db-470a-b0b7-a0bac1254154">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>3</number>
+            </detail>
+            <date encoding="w3cdtf">1938</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-4b0c2656-ef00-4ae0-999c-de77d51ecf5d"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="otherVersion" xlink:href="#uuid-d3dbfb7a-c88d-42f0-801a-9ef47c6f3617">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>1</number>
+            </detail>
+            <detail type="issue">
+                <caption>no.</caption>
+                <number>1-3</number>
+            </detail>
+            <date encoding="w3cdtf">1980</date>
+        </part>
+        <physicalDescription>
+            <extent>170, XII p.</extent>
+        </physicalDescription>
+        <originInfo>
+            <edition>reprint</edition>
+        </originInfo>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Sastri 1938</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

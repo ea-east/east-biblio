@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-a91cb6ed-a694-469e-a0aa-3116bc44c978" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>TSP ni okeru ātman setsu hihan</title>
+        <subTitle>Jakugo-Rengekai no ātman sonzai ronshō hihan</subTitle>
+        <partNumber>III.2</partNumber>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Criticism of the ātman doctrine in the Tattvasaṅgrahapañjikā</title>
+        <subTitle>Śāntarakṣita's and Kamalaśīla's criticism of the proof of the existence of ātman</subTitle>
+        <partNumber>III.2</partNumber>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-d14aac51-dbd6-49b3-8f92-275c74cadaa1">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>57</number>
+            </detail>
+            <extent unit="pages">
+                <start>1</start>
+                <end>31</end>
+            </extent>
+            <date encoding="w3cdtf">1987</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-7b8d07ea-3470-415c-ab54-6385c6f03f06"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-09b6da22-e109-4e02-a154-8593f8b05445"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

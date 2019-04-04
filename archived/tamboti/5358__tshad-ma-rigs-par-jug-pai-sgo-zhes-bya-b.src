@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-736cba35-4f51-40e1-ad01-d945ef4cdf03" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>tshad ma rigs par 'jug pa'i sgo zhes bya ba slob dpon phyogs glang gyis mdzad pa
+            dang</title>
+        <subTitle>gtan tshigs kyi de kho na nyid bstan pa dzi ta ris mdzad pa bcas le tshan
+            gnyis</subTitle>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm type="text">dharamsala</placeTerm>
+        </place>
+        <publisher>bod gzhung gsung rab gces btus dpar khang</publisher>
+        <dateIssued encoding="w3cdtf" qualifier="approximate">1967</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <physicalDescription>
+        <extent>2, 13, 37 p.</extent>
+    </physicalDescription>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">tib</languageTerm>
+        <scriptTerm authority="iso15924" type="code">tibt</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">de-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-07+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

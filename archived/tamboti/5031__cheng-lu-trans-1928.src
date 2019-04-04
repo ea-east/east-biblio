@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-75265013-3487-49d8-80f4-d0e53ba801e3" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title transliteration="chinese/ala-lc">Guan suo yuan lun shi hui shi</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart transliteration="chinese/ala-lc" type="given">Shu yin cang</namePart>
+        <namePart transliteration="chinese/ala-lc" type="family">Cheng Lü</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">trl</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-385ca8f1-6ab9-47d0-968c-c6d33373cae7">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>4</number>
+            </detail>
+            <detail type="issue">
+                <caption>no.</caption>
+                <number>2</number>
+            </detail>
+            <date encoding="w3cdtf">1928</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">chi</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Hani</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-01-20+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+        <ext:transliterationOfResource xmlns:ext="http://exist-db.org/mods/extension">chinese/ala-lc</ext:transliterationOfResource>
+    </extension>
+</mods>

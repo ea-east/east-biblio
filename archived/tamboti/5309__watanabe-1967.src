@@ -1,0 +1,71 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-1278d542-26f8-449b-bc86-34ddc58f1358" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Shōshinjitsuron jō shō no honyaku kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <title>Übers. und Studie des ersten Kapitels des Tattvasaṅgraha</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Shōkō</namePart>
+        <namePart type="family">Watanabe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-7a14cf6a-ed2d-459a-9630-cd7c441b58f0">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>2</number>
+            </detail>
+            <extent unit="pages">
+                <start>15</start>
+                <end>27</end>
+            </extent>
+            <date encoding="w3cdtf">1967</date>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <titleInfo>
+            <title>Bukkyōgaku ronshū</title>
+        </titleInfo>
+        <name type="personal">
+            <namePart type="given">Shōkō</namePart>
+            <namePart type="family">Watanabe</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <edition>reprint</edition>
+            <place>
+                <placeTerm type="text">Tōkyō</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1982</dateIssued>
+        </originInfo>
+        <part>
+            <extent unit="pages">
+                <start>57</start>
+                <end>77</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-22+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Watanabe 1967</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>

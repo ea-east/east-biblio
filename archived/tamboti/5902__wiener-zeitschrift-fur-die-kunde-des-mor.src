@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d7286e03-3105-4c7c-ba10-0bd7241e37ff" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Beiträge zur Apohalehre</title>
+        <partNumber>2</partNumber>
+        <partName>I. Dharmakīrti. Übersetzung. (Fortsetzung.)</partName>
+    </titleInfo>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-3d1c1f18-5f30-4319-8387-8efda04ad807">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>40</number>
+            </detail>
+            <extent unit="pages">
+                <start>51</start>
+                <end>94</end>
+            </extent>
+            <date encoding="w3cdtf">1933</date>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="preceding" xlink:href="#uuid-86ca9225-efe9-4bf1-9a1f-ba6d974a0644"/>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="succeeding" xlink:href="#uuid-d2d812b1-9e8a-4738-8544-ef8b68416792"/>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+</mods>

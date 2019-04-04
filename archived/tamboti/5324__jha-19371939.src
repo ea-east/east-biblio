@@ -1,0 +1,66 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-339b7713-c2f9-41cb-b36f-8f5f779728f1" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <nonSort>The</nonSort>
+        <title>Tattvasaṅgraha of Śāntarakṣita with the Commentary of Kamalaśīla</title>
+        <subTitle>Translated into English. In two volumes</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ganganatha</namePart>
+        <namePart type="family">Jha</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Baroda</placeTerm>
+        </place>
+        <dateIssued encoding="w3cdtf" point="start">1937</dateIssued>
+        <dateIssued encoding="w3cdtf" point="end">1939</dateIssued>
+        <publisher>Oriental Institute</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>book</genre>
+    <physicalDescription>
+        <extent>VII, 739 p.; IX, 741-1593 p.</extent>
+    </physicalDescription>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="series" xlink:href="#uuid-70f39bcf-a05f-4f7b-ba86-d826e5ba2953">
+        <part>
+            <detail type="volume">
+                <caption>vol.</caption>
+                <number>80-83</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem type="otherVersion">
+        <originInfo>
+            <edition>reprint</edition>
+            <publisher>Motilal Banarsidass</publisher>
+            <place>
+                <placeTerm type="text">Delhi</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1986</dateIssued>
+        </originInfo>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <form authority="marcsmd" type="technique">photomechanical print</form>
+        </physicalDescription>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-04-16+02:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Jha 1937-1939</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">monograph-latin</ext:template>
+    </extension>
+</mods>

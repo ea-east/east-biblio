@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-5dca5e4c-71e6-49f8-9648-5f11d54bf001" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
+    <titleInfo>
+        <title>Shijin Dharmakīrti</title>
+        <subTitle>nendairon to tomo ni</subTitle>
+    </titleInfo>
+    <titleInfo lang="eng" type="translated">
+        <nonSort>The</nonSort>
+        <title>poet Dharmakīrti</title>
+        <subTitle>together with a theory on (his) life dates</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">T.</namePart>
+        <namePart type="family">Kimura</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">article</genre>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" type="host" xlink:href="#uuid-14afcb98-02fb-4152-9993-7ada00899dce">
+        <part>
+            <extent unit="pages">
+                <start>417</start>
+                <end>434</end>
+            </extent>
+            <date encoding="w3cdtf">1993</date>
+        </part>
+    </relatedItem>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">jpn</languageTerm>
+        <scriptTerm authority="iso15924" type="code">Jpan</scriptTerm>
+    </language>
+    <recordInfo lang="eng" script="Latn">
+        <recordContentSource authority="marcorg">DE-16-158</recordContentSource>
+        <recordCreationDate encoding="w3cdtf">2011-03-01+01:00</recordCreationDate>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+            <scriptTerm authority="iso15924" type="code">Latn</scriptTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="local">Kimura 1993</mods:identifier>
+    <extension>
+        <ext:template xmlns:ext="http://exist-db.org/mods/extension">article-in-periodical-latin-compact</ext:template>
+    </extension>
+</mods>
