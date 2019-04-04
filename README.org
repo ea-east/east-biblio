@@ -82,3 +82,34 @@ will usually want to share your changes, typically:
 
 
 
+
+
+* Bibliography processing
+
+- Install bibutils (https://sourceforge.net/p/bibutils/home/Bibutils/)
+
+** MODS -> bib(la)tex
+
+#+BEGIN_SRC bash
+  parallel xml2bib \
+           --output-encoding unicode \
+           --no-bom \
+           --whitespace \
+           --strictkey \
+           --finalcomma \
+           --brackets \
+           --no-latex \
+           ::: *xml > /tmp/east-bibs.bib
+#+END_SRC
+
+
+** biblatex -> MODS
+
+#+BEGIN_SRC bash
+  parallel biblatex2xml \
+           --input-encoding unicode \
+           --unicode-characters \
+           --unicode-no-bom \
+           --no-latex \
+           ::: *.bib > /tmp/east-bibs.mods
+#+END_SRC
