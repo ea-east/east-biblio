@@ -1,0 +1,3 @@
+[submodule "EAST_csl"]
+	path = EAST_csl
+	url = gitolite@rdorte.org:EAST_csl

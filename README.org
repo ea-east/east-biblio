@@ -20,6 +20,9 @@ The most important files are:
 1) README.org (this file)
 2) file:./bib/east.bib: A single BibLaTeX file, to be edited by a
    program of choice (e.g., http://www.jabref.org/)
+3) Whichever you use, make sure that you’re using a “biblatex” editing
+   mode (Jabref: Options -> Preferences -> General -> Default
+   bibliography mode -> “BiBLaTeX”, for example)
 
 Other directories contain files that should not be edited, normally.
 They contain automatically generated content (pulled from EAST’s
@@ -30,6 +33,24 @@ database), and the content is subject to change.
 2) file:./archived/sources: this directory contains all the
    bibliographic sources, in the raw format (they are not all MODS
    files).
+
+
+** Jabref hints
+
+Here are some useful things to know about jabref:
+
+1) *Use the search/filter function*: read
+   https://help.jabref.org/en/Search. It’s somewhat obvious, but
+   remember you can easily search for fields:
+   1) ~journal = chizan~, or ~keywords=canonical~, etc.
+   2) Combine them: ~keywords=canonical and title = tshad~
+   3) For “spaces” in the search string, use quotes: ~keywords =
+      canonical and translator = "zha ma"~
+   4) Empty fields: ~author != .+~
+2) Linking to east: Take the numerical part of the bib_id (e.g.,
+   ~27507~ in ~east:27507~), and add it to
+   https://east.ikga.oeaw.ac.at/bib/ (e.g.:
+   https://east.ikga.oeaw.ac.at/bib/27507)
 
 * General workflow
 
