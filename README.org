@@ -47,6 +47,11 @@ Here are some useful things to know about jabref:
    3) For “spaces” in the search string, use quotes: ~keywords =
       canonical and translator = "zha ma"~
    4) Empty fields: ~author != .+~
+   5) Finding Tibetan canonical entries where something is missing:
+      - No co ne: ~language = bo and keywords = canonical and series
+        != "co ne"~
+      - No Peking: ~language = bo and keywords = canonical and series != Peking~
+      - etc.
 2) Linking to east: Take the numerical part of the bib_id (e.g.,
    ~27507~ in ~east:27507~), and add it to
    https://east.ikga.oeaw.ac.at/bib/ (e.g.:

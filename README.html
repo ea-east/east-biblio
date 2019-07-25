@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-07-25 Thu 15:14 -->
+<!-- 2019-07-25 Thu 15:38 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>README for EAST bibliographic records</title>
@@ -234,30 +234,30 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org5096187">1. Layout of this repository</a>
+<li><a href="#orgc11bc84">1. Layout of this repository</a>
 <ul>
-<li><a href="#org1e7316e">1.1. Jabref hints</a></li>
+<li><a href="#org16248b2">1.1. Jabref hints</a></li>
 </ul>
 </li>
-<li><a href="#org0c712f7">2. General workflow</a>
+<li><a href="#org833fa2a">2. General workflow</a>
 <ul>
-<li><a href="#org3031a7e">2.1. Guidelines for adding/updating entries</a></li>
+<li><a href="#org0acc8b5">2.1. Guidelines for adding/updating entries</a></li>
 </ul>
 </li>
-<li><a href="#org45a8ed3">3. Git useful commands</a>
+<li><a href="#org2ae16d5">3. Git useful commands</a>
 <ul>
-<li><a href="#org97844c4">3.1. Check status</a></li>
-<li><a href="#org8b4d321">3.2. To save local changes</a></li>
-<li><a href="#org36e7787">3.3. To share things</a></li>
+<li><a href="#org6ef0c3e">3.1. Check status</a></li>
+<li><a href="#orga29ca5a">3.2. To save local changes</a></li>
+<li><a href="#orgefcd9e4">3.3. To share things</a></li>
 </ul>
 </li>
-<li><a href="#org2acfbae">4. Bibliography processing</a>
+<li><a href="#org2ac0a24">4. Bibliography processing</a>
 <ul>
-<li><a href="#org8c746b6">4.1. MODS -&gt; bib(la)tex</a></li>
-<li><a href="#org046315f">4.2. biblatex -&gt; MODS</a></li>
+<li><a href="#org908541d">4.1. MODS -&gt; bib(la)tex</a></li>
+<li><a href="#org4c5220d">4.2. biblatex -&gt; MODS</a></li>
 </ul>
 </li>
-<li><a href="#org1c734a9">5. Database/Django commands</a></li>
+<li><a href="#org29d69ad">5. Database/Django commands</a></li>
 </ul>
 </div>
 </div>
@@ -278,8 +278,8 @@ gitlab, and then ask the admin to add you to the group.
 </p>
 
 
-<div id="outline-container-org5096187" class="outline-2">
-<h2 id="org5096187"><span class="section-number-2">1</span> Layout of this repository</h2>
+<div id="outline-container-orgc11bc84" class="outline-2">
+<h2 id="orgc11bc84"><span class="section-number-2">1</span> Layout of this repository</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 The most important files are:
@@ -310,8 +310,8 @@ files).</li>
 </div>
 
 
-<div id="outline-container-org1e7316e" class="outline-3">
-<h3 id="org1e7316e"><span class="section-number-3">1.1</span> Jabref hints</h3>
+<div id="outline-container-org16248b2" class="outline-3">
+<h3 id="org16248b2"><span class="section-number-3">1.1</span> Jabref hints</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Here are some useful things to know about jabref:
@@ -327,6 +327,13 @@ remember you can easily search for fields:
 <li>For “spaces” in the search string, use quotes: <code>keywords =
       canonical and translator = "zha ma"</code></li>
 <li>Empty fields: <code>author != .+</code></li>
+<li>Finding Tibetan canonical entries where something is missing:
+<ul class="org-ul">
+<li>No co ne: <code>language = bo and keywords = canonical and series
+        != "co ne"</code></li>
+<li>No Peking: <code>language = bo and keywords = canonical and series != Peking</code></li>
+<li>etc.</li>
+</ul></li>
 </ol></li>
 <li>Linking to east: Take the numerical part of the bib_id (e.g.,
 <code>27507</code> in <code>east:27507</code>), and add it to
@@ -337,8 +344,8 @@ remember you can easily search for fields:
 </div>
 </div>
 
-<div id="outline-container-org0c712f7" class="outline-2">
-<h2 id="org0c712f7"><span class="section-number-2">2</span> General workflow</h2>
+<div id="outline-container-org833fa2a" class="outline-2">
+<h2 id="org833fa2a"><span class="section-number-2">2</span> General workflow</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Before starting to edit anything, <b>always</b> make sure your repository
@@ -366,8 +373,8 @@ bibliographic file, <a href="./bib/east.bib">./bib/east.bib</a>
 </p>
 </div>
 
-<div id="outline-container-org3031a7e" class="outline-3">
-<h3 id="org3031a7e"><span class="section-number-3">2.1</span> Guidelines for adding/updating entries</h3>
+<div id="outline-container-org0acc8b5" class="outline-3">
+<h3 id="org0acc8b5"><span class="section-number-3">2.1</span> Guidelines for adding/updating entries</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li>We follow the BibLaTeX standards, as described in Chapter 2
@@ -394,12 +401,12 @@ Note that in such cases we do not use Biblatex’s <code>subtitle</code> field!
 </div>
 
 
-<div id="outline-container-org45a8ed3" class="outline-2">
-<h2 id="org45a8ed3"><span class="section-number-2">3</span> Git useful commands</h2>
+<div id="outline-container-org2ae16d5" class="outline-2">
+<h2 id="org2ae16d5"><span class="section-number-2">3</span> Git useful commands</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org97844c4" class="outline-3">
-<h3 id="org97844c4"><span class="section-number-3">3.1</span> Check status</h3>
+<div id="outline-container-org6ef0c3e" class="outline-3">
+<h3 id="org6ef0c3e"><span class="section-number-3">3.1</span> Check status</h3>
 <div class="outline-text-3" id="text-3-1">
 <ol class="org-ol">
 <li>To see what has changed: <code>git status</code></li>
@@ -409,8 +416,8 @@ Note that in such cases we do not use Biblatex’s <code>subtitle</code> field!
 </div>
 
 
-<div id="outline-container-org8b4d321" class="outline-3">
-<h3 id="org8b4d321"><span class="section-number-3">3.2</span> To save local changes</h3>
+<div id="outline-container-orga29ca5a" class="outline-3">
+<h3 id="orga29ca5a"><span class="section-number-3">3.2</span> To save local changes</h3>
 <div class="outline-text-3" id="text-3-2">
 <ol class="org-ol">
 <li><code>git commit -a</code> (commits all changes locally)</li>
@@ -419,8 +426,8 @@ Note that in such cases we do not use Biblatex’s <code>subtitle</code> field!
 </div>
 
 
-<div id="outline-container-org36e7787" class="outline-3">
-<h3 id="org36e7787"><span class="section-number-3">3.3</span> To share things</h3>
+<div id="outline-container-orgefcd9e4" class="outline-3">
+<h3 id="orgefcd9e4"><span class="section-number-3">3.3</span> To share things</h3>
 <div class="outline-text-3" id="text-3-3">
 <ol class="org-ol">
 <li>Get latest version: <code>git pull</code></li>
@@ -439,16 +446,16 @@ Note that in such cases we do not use Biblatex’s <code>subtitle</code> field!
 
 
 
-<div id="outline-container-org2acfbae" class="outline-2">
-<h2 id="org2acfbae"><span class="section-number-2">4</span> Bibliography processing</h2>
+<div id="outline-container-org2ac0a24" class="outline-2">
+<h2 id="org2ac0a24"><span class="section-number-2">4</span> Bibliography processing</h2>
 <div class="outline-text-2" id="text-4">
 <ul class="org-ul">
 <li>Install bibutils (<a href="https://sourceforge.net/p/bibutils/home/Bibutils/">https://sourceforge.net/p/bibutils/home/Bibutils/</a>)</li>
 </ul>
 </div>
 
-<div id="outline-container-org8c746b6" class="outline-3">
-<h3 id="org8c746b6"><span class="section-number-3">4.1</span> MODS -&gt; bib(la)tex</h3>
+<div id="outline-container-org908541d" class="outline-3">
+<h3 id="org908541d"><span class="section-number-3">4.1</span> MODS -&gt; bib(la)tex</h3>
 <div class="outline-text-3" id="text-4-1">
 <div class="org-src-container">
 <pre class="src src-bash">parallel xml2bib <span style="color: #8b2252;">\</span>
@@ -466,8 +473,8 @@ Note that in such cases we do not use Biblatex’s <code>subtitle</code> field!
 </div>
 
 
-<div id="outline-container-org046315f" class="outline-3">
-<h3 id="org046315f"><span class="section-number-3">4.2</span> biblatex -&gt; MODS</h3>
+<div id="outline-container-org4c5220d" class="outline-3">
+<h3 id="org4c5220d"><span class="section-number-3">4.2</span> biblatex -&gt; MODS</h3>
 <div class="outline-text-3" id="text-4-2">
 <div class="org-src-container">
 <pre class="src src-bash">parallel biblatex2xml <span style="color: #8b2252;">\</span>
@@ -483,8 +490,8 @@ Note that in such cases we do not use Biblatex’s <code>subtitle</code> field!
 </div>
 
 
-<div id="outline-container-org1c734a9" class="outline-2">
-<h2 id="org1c734a9"><span class="section-number-2">5</span> Database/Django commands</h2>
+<div id="outline-container-org29d69ad" class="outline-2">
+<h2 id="org29d69ad"><span class="section-number-2">5</span> Database/Django commands</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 To generate initial data from what’s in the Django backend, do
@@ -560,7 +567,7 @@ write_bibs(BibliographicEntry.objects.<span style="color: #483d8b;">filter</span
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Patrick McAllister (pma@rdorte.org)</p>
-<p class="date">Created: 2019-07-25 Thu 15:14</p>
+<p class="date">Created: 2019-07-25 Thu 15:38</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
