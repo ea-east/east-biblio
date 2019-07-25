@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DIR="/home/beta/netshares/oeaw-owncloud/east-biblatex"
-FILE="${DIR}/bib-formatting.log"
+FILE="${DIR}/east.bib"
 
 while RES=$(inotifywait -e modify $FILE)
 do
