@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-03-29 Fri 10:32 -->
+<!-- 2019-07-25 Thu 15:14 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>README for EAST bibliographic records</title>
@@ -234,38 +234,112 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org7b55eac">1. General workflow</a>
+<li><a href="#org5096187">1. Layout of this repository</a>
 <ul>
-<li><a href="#orgec59a96">1.1. Adding new entries</a></li>
-<li><a href="#org3455c53">1.2. Updating entries</a></li>
+<li><a href="#org1e7316e">1.1. Jabref hints</a></li>
 </ul>
 </li>
-<li><a href="#org6071cbb">2. Git useful commands</a>
+<li><a href="#org0c712f7">2. General workflow</a>
 <ul>
-<li><a href="#orgd0af33c">2.1. Check status</a></li>
-<li><a href="#orgc90e932">2.2. To save local changes</a></li>
-<li><a href="#orgccad5be">2.3. To share things</a></li>
+<li><a href="#org3031a7e">2.1. Guidelines for adding/updating entries</a></li>
 </ul>
 </li>
+<li><a href="#org45a8ed3">3. Git useful commands</a>
+<ul>
+<li><a href="#org97844c4">3.1. Check status</a></li>
+<li><a href="#org8b4d321">3.2. To save local changes</a></li>
+<li><a href="#org36e7787">3.3. To share things</a></li>
+</ul>
+</li>
+<li><a href="#org2acfbae">4. Bibliography processing</a>
+<ul>
+<li><a href="#org8c746b6">4.1. MODS -&gt; bib(la)tex</a></li>
+<li><a href="#org046315f">4.2. biblatex -&gt; MODS</a></li>
+</ul>
+</li>
+<li><a href="#org1c734a9">5. Database/Django commands</a></li>
 </ul>
 </div>
 </div>
 <p>
-This repository is intended as a replacement for Tamboti.
+This repository contains the bibliographic data for EAST
+(<a href="https://east.ikga.oeaw.ac.at">https://east.ikga.oeaw.ac.at</a>).
 </p>
 
 <p>
-The “official” repository URL is: gitolite@rdorte.org:east-biblio
+The “official” repository URL is:
+git@gitlab.com:east-bibliography/bibdata.git
 </p>
 
 <p>
-The admin of that repository is Patrick McAllister.
+The admin of that repository is Patrick McAllister.  The repository is
+private, which means that to push or pull you will need to register on
+gitlab, and then ask the admin to add you to the group.
 </p>
 
 
-<div id="outline-container-org7b55eac" class="outline-2">
-<h2 id="org7b55eac"><span class="section-number-2">1</span> General workflow</h2>
+<div id="outline-container-org5096187" class="outline-2">
+<h2 id="org5096187"><span class="section-number-2">1</span> Layout of this repository</h2>
 <div class="outline-text-2" id="text-1">
+<p>
+The most important files are:
+</p>
+
+<ol class="org-ol">
+<li>README.org (this file)</li>
+<li><a href="./bib/east.bib">./bib/east.bib</a>: A single BibLaTeX file, to be edited by a
+program of choice (e.g., <a href="http://www.jabref.org/">http://www.jabref.org/</a>)</li>
+<li>Whichever you use, make sure that you’re using a “biblatex” editing
+mode (Jabref: Options -&gt; Preferences -&gt; General -&gt; Default
+bibliography mode -&gt; “BiBLaTeX”, for example)</li>
+</ol>
+
+<p>
+Other directories contain files that should not be edited, normally.
+They contain automatically generated content (pulled from EAST’s
+database), and the content is subject to change.
+</p>
+
+<ol class="org-ol">
+<li><a href="./archived">./archived</a>: contains all the bibliographic data in a
+normalized (mods) xml format</li>
+<li><a href="./archived/sources">./archived/sources</a>: this directory contains all the
+bibliographic sources, in the raw format (they are not all MODS
+files).</li>
+</ol>
+</div>
+
+
+<div id="outline-container-org1e7316e" class="outline-3">
+<h3 id="org1e7316e"><span class="section-number-3">1.1</span> Jabref hints</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Here are some useful things to know about jabref:
+</p>
+
+<ol class="org-ol">
+<li><b>Use the search/filter function</b>: read
+<a href="https://help.jabref.org/en/Search">https://help.jabref.org/en/Search</a>. It’s somewhat obvious, but
+remember you can easily search for fields:
+<ol class="org-ol">
+<li><code>journal = chizan</code>, or <code>keywords=canonical</code>, etc.</li>
+<li>Combine them: <code>keywords=canonical and title = tshad</code></li>
+<li>For “spaces” in the search string, use quotes: <code>keywords =
+      canonical and translator = "zha ma"</code></li>
+<li>Empty fields: <code>author != .+</code></li>
+</ol></li>
+<li>Linking to east: Take the numerical part of the bib_id (e.g.,
+<code>27507</code> in <code>east:27507</code>), and add it to
+<a href="https://east.ikga.oeaw.ac.at/bib/">https://east.ikga.oeaw.ac.at/bib/</a> (e.g.:
+<a href="https://east.ikga.oeaw.ac.at/bib/27507">https://east.ikga.oeaw.ac.at/bib/27507</a>)</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0c712f7" class="outline-2">
+<h2 id="org0c712f7"><span class="section-number-2">2</span> General workflow</h2>
+<div class="outline-text-2" id="text-2">
 <p>
 Before starting to edit anything, <b>always</b> make sure your repository
 is up to date. You can do this with
@@ -285,51 +359,48 @@ will usually want to share your changes, typically:
 <li><code>git commit</code>: add a short message describing what you did</li>
 <li><code>git push</code>: send changes to central repository</li>
 </ol>
+
+<p>
+The overall aim is then to add or update an entry in the main
+bibliographic file, <a href="./bib/east.bib">./bib/east.bib</a>
+</p>
 </div>
 
-<div id="outline-container-orgec59a96" class="outline-3">
-<h3 id="orgec59a96"><span class="section-number-3">1.1</span> Adding new entries</h3>
-<div class="outline-text-3" id="text-1-1">
-<ol class="org-ol">
-<li>Copy one of the entries in <a href="./archived/">./archived/</a> to a new file with a
-meaningful (e.g., author + year) and unique name <b>in the same
-directory</b>, without the numeric prefix.</li>
-<li>Edit as intended, keeping to the following rules:
-<ol class="org-ol">
-<li>The root element must start with a tag like <code>&lt;mods xmlns="http://www.loc.gov/mods/v3" xml:id="east-XXXX"&gt;</code></li>
-<li>The most important thing is to add a unique identifier, the
-<code>@xml:id</code> attribute.  It’s best to use UUIDs (e.g., open or
-refresh <a href="https://www.uuidgenerator.net/">https://www.uuidgenerator.net/</a>, and copy the one
-suggested on the top). Please make sure it starts with a letter,
-for example by adding a prefix like “east-” to it.</li>
-<li>The file should be well-formed.  Validity will be checked at the
-backend (after a “git push”; TODO@pma: not yet implemented).</li>
-</ol></li>
-<li>Be sure to tell git that you want to track the new file with <code>git
-   add</code>.</li>
-</ol>
-</div>
-</div>
-
-
-<div id="outline-container-org3455c53" class="outline-3">
-<h3 id="org3455c53"><span class="section-number-3">1.2</span> Updating entries</h3>
-<div class="outline-text-3" id="text-1-2">
+<div id="outline-container-org3031a7e" class="outline-3">
+<h3 id="org3031a7e"><span class="section-number-3">2.1</span> Guidelines for adding/updating entries</h3>
+<div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li>Simply open the file, and edit as you see fit.</li>
+<li>We follow the BibLaTeX standards, as described in Chapter 2
+(“Database Guide”) of
+<a href="http://tug.ctan.org/macros/latex/exptl/biblatex/doc/biblatex.pdf">http://tug.ctan.org/macros/latex/exptl/biblatex/doc/biblatex.pdf</a>,
+with <b>the following additional rule(s)</b>:
+<ul class="org-ul">
+<li><p>
+Bibliographic entries that contain data fields in multiple
+languages or scripts need to have the following format:
+<code>transcribed-title-or-name [*translated title or name]</code>.  For example:
+</p>
+<pre class="example">
+title = {Ninshikiron: chikaku no riron to sono tenkai [*Epistemology: the Theory of Perception and its Development]},
+</pre>
+<p>
+Note that in such cases we do not use Biblatex’s <code>subtitle</code> field!
+</p></li>
+</ul></li>
+<li>We use unicode encoding in the bib file.</li>
 </ul>
 </div>
 </div>
 </div>
 
 
-<div id="outline-container-org6071cbb" class="outline-2">
-<h2 id="org6071cbb"><span class="section-number-2">2</span> Git useful commands</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-org45a8ed3" class="outline-2">
+<h2 id="org45a8ed3"><span class="section-number-2">3</span> Git useful commands</h2>
+<div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-orgd0af33c" class="outline-3">
-<h3 id="orgd0af33c"><span class="section-number-3">2.1</span> Check status</h3>
-<div class="outline-text-3" id="text-2-1">
+<div id="outline-container-org97844c4" class="outline-3">
+<h3 id="org97844c4"><span class="section-number-3">3.1</span> Check status</h3>
+<div class="outline-text-3" id="text-3-1">
 <ol class="org-ol">
 <li>To see what has changed: <code>git status</code></li>
 <li>To see differences: <code>git diff</code></li>
@@ -338,9 +409,9 @@ backend (after a “git push”; TODO@pma: not yet implemented).</li>
 </div>
 
 
-<div id="outline-container-orgc90e932" class="outline-3">
-<h3 id="orgc90e932"><span class="section-number-3">2.2</span> To save local changes</h3>
-<div class="outline-text-3" id="text-2-2">
+<div id="outline-container-org8b4d321" class="outline-3">
+<h3 id="org8b4d321"><span class="section-number-3">3.2</span> To save local changes</h3>
+<div class="outline-text-3" id="text-3-2">
 <ol class="org-ol">
 <li><code>git commit -a</code> (commits all changes locally)</li>
 </ol>
@@ -348,9 +419,9 @@ backend (after a “git push”; TODO@pma: not yet implemented).</li>
 </div>
 
 
-<div id="outline-container-orgccad5be" class="outline-3">
-<h3 id="orgccad5be"><span class="section-number-3">2.3</span> To share things</h3>
-<div class="outline-text-3" id="text-2-3">
+<div id="outline-container-org36e7787" class="outline-3">
+<h3 id="org36e7787"><span class="section-number-3">3.3</span> To share things</h3>
+<div class="outline-text-3" id="text-3-3">
 <ol class="org-ol">
 <li>Get latest version: <code>git pull</code></li>
 <li>Upload local version (if committed): <code>git push</code></li>
@@ -362,10 +433,134 @@ backend (after a “git push”; TODO@pma: not yet implemented).</li>
 </div>
 </div>
 </div>
+
+
+
+
+
+
+<div id="outline-container-org2acfbae" class="outline-2">
+<h2 id="org2acfbae"><span class="section-number-2">4</span> Bibliography processing</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li>Install bibutils (<a href="https://sourceforge.net/p/bibutils/home/Bibutils/">https://sourceforge.net/p/bibutils/home/Bibutils/</a>)</li>
+</ul>
+</div>
+
+<div id="outline-container-org8c746b6" class="outline-3">
+<h3 id="org8c746b6"><span class="section-number-3">4.1</span> MODS -&gt; bib(la)tex</h3>
+<div class="outline-text-3" id="text-4-1">
+<div class="org-src-container">
+<pre class="src src-bash">parallel xml2bib <span style="color: #8b2252;">\</span>
+         --output-encoding unicode <span style="color: #8b2252;">\</span>
+         --no-bom <span style="color: #8b2252;">\</span>
+         --whitespace <span style="color: #8b2252;">\</span>
+         --strictkey <span style="color: #8b2252;">\</span>
+         --finalcomma <span style="color: #8b2252;">\</span>
+         --brackets <span style="color: #8b2252;">\</span>
+         --no-latex <span style="color: #8b2252;">\</span>
+         ::: *xml &gt; /tmp/east-bibs.bib
+</pre>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org046315f" class="outline-3">
+<h3 id="org046315f"><span class="section-number-3">4.2</span> biblatex -&gt; MODS</h3>
+<div class="outline-text-3" id="text-4-2">
+<div class="org-src-container">
+<pre class="src src-bash">parallel biblatex2xml <span style="color: #8b2252;">\</span>
+         --input-encoding unicode <span style="color: #8b2252;">\</span>
+         --unicode-characters <span style="color: #8b2252;">\</span>
+         --unicode-no-bom <span style="color: #8b2252;">\</span>
+         --no-latex <span style="color: #8b2252;">\</span>
+         ::: *.bib &gt; /tmp/east-bibs.mods
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org1c734a9" class="outline-2">
+<h2 id="org1c734a9"><span class="section-number-2">5</span> Database/Django commands</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+To generate initial data from what’s in the Django backend, do
+something like this:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><span style="color: #a020f0;">import</span> os
+<span style="color: #a020f0;">import</span> shutil
+<span style="color: #a020f0;">from</span> biblio.models <span style="color: #a020f0;">import</span> BibliographicEntry
+<span style="color: #a020f0;">from</span> biblio.stuff <span style="color: #a020f0;">import</span> *
+<span style="color: #a020f0;">from</span> django.utils.text <span style="color: #a020f0;">import</span> slugify
+<span style="color: #a020f0;">from</span> lxml <span style="color: #a020f0;">import</span> etree
+
+<span style="color: #a0522d;">outdir</span> = <span style="color: #8b2252;">"/tmp/east-biblio-exports"</span>
+
+<span style="color: #a020f0;">if</span> os.path.exists(outdir):
+    shutil.rmtree(outdir)
+
+os.makedirs(outdir)
+
+<span style="color: #a020f0;">def</span> <span style="color: #0000ff;">write_bibs</span>(bibs, subdir):
+    <span style="color: #8b2252;">"""Write useful formats (mods, source, bib) of every bib in bibs (a</span>
+<span style="color: #8b2252;">query object) into outputdir/subdir."""</span>
+    <span style="color: #a0522d;">suboutdir</span> = os.path.join(outdir, subdir)
+
+    <span style="color: #a020f0;">if</span> os.path.exists(suboutdir):
+        shutil.rmtree(suboutdir)
+    os.makedirs(suboutdir)
+
+
+    <span style="color: #a020f0;">for</span> bib <span style="color: #a020f0;">in</span> bibs:
+        <span style="color: #a0522d;">basename</span> = <span style="color: #8b2252;">"%s__%s"</span> % (bib.<span style="color: #483d8b;">id</span>,
+                               slugify(bib.pretty_short)[:40])
+        <span style="color: #a0522d;">modsoutfile</span> = <span style="color: #483d8b;">open</span>(
+            os.path.join(suboutdir,
+                         <span style="color: #8b2252;">"%s.mods.xml"</span> % (basename)),
+            <span style="color: #8b2252;">"w"</span>)
+
+        <span style="color: #a020f0;">print</span>(<span style="color: #8b2252;">"Writing %s"</span> % modsoutfile)
+        modsoutfile.write(
+            etree.tostring(
+                etree.fromstring(bib.get_mods()),
+                encoding=<span style="color: #483d8b;">str</span>,
+                pretty_print=<span style="color: #008b8b;">True</span>
+            ))
+        modsoutfile.close()
+
+        <span style="color: #a0522d;">biboutfile</span> = <span style="color: #483d8b;">open</span>(
+            os.path.join(suboutdir,
+                         <span style="color: #8b2252;">"%s.bib"</span> % (basename)),
+            <span style="color: #8b2252;">"w"</span>)
+
+        <span style="color: #a020f0;">print</span>(<span style="color: #8b2252;">"Writing %s"</span> % biboutfile)
+        biboutfile.write(bib.get_bibtex(putids=<span style="color: #008b8b;">True</span>))
+        biboutfile.close()
+
+        <span style="color: #a0522d;">sourceoutfile</span> = <span style="color: #483d8b;">open</span>(
+            os.path.join(suboutdir,
+                         <span style="color: #8b2252;">"%s.src"</span> % (basename)),
+            <span style="color: #8b2252;">"w"</span>)
+        <span style="color: #a020f0;">print</span>(<span style="color: #8b2252;">"Writing %s"</span> % sourceoutfile)
+        sourceoutfile.write(bib.source)
+        sourceoutfile.close()
+
+
+
+write_bibs(BibliographicEntry.objects.<span style="color: #483d8b;">filter</span>(repository=<span style="color: #8b2252;">"TAMB"</span>), <span style="color: #8b2252;">"tamboti"</span>)
+</pre>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Patrick McAllister (pma@rdorte.org)</p>
-<p class="date">Created: 2019-03-29 Fri 10:32</p>
+<p class="date">Created: 2019-07-25 Thu 15:14</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
