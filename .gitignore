@@ -1,3 +1,6 @@
 *~
 auto/
 test*
+*.odt
+*.bak
+tibrefs.html
