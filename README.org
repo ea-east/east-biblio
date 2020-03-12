@@ -3,7 +3,10 @@
 
 
 This repository contains the bibliographic data for EAST
-(https://east.ikga.oeaw.ac.at).
+(https://east.ikga.oeaw.ac.at).  The source can be found here:
+https://github.com/ea-east/east-biblio.
+
+
 
 * Layout of this repository
 
