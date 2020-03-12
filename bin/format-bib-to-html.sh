@@ -18,7 +18,7 @@ cd "${SOURCEDIR}"
 pandoc -s \
      --bibliography "${TARGETDIR}/east.bib" \
      --filter pandoc-citeproc \
-     --csl "${SOURCEDIR}/EAST_csl/chicago-author-date-east.csl" \
+     --csl "${SOURCEDIR}/styles/chicago-author-date-east.csl" \
      bib-formatting.md \
      --log="${LOGFILE}" \
      -o "/tmp/${TARGETFILE}" \
