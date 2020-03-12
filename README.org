@@ -5,14 +5,6 @@
 This repository contains the bibliographic data for EAST
 (https://east.ikga.oeaw.ac.at).
 
-The “official” repository URL is:
-git@gitlab.com:east-bibliography/bibdata.git
-
-The admin of that repository is Patrick McAllister.  The repository is
-private, which means that to push or pull you will need to register on
-gitlab, and then ask the admin to add you to the group.
-
-
 * Layout of this repository
 
 The most important files are:
