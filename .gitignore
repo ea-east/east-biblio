@@ -8,3 +8,5 @@ tibrefs.html
 *.rng
 *.bltxml
 *_bibertool.*
+*.bib.sav
+.DS_store
