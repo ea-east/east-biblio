@@ -5,6 +5,49 @@
 (require 'subr-x)
 (require 'org)
 (require 'ert)
+(require 'rx)
+
+(defvar east-biblatex-tibetan-canonical-refs nil)
+
+(setq east-biblatex-tibetan-canonical-refs
+      `((snar-thang . (and bos "snar" (1+ space) "thang"))
+	(peking . (and bos (zero-or-one "{") "Peking"))
+	(sde-dge . (and bos "sde" (1+ space) "dge"))
+	(co-ne . (and bos "co" (1+ space) "ne"))))
+
+(ert-deftest test-east-biblatex-tibetan-canonical-refs ()
+  (should
+   (equal
+    (string-match-p
+     (rx-to-string (cdr (nth 2 east-biblatex-tibetan-canonical-refs)))
+     "sde dge")
+    0))
+  (should
+   (equal
+    (string-match-p
+     (rx-to-string (cdr (nth 2 east-biblatex-tibetan-canonical-refs)))
+     "sde")
+    nil))
+  (should
+   (equal
+    (string-match-p
+     (rx-to-string (cdr (nth 3 east-biblatex-tibetan-canonical-refs)))
+     "co ne")
+    0)))
+
+;; (ert "test-east-biblatex-tibetan-canonical-refs")
+
+(defvar east-biblatex-tibetan-canonical-refs-compiled-rxs nil)
+
+(setq east-biblatex-tibetan-canonical-refs-compiled-rxs
+      (mapcar
+       (lambda (x)
+	 `(,(car x) . ,(rx-to-string (cdr x))))
+       east-biblatex-tibetan-canonical-refs))
+
+;; (string-match-p
+;;  (cdr (nth 2 east-biblatex-tibetan-canonical-refs-compiled-rxs))
+;;  "sde dge")
 
 (defun east-biblatex-normalize-space (string)
   "In STRING, normalize spaces like the xpath function."
@@ -58,10 +101,7 @@
 			 ;; normalize space before splitting
 			 (string-join (split-string (string-trim canon-string "[ \t\n\r{]+" "[ \t\n\r}]+")) " ")
 			 ";\\s-*")))
-	(expected-refs `((snar-thang . ,(rx-to-string '(and bol "snar" (1+ space) "thang")))
-			 (peking . ,(rx-to-string '(and bol (zero-or-one "{") "Peking")))
-			 (sde-dge . ,(rx-to-string '(and bol "sde" (1+ space) "dge")))
-			 (co-ne . ,(rx-to-string '(and bol "co" (1+ space) "ne")))))
+	(expected-refs east-biblatex-tibetan-canonical-refs-compiled-rxs)
 	results)
     (mapc
      (lambda (cref)
@@ -118,6 +158,75 @@
 
 ;; (ert "test-east-biblatex-split-canon-string")
 
+(defun east-analyze-canonical-reference (canon-ref)
+  "Split the canonical reference CANON-REF into parts."
+  (let ((case-fold-search t)
+	(parts (split-string
+		;; Split off the collection name at the beginning
+		(save-match-data
+		  (let ((combined-rx
+			 (rx-to-string `(or ,@(mapcar #'cdr east-biblatex-tibetan-canonical-refs)))))
+		    (cond
+		     ((string-match combined-rx (cdr canon-ref))
+		      (substring (cdr canon-ref) (string-width (match-string 0 (cdr canon-ref)))))
+		     (t
+		      (warn "Unexpected start of canonical ref here: %s" (cdr canon-ref))
+		      (cdr canon-ref)))))))
+	(rx-number-only (rx-to-string '(and bos (1+ num) eos)))
+	(rx-range (rx-to-string '(and bos (1+ any) (or "–" "-") (1+ num) (0+ any) eos)))
+	(rx-snar-thang (rx-to-string '(and bos (or "snar" "thang" "sde" "dge"))))
+	results)
+    `(,(car canon-ref)
+      (number . ,(let ((number (cl-find-if
+				(lambda (part)
+				  (string-match-p rx-number-only part))
+				parts)))
+		   (when number (string-to-number number))))
+      (volume . ,(cl-find-if
+		  (lambda (part)
+		    (string-match-p "[a-z]+" part))
+		  parts))
+      (positions . ,(let ((positions (cl-find-if
+				      (lambda (part)
+					(string-match-p rx-range part))
+				      parts)))
+		      (when positions
+			(let ((range (split-string positions (rx-to-string ' (or "–" "-")))))
+    			  (unless (= 2 (length range))
+    			    (warn "Unexpected range in canonical referene: %s" positions))
+    			  `(,(car range) . ,(cadr range)))))))))
+
+(east-analyze-canonical-reference '(sde-dge . "sde dge 4228 tshe 178b4–295a7"))
+(east-analyze-canonical-reference '(co-ne . "co ne zhe 193b3–215a1"))
+
+
+(ert-deftest test-east-analyze-canonical-reference ()
+  (let ((cases '(((sde-dge . "sde dge 4228 tshe 178b4–295a7")
+		  .
+		  (sde-dge
+		   (number . 4228)
+		   (volume . "tshe")
+		   (positions . ("178b4" . "295a7"))))
+		 ((co-ne . "co ne zhe 193b3–215a1")
+		  .
+		  (co-ne
+		   (number)
+		   (volume . "zhe")
+		   (positions "193b3" . "215a1")))
+		 ((peking . "{Peking} 5746 ze 213a4–236b1")
+		  . (peking
+		     (number . 5746)
+		     (volume . "ze")
+		     (positions "213a4" . "236b1"))))))
+    (dolist (c cases)
+      (should
+       (equal
+	(east-analyze-canonical-reference (car c))
+	(cdr c))))))
+
+;; (ert "test-east-analyze-canonical-reference")
+
+
 (defun east-biblatex-bibs-canonical-to-org-table (bibs &optional interactive?)
   "Print canonical entries as an org-mode table."
   (interactive
@@ -141,7 +250,7 @@
           (t
            (let ((canon-refs (east-biblatex-split-canon-string canon-string)))
              (if (and (listp canon-refs)
-		      (= 4 (length canon-refs)))
+		      (= 4 (length (remq nil (mapcar #'cdr canon-refs)))))
 		 (setf row '("✓"))
 	       (setf row '("??")))
 	     ;; The link to east
