@@ -7,7 +7,8 @@
 (require 'ert)
 (require 'rx)
 
-(defvar east-biblatex-tibetan-canonical-refs nil)
+(defvar east-biblatex-tibetan-canonical-refs nil
+  "A list of accepted canonical references and an rx expression that allows their identification.")
 
 (setq east-biblatex-tibetan-canonical-refs
       `((snar-thang . (and bos "snar" (1+ space) "thang"))
@@ -37,7 +38,8 @@
 
 ;; (ert "test-east-biblatex-tibetan-canonical-refs")
 
-(defvar east-biblatex-tibetan-canonical-refs-compiled-rxs nil)
+(defvar east-biblatex-tibetan-canonical-refs-compiled-rxs nil
+  "The same as ‘east-biblatex-tibetan-canonical-refs’, but with the regular expressions compiled.")
 
 (setq east-biblatex-tibetan-canonical-refs-compiled-rxs
       (mapcar
