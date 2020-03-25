@@ -2,9 +2,9 @@
 ":"; exec emacs -Q --no-site-file --script "$0" -- "$@" # -*- mode: emacs-lisp; lexical-binding: t; -*-
 
 (when noninteractive
-  (defun east-biblatex-show-usage ()
+  (defun show-usage ()
     (message
-     "list-canonical.sh [options] bib-file [bib-file ...]
+     "Usage: list-canonical.sh [options] bib-file [bib-file ...]
 
 - bib-file is a BibLaTeX database (.bib)
 
@@ -28,7 +28,7 @@ Modifiers:
   (require 'east-biblatex (expand-file-name "./bin/east-biblatex.el"))
   ;; (warn (format "%s" command-line-args-left))
   (if (member "--help" command-line-args-left)
-      (east-biblatex-show-usage)
+      (show-usage)
     (let* ((format
 	    (cond
 	     ((member "--lisp" command-line-args-left) 'lisp)
@@ -43,7 +43,8 @@ Modifiers:
 				 (when (file-exists-p x) x))
 			       command-line-args-left))))
       (unless bib-files
-	(error "Please call with one argument, the biblatex file"))
+	(show-usage)
+	(error "*** Please pass the biblatex file as an argument ***"))
       (when debug (setq debug-on-error t))
       (mapc
        (lambda (bib-file)
