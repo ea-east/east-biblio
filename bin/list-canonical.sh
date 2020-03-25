@@ -2,52 +2,81 @@
 ":"; exec emacs -Q --no-site-file --script "$0" -- "$@" # -*- mode: emacs-lisp; lexical-binding: t; -*-
 
 (when noninteractive
+  (defun east-biblatex-show-usage ()
+    (message
+     "list-canonical.sh [options] bib-file [bib-file ...]
+
+- bib-file is a BibLaTeX database (.bib)
+
+The default is to filter the database for what looks like Tibetan entries.
+
+Recognized options to change the default behaviour are:
+
+--help: show this message
+
+Change output format:
+
+--lisp: output the filtered records after parsing to s-expressions
+--org:  output the filtered records in an org-mode table
+--html: output the filtered records as an html table (based on org-mode)
+
+Modifiers:
+
+--debug: say what’s going on
+--verify: make sure the data is as expected
+"))
   (require 'east-biblatex (expand-file-name "./bin/east-biblatex.el"))
   ;; (warn (format "%s" command-line-args-left))
-  (let* ((format
-	  (cond
-	   ((member "--lisp" command-line-args-left) 'lisp)
-	   ((member "--org" command-line-args-left) 'org)
-	   ((member "--html" command-line-args-left) 'html)
-	   (t 'bib)))
-	 (debug (member "--debug" command-line-args-left))
-	 (bib-files (delete nil
-			    (mapcar
-			     (lambda (x)
-			       (when (file-exists-p x) x))
-			     command-line-args-left))))
-    (unless bib-files
-      (error "Please call with one argument, the biblatex file"))
-    (when debug (setq debug-on-error t))
-    (mapc
-     (lambda (bib-file)
-       (with-current-buffer (find-file bib-file)
-	 (let ((results (east-biblatex-find-tib-canon (current-buffer))))
-	   ;; (warn "Found %s canonical entries" (length results))
-	   (cond
-	    ((eq format 'lisp)
-	     ;; (pp		    ; remove hlines and the header row
-	     ;;  (delete 'hline (cdr (east-biblatex-bibs-canonical-to-org-table results))))
-	     (pp (east-biblatex-bibs-to-structured-data results)))
-	    ((eq format 'org)
-	     (princ
-	      (orgtbl-to-orgtbl
-	       (east-biblatex-bibs-canonical-to-org-table results)
-	       (list :backend 'org))))
-	    ((eq format 'html)
-	     (with-temp-buffer
-	       (insert (orgtbl-to-orgtbl
-			(east-biblatex-bibs-canonical-to-org-table results)
-			(list :backend 'org)))
-	       (with-current-buffer (org-export-to-buffer 'html "* html export *")
-		 (princ (buffer-string)))))
-	    (t
-	     (mapc
-	      (lambda (entry)
-		(princ (format "%% %s in %s\n" (car entry) (cadr entry)))
-		(princ (caddr entry))
-		(princ "\n\n"))
-	      results))))))
-     bib-files)))
+  (if (member "--help" command-line-args-left)
+      (east-biblatex-show-usage)
+    (let* ((format
+	    (cond
+	     ((member "--lisp" command-line-args-left) 'lisp)
+	     ((member "--org" command-line-args-left) 'org)
+	     ((member "--html" command-line-args-left) 'html)
+	     (t 'bib)))
+	   (debug (member "--debug" command-line-args-left))
+	   (verify (member "--verify" command-line-args-left))
+	   (bib-files (delete nil
+			      (mapcar
+			       (lambda (x)
+				 (when (file-exists-p x) x))
+			       command-line-args-left))))
+      (unless bib-files
+	(error "Please call with one argument, the biblatex file"))
+      (when debug (setq debug-on-error t))
+      (mapc
+       (lambda (bib-file)
+	 (with-current-buffer (find-file bib-file)
+	   (let ((results (east-biblatex-find-tib-canon (current-buffer))))
+	     ;; (warn "Found %s canonical entries" (length results))
+	     (cond
+	      ((eq format 'lisp)
+	       ;; (pp		    ; remove hlines and the header row
+	       ;;  (delete 'hline (cdr (east-biblatex-bibs-canonical-to-org-table results))))
+	       (pp (east-biblatex-bibs-to-structured-data results verify)))
+	      ((eq format 'org)
+	       (princ
+		(orgtbl-to-orgtbl
+		 (east-biblatex-bibs-canonical-to-org-table results verify)
+		 (list :backend 'org))))
+	      ((eq format 'html)
+	       (with-temp-buffer
+		 (insert (orgtbl-to-orgtbl
+			  (east-biblatex-bibs-canonical-to-org-table results verify)
+			  (list :backend 'org)))
+		 (with-current-buffer (org-export-to-buffer 'html "* html export *")
+		   (princ (buffer-string)))))
+	      (t
+	       ;; just for verification purposes
+	       (when verify
+		 (east-biblatex-bibs-canonical-to-org-table results verify))
+	       (mapc
+		(lambda (entry)
+		  (princ (format "%% %s in %s\n" (car entry) (cadr entry)))
+		  (princ (caddr entry))
+		  (princ "\n\n"))
+		results))))))
+       bib-files))))
 
 (provide 'east-biblatex)

@@ -7,20 +7,36 @@
 (require 'ert)
 (require 'rx)
 
+(defvar east-biblatex-checks-to-do nil
+  "Which checks to do on the bibliographic entries.")
+
+(setq east-biblatex-checks-to-do (list
+				  #'east-biblatex-check-tibetan-canonical-ref))
+
+(defvar east-biblatex-rx-snar-thang '(and "snar" (1+ space) "thang"))
+
+(defvar east-biblatex-rx-peking '(and (zero-or-one "{") "Peking"))
+
+(defvar east-biblatex-rx-sde-dge '(and "sde" (1+ space) "dge"))
+
+(defvar east-biblatex-rx-co-ne  '(and "co" (1+ space) "ne"))
+
+
 (defvar east-biblatex-tibetan-canonical-refs nil
   "A list of accepted canonical references and an rx expression that allows their identification.")
 
 (setq east-biblatex-tibetan-canonical-refs
-      `((snar-thang . (and bos "snar" (1+ space) "thang"))
-	(peking . (and bos (zero-or-one "{") "Peking"))
-	(sde-dge . (and bos "sde" (1+ space) "dge"))
-	(co-ne . (and bos "co" (1+ space) "ne"))))
+      `((snar-thang . (and bos ,east-biblatex-rx-snar-thang))
+	(peking . (and bos ,east-biblatex-rx-peking))
+	(sde-dge . (and bos ,east-biblatex-rx-sde-dge))
+	(co-ne . (and bos ,east-biblatex-rx-co-ne))))
 
 (ert-deftest test-east-biblatex-tibetan-canonical-refs ()
   (should
    (equal
     (string-match-p
      (rx-to-string (cdr (nth 2 east-biblatex-tibetan-canonical-refs)))
+     ;; "\\(?:\\`sde[[:space:]]+dge\\)"
      "sde dge")
     0))
   (should
@@ -320,8 +336,62 @@ Just wraps alist."
 
 ;; (ert "test-east-analyze-canonical-reference")
 
-(defun east-biblatex-bibs-to-structured-data (bibs)
-  "Convert BIBS to a structured set of data."
+(defun east-biblatex-is-canonical-ref-p (bib)
+  (and
+   (east-biblatex-alist-get "keywords" bib)
+   (east-biblatex-alist-get "language" bib)
+   (string-match-p ;; (rx-to-string '(and bow "bo" eow))
+    "\\(?:\\<bo\\>\\)"
+    (east-biblatex-alist-get "language" bib))
+   (string-match-p "canonical" (east-biblatex-alist-get "keywords" bib))))
+
+(defun east-biblatex-tibetan-peking-ref-is-set-p (bib)
+  (string-match-p (rx (eval east-biblatex-rx-peking))
+		  (or (east-biblatex-alist-get "series" bib)
+		      "")))
+
+;; (east-biblatex-tibetan-peking-ref-is-set-p '(("series" . "Peking")))
+
+(defun east-biblatex-tibetan-snar-thang-ref-is-set-p (bib)
+  (string-match-p (rx (eval east-biblatex-rx-snar-thang))
+		  (or (east-biblatex-alist-get "series" bib)
+		      "")))
+
+(defun east-biblatex-tibetan-sde-dge-is-set-p (bib)
+  (string-match-p (rx (eval east-biblatex-rx-sde-dge))
+		  (or (east-biblatex-alist-get "series" bib)
+		      "")))
+
+(defun east-biblatex-tibetan-co-ne-ref-is-set-p (bib)
+  (string-match-p (rx (eval east-biblatex-rx-co-ne))
+		  (or (east-biblatex-alist-get "series" bib)
+		      "")))
+
+(defun east-biblatex-check-tibetan-canonical-ref (bib)
+  (mapc
+   (lambda (test)
+     (unless (apply test (list bib))
+       (warn "Failed test: %s returns FALSE for %s"
+	     (symbol-name test)
+	     (car bib))))
+   (list
+    #'east-biblatex-tibetan-snar-thang-ref-is-set-p
+    #'east-biblatex-tibetan-peking-ref-is-set-p
+    #'east-biblatex-tibetan-sde-dge-is-set-p
+    #'east-biblatex-tibetan-co-ne-ref-is-set-p))
+  bib)
+
+(defun east-biblatex-do-checks (bib)
+  "Run checks on BIB."
+  (mapc
+   (lambda (check)
+     (apply check (list bib)))
+   east-biblatex-checks-to-do))
+
+(defun east-biblatex-bibs-to-structured-data (bibs &optional complain)
+  "Convert BIBS to a structured set of data.
+
+If COMPLAIN is non-nil, raise warnings about expected but absent data."
   (let (results)
     (mapc
      (lambda (bib)
@@ -341,20 +411,25 @@ Just wraps alist."
 	       bib-parsed)	 
 	 (push bib-parsed results)))
      bibs)
+    (when complain
+      (mapc
+       (lambda (bib) (east-biblatex-do-checks bib))
+       bibs))
     (nreverse (mapcar (lambda (bib) (sort bib (lambda (x y) (string-lessp (car x) (car y))))) results))))
 
 
-(defun east-biblatex-bibs-canonical-to-org-table (bibs &optional interactive?)
+(defun east-biblatex-bibs-canonical-to-org-table (bibs &optional complain interactive?)
   "Convert canonical entries BIBS to an org-mode table.
 
 BIBS should be in the format returned by ‘east-biblatex-find-tib-canon’."
   (interactive
    (list
     (east-biblatex-find-tib-canon (current-buffer))
+    nil
     'interactive))
   (let ((table '(hline
 		 ("Status" "Title" "co ne" "Peking" "sde dge" "snar thang" "others...")))
-	(bibs-structured (east-biblatex-bibs-to-structured-data bibs)))
+	(bibs-structured (east-biblatex-bibs-to-structured-data bibs complain)))
     (mapc
      (lambda (bib-parsed)
        (let ((canon-parsed  (east-biblatex-alist-get "series:analyzed" bib-parsed))
