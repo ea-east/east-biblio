@@ -73,6 +73,18 @@
 
 ;; (ert "test-east-biblatex-normalize-space")
 
+(defun east-biblatex-alist-get (key alist)
+  "Get values for KEY in ALIST when KEY is a string.
+
+Just wraps alist."
+  (if (stringp key)
+      (alist-get key alist nil nil #'string=)
+    (alist-get key alist)))
+
+;; (alist-get "=key=" '(("=key=" . soup)))nil
+;; (east-biblatex-alist-get "=key=" '(("=key=" . soup)))soup
+
+
 (defun east-biblatex-find-tib-canon (bib-buffer &optional interactive?)
   "Find entries in a biblatex buffer that are Tibetan canonical entries."
   (interactive
@@ -98,13 +110,14 @@
 
 (defun east-biblatex-split-canon-string (canon-string)
   "Split CANON-STRING (as contained in EAST’s series field) into a normalized list."
-  (let ((fields (delete ""
+  (let ((fields (delete "" ; split and clean up fields in canon string
 			(split-string
 			 ;; normalize space before splitting
 			 (string-join (split-string (string-trim canon-string "[ \t\n\r{]+" "[ \t\n\r}]+")) " ")
 			 ";\\s-*")))
 	(expected-refs east-biblatex-tibetan-canonical-refs-compiled-rxs)
 	results)
+    ;; For each field, find a match or default to ‘weird’
     (mapc
      (lambda (cref)
        (let ((refs expected-refs)
@@ -113,10 +126,11 @@
 	 (while (and (not matched) (setq current-ref (pop refs)))
 	   (setq matched (string-match-p (cdr current-ref) cref))
 	   (when matched
-	     (push `(,(car current-ref) . ,cref) results)))
+	     (push `(,(car current-ref) ,cref ,(east-analyze-canonical-reference (cons (car current-ref) cref))) results)))
 	 (unless matched
-	   (push `(weird . ,cref) results))))
+	   (push `(weird ,cref) results))))
      fields)
+    ;; Fill up the result structure (add missing canonical references)
     (mapc
      (lambda (necessary)
        (unless (alist-get necessary results)
@@ -125,32 +139,110 @@
        peking
        co-ne
        sde-dge))
+    ;; Sort things: mainly by key, or, if that is equal, by content.
     (sort
      results
      (lambda (x y)
-       (string-lessp (symbol-name (car x))
-		     (symbol-name (car y)))))))
+       (let ((name-x  (symbol-name (car x)))
+	     (name-y (symbol-name (car y)))
+	     (content-x (nth 1 x))
+	     (content-y (nth 1 y)))
+	 (if (string= name-x name-y)
+	     (string-lessp content-x content-y)
+	   (string-lessp name-x name-y)))))))
 
 ;; (east-biblatex-split-canon-string "{snar thang 3691 ce 1–13a; {Peking} 5700 ce 1–13a5}")
 
 (ert-deftest test-east-biblatex-split-canon-string ()
   (let ((cases '(("{snar thang 3691 ce 1–13a; {Peking} 5700 ce 1–13a5}"
 		  . ((co-ne)
-		     (peking . "{Peking} 5700 ce 1–13a5")
+		     (peking "{Peking} 5700 ce 1–13a5"
+			     (peking
+			      (number . 5700)
+			      (volume . "ce")
+			      (positions "1" . "13a5")))
 		     (sde-dge)
-		     (snar-thang . "snar thang 3691 ce 1–13a")))
+		     (snar-thang "snar thang 3691 ce 1–13a"
+				 (snar-thang
+				  (number . 3691)
+				  (volume . "ce")
+				  (positions "1" . "13a")))))
 		 ("{snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6}"
-		  . ((co-ne . "co ne tshe 182b2–307a7")
-		     (peking . "{Peking} 5728 we 209b8–355a6")
-		     (sde-dge . "sde dge 4228 tshe 178b4–295a7")
-		     (snar-thang . "snar thang 3720 we 188b–323")))
+		  . ((co-ne "co ne tshe 182b2–307a7"
+			    (co-ne
+			     (number)
+			     (volume . "tshe")
+			     (positions "182b2" . "307a7")))
+		     (peking "{Peking} 5728 we 209b8–355a6"
+			     (peking
+			      (number . 5728)
+			      (volume . "we")
+			      (positions "209b8" . "355a6")))
+		     (sde-dge "sde dge 4228 tshe 178b4–295a7"
+			      (sde-dge
+			       (number . 4228)
+			       (volume . "tshe")
+			       (positions "178b4" . "295a7")))
+		     (snar-thang "snar thang 3720 we 188b–323"
+				 (snar-thang
+				  (number . 3720)
+				  (volume . "we")
+				  (positions "188b" . "323")))))
 		 ;; a bad case
 		 ("{snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6; dunno what this is;}" .
-		  ((co-ne . "co ne tshe 182b2–307a7")
-		   (peking . "{Peking} 5728 we 209b8–355a6")
-		   (sde-dge . "sde dge 4228 tshe 178b4–295a7")
-		   (snar-thang . "snar thang 3720 we 188b–323")
-		   (weird . "dunno what this is"))))))
+		  ((co-ne "co ne tshe 182b2–307a7"
+			  (co-ne
+			   (number)
+			   (volume . "tshe")
+			   (positions "182b2" . "307a7")))
+		   (peking "{Peking} 5728 we 209b8–355a6"
+			   (peking
+			    (number . 5728)
+			    (volume . "we")
+			    (positions "209b8" . "355a6")))
+		   (sde-dge "sde dge 4228 tshe 178b4–295a7"
+			    (sde-dge
+			     (number . 4228)
+			     (volume . "tshe")
+			     (positions "178b4" . "295a7")))
+		   (snar-thang "snar thang 3720 we 188b–323"
+			       (snar-thang
+				(number . 3720)
+				(volume . "we")
+				(positions "188b" . "323")))
+		   (weird "dunno what this is")))
+		 ;; Two mentions in Peking
+		 ("{snar thang 3717 tshe 21b–131b; snar thang 3770 ze 65b–186a; sde dge 4239 zhe 51a3–151a6; co ne zhe 50b3–143b2; {Peking} 5725 tshe 21b2–137a8; {Peking} 5738 ze 71a5–183a7}"
+		  . ((co-ne "co ne zhe 50b3–143b2"
+			    (co-ne
+			     (number)
+			     (volume . "zhe")
+			     (positions "50b3" . "143b2")))
+		     (peking "{Peking} 5725 tshe 21b2–137a8"
+			     (peking
+			      (number . 5725)
+			      (volume . "tshe")
+			      (positions "21b2" . "137a8")))
+		     (peking "{Peking} 5738 ze 71a5–183a7"
+			     (peking
+			      (number . 5738)
+			      (volume . "ze")
+			      (positions "71a5" . "183a7")))
+		     (sde-dge "sde dge 4239 zhe 51a3–151a6"
+			      (sde-dge
+			       (number . 4239)
+			       (volume . "zhe")
+			       (positions "51a3" . "151a6")))
+		     (snar-thang "snar thang 3717 tshe 21b–131b"
+				 (snar-thang
+				  (number . 3717)
+				  (volume . "tshe")
+				  (positions "21b" . "131b")))
+		     (snar-thang "snar thang 3770 ze 65b–186a"
+				 (snar-thang
+				  (number . 3770)
+				  (volume . "ze")
+				  (positions "65b" . "186a"))))))))
     (dolist (c cases)
       (should
        (equal
@@ -198,8 +290,8 @@
     			    (warn "Unexpected range in canonical referene: %s" positions))
     			  `(,(car range) . ,(cadr range)))))))))
 
-(east-analyze-canonical-reference '(sde-dge . "sde dge 4228 tshe 178b4–295a7"))
-(east-analyze-canonical-reference '(co-ne . "co ne zhe 193b3–215a1"))
+;; (east-analyze-canonical-reference '(sde-dge . "sde dge 4228 tshe 178b4–295a7"))
+;; (east-analyze-canonical-reference '(co-ne . "co ne zhe 193b3–215a1"))
 
 
 (ert-deftest test-east-analyze-canonical-reference ()
@@ -228,9 +320,34 @@
 
 ;; (ert "test-east-analyze-canonical-reference")
 
+(defun east-biblatex-bibs-to-structured-data (bibs)
+  "Convert BIBS to a structured set of data."
+  (let (results)
+    (mapc
+     (lambda (bib)
+       (let* ((bib-parsed (with-temp-buffer
+			    (insert (nth 2 bib))
+			    (goto-char (point-min))
+			    (bibtex-parse-entry))))
+	 ;; List checks and consequences here
+	 (when (and (member '("language" . "{bo}") bib-parsed)
+		    (assoc "keywords" bib-parsed)
+		    (assoc "series" bib-parsed)
+		    (string-match-p "canonical" (cdr (assoc "keywords" bib-parsed))))
+	   (push `("series:analyzed" . ,(east-biblatex-split-canon-string (cdr (assoc "series" bib-parsed))))
+		 bib-parsed))
+	 (push `("east:url" . ,(format "https://east.ikga.oeaw.ac.at/bib/%s"
+				       (cadr (split-string (or (east-biblatex-alist-get "=key=" bib-parsed) "east:ERROR") ":"))))
+	       bib-parsed)	 
+	 (push bib-parsed results)))
+     bibs)
+    (nreverse (mapcar (lambda (bib) (sort bib (lambda (x y) (string-lessp (car x) (car y))))) results))))
+
 
 (defun east-biblatex-bibs-canonical-to-org-table (bibs &optional interactive?)
-  "Print canonical entries as an org-mode table."
+  "Convert canonical entries BIBS to an org-mode table.
+
+BIBS should be in the format returned by ‘east-biblatex-find-tib-canon’."
   (interactive
    (list
     (east-biblatex-find-tib-canon (current-buffer))
@@ -265,7 +382,7 @@
 	     ;; The refs themselves
              (setf row `(,@row
 			 ,@(mapcar
-			    #'cdr
+			    #'cadr
 			    canon-refs))))))
 	 (push row table)))
      bibs)

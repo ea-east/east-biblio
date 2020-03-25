@@ -26,14 +26,20 @@
 	   ;; (warn "Found %s canonical entries" (length results))
 	   (cond
 	    ((eq format 'lisp)
-	     (pp results))
+	     ;; (pp		    ; remove hlines and the header row
+	     ;;  (delete 'hline (cdr (east-biblatex-bibs-canonical-to-org-table results))))
+	     (pp (east-biblatex-bibs-to-structured-data results)))
 	    ((eq format 'org)
-	     (princ (orgtbl-to-orgtbl
-		     (east-biblatex-bibs-canonical-to-org-table results)
-		     (list :backend 'org))))
+	     (princ
+	      (orgtbl-to-orgtbl
+	       (east-biblatex-bibs-canonical-to-org-table results)
+	       (list :backend 'org))))
 	    ((eq format 'html)
-	     (with-current-buffer (east-biblatex-bibs-canonical-to-org-table results)
-	       (with-current-buffer (org-export-to-buffer 'html "*EAST BIB Org HTML Export*")
+	     (with-temp-buffer
+	       (insert (orgtbl-to-orgtbl
+			(east-biblatex-bibs-canonical-to-org-table results)
+			(list :backend 'org)))
+	       (with-current-buffer (org-export-to-buffer 'html "* html export *")
 		 (princ (buffer-string)))))
 	    (t
 	     (mapc
