@@ -98,13 +98,13 @@ Just wraps alist."
 		      (goto-char bib-start)
 		      (bibtex-parse-entry))))
 	   (and
-	    (assoc "language" bib)
+	    (east-biblatex-alist-get "language" bib)
 	    (string-match-p
 	     ;; (rx-to-string '(and bow "bo" eow))
 	     "\\(?:\\<bo\\>\\)"
-	     (downcase (cdr (assoc "language" bib))))
-	    (assoc "keywords" bib)
-	    (string-match-p "canonical" (downcase (cdr (assoc "keywords" bib))))))))
+	     (downcase (east-biblatex-alist-get "language" bib)))
+	    (east-biblatex-alist-get "keywords" bib)
+	    (string-match-p "canonical" (downcase (east-biblatex-alist-get "keywords" bib)))))))
      nil
      interactive?)))
 
@@ -353,39 +353,36 @@ BIBS should be in the format returned by ‘east-biblatex-find-tib-canon’."
     (east-biblatex-find-tib-canon (current-buffer))
     'interactive))
   (let ((table '(hline
-		 ("Status" "Title" "co ne" "Peking" "sde dge" "snar thang" "others..."))))
+		 ("Status" "Title" "co ne" "Peking" "sde dge" "snar thang" "others...")))
+	(bibs-structured (east-biblatex-bibs-to-structured-data bibs)))
     (mapc
-     (lambda (canon)
-       (let* ((bib-parsed (with-temp-buffer
-			    (insert (nth 2 canon))
-			    (goto-char (point-min))
-			    (bibtex-parse-entry)))
-	      (canon-string  (cdr (assoc "series" bib-parsed)))
-	      row)
+     (lambda (bib-parsed)
+       (let ((canon-parsed  (east-biblatex-alist-get "series:analyzed" bib-parsed))
+	     row)
 	 (cond
-          ((or (null canon-string)
-	       (string-empty-p canon-string))
-           (warn "Empty canonical entry: %s" (car canon)))
-          (t
-           (let ((canon-refs (east-biblatex-split-canon-string canon-string)))
-             (if (and (listp canon-refs)
-		      (= 4 (length (remq nil (mapcar #'cdr canon-refs)))))
-		 (setf row '("✓"))
-	       (setf row '("??")))
-	     ;; The link to east
-	     (setf row
-		   `(,@row
-		     ,(format "[[http://east.uni-hd.de/bib/%s][%s]]"
-			      (cadr (split-string (cdr (assoc "=key=" bib-parsed)) ":"))
-			      (east-biblatex-normalize-space
-			       (cdr (assoc "title" bib-parsed))))))
-	     ;; The refs themselves
-             (setf row `(,@row
-			 ,@(mapcar
-			    #'cadr
-			    canon-refs))))))
+	  ((null canon-parsed)
+           (warn "Empty canonical entry: %s" (car bib-parsed)))
+	  (t
+           ;; (warn "Looking at canon-parsed: %s" canon-parsed)
+           (if (and (listp canon-parsed)
+		    ;; Check if we have 4, as ideal for Tibetan
+		    (= 4 (length (remq nil (mapcar #'cdr canon-parsed)))))
+	       (setf row '("✓"))
+	     (setf row '("??")))
+	   ;; The link to east
+	   (setf row
+		 `(,@row
+		   ,(format "[[%s][%s]]"
+			    (east-biblatex-alist-get "east:url" bib-parsed)
+			    (east-biblatex-normalize-space
+			     (east-biblatex-alist-get "title" bib-parsed)))))
+	   ;; The refs themselves
+           (setf row `(,@row
+		       ,@(mapcar
+			  #'cadr
+			  canon-parsed)))))
 	 (push row table)))
-     bibs)
+     bibs-structured)
     (setf table (nreverse table))
     (when interactive?
       (with-current-buffer (get-buffer-create "* east bib table *")
