@@ -1,4 +1,8 @@
-;;; east-biblatex --- Some Emacs helper functions for EAST’s biblatex database 
+;;; east-biblatex --- Some Emacs helper functions for EAST’s biblatex database
+
+;; To run tests from within Emacs: M-x "^test-east"
+
+;; Or from command line:  emacs -batch -Q -l ert -l bin/east-biblatex.el -f ert-run-tests-batch-and-exit
 
 (require 'bibtex)
 (require 'pp)
@@ -7,19 +11,23 @@
 (require 'ert)
 (require 'rx)
 
+(when noninteractive
+  (setq debug-on-error t))
+
 (defvar east-biblatex-checks-to-do nil
   "Which checks to do on the bibliographic entries.")
 
 (setq east-biblatex-checks-to-do (list
 				  #'east-biblatex-check-tibetan-canonical-ref))
 
-(defvar east-biblatex-rx-snar-thang '(and "snar" (1+ space) "thang"))
+(eval-when-compile
+  (defvar east-biblatex-rx-snar-thang '(and "snar" (1+ space) "thang"))
 
-(defvar east-biblatex-rx-peking '(and (zero-or-one "{") "Peking"))
+  (defvar east-biblatex-rx-peking '(and (zero-or-one "{") "Peking"))
 
-(defvar east-biblatex-rx-sde-dge '(and "sde" (1+ space) "dge"))
+  (defvar east-biblatex-rx-sde-dge '(and "sde" (1+ space) "dge"))
 
-(defvar east-biblatex-rx-co-ne  '(and "co" (1+ space) "ne"))
+  (defvar east-biblatex-rx-co-ne  '(and "co" (1+ space) "ne")))
 
 
 (defvar east-biblatex-tibetan-canonical-refs nil
@@ -89,17 +97,27 @@
 
 ;; (ert "test-east-biblatex-normalize-space")
 
-(defun east-biblatex-alist-get (key alist)
-  "Get values for KEY in ALIST when KEY is a string.
-
-Just wraps alist."
+(defun east-biblatex--alist-get-single-step (key alist)
+  "Do a single assoc call for key in alist, adjusting for type of key (string or symbol)"
   (if (stringp key)
       (alist-get key alist nil nil #'string=)
     (alist-get key alist)))
 
+(defun east-biblatex-alist-get (key alist)
+  "Get values for KEY in ALIST when KEY is a string.
+
+Just wraps alist, except KEY can also be a list of steps."
+  (let ((key-list (if (listp key) key (list key)))
+	(results alist)
+	curr-key)
+    (while (and results (setq curr-key (pop key-list)))
+      (setq results (east-biblatex--alist-get-single-step curr-key results)))
+    results))
+
 ;; (alist-get "=key=" '(("=key=" . soup)))nil
 ;; (east-biblatex-alist-get "=key=" '(("=key=" . soup)))soup
-
+;; (east-biblatex-alist-get
+;;  '("=key=" "potato") '(("=key=" . (("potato" . soup))))) soup
 
 (defun east-biblatex-find-tib-canon (bib-buffer &optional interactive?)
   "Find entries in a biblatex buffer that are Tibetan canonical entries."
@@ -142,7 +160,10 @@ Just wraps alist."
 	 (while (and (not matched) (setq current-ref (pop refs)))
 	   (setq matched (string-match-p (cdr current-ref) cref))
 	   (when matched
-	     (push `(,(car current-ref) ,cref ,(east-analyze-canonical-reference (cons (car current-ref) cref))) results)))
+	     (push `(,(car current-ref)
+		     (string . ,cref)
+		     ,@(cdr (east-analyze-canonical-reference (cons (car current-ref) cref))))
+		   results)))
 	 (unless matched
 	   (push `(weird ,cref) results))))
      fields)
@@ -159,106 +180,121 @@ Just wraps alist."
     (sort
      results
      (lambda (x y)
-       (let ((name-x  (symbol-name (car x)))
+       (let* ((name-x  (symbol-name (car x)))
 	     (name-y (symbol-name (car y)))
-	     (content-x (nth 1 x))
-	     (content-y (nth 1 y)))
-	 (if (string= name-x name-y)
-	     (string-lessp content-x content-y)
+	     (number-x (east-biblatex-alist-get
+			'number
+			(cdr x)))
+	     (number-y (east-biblatex-alist-get
+			'number
+			(cdr y))))
+	 (if (and (string= name-x name-y)
+		  (numberp number-x)
+		  (numberp number-y))
+	     (< number-x number-y)
 	   (string-lessp name-x name-y)))))))
 
-;; (east-biblatex-split-canon-string "{snar thang 3691 ce 1–13a; {Peking} 5700 ce 1–13a5}")
 
 (ert-deftest test-east-biblatex-split-canon-string ()
   (let ((cases '(("{snar thang 3691 ce 1–13a; {Peking} 5700 ce 1–13a5}"
 		  . ((co-ne)
-		     (peking "{Peking} 5700 ce 1–13a5"
-			     (peking
-			      (number . 5700)
-			      (volume . "ce")
-			      (positions "1" . "13a5")))
+		     (peking
+		      (string . "{Peking} 5700 ce 1–13a5")
+		      (number . 5700)
+		      (volume . "ce")
+		      (positions "1" . "13a5"))
 		     (sde-dge)
-		     (snar-thang "snar thang 3691 ce 1–13a"
-				 (snar-thang
-				  (number . 3691)
-				  (volume . "ce")
-				  (positions "1" . "13a")))))
+		     (snar-thang
+		      (string . "snar thang 3691 ce 1–13a")
+		      (number . 3691)
+		      (volume . "ce")
+		      (positions "1" . "13a"))))
 		 ("{snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6}"
-		  . ((co-ne "co ne tshe 182b2–307a7"
-			    (co-ne
-			     (number)
-			     (volume . "tshe")
-			     (positions "182b2" . "307a7")))
-		     (peking "{Peking} 5728 we 209b8–355a6"
-			     (peking
-			      (number . 5728)
-			      (volume . "we")
-			      (positions "209b8" . "355a6")))
-		     (sde-dge "sde dge 4228 tshe 178b4–295a7"
-			      (sde-dge
-			       (number . 4228)
-			       (volume . "tshe")
-			       (positions "178b4" . "295a7")))
-		     (snar-thang "snar thang 3720 we 188b–323"
-				 (snar-thang
-				  (number . 3720)
-				  (volume . "we")
-				  (positions "188b" . "323")))))
+		  . ((co-ne
+		      (string . "co ne tshe 182b2–307a7")
+		      (number)
+		      (volume . "tshe")
+		      (positions "182b2" . "307a7"))
+		     (peking
+		      (string . "{Peking} 5728 we 209b8–355a6")
+		      (number . 5728)
+		      (volume . "we")
+		      (positions "209b8" . "355a6"))
+		     (sde-dge
+		      (string . "sde dge 4228 tshe 178b4–295a7")
+		      (number . 4228)
+		      (volume . "tshe")
+		      (positions "178b4" . "295a7"))
+		     (snar-thang
+		      (string . "snar thang 3720 we 188b–323")
+		      
+		      (number . 3720)
+		      (volume . "we")
+		      (positions "188b" . "323"))))
 		 ;; a bad case
 		 ("{snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6; dunno what this is;}" .
-		  ((co-ne "co ne tshe 182b2–307a7"
-			  (co-ne
-			   (number)
-			   (volume . "tshe")
-			   (positions "182b2" . "307a7")))
-		   (peking "{Peking} 5728 we 209b8–355a6"
-			   (peking
-			    (number . 5728)
-			    (volume . "we")
-			    (positions "209b8" . "355a6")))
-		   (sde-dge "sde dge 4228 tshe 178b4–295a7"
-			    (sde-dge
-			     (number . 4228)
-			     (volume . "tshe")
-			     (positions "178b4" . "295a7")))
-		   (snar-thang "snar thang 3720 we 188b–323"
-			       (snar-thang
-				(number . 3720)
-				(volume . "we")
-				(positions "188b" . "323")))
+		  ((co-ne
+		    (string . "co ne tshe 182b2–307a7")
+		    (number)
+		    (volume . "tshe")
+		    (positions "182b2" . "307a7"))
+		   (peking
+		    (string . "{Peking} 5728 we 209b8–355a6")
+		    
+		    (number . 5728)
+		    (volume . "we")
+		    (positions "209b8" . "355a6"))
+		   (sde-dge
+		    (string . "sde dge 4228 tshe 178b4–295a7")
+		    
+		    (number . 4228)
+		    (volume . "tshe")
+		    (positions "178b4" . "295a7"))
+		   (snar-thang
+		    (string . "snar thang 3720 we 188b–323")
+		    
+		    (number . 3720)
+		    (volume . "we")
+		    (positions "188b" . "323"))
 		   (weird "dunno what this is")))
 		 ;; Two mentions in Peking
 		 ("{snar thang 3717 tshe 21b–131b; snar thang 3770 ze 65b–186a; sde dge 4239 zhe 51a3–151a6; co ne zhe 50b3–143b2; {Peking} 5725 tshe 21b2–137a8; {Peking} 5738 ze 71a5–183a7}"
-		  . ((co-ne "co ne zhe 50b3–143b2"
-			    (co-ne
-			     (number)
-			     (volume . "zhe")
-			     (positions "50b3" . "143b2")))
-		     (peking "{Peking} 5725 tshe 21b2–137a8"
-			     (peking
-			      (number . 5725)
-			      (volume . "tshe")
-			      (positions "21b2" . "137a8")))
-		     (peking "{Peking} 5738 ze 71a5–183a7"
-			     (peking
-			      (number . 5738)
-			      (volume . "ze")
-			      (positions "71a5" . "183a7")))
-		     (sde-dge "sde dge 4239 zhe 51a3–151a6"
-			      (sde-dge
-			       (number . 4239)
-			       (volume . "zhe")
-			       (positions "51a3" . "151a6")))
-		     (snar-thang "snar thang 3717 tshe 21b–131b"
-				 (snar-thang
-				  (number . 3717)
-				  (volume . "tshe")
-				  (positions "21b" . "131b")))
-		     (snar-thang "snar thang 3770 ze 65b–186a"
-				 (snar-thang
-				  (number . 3770)
-				  (volume . "ze")
-				  (positions "65b" . "186a"))))))))
+		  . ((co-ne
+		      (string . "co ne zhe 50b3–143b2")
+		      
+		      (number)
+		      (volume . "zhe")
+		      (positions "50b3" . "143b2"))
+		     (peking
+		      (string . "{Peking} 5725 tshe 21b2–137a8")
+		      
+		      (number . 5725)
+		      (volume . "tshe")
+		      (positions "21b2" . "137a8"))
+		     (peking
+		      (string . "{Peking} 5738 ze 71a5–183a7")
+		      
+		      (number . 5738)
+		      (volume . "ze")
+		      (positions "71a5" . "183a7"))
+		     (sde-dge
+		      (string . "sde dge 4239 zhe 51a3–151a6")
+		      
+		      (number . 4239)
+		      (volume . "zhe")
+		      (positions "51a3" . "151a6"))
+		     (snar-thang
+		      (string . "snar thang 3717 tshe 21b–131b")
+		      
+		      (number . 3717)
+		      (volume . "tshe")
+		      (positions "21b" . "131b"))
+		     (snar-thang
+		      (string . "snar thang 3770 ze 65b–186a")
+		      
+		      (number . 3770)
+		      (volume . "ze")
+		      (positions "65b" . "186a")))))))
     (dolist (c cases)
       (should
        (equal
@@ -286,7 +322,7 @@ Just wraps alist."
 	(rx-range (rx-to-string '(and bos (1+ any) (or "–" "-") (1+ num) (0+ any) eos)))
 	(rx-snar-thang (rx-to-string '(and bos (or "snar" "thang" "sde" "dge"))))
 	results)
-    `(,(car canon-ref)
+    `((canon . ,(car canon-ref))
       (number . ,(let ((number (cl-find-if
 				(lambda (part)
 				  (string-match-p rx-number-only part))
@@ -304,11 +340,13 @@ Just wraps alist."
 			(let ((range (split-string positions (rx-to-string ' (or "–" "-")))))
     			  (unless (= 2 (length range))
     			    (warn "Unexpected range in canonical referene: %s" positions))
-    			  `(,(car range) . ,(cadr range)))))))))
+    			  `(,(car range) ,(cadr range)))))))))
 
 ;; (east-analyze-canonical-reference '(sde-dge . "sde dge 4228 tshe 178b4–295a7"))
 ;; (east-analyze-canonical-reference '(co-ne . "co ne zhe 193b3–215a1"))
 
+;; (json-encode '((canon . sde-dge) (number . 4228) (volume . "tshe") (positions "178b4" "295a7")))
+;; (alist-get 'positions '((canon . sde-dge) (number . 4228) (volume . "tshe") (positions "178b4" "295a7")))
 
 (ert-deftest test-east-analyze-canonical-reference ()
   (let ((cases '(((sde-dge . "sde dge 4228 tshe 178b4–295a7")
@@ -337,13 +375,22 @@ Just wraps alist."
 ;; (ert "test-east-analyze-canonical-reference")
 
 (defun east-biblatex-is-canonical-ref-p (bib)
+  "Return nil unless BIB (a biblatex entry parsed by ) is a reference to a Tibetan canonical resource.
+
+Looks at the langid or language field, checks keywords field for
+“canonical”, and then checks and returns the series field."
   (and
    (east-biblatex-alist-get "keywords" bib)
-   (east-biblatex-alist-get "language" bib)
+   (or (east-biblatex-alist-get "langid" bib)
+       (east-biblatex-alist-get "language" bib))
    (string-match-p ;; (rx-to-string '(and bow "bo" eow))
     "\\(?:\\<bo\\>\\)"
-    (east-biblatex-alist-get "language" bib))
-   (string-match-p "canonical" (east-biblatex-alist-get "keywords" bib))))
+    (or
+     (east-biblatex-alist-get "langid" bib)
+     (east-biblatex-alist-get "language" bib)))
+   ;; (rx-to-string '(and bow "canonical" eow))   
+   (string-match-p "\\(?:\\<canonical\\>\\)" (east-biblatex-alist-get "keywords" bib))
+   (east-biblatex-alist-get "series" bib)))
 
 (defun east-biblatex-tibetan-peking-ref-is-set-p (bib)
   (string-match-p (rx (eval east-biblatex-rx-peking))
@@ -388,8 +435,14 @@ Just wraps alist."
      (apply check (list bib)))
    east-biblatex-checks-to-do))
 
-(defun east-biblatex-bibs-to-structured-data (bibs &optional complain)
+(defun east-biblatex-bibs-to-structured-data (bibs &optional sort-by complain)
   "Convert BIBS to a structured set of data.
+
+If SORT-BY is nil, return result in the same order as it was
+passed in.  If non-nil, SORT-BY should be a function that can be
+called on the parsed result set as an argument to ‘sort’ (must
+take two arguments and return t or f depending on which should
+come first).
 
 If COMPLAIN is non-nil, raise warnings about expected but absent data."
   (let (results)
@@ -415,10 +468,67 @@ If COMPLAIN is non-nil, raise warnings about expected but absent data."
       (mapc
        (lambda (bib) (east-biblatex-do-checks bib))
        bibs))
-    (nreverse (mapcar (lambda (bib) (sort bib (lambda (x y) (string-lessp (car x) (car y))))) results))))
+    ;; Sort the fields in each bibliographic record
+    (setq results
+	  (mapcar
+	   (lambda (bib)
+	     (sort bib (lambda (x y) (string-lessp (car x) (car y)))))
+	   results))
+    ;; Return the list of items in the order requested, or in the
+    ;; order they were given.
+    (cond
+     ((functionp sort-by)
+      (sort results (lambda (x y) (apply sort-by (list x y)))))
+     (t (nreverse results)))))
+
+(defun east-biblatex-sort-peking (a b)
+  (let ((cnum-a
+	 (east-biblatex-alist-get '("series:analyzed" peking number) a))
+	(cnum-b
+	 (east-biblatex-alist-get '("series:analyzed" peking number) b)))
+    (if (and (numberp cnum-a) (numberp cnum-b))
+	(< cnum-a cnum-b)
+      (warn "Unexpected absence (or format) of number in %s vs. %s"
+	    (east-biblatex-alist-get '("series:analyzed" peking string) a)
+	    (east-biblatex-alist-get '("series:analyzed" peking string) b))
+      (string-lessp
+       (east-biblatex-alist-get '("series:analyzed" peking string) a)
+       (east-biblatex-alist-get '("series:analyzed" peking string) b))
+      nil)))
+
+;; (with-current-buffer (get-buffer "east.bib")
+;;   (east-biblatex-bibs-to-structured-data
+;;    (east-biblatex-find-tib-canon (current-buffer))
+;;    #'east-biblatex-sort-peking))
+
+;; (east-biblatex-tibetan-peking-ref-is-set-p
+;;  '(("=key=" . "east:5005")
+;;    ("=type=" . "Book")
+;;    ("date" . "{1100}")
+;;    ("east:url" . "https://east.ikga.oeaw.ac.at/bib/5005")
+;;    ("keywords" . "{canonical}")
+;;    ("language" . "{bo}")
+;;    ("series" . "{snar thang 3692 ce 13a–96b; {Peking} 5702 ce 93b4–177a7}")
+;;    ("series:analyzed"
+;;     (co-ne)
+;;     (peking "{Peking} 5702 ce 93b4–177a7"
+;; 	    (peking
+;; 	     (number . 5702)
+;; 	     (volume . "ce")
+;; 	     (positions "93b4" . "177a7")))
+;;     (sde-dge)
+;;     (snar-thang "snar thang 3692 ce 13a–96b"
+;; 		(snar-thang
+;; 		 (number . 3692)
+;; 		 (volume . "ce")
+;; 		 (positions "13a" . "96b"))))
+;;    ("title" . "{tshad ma kun las btus pa'i 'grel pa}")
+;;    ("translator" . "{{Kanakavarman (gser gyi go cha)} and {(mar thung) dad pa('i) shes rab}}")))
 
 
-(defun east-biblatex-bibs-canonical-to-org-table (bibs &optional complain interactive?)
+
+
+(defun east-biblatex-bibs-canonical-to-org-table (bibs &optional sort complain interactive?)
   "Convert canonical entries BIBS to an org-mode table.
 
 BIBS should be in the format returned by ‘east-biblatex-find-tib-canon’."
@@ -426,10 +536,11 @@ BIBS should be in the format returned by ‘east-biblatex-find-tib-canon’."
    (list
     (east-biblatex-find-tib-canon (current-buffer))
     nil
+    nil
     'interactive))
   (let ((table '(hline
 		 ("Status" "Title" "co ne" "Peking" "sde dge" "snar thang" "others...")))
-	(bibs-structured (east-biblatex-bibs-to-structured-data bibs complain)))
+	(bibs-structured (east-biblatex-bibs-to-structured-data bibs sort complain)))
     (mapc
      (lambda (bib-parsed)
        (let ((canon-parsed  (east-biblatex-alist-get "series:analyzed" bib-parsed))
