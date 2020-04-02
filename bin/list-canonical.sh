@@ -73,7 +73,7 @@ Sorting:
 	      ((eq format 'json)
 	       ;; (pp		    ; remove hlines and the header row
 	       ;;  (delete 'hline (cdr (east-biblatex-bibs-canonical-to-org-table results))))
-	       (json-encode (east-biblatex-bibs-to-structured-data results sort verify)))
+	       (princ (json-encode (east-biblatex-bibs-to-structured-data results sort verify))))
 	      ((eq format 'org)
 	       (princ
 		(orgtbl-to-orgtbl
@@ -98,4 +98,4 @@ Sorting:
 		results))))))
        bib-files))))
 
-(json-encode '(hello . (("soup" . "beep"))))
+
