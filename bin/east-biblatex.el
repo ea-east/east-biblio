@@ -474,7 +474,7 @@ If COMPLAIN is non-nil, raise warnings about expected but absent data."
 			     (lambda (x)
 			       (cons
 				(car x)
-				(string-trim (cdr x) "{" "}")))
+				(string-join (split-string (string-trim (cdr x) "{" "}")) " ")))
 			     (bibtex-parse-entry)))))
 	 ;; List checks and consequences here
 	 (when (and (member '("language" . "bo") bib-parsed)
@@ -565,7 +565,8 @@ BIBS should be in the format returned by ‘east-biblatex-find-tib-canon’."
     'interactive))
   (let ((table '(hline
 		 ("Status" "Title" "co ne" "Peking" "sde dge" "snar thang" "others...")))
-	(bibs-structured (east-biblatex-bibs-to-structured-data bibs sort complain)))
+	(bibs-structured (east-biblatex-bibs-to-structured-data bibs sort complain))
+	footnotes)
     (mapc
      (lambda (bib-parsed)
        (let ((canon-parsed  (east-biblatex-alist-get "series:analyzed" bib-parsed))
@@ -581,24 +582,20 @@ BIBS should be in the format returned by ‘east-biblatex-find-tib-canon’."
 	       (setf row '("✓"))
 	     (setf row '("??")))
 	   ;; The link to east
-	   (setf row
+	   (setq row
 		 `(,@row
-		   ,(let ((title (east-biblatex-alist-get "title" bib-parsed)))
-		      (format "[[%s][%s]]%s"
+		   ,(let ((title (east-biblatex-normalize-space (east-biblatex-alist-get "title" bib-parsed))))
+		      (push (format "[fn:%s] @@html:<form method=\"post\" action=\"https://www.istb.univie.ac.at/kanjur/rktsneu/etanjur/verif.php?p=1\"><input type=\"hidden\" name=\"coll\" value=\"derge\"/><input type=\"hidden\" name=\"nom\" value=\"%s\"/><input type=\"submit\" value=\"Search RKTS for “%s” (normalized)\"/></form>@@"
+				    (length table)
+				    (string-join (split-string title "’") "'")
+				    title)
+			    footnotes)
+		      (format "[[%s][%s]][fn:%s]"
 			      (east-biblatex-alist-get "east:url" bib-parsed)
-			      (east-biblatex-normalize-space title)
-			      (string-join
-			       (split-string
-				(format
-				 " (src_html[:exports code]{<form method=\"post\" action=\"https://www.istb.univie.ac.at/kanjur/rktsneu/etanjur/verif.php?p=1\">
-			     <input type=\"hidden\" name=\"coll\" value=\"derge\"/>
-			     <input type=\"hidden\" name=\"nom\" value=\"%s\"/>
-			     <button>Check RKTS</button>
-			     </form>})"
-				 (string-join (split-string title "’") "'")))
-			       " ")))))
+			      title
+			      (length table)))))
 	   ;; The refs themselves
-           (setf row `(,@row
+           (setq row `(,@row
 		       ,@(mapcar
 			  (lambda (canon-ref)
 			    (let ((full-text (east-biblatex-alist-get 'string canon-ref))
@@ -612,22 +609,30 @@ BIBS should be in the format returned by ‘east-biblatex-find-tib-canon’."
 					full-text))
 			       (t full-text))))
 			  canon-parsed)))))
+	 
 	 (push row table)))
      bibs-structured)
     (setf table (nreverse table))
-    (when interactive?
-      (with-current-buffer (get-buffer-create "* east bib table *")
-	(erase-buffer)
-	(insert
-	 (orgtbl-to-orgtbl
-	  table
-	  (list :backend 'org)))
-	(goto-char (point-min))
-	(org-table-align)
-	(set-buffer-modified-p nil)
+    (with-current-buffer (get-buffer-create "* east bib table *")
+      (erase-buffer)
+      (insert
+       (orgtbl-to-orgtbl
+	table
+	(list :backend 'org)))
+      (goto-char (point-max))
+      (insert "\n\n* Footnotes")
+      (mapc
+       (lambda (fn)
+	 (insert "\n\n")
+	 (insert fn))
+       footnotes)
+      (goto-char (point-min))
+      (org-table-align)
+      (set-buffer-modified-p nil)
+      (when interactive?
 	(unless (eq major-mode 'org-mode)
 	  (org-mode))
-	(pop-to-buffer (current-buffer))))
-    table))
+	(pop-to-buffer (current-buffer)))
+      (current-buffer))))
 
 (provide 'east-biblatex)

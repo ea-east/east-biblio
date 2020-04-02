@@ -75,15 +75,10 @@ Sorting:
 	       ;;  (delete 'hline (cdr (east-biblatex-bibs-canonical-to-org-table results))))
 	       (princ (json-encode (east-biblatex-bibs-to-structured-data results sort verify))))
 	      ((eq format 'org)
-	       (princ
-		(orgtbl-to-orgtbl
-		 (east-biblatex-bibs-canonical-to-org-table results sort verify)
-		 (list :backend 'org))))
+	       (with-current-buffer (east-biblatex-bibs-canonical-to-org-table results sort verify)
+		 (princ (buffer-string))))
 	      ((eq format 'html)
-	       (with-temp-buffer
-		 (insert (orgtbl-to-orgtbl
-			  (east-biblatex-bibs-canonical-to-org-table results sort verify)
-			  (list :backend 'org)))
+	       (with-current-buffer (east-biblatex-bibs-canonical-to-org-table results sort verify)
 		 (with-current-buffer (org-export-to-buffer 'html "* html export *")
 		   (princ (buffer-string)))))
 	      (t
