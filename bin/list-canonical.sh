@@ -36,7 +36,9 @@ Sorting:
   ;; (warn (format "%s" command-line-args-left))
 
   (if (member "--help" command-line-args-left)
-      (show-usage)
+      (progn
+	(show-usage)
+	(setq command-line-args-left nil))
     (let* ((format
 	    (cond
 	     ((member "--lisp" command-line-args-left) 'lisp)
@@ -56,6 +58,7 @@ Sorting:
 			       (lambda (x)
 				 (when (file-exists-p x) x))
 			       command-line-args-left))))
+      (setq command-line-args-left nil)
       (unless bib-files
 	(show-usage)
 	(error "*** Please pass the biblatex file as an argument ***"))

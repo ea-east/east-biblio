@@ -10,6 +10,9 @@
 (require 'org)
 (require 'ert)
 (require 'rx)
+(require 'dom)
+(require 'json)
+(require 'pcase)
 
 (when noninteractive
   (setq debug-on-error t))
@@ -551,7 +554,28 @@ If COMPLAIN is non-nil, raise warnings about expected but absent data."
 ;;    ("translator" . "{{Kanakavarman (gser gyi go cha)} and {(mar thung) dad pa('i) shes rab}}")))
 
 
+(defun east-biblatex-sxml-to-string (sxml)
+  "Convert SXML to string.
 
+SXML: result of `libxml-parse-html-region' or `libxml-parse-xml-region'.
+
+See https://github.com/tali713/esxml/blob/master/esxml.el for
+similar stuff."
+  (cond
+   ((null sxml) '())
+   ((stringp sxml) sxml)
+   (t
+    (pcase-let ((`(,tag ,attrs . ,body) sxml))
+      (concat "<" (symbol-name tag)
+              (when attrs
+                (concat " " (mapconcat (lambda (att)
+					 (format "%s=\"%s\"" (car att) (cdr att)))
+				       attrs " ")))
+              (if body
+                  (concat ">"
+			  (mapconcat #'east-biblatex-sxml-to-string body "")
+                          "</" (symbol-name tag) ">")
+                "/>"))))))
 
 (defun east-biblatex-bibs-canonical-to-org-table (bibs &optional sort complain interactive?)
   "Convert canonical entries BIBS to an org-mode table.
@@ -634,5 +658,128 @@ BIBS should be in the format returned by ‘east-biblatex-find-tib-canon’."
 	  (org-mode))
 	(pop-to-buffer (current-buffer)))
       (current-buffer))))
+
+(defun east-biblatex-create-md-citations (bib-file-or-buffer &optional csl interactive?)
+  "Create a Pandoc file with useful quotations of all items in BIB-FILE-OR-BUFFER.
+
+If CSL is supplied (a path to a CSL stylesheet), it’s added to the metadata."
+  (interactive
+   (list (current-buffer)
+	 ;; (expand-file-name (read-file-name "Specify a CSL file:" nil ))
+	 nil
+	 t))
+  (let ((bib-src (or
+		  (and (bufferp bib-file-or-buffer) bib-file-or-buffer)
+		  (find-buffer-visiting bib-file-or-buffer)
+		  (find-file-noselect bib-file-or-buffer)))
+	(bibtex-sort-ignore-string-entries t)
+	bib-keys)
+    (with-current-buffer bib-src
+      (bibtex-map-entries
+       (lambda (key start end)
+	 (push key bib-keys))))
+    (setq bib-keys (sort bib-keys #'string-lessp))
+    (with-current-buffer (get-buffer-create "* east bibs markdown *")
+      (erase-buffer)
+      (insert "---\n")
+      (insert "title: EAST bibliography (approximated style)\n")
+      (insert "lang: en\n")
+      ;; (insert "link-citations: true\n")
+      (when (buffer-file-name bib-src)
+	(insert (format "bibliography: %s\n" (buffer-file-name bib-src))))
+      (when csl
+	(insert (format "citation-style: %s\n" csl)))
+      (insert "---\n\n")
+      (mapc
+       (lambda (key)
+	 (insert (format "- short form for [%s](#ref-%s) ::: @%s\n" key key key)))
+       bib-keys)
+      (goto-char (point-min))
+      (set-buffer-modified-p nil)
+      (when interactive?
+	(normal-mode)
+	(pop-to-buffer (current-buffer)))
+      (current-buffer))))
+
+;; (east-biblatex-create-md-citations (get-buffer "east.bib") nil 'interactive)
+
+(defun east-biblatex-md-citations-to-html (md-buffer &optional bibliography style)
+  "Convert markdown buffer MD-BUFFER with pandoc.
+
+MD-BUFFER is best created by calling ‘east-biblatex-create-md-citations’.
+
+Optional args are only necessary when they are not in the
+metadata section of the pandoc document."
+  (let* ((style (or style
+		    "styles/chicago-author-date-east.csl"))
+	 (bibliography (or bibliography "bib/east.bib"))
+	 (markdown-source md-buffer)
+	 (results-buffer (get-buffer-create "* pandoc east *")))
+    (display-warning 'east-biblatex (format "Applying %s to %s" style bibliography) :debug)
+    (with-current-buffer results-buffer
+      (erase-buffer)
+      (unless (= 0 (call-process-region
+		    (with-current-buffer markdown-source
+		      (buffer-string))
+		    nil
+		    "pandoc"
+		    nil
+		    t
+		    nil
+		    "-s"
+		    "--filter" "pandoc-citeproc"
+		    "--from=markdown"
+		    "--to=html"))
+	(error "Pandoc call failed"))
+      (goto-char (point-min))
+      (set-buffer-modified-p nil)
+      (current-buffer))))
+
+;; (east-biblatex-md-citations-to-html
+;;  (east-biblatex-create-md-citations
+;;   (get-buffer "east.bib")
+;;   "/home/beta/webstuff/east-biblio/styles/chicago-author-date-east.csl"))
+
+(defun east-biblatex-parse-html-citations (html-buff)
+  "Parse the citations in buffer HTML-BUFF to a useful representation.
+
+Citations are expected to be as returned from
+‘east-biblatex-create-md-citations’ after conversion to html with
+pandoc."
+  (with-current-buffer html-buff
+    (let* ((dom (or
+		 (libxml-parse-html-region (point-min) (point-max))
+		 (error "Not able to parse HTML in %s" (buffer-name (current-buffer)))))
+	   (short-refs (dom-by-tag (dom-by-tag (dom-by-tag dom 'body) 'ul) 'li))
+	   (full-refs (dom-elements dom 'id "^refs$"))
+	   results)
+      (unless (and short-refs
+		   full-refs
+		   (= (length short-refs)
+		      (length (delete "\n" (dom-children full-refs)))))
+	(warn "None or different number of references in short and long format"))
+      (mapc
+       (lambda (short-ref)
+	 (unless (string-prefix-p "short form for" (dom-text short-ref))
+	   (error "Failed to ascertain short-form format for %s" short-ref))
+	 (let ((id (dom-text (car (dom-by-tag short-ref 'a)))))
+	   (push
+	    `(,id
+	      (short ,(east-biblatex-sxml-to-string (car (dom-by-tag short-ref 'span))))
+	      (long ,(east-biblatex-sxml-to-string (car (dom-by-id full-refs (format "^ref-%s$" id))))))
+	    results)))
+       short-refs)
+      results)))
+
+;; (length (east-biblatex-parse-html-citations (get-buffer "soup.html")))
+
+;; (east-biblatex-parse-html-citations
+;;  (east-biblatex-md-citations-to-html
+;;   (east-biblatex-create-md-citations (get-buffer "east.bib"))))
+
+;; (pp
+;;  (east-biblatex-parse-html-citations
+;;   (get-buffer "* pandoc east *"))
+;;  (current-buffer))
 
 (provide 'east-biblatex)
