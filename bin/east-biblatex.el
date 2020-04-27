@@ -510,7 +510,7 @@ If COMPLAIN is non-nil, raise warnings about expected but absent data."
 			     (lambda (x)
 			       (cons
 				(car x)
-				(string-join (split-string (string-trim (cdr x) "{" "}")) " ")))
+				(string-join (split-string (string-trim (cdr x))) " ")))
 			     (bibtex-parse-entry 'content)))))
 	 ;; List checks and consequences here
 	 (when (and (member '("language" . "bo") bib-parsed)
