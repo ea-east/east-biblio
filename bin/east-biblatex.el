@@ -225,7 +225,10 @@ Just wraps alist, except KEY can also be a list of steps."
   (let ((fields (delete "" ; split and clean up fields in canon string
 			(split-string
 			 ;; normalize space before splitting
-			 (string-join (split-string (string-trim canon-string "[ \t\n\r{]+" "[ \t\n\r}]+")) " ")
+			 (string-join
+			  (split-string
+			   (string-trim canon-string))
+			  " ")
 			 ";\\s-*")))
 	(expected-refs east-biblatex-tibetan-canonical-refs-compiled-rxs)
 	results)
@@ -272,22 +275,24 @@ Just wraps alist, except KEY can also be a list of steps."
 
 ;; (east-biblatex-split-canon-string "{snar thang 3691 ce 1–13a; {Peking} 5700 ce 1–13a5}")
 (ert-deftest test-east-biblatex-split-canon-string ()
-  (let ((cases '(("{snar thang 3691 ce 1–13a; {Peking} 5700 ce 1–13a5}"
-		  . ((co-ne)
+  (let ((cases '((;; standard bib string
+		  "snar thang 3691 ce 1–13a; {Peking} 5700 ce 1–13a5"
+		  .
+		  ((co-ne)
 		     (peking
 		      (string . "{Peking} 5700 ce 1–13a5")
 		      (canon . peking)
-		      (number . 5700)
+		      (number . "5700")
 		      (volume . "ce")
 		      (positions . ("1" "13a5")))
 		     (sde-dge)
 		     (snar-thang
 		      (string . "snar thang 3691 ce 1–13a")
 		      (canon . snar-thang)
-		      (number . 3691)
+		      (number . "3691")
 		      (volume . "ce")
 		      (positions .  ("1" "13a")))))
-		 ("{snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6}"
+		 ("snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6"
 		  . ((co-ne
 		      (string . "co ne tshe 182b2–307a7")
 		      (canon . co-ne)
@@ -297,24 +302,52 @@ Just wraps alist, except KEY can also be a list of steps."
 		     (peking
 		      (string . "{Peking} 5728 we 209b8–355a6")
 		      (canon . peking)
-		      (number . 5728)
+		      (number . "5728")
 		      (volume . "we")
 		      (positions . ("209b8" "355a6")))
 		     (sde-dge
 		      (string . "sde dge 4228 tshe 178b4–295a7")
 		      (canon . sde-dge)
-		      (number . 4228)
+		      (number . "4228")
 		      (volume . "tshe")
 		      (positions . ("178b4" "295a7")))
 		     (snar-thang
 		      (string . "snar thang 3720 we 188b–323")
 		      (canon . snar-thang)
 		      
-		      (number . 3720)
+		      (number . "3720")
+		      (volume . "we")
+		      (positions . ("188b" "323")))))
+		 ;; Same content as before, but: different sequence in source, and a trailing “;”
+		 ("{Peking} 5728 we 209b8–355a6; snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7;"
+		  .
+		  ((co-ne
+		      (string . "co ne tshe 182b2–307a7")
+		      (canon . co-ne)
+		      (number)
+		      (volume . "tshe")
+		      (positions . ("182b2" "307a7")))
+		     (peking
+		      (string . "{Peking} 5728 we 209b8–355a6")
+		      (canon . peking)
+		      (number . "5728")
+		      (volume . "we")
+		      (positions . ("209b8" "355a6")))
+		     (sde-dge
+		      (string . "sde dge 4228 tshe 178b4–295a7")
+		      (canon . sde-dge)
+		      (number . "4228")
+		      (volume . "tshe")
+		      (positions . ("178b4" "295a7")))
+		     (snar-thang
+		      (string . "snar thang 3720 we 188b–323")
+		      (canon . snar-thang)
+		      
+		      (number . "3720")
 		      (volume . "we")
 		      (positions . ("188b" "323")))))
 		 ;; a bad case
-		 ("{snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6; dunno what this is;}" .
+		 ("snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6; dunno what this is;" .
 		  ((co-ne
 		    (string . "co ne tshe 182b2–307a7")
 		    (canon . co-ne)
@@ -325,26 +358,26 @@ Just wraps alist, except KEY can also be a list of steps."
 		    (string . "{Peking} 5728 we 209b8–355a6")
 		    (canon . peking)
 		    
-		    (number . 5728)
+		    (number . "5728")
 		    (volume . "we")
 		    (positions . ("209b8" "355a6")))
 		   (sde-dge
 		    (string . "sde dge 4228 tshe 178b4–295a7")
 		    (canon . sde-dge)
 		    
-		    (number . 4228)
+		    (number . "4228")
 		    (volume . "tshe")
 		    (positions . ("178b4" "295a7")))
 		   (snar-thang
 		    (string . "snar thang 3720 we 188b–323")
 		    (canon . snar-thang)
 		    
-		    (number . 3720)
+		    (number . "3720")
 		    (volume . "we")
 		    (positions . ("188b" "323")))
 		   (weird "dunno what this is")))
 		 ;; Two mentions in Peking
-		 ("{snar thang 3717 tshe 21b–131b; snar thang 3770 ze 65b–186a; sde dge 4239 zhe 51a3–151a6; co ne zhe 50b3–143b2; {Peking} 5725 tshe 21b2–137a8; {Peking} 5738 ze 71a5–183a7}"
+		 ("snar thang 3717 tshe 21b–131b; snar thang 3770 ze 65b–186a; sde dge 4239 zhe 51a3–151a6; co ne zhe 50b3–143b2; {Peking} 5725 tshe 21b2–137a8; {Peking} 5738 ze 71a5–183a7"
 		  . ((co-ne
 		      (string . "co ne zhe 50b3–143b2")
 		      (canon . co-ne)
@@ -356,35 +389,35 @@ Just wraps alist, except KEY can also be a list of steps."
 		      (string . "{Peking} 5725 tshe 21b2–137a8")
 		      (canon . peking)
 		      
-		      (number . 5725)
+		      (number . "5725")
 		      (volume . "tshe")
 		      (positions . ("21b2" "137a8")))
 		     (peking
 		      (string . "{Peking} 5738 ze 71a5–183a7")
 		      (canon . peking)
 		      
-		      (number . 5738)
+		      (number . "5738")
 		      (volume . "ze")
 		      (positions . ("71a5" "183a7")))
 		     (sde-dge
 		      (string . "sde dge 4239 zhe 51a3–151a6")
 		      (canon . sde-dge)
 		      
-		      (number . 4239)
+		      (number . "4239")
 		      (volume . "zhe")
 		      (positions . ("51a3" "151a6")))
 		     (snar-thang
 		      (string . "snar thang 3717 tshe 21b–131b")
 		      (canon . snar-thang)
 		      
-		      (number . 3717)
+		      (number . "3717")
 		      (volume . "tshe")
 		      (positions . ("21b" "131b")))
 		     (snar-thang
 		      (string . "snar thang 3770 ze 65b–186a")
 		      (canon . snar-thang)
 		      
-		      (number . 3770)
+		      (number . "3770")
 		      (volume . "ze")
 		      (positions . ("65b" "186a"))))))))
     (dolist (c cases)
@@ -478,7 +511,7 @@ If COMPLAIN is non-nil, raise warnings about expected but absent data."
 			       (cons
 				(car x)
 				(string-join (split-string (string-trim (cdr x) "{" "}")) " ")))
-			     (bibtex-parse-entry)))))
+			     (bibtex-parse-entry 'content)))))
 	 ;; List checks and consequences here
 	 (when (and (member '("language" . "bo") bib-parsed)
 		    (assoc "keywords" bib-parsed)
