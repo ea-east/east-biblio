@@ -837,12 +837,16 @@ of the bibliography in buffer."
 				      (expand-file-name "fake-file"))
 				  ".git"))
 	   (revision (vc-git-working-revision (buffer-file-name)))
+	   (branch (car (vc-git-branches)))
 	   ;; state can be: edited, up-to-date, unregistered
 	   (state (vc-git-state (buffer-file-name)))
 	   (results (progn
 		      (with-current-buffer (get-buffer-create
-					    (format "*%s normalized%s state: %s*"
+					    (format "*%s normalized%s%s state: %s*"
 						    (buffer-name)
+						    (if branch
+							(format " on branch %s" branch)
+						      " branch unknown")
 						    (if revision
 							(format " last rev: %s" revision)
 						      (format "unknown-revision: md5 %s" (md5 (current-buffer))))
@@ -851,14 +855,9 @@ of the bibliography in buffer."
 			(current-buffer))))
 	   ;; Biber can only work on files, it seems
 	   (datasource (expand-file-name (make-temp-name "east-bib-normalize-") temporary-file-directory))
-	   (logfile (expand-file-name "east-bib-normalize-log" temporary-file-directory))
-	   (logid (format "***** Running biber on %s (%s)\n" (buffer-name (current-buffer)) (buffer-name results))))
+	   (outfile (expand-file-name "east-bib-normalized" temporary-file-directory)))
       (write-region (point-min) (point-max) datasource)
-      (append-to-file
-       logid
-       nil
-       logfile)
-      (message "Calling biber (logging to %s) be patient ..." logfile)
+      (message "Calling biber, please be patient ...")
       (unless (= 0 (call-process
 		    "biber"
 		    nil
@@ -867,14 +866,21 @@ of the bibliography in buffer."
 		    "--tool"
 		    (format "--config=%s" (expand-file-name "bib/biber.conf" basedir))
 		    ;; be really quiet: get infos from logfile, though
-		    "-q" "-q"
-		    "--logfile" ""
-		    "--output-file=-"
+		    ;; "-q" "-q"
+		    "-O" outfile
 		    datasource))
 	(with-current-buffer results
-	  (error "Call to biber failed: %s" (buffer-string))))
+	  (error "Call to biber failed: %s" (buffer-string))))      
       (delete-file datasource)
       (with-current-buffer results
+	(goto-char (point-min))
+	(insert "%% Logs from biber run:\n")
+	(while (re-search-forward "^" nil 'noerr)
+	  (insert "% "))
+	(insert "\n\n")
+	(goto-char (point-max))
+	(insert-file outfile)
+	(delete-file outfile)
 	(goto-char (point-min))
 	(set-buffer-modified-p nil)
 	(when interactive?
