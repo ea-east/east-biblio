@@ -815,4 +815,71 @@ pandoc."
 ;;   (get-buffer "* pandoc east *"))
 ;;  (current-buffer))
 
+(defun east-biblatex-normalize-bib (buffer &optional interactive?)
+  "Normalize the bibliography in BUFFER.
+
+Opens (or returns) a new buffer containing a normalized version
+of the bibliography in buffer."
+  (interactive
+   (list
+    (read-buffer "Your bib buffer: " (current-buffer) nil
+		 (lambda (b)
+		   (with-current-buffer b
+		     (or
+		      (with-current-buffer b
+			(eq major-mode 'bibtex-mode))
+		      (string= (downcase (or (file-name-extension (buffer-file-name (current-buffer)))
+					     ""))
+			       "bib")))))
+    t))
+  (with-current-buffer buffer
+    (let* ((basedir (vc-find-root (or (buffer-file-name (current-buffer))
+				      (expand-file-name "fake-file"))
+				  ".git"))
+	   (revision (vc-git-working-revision (buffer-file-name)))
+	   ;; state can be: edited, up-to-date, unregistered
+	   (state (vc-git-state (buffer-file-name)))
+	   (results (progn
+		      (with-current-buffer (get-buffer-create
+					    (format "*%s normalized%s state: %s*"
+						    (buffer-name)
+						    (if revision
+							(format " last rev: %s" revision)
+						      (format "unknown-revision: md5 %s" (md5 (current-buffer))))
+						    (or state "???")))
+			(erase-buffer)
+			(current-buffer))))
+	   ;; Biber can only work on files, it seems
+	   (datasource (expand-file-name (make-temp-name "east-bib-normalize-") temporary-file-directory))
+	   (logfile (expand-file-name "east-bib-normalize-log" temporary-file-directory))
+	   (logid (format "***** Running biber on %s (%s)\n" (buffer-name (current-buffer)) (buffer-name results))))
+      (write-region (point-min) (point-max) datasource)
+      (append-to-file
+       logid
+       nil
+       logfile)
+      (message "Calling biber (logging to %s) be patient ..." logfile)
+      (unless (= 0 (call-process
+		    "biber"
+		    nil
+		    results
+		    nil
+		    "--tool"
+		    (format "--config=%s" (expand-file-name "bib/biber.conf" basedir))
+		    ;; be really quiet: get infos from logfile, though
+		    "-q" "-q"
+		    "--logfile" ""
+		    "--output-file=-"
+		    datasource))
+	(with-current-buffer results
+	  (error "Call to biber failed: %s" (buffer-string))))
+      (delete-file datasource)
+      (with-current-buffer results
+	(goto-char (point-min))
+	(set-buffer-modified-p nil)
+	(when interactive?
+	  (normal-mode)
+	  (pop-to-buffer (current-buffer)))
+	(current-buffer)))))
+
 (provide 'east-biblatex)
