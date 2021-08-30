@@ -3,9 +3,13 @@
 @Comment{
 Notes:
 
-- check the ~misc~ items
+- Check the ~misc~ and ~unpublished~ items (among others)
 
-- some information was lost by ignoring //relatedItem[@type="otherVersion"] (e.g., https://east.ikga.oeaw.ac.at/bib/5472/)}
+- Some information was lost by ignoring //relatedItem[@type="otherVersion"] (e.g., https://east.ikga.oeaw.ac.at/bib/5472/)}
+
+- Some information was lost due to preceding/following relations in MODS
+
+- We hardly have manuscripts here, except for Śaṅkaranandana.  If we add more manuscripts, we will probably want a dedicated type.
 
 % Unknown items: this means “TODO”!
 @string{unknown = "Unknown"}
@@ -3401,6 +3405,7 @@ Notes:
   publisher =    {Sankibo Busshorin},
   date =         1991,
   editor =       unknown,
+  ids =          {east:5802},
 }
 
 @article{east:28156,
@@ -7832,12 +7837,14 @@ book{east:5103,
                   [*{Dharmakīrti}'s {Pramāṇavārttika} and the {Jaina}
                   system]},
   language =     {ja-JP},
-  journaltitle =      {印度精神文化の研究: 特にヂャイナを中心として // Indo
+  journaltitle = {印度精神文化の研究: 特にヂャイナを中心として // Indo
                   seishin bunka no kenkyū: toku ni Jaina o chūshin to
                   shite},
   author =       {Kanakura, Yenshō},
   date =         1944,
   pages =        {355--396},
+  publisher =    {Baifūkan},
+  location =     {Tōkyō},
 }
 
 @book{east:5179,
@@ -11748,7 +11755,7 @@ book{east:5103,
   date =         1968,
 }
 
-@misc{east:5521,
+@XDATA{east:5521,
   title =        {tshad ma rigs pa'i skor rgya gzhung rtsa 'grel bdam
                   bsgrigs: deb dang po. rdo rje rgyal pos bdam bsgrigs
                   byas pa},
@@ -11884,7 +11891,7 @@ book{east:5103,
   pages =        {185--190},
 }
 
-@book{east:5533,
+@XDATA{east:5533,
   location =      {Tōkyō},
   title =        {Bukkyō ni okeru jikanron no kenkyū},
   language =     {ja-JP},
@@ -11947,7 +11954,7 @@ book{east:5103,
   pages =        {417--434},
 }
 
-@book{east:5540,
+@XDATA{east:5540,
   location =      {Tōkyō},
   title =        {Indogaku {Mikkyōgaku} {Kenkyū}: {Miyasaka} {Yūshō}
                   {Hakase} {Koki} {Kinen} {Ronbunshū}},
@@ -11978,8 +11985,8 @@ book{east:5103,
   date =         1991,
 }
 
-@book{east:5543,
-  location =      {Tōkyō},
+@XDATA{east:5543,
+  location =     {Tōkyō},
   series =       {Books {And} {Articles} {On} {Oriental} {Subjects}
                   {Published} {In} {Japan} {During}...},
   title =        {Books {And} {Articles} {On} {Oriental} {Subjects}
@@ -11987,6 +11994,7 @@ book{east:5103,
   language =     {en-US},
   number =       37,
   publisher =    {Tōhō Gakkai},
+  date =         1990,
 }
 
 @book{east:5544,
@@ -12072,7 +12080,7 @@ book{east:5103,
   date =         1927,
 }
 
-@article{east:5552,
+@XDATA{east:5552,
   title =        {Shōwa shinsan kokuyaku daizōkyō},
   shorttitle =   {Shōwa},
   editor =       {Nakano, T.},
@@ -12293,7 +12301,7 @@ book{east:5103,
   shorttitle =   {{HOS}},
 }
 
-@misc{east:5594,
+@XDATA{east:5594,
   title =        {Wiener {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   shorttitle =   {{WSTB}},
@@ -12686,7 +12694,7 @@ book{east:5103,
   shorttitle =   {Zinbun},
 }
 
-@misc{east:5663,
+@XDATA{east:5663,
   title =        {Kokuyaku {Issaikyō}: {Ronshūbu}},
   publisher =    {Daitō Shuppansha},
 }
@@ -12732,47 +12740,59 @@ book{east:5103,
   shorttitle =   {{ALS}},
 }
 
-@incollection{east:5673,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
-  location =      {Patna},
+@Unpublished{east:5673,
+  howpublished =    {Glass negative collection of the Bihar Research
+                  Society},
+  location =     {Patna},
   title =        {Sanskrit {Manuscript} of
                   {Laghupratibandhasiddhikārikā}},
   language =     {sa},
-  author = {Śaṅkaranandana},
+  author =       {Śaṅkaranandana},
+  keywords =     {canonical,manuscript},
 }
 
 @XDATA{east:5674,
   title =        {Studia {Tibetica}},
 }
 
-@incollection{east:5675,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
-  location =      {Patna},
+@Unpublished{east:5675,
+  howpublished = {Glass negative collection of the Bihar Research
+                  Society},
+  author =       {Śaṅkaranandana},
+  location =     {Patna},
   title =        {Sanskrit {Manuscript} of
                   {Saṅkṣipteśvarāpākaraṇakārikā}},
   language =     {sa},
+  keywords =     {canonical,manuscript},
 }
 
-@incollection{east:5676,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
+@Unpublished{east:5676,
+  howpublished =    {Glass negative collection of the Bihar Research Society},
+  author =       {Śaṅkaranandana},
   location =      {Patna},
   title =        {Sanskrit {Manuscript} of
                   {Svalpasarvajñasiddhikārikā}},
   language =     {sa},
+  keywords = {canonical,manuscript},
 }
 
-@incollection{east:5677,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
+@Unpublished{east:5677,
+  howpublished =    {Glass negative collection of the Bihar Research Society},
+  author =       {Śaṅkaranandana},
   location =      {Patna},
   title =        {Sanskrit {Manuscript} of {Sarvajñasiddhikārikā}},
   language =     {sa},
+  keywords = {canonical,manuscript},
 }
 
-@incollection{east:5678,
+
+@Unpublished{east:5678,
   booktitle =    {Glass negative collection of the Bihar Research Society},
+  author =       {Śaṅkaranandana},
   location =      {Patna},
   title =        {Sanskrit {Manuscript} of {Pratibandhasiddhikārikā}},
   language =     {sa},
+  keywords = {canonical,manuscript},
 }
 
 @XDATA{east:5679,
@@ -12790,11 +12810,13 @@ book{east:5103,
   title =        {Shōwa shinsan kokuyaku daizōkyō: {Ronshūbu}},
 }
 
-@incollection{east:5682,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
+@Unpublished{east:5682,
+  howpublished =    {Glass negative collection of the Bihar Research Society},
+  author =       {Śaṅkaranandana},
   location =      {Patna},
   title =        {Sanskrit {Manuscript} of {Sūkṣmaprāmāṇyakārikā}},
   language =     {sa},
+  keywords = {canonical,manuscript},
 }
 
 @XDATA{east:5683,
@@ -12833,11 +12855,14 @@ book{east:5103,
   pages =        {356--351},
 }
 
-@incollection{east:5689,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
-  location =      {Patna},
+@Unpublished{east:5689,
+  howpublished = {Glass negative collection of the Bihar Research
+                  Society},
+  author =       {Śaṅkaranandana},
+  location =     {Patna},
   title =        {Sanskrit {Manuscript} of {Prajñālaṅkārakārikā}},
   language =     {sa},
+  keywords =     {canonical,manuscript},
 }
 
 @article{east:5691,
@@ -12855,10 +12880,22 @@ book{east:5103,
   shorttitle =   {{MGK}},
 }
 
-@misc{east:5693,
-  title =        {Manuscript of {Benares} {Hindu} {University}},
-  language =     {sa},
-  author =       {{Bhaṭṭa Śaṅkaranandana}},
+@Incollection{east:5693,
+  title =        {Manuskript des ĪAS und ĪAScom},
+  language =     {de},
+  pages =        {21--36},
+  booktitle =    {Śaṅkaranandanas Īśvarāpākaraṇasaṅkṣepa: mit einem
+                  anonymen Kommentar und weiteren Materialien zur
+                  buddhistischen Gottespolemik: 1. Texte},
+  author =       {Śaṅkaranandana},
+  note =         {Described in the catalogue of the Benares Hindu
+                  University: “Catalogue No. 3E/2700;
+                  Acc. No. C493. Śāradā. Paper. Condition:
+                  good. Complete. 17,3 x 13,5; 15 p.; 18 to 20 lines
+                  each.” See Krasser 2002, pp. xi--xvi, for a more
+                  accurate description.},
+  keywords =     {canonical,manuscript},
+  crossref = {east:27509},
 }
 
 @XDATA{east:5694,
@@ -12883,25 +12920,37 @@ book{east:5103,
   shorttitle =   {{IC}},
 }
 
-@incollection{east:5697,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
-  location =      {Patna},
-  title =        {Sanskrit {Manuscript} of Īśvarāpākaraṇakārikā},
-  language =     {sa},
+@Incollection{east:5697,
+  booktitle =    {Śaṅkaranandanas Īśvarāpākaraṇasaṅkṣepa: mit einem
+                  anonymen Kommentar und weiteren Materialien zur
+                  buddhistischen Gottespolemik: 1. Texte},
+  author =       {Śaṅkaranandana},
+  title =        {Diplomatische Ausgabe und Manuskript der
+                  Saṅkṣipteśvarāpākaraṇakārikā},
+  language =     {de},
+  keywords =     {canonical,manuscript},
+  crossref =     {east:27509},
+  note =         {See Krasser 2002, pp. xvi--xvii, for a description}
 }
 
-@incollection{east:5698,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
-  location =      {Patna},
+@Unpublished{east:5698,
+  howpublished =    {Glass negative collection of the Bihar Research
+                  Society},
+  author =       {Śaṅkaranandana},
+  location =     {Patna},
   title =        {Sanskrit {Manuscript} of {Anyāpohasiddhikārikā}},
   language =     {sa},
+  keywords =     {canonical,manuscript},
 }
 
-@incollection{east:5699,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
-  location =      {Patna},
+@Unpublished{east:5699,
+  howpublished =    {Glass negative collection of the Bihar Research
+                  Society},
+  author =       {Śaṅkaranandana},
+  location =     {Patna},
   title =        {Sanskrit {Manuscript} of {Bṛhatprāmāṇyakārikā}},
   language =     {sa},
+  keywords =     {canonical,manuscript},
 }
 
 @XDATA{east:5700,
@@ -13031,11 +13080,13 @@ book{east:5103,
   title =        {Journal of the {Oriental} {Institute} {Baroda}},
 }
 
-@incollection{east:5720,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
+@Unpublished{east:5720,
+  howpublished =    {Glass negative collection of the Bihar Research Society},
   location =      {Patna},
   title =        {Sanskrit {Manuscript} of {Madhyaprāmāṇyakārikā}},
+  author =       {Śaṅkaranandana},
   language =     {sa},
+  keywords = {canonical,manuscript},
 }
 
 @XDATA{east:5721,
@@ -13048,11 +13099,13 @@ book{east:5103,
   shorttitle =   {{NDBKR}},
 }
 
-@incollection{east:5723,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
+@Unpublished{east:5723,
+  howpublished =    {Glass negative collection of the Bihar Research Society},
+  author =       {Śaṅkaranandana},
   location =      {Patna},
   title =        {Sanskrit {Manuscript} of Āgamasiddhikārikā},
   language =     {sa},
+  keywords = {canonical,manuscript},
 }
 
 @XDATA{east:5724,
@@ -13085,11 +13138,12 @@ book{east:5103,
   shorttitle =   {{BBhS}},
 }
 
-@article{east:5730,
+@XDATA{east:5730,
   title =        {大正新脩大藏經 // {Taishō} shinshū dai zōkyō},
   shorttitle =   {Taishō},
   language =     {zh-CN},
   editor =       {Takakusu, Junirō and Watanabe, Kaikyoku},
+  date = {1924/1935}
 }
 
 @XDATA{east:5731,
@@ -13234,7 +13288,7 @@ book{east:5103,
   pages =        {141--150},
 }
 
-@article{east:5755,
+@Collection{east:5755,
   title =        {Tibetan {Tipiṭaka}: sde dge ed. {Bstan} Ḥgyur,
                   preserved at the {Faculty} of {Letters},
                   {University} of {Tokyo}. {Tshad} ma 1-21},
@@ -13242,6 +13296,7 @@ book{east:5103,
   language =     {bo},
   editor =       {Takasaki, Jikidō and Yamaguchi, Zuihō and Ejima,
                   Yasunori},
+  date =         {1977/1981},
 }
 
 @XDATA{east:5756,
@@ -13288,7 +13343,7 @@ book{east:5103,
   shorttitle =   {{SUK}},
 }
 
-@article{east:5764,
+@XDATA{east:5764,
   title =        {Koryŏ taejanggyŏng},
   language =     {zh-CN},
   date =         1976,
@@ -13361,13 +13416,14 @@ book{east:5103,
 }
 
 @article{east:5786,
+  author =       {Tani, Tadashi},
   title =        {Pramāṇaviniścaya. {III} {Kaisyakuno} {Mondai} [2]
                   [*{The} {Problem} in {Interpretations} of
                   {Pramāṇaviniścaya}. {III} [2]: {With} an {Annotated}
                   {Translation} of {PVin} {III}. vv 4-6]},
   volume =       21,
   language =     {ja-JP},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   date =         1984,
   pages =        {1--16},
@@ -13412,14 +13468,22 @@ book{east:5103,
   language =     {ja-JP},
   journaltitle =      {Ryūkoku Daigaku Daigakuin Kiyō: Bungaku Kenkyūkai},
   date =         1990,
+  author =       {Wakahara, Yushō},
   pages =        {10--33},
 }
 
-@article{east:5790,
+@Article{east:5790,
   title =        {Pramānavārttika {IV}. 3},
   language =     {en-US},
-  journaltitle =      {Wiener Zeitschrift für die Kunde Südasiens},
+  author =       {Tillemans, Tom J. F.},
+  journaltitle = {Asiatische Studien [Études Asiatiques]},
+  issuetitle =   {Études bouddhiques offertes à Jacques May à
+                  l'occasion de son soixante-cinquième anniversaire },
+  editor =       {Johannes Bronkhorst and Katsumi Mimaki and Tom J. F. Tillemans},
   pages =        {437--467},
+  date =         1992,
+  volume =       46,
+  number =       1,
 }
 
 @article{east:5791,
@@ -13441,9 +13505,10 @@ book{east:5103,
                   {Translated} into {English}. 3},
   volume =       33,
   language =     {en-US},
-  journaltitle =      {The Maha Bodhi: and the United Buddhist World},
+  journaltitle = {The Maha Bodhi: and the United Buddhist World},
   date =         1925,
   pages =        {29--37},
+  author =       {Bhattacharya, Harisatya},
 }
 
 @XDATA{east:5793,
@@ -13517,10 +13582,11 @@ book{east:5103,
                   critique of the ātman doctrine. {IV}.5]},
   volume =       10,
   language =     {ja-JP},
-  journaltitle =      {Ryūkoku Daigaku Daigakuin Kenkyū Kiyō: Jinbun
+  journaltitle = {Ryūkoku Daigaku Daigakuin Kenkyū Kiyō: Jinbun
                   Kagaku},
   date =         1989,
   pages =        {18--36},
+  author =       {Naitō, Akifumi},
 }
 
 @article{east:5800,
@@ -13547,17 +13613,6 @@ book{east:5103,
   author =       {Katsura, Shoryu},
   date =         1978,
   pages =        {110--130},
-}
-
-@article{east:5802,
-  title =        {Ju, {Butsu}, {Dō} {Sankyō} {Sishō} {Ronkō}: {Makio}
-                  {Ryōkai} {Hakase} {Kiju} {Kinen} // {Confucianism},
-                  {Buddhism}, {Taoism}: {Studies} on the {Thoughts} in
-                  the {Three} {Religions}: {A} {Festschrift} in
-                  {Honor} of 77th {Birthday} of {Dr}. {Ryōkai}
-                  {Makio}},
-  language =     {ja-JP},
-  date =         1991,
 }
 
 @book{east:5803,
@@ -13610,7 +13665,8 @@ book{east:5103,
                   parārthānumāna. 2},
   volume =       41,
   language =     {de-DE},
-  journaltitle =      {Wiener Zeitschrift für die Kunde Südasiens},
+  journaltitle = {Wiener Zeitschrift für die Kunde Südasiens},
+  author =       {Iwata, Takashi},
   date =         1997,
   pages =        {207--231},
 }
@@ -13709,9 +13765,10 @@ book{east:5103,
                   ge]},
   volume =       7,
   language =     {ja-JP},
-  journaltitle =      {Tōyō no Shisō to Shūkyū},
+  journaltitle = {Tōyō no Shisō to Shūkyū},
   date =         1990,
   pages =        {1--38},
+  author =       {Iwata, Takashi},
 }
 
 @article{east:5815,
@@ -13760,12 +13817,13 @@ book{east:5103,
 }
 
 @article{east:5818,
+  author =       {Tani, Tadashi},
   title =        {The {Problem} of {Interpretation} on
                   {Pramāṇaviniścaya} {III} ad vv. 34-39: with the
                   {Text} and a {Translation}},
   volume =       37,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   date =         1993,
   pages =        {1--15},
@@ -13863,12 +13921,13 @@ book{east:5103,
 }
 
 @article{east:5826,
+  author =       {Tani, Tadashi},
   title =        {The {Problem} of {Interpretation} on
                   {Pramāṇaviniścaya} {III} ad vv. 51-59: with the
                   {Text} and a {Translation}},
   volume =       38,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   date =         1994,
   pages =        {1--16},
@@ -13917,9 +13976,10 @@ book{east:5103,
                   doctrine. {II}.2]},
   volume =       41,
   language =     {ja-JP},
-  journaltitle =      {Bukkyōgaku Kenkyū [*Studies in Buddhism]},
+  journaltitle = {Bukkyōgaku Kenkyū [*Studies in Buddhism]},
   date =         1985,
   pages =        {20--51},
+  author =       {Naitō, Akifumi},
 }
 
 @article{east:5831,
@@ -13932,10 +13992,11 @@ book{east:5103,
                   doctrine. {IV}.2]},
   volume =       8,
   language =     {ja-JP},
-  journaltitle =      {Ryūkoku Daigaku Daigakuin Kenkyū Kiyō: Jinbun
+  journaltitle = {Ryūkoku Daigaku Daigakuin Kenkyū Kiyō: Jinbun
                   Kagaku},
   date =         1987,
   pages =        {39--57},
+  author =       {Naitō, Akifumi},
 }
 
 @article{east:5832,
@@ -13998,12 +14059,13 @@ book{east:5103,
                   doctrine. {III}.3]},
   volume =       42,
   language =     {ja-JP},
-  journaltitle =      {Bukkyōgaku Kenkyū [*Studies in Buddhism]},
+  journaltitle = {Bukkyōgaku Kenkyū [*Studies in Buddhism]},
   date =         1986,
   pages =        {49--77},
+  author =       {Naitō, Akifumi},
 }
 
-@misc{east:5837,
+@XDATA{east:5837,
   title =        {Ihara {Shōren} {Hakase} {Koki} {Kinen} {Ronbushū}:
                   {Ihara} {Shōren} hakase koki kinenkai [*{Essays} in
                   {Honor} of {Dr}. {Shoren} {Ihara} on his
@@ -14039,10 +14101,11 @@ book{east:5103,
                   {Vaiśeṣika} theory of perception. {II}]},
   volume =       3,
   language =     {ja-JP},
-  journaltitle =      {Indogaku Shironshū [Miscellanea Indologica
+  journaltitle = {Indogaku Shironshū [Miscellanea Indologica
                   Kiotiensia]},
   date =         1962,
   pages =        {39--57},
+  author =       {Hattori, Masaaki},
 }
 
 @Article{east:5844,
@@ -14060,9 +14123,10 @@ book{east:5103,
                   with {English} translation and annotations. 2},
   volume =       13,
   language =     {en-US},
-  journaltitle =      {Indian Studies Past and Present},
+  journaltitle = {Indian Studies Past and Present},
   date =         1971,
   pages =        {3--122},
+  author =       {Gangopadhyaya, Mrinalkanti},
 }
 
 @article{east:5848,
@@ -14127,7 +14191,7 @@ book{east:5103,
   pages =        {46--65},
 }
 
-@book{east:5853,
+@XDATA{east:5853,
   location =      {Bāgarā, Āhor},
   title =        {Śrīmad {Vijayarājendrasūrismarakagrantha}},
   language =     {hi},
@@ -14142,9 +14206,10 @@ book{east:5103,
                   ātman doctrine. {IV}.3]},
   volume =       44,
   language =     {ja-JP},
-  journaltitle =      {Bukkyōgaku Kenkyū [*Studies in Buddhism]},
+  journaltitle = {Bukkyōgaku Kenkyū [*Studies in Buddhism]},
   date =         1988,
   pages =        {61--80},
+  author =       {Naitō, Akifumi},
 }
 
 @article{east:5855,
@@ -14152,9 +14217,10 @@ book{east:5103,
                   {Translated} into {English}. 2},
   volume =       32,
   language =     {en-US},
-  journaltitle =      {The Maha Bodhi: and the United Buddhist World},
+  journaltitle = {The Maha Bodhi: and the United Buddhist World},
   date =         1924,
   pages =        {27--31},
+  author =       {Bhattacharya, Harisatya},
 }
 
 @article{east:5856,
@@ -14197,8 +14263,9 @@ book{east:5103,
 @article{east:5859,
   title =        {Pramānavārttika {IV}. 2},
   volume =       31,
+  author =       {Tillemans, Tom J. F.},
   language =     {en-US},
-  journaltitle =      {Wiener Zeitschrift für die Kunde Südasiens},
+  journaltitle = {Wiener Zeitschrift für die Kunde Südasiens},
   date =         1987,
   pages =        {141--161},
 }
@@ -14303,7 +14370,7 @@ book{east:5103,
   location = {Paris},
 }
 
-@misc{east:5868,
+@XDATA{east:5868,
   title =        {Indo seishin bunka no kenkyū: toku ni {Jaina} o
                   chūshin to shite // 印度精神文化の研究: 特にヂャイナ
                   を中心として},
@@ -14312,7 +14379,7 @@ book{east:5103,
   date =         1944,
 }
 
-@misc{east:5869,
+@XDATA{east:5869,
   title =        {Shoki no {Vedānta} tetsugaku},
   language =     {ja-JP},
   date =         1950,
@@ -14328,27 +14395,30 @@ book{east:5103,
   pages =        {1--13},
 }
 
-@misc{east:5871,
+@XDATA{east:5871,
   title =        {Kotoba no keijijōgaku},
   language =     {ja-JP},
   date =         1956,
+  location =     {Tōkyō},
 }
 
 @book{east:5872,
-  series =       {Kokuyaku {Issaikyō}: {Ronshūbu}},
+  maintitle =       {Kokuyaku {Issaikyō}: {Ronshūbu}},
   title =        {Japanese translation of the
                   {Nyāyapraveśa}(tarka)śāstra},
   language =     {ja-JP},
   author =       {Nakamura, H.},
+  date =         1958,
 }
 
-@book{east:5873,
-  location =      {Bombay},
+@Collection{east:5873,
+  location =     {Bombay},
   title =        {Śrī {Mahāvīra} {Jaina} {Vidyālaya}
                   {Suvarṇamahotsava} {Grantha}},
   language =     {hi},
   publisher =    {Mahāvīra Jaina Vidyālaya},
   date =         1968,
+  editor =       unknown,
 }
 
 @book{east:5874,
@@ -14375,7 +14445,7 @@ book{east:5103,
   date =         1980,
 }
 
-@book{east:5876,
+@XDATA{east:5876,
   location =      {Kyōto},
   title =        {Buddhism and its {Relation} to {Other} {Religions}:
                   {Essays} in {Honour} of {Dr}. {Shozen} {Kumoi}},
@@ -14410,13 +14480,16 @@ book{east:5103,
     author =       {{Muni Jambūvijayajī}},
 }
 
-@book{east:5879,
-  location =      {Roma},
+@Collection{east:5879,
+  editor =       {Francesco Sferra},
+  location =     {Roma},
   title =        {Sanskrit {Texts} from {Giuseppe} {Tucci}'s
                   {Collection}: {Part} {I}},
   language =     {en-US},
   publisher =    {Istituto Italiano per l'Africa e l'Oriente},
   date =         2008,
+  series =       {Manuscripta Buddhica},
+  number =       1,
 }
 
 @Article{east:5880,
@@ -14433,13 +14506,14 @@ book{east:5103,
 }
 
 
-@InCollection{east:5881,
-  booktitle =    {Glass negative collection of the Bihar Research Society},
-  author =	 {Śaṅkaranandana},
-  title =	 {Sanskrit Manuscript of Dharmālaṅkārakārikā},
-  language =	 {sa},
-  location =	 {Patna},
-  xdata =	 {east:5679},
+@Unpublished{east:5881,
+  howpublished = {Glass negative collection of the Bihar Research
+                  Society},
+  author =       {Śaṅkaranandana},
+  title =        {Sanskrit Manuscript of Dharmālaṅkārakārikā},
+  language =     {sa},
+  location =     {Patna},
+  keywords =     {canonical,manuscript},
 }
 
 @article{east:5882,
@@ -14693,8 +14767,8 @@ book{east:5103,
     author =       {Hishida, Kunio},
 }
 
-@book{east:5904,
-  location =      {Tōkyō},
+@Collection{east:5904,
+  location =     {Tōkyō},
   title =        {Buttan hisen gohyaku nen kinen: {Buttan}
                   nisengohyakunen kinengakkaihen [*{Issues} in
                   {Buddhist} {Studies}: commemoration volume in honour
@@ -14702,6 +14776,7 @@ book{east:5103,
   language =     {ja-JP},
   publisher =    {Iwanamishoten},
   date =         1935,
+  editor =       unknown,
 }
 
 @article{east:5905,
