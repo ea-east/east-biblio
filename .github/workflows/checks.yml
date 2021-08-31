@@ -34,4 +34,6 @@ jobs:
         
       # Runs a set of commands using the runners shell
       - name: Validate
-        run: make
+        run: |
+          cd $GITHUB_WORKSPACE
+          make
