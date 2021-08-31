@@ -26,7 +26,13 @@ jobs:
 
       # Install dependencies
       - name: Install biber
-        run: sudo apt-get install --no-install-recommends biber
+        run: |
+          sudo apt-get install --no-install-recommends wget
+          cd $GITHUB_WORKSPACE
+          wget "https://mirrors.ctan.org/biblio/biber/binaries/Linux/biber-linux_x86_64.tar.gz"
+          tar zxf biber-linux_x86_64.tar.gz
+          sudo mv biber /bin/
+          
 
       # Check biber version
       - name: Check biber version
