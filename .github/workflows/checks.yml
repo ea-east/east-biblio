@@ -27,6 +27,10 @@ jobs:
       # Install dependencies
       - name: Install biber
         run: sudo apt-get install --no-install-recommends biber
+
+      # Check biber version
+      - name: Check biber version
+        run: biber --version
         
       # Runs a set of commands using the runners shell
       - name: Validate
