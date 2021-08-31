@@ -1,5 +1,5 @@
 verify:
-	biber --no-default-datamodel --validate-config --configfile=bib/biber.conf --output-resolve --validate-datamodel --tool bib/east.bib
+	biber --dieondatamodel --no-default-datamodel --validate-config --configfile=bib/biber.conf --output-resolve --validate-datamodel --tool bib/east.bib
 
 format-to-html:
 	bin/format-bib-to-html.sh
