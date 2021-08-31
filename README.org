@@ -1,27 +1,34 @@
-#+TITLE: README for EAST bibliographic records
+#+TITLE: README for EAST’s bibliographic records
 #+AUTHOR: Patrick McAllister (pma@rdorte.org)
 
 
-This repository contains the bibliographic data for EAST
-(https://east.ikga.oeaw.ac.at).  The source can be found here:
-https://github.com/ea-east/east-biblio.
+The repository [[https://github.com/ea-east/east-biblio][east-biblio]] contains the bibliographic data for
+[[https://east.ikga.oeaw.ac.at][*EAST*]]. Short for “Epistemology and Argumentation in South Asia and
+Tibet”, *EAST* systematically collects information on works of
+epistemology and argumentanion in South Asia and Tibet, their authors,
+and relevant modern literature.
 
+
+The bibliographic records are kept in a BibLaTeX file,
+file:./bib/east.bib.  The records are encoded according to the general
+[[http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf][BibLaTeX rules]] (see the section “Database guide”), and a set of
+[[file:east-encoding.org][conventions specific to EAST]].
 
 
 * Layout of this repository
 
 The most important files are:
 
-1) README.org (this file)
+1) file:./README.org (this file)
 2) file:./bib/east.bib: A single BibLaTeX file, to be edited by a
    program of choice (e.g., http://www.jabref.org/)
-3) Whichever you use, make sure that you’re using a “biblatex” editing
-   mode (Jabref: Options -> Preferences -> General -> Default
-   bibliography mode -> “BiBLaTeX”, for example)
+   - Whichever program you use, make sure that you use a “biblatex”
+     editing mode (Jabref: Options -> Preferences -> General ->
+     Default bibliography mode -> “BiBLaTeX”, for example)
 
-Other directories contain files that should not be edited, normally.
-They contain automatically generated content (pulled from EAST’s
-database), and the content is subject to change.
+The other directories contain files that should not be edited
+normally.  They contain automatically generated content (pulled from
+EAST’s database), and their content is subject to change.
 
 1) file:./archived: contains all the bibliographic data in a
    normalized (mods) xml format
@@ -52,7 +59,9 @@ Here are some useful things to know about jabref:
    https://east.ikga.oeaw.ac.at/bib/ (e.g.:
    https://east.ikga.oeaw.ac.at/bib/27507)
 
-* General workflow
+* TODO General workflow
+
+#+COMMENT: TODO: revise for better github workflow; maybe https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
 Before starting to edit anything, *always* make sure your repository
 is up to date. You can do this with
@@ -112,33 +121,72 @@ bibliographic file, file:./bib/east.bib
 
 * Bibliography processing
 
-- Install bibutils (https://sourceforge.net/p/bibutils/home/Bibutils/)
+** Formatting the bibliography
 
-** MODS -> bib(la)tex
+EAST formats its bibliographic records with
+file:styles/chicago-author-date-east.csl (see
+https://github.com/ea-east/styles/commits/master/chicago-author-date-east.csl).
 
-#+BEGIN_SRC bash
-  parallel xml2bib \
-           --output-encoding unicode \
-           --no-bom \
-           --whitespace \
-           --strictkey \
-           --finalcomma \
-           --brackets \
-           --no-latex \
-           ::: *xml > /tmp/east-bibs.bib
-#+END_SRC
+#+begin_SRC bash
+  echo """---
+  title: EAST Bibliography (formatted)
+  nocite: |
+   @*
+  ...
+  """ | pandoc \
+            --standalone \
+            --csl=styles/chicago-author-date-east.csl \
+            --bibliography=bib/east.bib  \
+            -o /tmp/east-bib.html
+#+end_SRC
 
 
-** biblatex -> MODS
+Or to see just a single record:
 
-#+BEGIN_SRC bash
-  parallel biblatex2xml \
-           --input-encoding unicode \
-           --unicode-characters \
-           --unicode-no-bom \
-           --no-latex \
-           ::: *.bib > /tmp/east-bibs.mods
-#+END_SRC
+#+begin_SRC bash
+  echo """---
+  title: EAST Bibliography (formatted)
+  nocite: |
+   @east:27507
+  ...
+  """ | pandoc \
+            --standalone \
+            --csl=styles/chicago-author-date-east.csl \
+            --bibliography=bib/east.bib  \
+            -o /tmp/east-bib.html
+#+end_SRC
+
+
+** Conversions
+
+For conversions between formats, first install bibutils
+(https://sourceforge.net/p/bibutils/home/Bibutils/).
+
+*** MODS -> bib(la)tex
+
+ #+BEGIN_SRC bash
+   parallel xml2bib \
+            --output-encoding unicode \
+            --no-bom \
+            --whitespace \
+            --strictkey \
+            --finalcomma \
+            --brackets \
+            --no-latex \
+            ::: *xml > /tmp/east-bibs.bib
+ #+END_SRC
+
+
+*** biblatex -> MODS
+
+ #+BEGIN_SRC bash
+   parallel biblatex2xml \
+            --input-encoding unicode \
+            --unicode-characters \
+            --unicode-no-bom \
+            --no-latex \
+            ::: *.bib > /tmp/east-bibs.mods
+ #+END_SRC
 
 
 * Database/Django commands
