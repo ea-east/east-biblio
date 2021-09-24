@@ -257,3 +257,25 @@ something like this:
 
   write_bibs(BibliographicEntry.objects.filter(repository="TAMB"), "tamboti")
 #+END_SRC
+
+
+* TODO Notes
+
+
+- [ ] Look for date/year fields containing “X” or “?” (something was
+  unclear).
+
+- [ ] Correct all occurrences of the macro “unknown” (see ~@string{unknown~).
+
+- [ ] Check the ~misc~ and ~unpublished~ items.
+
+- [ ] Some information was lost by ignoring
+  ~//relatedItem[@type="otherVersion"]~ (e.g.,
+  https://east.ikga.oeaw.ac.at/bib/5472/).
+
+- [ ] Some information was lost due to preceding/following relations
+  in MODS.
+
+- Except for Śaṅkaranandana, EAST records very few manuscripts.
+  If more manuscripts are to be added, we will probably want a dedicated type.
+
