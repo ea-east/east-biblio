@@ -15,6 +15,69 @@ file:./bib/east.bib.  The records are encoded according to the general
 [[file:east-encoding.org][conventions specific to EAST]].
 
 
+* Encoding Guidelines for ~east-biblio~
+
+The bibliographic database in ~east-biblio~ (file:./bib/east.bib) is
+supposed validate against the datamodel (file:./bib/biber.conf).
+Running ~make verify~ in this project’s root directory should not
+report any errors.
+
+This does not mean that the encoding is “ideal” or even recommended in
+all cases.  It is still work in progress.  The reason for this is that
+much of ~east-biblio~ was derived from MODS records, which do not have
+a 1:1 mapping to the fields that ~biblatex~ employs.
+
+Here follow a few explanations on the encoding that is used in
+~east-biblio~.
+
+** Entry types
+
+EAST-biblio currently supports the following types of bibliographic
+entries:
+
+- ~@article~
+- ~@book~
+- ~@collection~
+- ~@inbook~
+- ~@incollection~
+- ~@misc~
+- ~@thesis~
+- ~@unpublished~
+- (and ~@xdata~, which is just a shortcut for storing sets of data for
+  other bibliographic entries)
+
+These types are a small subset of what ~biblatex~ supports. Keeping
+this permitted set small is helpful for maintaining the bibliography.
+
+If other types should be added, the datamodel (file:./bib/biber.conf,
+~<entrytypes/>~) needs to be changed.
+
+
+** Hints on particular tools
+
+
+*** Jabref hints
+
+ Here are some useful things to know about jabref:
+
+ 1) *Use the search/filter function*: read
+    https://help.jabref.org/en/Search. It’s somewhat obvious, but
+    remember you can easily search for fields:
+    1) ~journal = chizan~, or ~keywords=canonical~, etc.
+    2) Combine them: ~keywords=canonical and title = tshad~
+    3) For “spaces” in the search string, use quotes: ~keywords =
+       canonical and translator = "zha ma"~
+    4) Empty fields: ~author != .+~
+    5) Finding Tibetan canonical entries where something is missing:
+       - No co ne: ~language = bo and keywords = canonical and series
+         != "co ne"~
+       - No Peking: ~language = bo and keywords = canonical and series != Peking~
+       - etc.
+ 2) Linking to east: Take the numerical part of the bib_id (e.g.,
+    ~27507~ in ~east:27507~), and add it to
+    https://east.ikga.oeaw.ac.at/bib/ (e.g.:
+    https://east.ikga.oeaw.ac.at/bib/27507)
+
 * Layout of this repository
 
 The most important files are:
@@ -36,28 +99,6 @@ EAST’s database), and their content is subject to change.
    bibliographic sources, in the raw format (they are not all MODS
    files).
 
-
-** Jabref hints
-
-Here are some useful things to know about jabref:
-
-1) *Use the search/filter function*: read
-   https://help.jabref.org/en/Search. It’s somewhat obvious, but
-   remember you can easily search for fields:
-   1) ~journal = chizan~, or ~keywords=canonical~, etc.
-   2) Combine them: ~keywords=canonical and title = tshad~
-   3) For “spaces” in the search string, use quotes: ~keywords =
-      canonical and translator = "zha ma"~
-   4) Empty fields: ~author != .+~
-   5) Finding Tibetan canonical entries where something is missing:
-      - No co ne: ~language = bo and keywords = canonical and series
-        != "co ne"~
-      - No Peking: ~language = bo and keywords = canonical and series != Peking~
-      - etc.
-2) Linking to east: Take the numerical part of the bib_id (e.g.,
-   ~27507~ in ~east:27507~), and add it to
-   https://east.ikga.oeaw.ac.at/bib/ (e.g.:
-   https://east.ikga.oeaw.ac.at/bib/27507)
 
 * TODO General workflow
 
@@ -257,3 +298,25 @@ something like this:
 
   write_bibs(BibliographicEntry.objects.filter(repository="TAMB"), "tamboti")
 #+END_SRC
+
+
+* TODO Notes
+
+
+- [ ] Look for date/year fields containing “X” or “?” (something was
+  unclear).
+
+- [ ] Correct all occurrences of the macro “unknown” (see ~@string{unknown~).
+
+- [ ] Check the ~misc~ and ~unpublished~ items.
+
+- [ ] Some information was lost by ignoring
+  ~//relatedItem[@type="otherVersion"]~ (e.g.,
+  https://east.ikga.oeaw.ac.at/bib/5472/).
+
+- [ ] Some information was lost due to preceding/following relations
+  in MODS.
+
+- Except for Śaṅkaranandana, EAST records very few manuscripts.
+  If more manuscripts are to be added, we will probably want a dedicated type.
+

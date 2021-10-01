@@ -1,20 +1,1598 @@
 % Encoding: UTF-8
 
-@Comment{
-Notes:
-
-- Check the ~misc~ and ~unpublished~ items (among others)
-
-- Some information was lost by ignoring //relatedItem[@type="otherVersion"] (e.g., https://east.ikga.oeaw.ac.at/bib/5472/)}
-
-- Some information was lost due to preceding/following relations in MODS
-
-- We hardly have manuscripts here, except for Śaṅkaranandana.  If we add more manuscripts, we will probably want a dedicated type.
-
-- look for date/year fields containing ``X" (something was unclear)
-
 % Unknown items: this means “TODO”!
 @string{unknown = "Unknown"}
+@string{anon = "Anonymous"}
+
+
+% XDATA fields start
+
+@XDATA{east:27514,
+  journaltitle =	 {內學 [Neixue] [*Inner Studies]},
+  language =	 {zh-CN},
+  langid =	 {pinyin}
+}
+
+@XDATA{east:27518,
+  title =	 {Newsletter of the {NGMCP}},
+  date =	 2006,
+  editor =	 {{Nepalese-German Manuscript Cataloguing Project} and
+                  Isaacson, Harunaga},
+  langid =	 {american}
+}
+
+@XDATA{east:27520,
+  journaltitle = {Journal of the Nepal Research Centre},
+  date =	 1977,
+  editor =	 {{Nepal Research Centre}},
+  shorttitle =	 {JNRC},
+}
+
+@XDATA{east:27525,
+  title =        {The {Indian} international journal of {Buddhist}
+                  studies},
+  shorttitle =   {{IIJBS}},
+  language =     {en-US},
+  editor =       {{Institute of Buddhist and Asian Studies}},
+}
+
+@XDATA{east:27538,
+  title =        {Indogaku {Chibettogaku} {Kenkyū} [*{Journal} of
+                  {Indian} and {Tibetan} {Studies}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:27545,
+  title =        {Journal of the {American} {Academy} of {Religion}},
+  shorttitle =   {{AAR}},
+  language =     {en-US},
+  editor =       {{American Academy of Religion}},
+}
+
+@XDATA{east:27549,
+  title =        {駒沢大学仏教学部論集},
+  language =     {ja-JP},
+  editor =       {{Komazawa Daigaku. Bukkyō Gakubu}},
+}
+
+@XDATA{east:27632,
+  title =        {Beiträge zur {Kultur}- und {Geistesgeschichte}
+                  {Asiens}},
+  language =     {de-DE},
+}
+
+@XDATA{east:27672,
+  title =        {China {Tibetology}},
+  language =     {en-US},
+}
+
+@XDATA{east:27676,
+  title =        {Acta {Asiatica}: {Bulletin} of the {Institute} of
+                  {Eastern} {Culture}},
+  shorttitle =   {{AcAs}},
+  language =     {en-US},
+}
+
+@XDATA{east:27678,
+  title =        {人文学報 [{Zinbun} {Gakuho}] [*{Journal} of
+                  {Humanistic} {Studies}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:27684,
+  title =        {インド学報 [{Indo} gakuhō] [*{Indological}
+                  {Review}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:27687,
+  title =        {Anzeiger der philosophisch-historischen {Klasse} der
+                  Österreichischen {Akademie} der {Wissenschaften}},
+  language =     {de-DE},
+}
+
+@XDATA{east:27714,
+  title =        {Journal of {Religious} {History}},
+  language =     {en-US},
+  editor =       {{Religious History Association}},
+}
+
+@XDATA{east:27718,
+  title =        {Journal of the {Asiatic} {Society}},
+  shorttitle =   {{JAS}},
+  language =     {en-US},
+}
+
+@XDATA{east:27720,
+  title =        {Bulletin of the {School} of {Oriental} and {African}
+                  {Studies}},
+  shorttitle =   {{BSOAS}},
+  language =     {en-US},
+  editor =       {{School of Oriental and African Studies}},
+}
+
+@XDATA{east:27726,
+  title =        {Sambodhi},
+  language =     {en-US},
+  editor =       {{Lalbhai Dalpatbhai Institute of Indology}},
+}
+
+@XDATA{east:27728,
+  title =        {Bulletin of the {Ramakrishna} {Mission} {Institute}
+                  of {Culture}},
+  language =     {en-US},
+  editor =       {{Ramakrishna Mission Institute of Culture}},
+}
+
+@XDATA{east:27831,
+  title =        {Journal of {Buddhist} and {Tibetan} {Studies}},
+  language =     {en-US},
+}
+
+@XDATA{east:27842,
+  title =        {駒沢大学仏教学部研究紀要 [*{Journal} of the
+                  {Faculty} of {Buddhism} of {Komazawa} {University}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:27848,
+  title =        {日本仏教学会年報 [{Nihon} {Bukkyo} {Gakkai} {Nen}
+                  {Po}] [*{The} {Journal} of the {Nippon} {Buddhist}
+                  {Research} {Association}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28019,
+  title =        {Tokyo {Gakugei} {Daigaku} {Kiyō}: {Dai} 2 {Bumon}
+                  [*{Bulletin} of {Tokyo} {Gakugei} {University}:
+                  {Section} {II} {Humanities}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28021,
+  title =        {Indo {Ronrigaku} {Kenkyū} [*{Indian} {Logic}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28022,
+  title =        {Hokkaidō {Daigaku} {Bungakubu} {Kiyō} [*{The}
+                  {Annual} {Reports} on {Cultural} {Science}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28024,
+  title =        {Tokyo {Gakugei} {Daigaku} {Kiyō}:
+                  {Jinbunshakaikagaku} {Kei} {II} [*{Bulletin} of
+                  {Tokyo} {Gakugei} {University}, {Humanities} and
+                  {Social} {Sciences} {II}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28031,
+  title =        {Indotetsugaku {Bukkyōgaku} {Kenkyū} [*{Studies} in
+                  {Indian} {Philosophy} and {Buddhism}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28036,
+  title =        {Seishin {Kagaku} [*{Science} of {Mind}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28148,
+  title =        {Ryūkokudaigaku {Bukkyōgaku} {Kenkyūshitsu} {Nenpō}
+                  [*{Bulletin} of {Buddhist} {Studies}, {Ryūkoku}
+                  {University}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28170,
+  title =        {Tetsugaku {Nenpō} [*{Annual} of {Philosophy}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28186,
+  title =        {Kuwon [*{Kuwon}. {Research} {Papers}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28199,
+  title =        {Tetsugaku [*{Journal} of {Hiroshima} {Philosophical}
+                  {Society}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28202,
+  title =        {Shūkyōgaku-{Hikakushisōgaku} {Ronshū} [*{Tsukuba}
+                  {Journal} of {Religious} {Studies} and {Comparative}
+                  {Thoughts}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28215,
+  title =        {Ryūkokudaigaku {Daigakuin} {Kiyō} [*{The} {Bulletin}
+                  of the {Graduate} {School} of {Ryukoku}
+                  {University}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28218,
+  title =        {Nippon {Bukkyōgakkai} {Nenpō} [*{The} {Journal} of
+                  the {Nippon} {Buddhist} {Research} {Association}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28220,
+  title =        {Hikaku {Ronrigaku} {Kenkyū} [*{The} {Annals} of the
+                  {Research} {Project} {Center} for the {Comparative}
+                  {Study} of {Logic}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28228,
+  title =        {Minamiajia {Kotengaku} [*{South} {Asian} {Classical}
+                  {Studies}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28236,
+  title =        {Tōyō {No} {Shisō} to {Shūkyō} [*{Thought} and
+                  {Religion} of {Asia}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28361,
+  title =        {Bukkyō {Bunka} {Kenkyū} [*{Studies} in {Buddhism}
+                  and {Buddhist} {Culture}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28364,
+  title =        {Bukkyō {Gakubu} {Ronshū} [*{Journal} of {School} of
+                  {Buddhism}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28371,
+  title =        {Ronshū [*{Ronshu}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28373,
+  title =        {Ryūkoku {Daigaku} {Daigakuin} {Bungaku} {Kenkyūka}
+                  {Kiyō} [*{Ryukoku} {University}, the {Bulletin} of
+                  the {Graduate} {School} of {Letters}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28378,
+  title =        {Kōyasan {Daigaku} {Daigakuin} {Kiyō} [*{Bulletion}
+                  of the {Graduate} {School}, {Koyasan} {University}
+                  {Graduate} {Program} of {Liberal} {Art}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28392,
+  title =        {Waseda {Daigaku} {Daigakuin} {Bungaku} {Kenkyūka}
+                  {Kiyō}: {Daiichi} {Bunsatsu} [*{Bulletin} of the
+                  {Graduate} {Division} of {Literature} of {Waseda}
+                  {University}. {I}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28395,
+  title =        {Bukkyōgakkai {Kiyō} [*{The} {Bulletion} of the
+                  {Association} of {Buddhist} {Studies}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28397,
+  title =        {Bukkyōgaku [*{Journal} of {Buddhist} {Studies}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:28465,
+  title =        {Rivista degli {Studi} {Orientali}},
+  language =     {it-IT},
+}
+
+@XDATA{east:5131,
+  location =      {Tōkyō},
+  title =        {Ito {Shinjō} {Taraka} {Junshō} ryō kyojū shōtoku
+                  kinen: {Bukkyōgaku} ronbunshū},
+  language =     {ja-JP},
+  publisher =    {Tōhō Shuppan Kekkō},
+  date =         1979,
+}
+
+@XDATA{east:5441,
+  title =        {Bibliographie bouddhique},
+  language =     {fr-FR},
+}
+
+@XDATA{east:5462,
+  title =        {Asiatica: {Festschrift} {Friedrich} {Weller} zum
+                  65. {Geburtstag}},
+  language =     {de-DE},
+  date =         1954,
+}
+
+@XDATA{east:5521,
+  title =        {tshad ma rigs pa'i skor rgya gzhung rtsa 'grel bdam
+                  bsgrigs: deb dang po. rdo rje rgyal pos bdam bsgrigs
+                  byas pa},
+  language =     {bo},
+  publisher =    {mi rigs dpe skrun khang},
+  date =         1988,
+}
+
+@XDATA{east:5533,
+  location =      {Tōkyō},
+  title =        {Bukkyō ni okeru jikanron no kenkyū},
+  language =     {ja-JP},
+  date =         1974,
+}
+
+@XDATA{east:5540,
+  location =      {Tōkyō},
+  title =        {Indogaku {Mikkyōgaku} {Kenkyū}: {Miyasaka} {Yūshō}
+                  {Hakase} {Koki} {Kinen} {Ronbunshū}},
+  language =     {ja-JP},
+  date =         1993,
+}
+
+@XDATA{east:5543,
+  location =     {Tōkyō},
+  series =       {Books {And} {Articles} {On} {Oriental} {Subjects}
+                  {Published} {In} {Japan} {During}...},
+  title =        {Books {And} {Articles} {On} {Oriental} {Subjects}
+                  {Published} {In} {Japan} {During} 1990},
+  language =     {en-US},
+  number =       37,
+  publisher =    {Tōhō Gakkai},
+  date =         1990,
+}
+
+@XDATA{east:5547,
+  title =        {A {History} of {Indian} {Literature}},
+  shorttitle =   {{HIL}},
+  editor =       {Gonda, Jan},
+  date =         {1973/},
+}
+
+@XDATA{east:5549,
+  title =        {Books {And} {Articles} {On} {Oriental} {Subjects}
+                  {Published} {In} {Japan} {During}...},
+  language =     {en-US},
+}
+
+@XDATA{east:5552,
+  title =        {Shōwa shinsan kokuyaku daizōkyō},
+  shorttitle =   {Shōwa},
+  editor =       {Nakano, T.},
+}
+
+@XDATA{east:5554,
+  title =        {Berkeley {Buddhist} {Studies} {Series}},
+}
+
+@XDATA{east:5555,
+  title =        {創價大學國際佛教學高等研究所年報 [*{Annual} {Report}
+                  of {The} {International} {Research} {Institute} for
+                  {Advanced} {Buddhology} at {Soka} {University}]},
+  shorttitle =   {{ARIRIAB}},
+}
+
+@XDATA{east:5557,
+  title =        {Journal of {Naritasan} {Institute} for {Buddhist}
+                  {Studies}},
+}
+
+@XDATA{east:5558,
+  title =        {Studies of {Classical} {India}},
+}
+
+@XDATA{east:5559,
+  title =        {Kodai {Gaku}},
+  shorttitle =   {{KG}},
+}
+
+@XDATA{east:5560,
+  title =        {Hokke {Bunka} {Kenkyū} [*{Journal} of {Institute}
+                  for the {Comprehensive} {Study} of {Lotus} {Sutra}]},
+  shorttitle =   {{HBK}},
+}
+
+@XDATA{east:5561,
+  title =        {Nanto {Bukkyō} [*{Journal} of the {Nanto} {Society}
+                  for {Buddhist} {Studies}]},
+  shorttitle =   {{NBu}},
+}
+
+@XDATA{east:5562,
+  title =        {密教学 [{Mikkyōgaku}]},
+  shorttitle =   {Mikkyōgaku},
+}
+
+@XDATA{east:5563,
+  title =        {Aichi {Kyōiko} {Daigaku} {Kenkyū} {Hōkoku}
+                  [*{Bulletin} of {Aichi} {University} of
+                  {Education}]},
+  shorttitle =   {{AKDKH}},
+}
+
+@XDATA{east:5564,
+  title =        {Soviet {Indology} {Series}},
+}
+
+@XDATA{east:5565,
+  title =        {Beiträge zur {Kultur}- und {Geistesgeschichte}
+                  {Asiens}},
+  shorttitle =   {{BKGA}},
+}
+
+@XDATA{east:5566,
+  title =        {Nihon {Bukkyō} [*{Journal} of {Japanese}
+                  {Buddhism}]},
+  shorttitle =   {{NB}},
+}
+
+@XDATA{east:5567,
+  title =        {Nagoya {Daigaku} {Bungakubu} {Jūshūnen} {Kinen}
+                  {Nenpō}},
+  shorttitle =   {{NDBJKN}},
+}
+
+@XDATA{east:5568,
+  title =        {Chikushi {Jogakuen} {Tanki} {Daigaku} {Kiyō}
+                  [*{Journal} of {Chikushi} {Jogakuen} {Junior}
+                  {College}]},
+  shorttitle =   {{CJTDK}},
+}
+
+@XDATA{east:5569,
+  title =        {Wiener {Zeitschrift} für die {Kunde} {Südasiens}},
+  shorttitle =   {{WZKS}},
+}
+
+@XDATA{east:5570,
+  title =        {Calcutta {University} {Readership} {Lectures}},
+}
+
+@XDATA{east:5571,
+  title =        {Indian {Studies} {Past} and {Present}},
+  shorttitle =   {{ISPP}},
+}
+
+@XDATA{east:5572,
+  title =        {Bukkyō {Bunka} {Kenkyūsho} {Kiyō}},
+}
+
+@XDATA{east:5573,
+  title =        {T'oung {Pao}},
+  shorttitle =   {{TP}},
+}
+
+@XDATA{east:5575,
+  title =        {Bunka: {Revue} de l'{Université} {Tohoku}
+                  [*{Culture}]},
+  shorttitle =   {{BNK}},
+}
+
+@XDATA{east:5576,
+  title =        {Journal {Asiatique}},
+  shorttitle =   {{JA}},
+}
+
+@XDATA{east:5577,
+  title =        {Ryūkoku {Daigaku} {Bukkyō} {Bunka} {Kenkyūsho}
+                  {Kiyō}},
+  shorttitle =   {{RDBKK}},
+}
+
+@XDATA{east:5578,
+  title =        {Lexicological {Studies}},
+}
+
+@XDATA{east:5579,
+  title =        {Bukkyō {Daigaku} {Daigakuin} {Kenkyū} {Kiyō}},
+  shorttitle =   {{BDDKK}},
+}
+
+@XDATA{east:5580,
+  title =        {Hikaku {Shisō} no {Michi}},
+}
+
+@XDATA{east:5582,
+  title =        {Studies in {Philosophy}},
+}
+
+@XDATA{east:5583,
+  title =        {Bibliotheca {Indo} {Tibetica} {Series}},
+  shorttitle =   {{BITS}},
+}
+
+@XDATA{east:5584,
+  title =        {Bunka},
+  shorttitle =   {Bunka},
+}
+
+@XDATA{east:5585,
+  title =        {Shinko {Tokubetsugo}},
+}
+
+@XDATA{east:5586,
+  title =        {Indogaku {Bukkyōgaku} {Kenkyū} [*{Journal} of
+                  {Indian} and {Buddhist} {Studies}]},
+  url =          {https://www.jstage.jst.go.jp/browse/ibk/-char/en},
+}
+
+@XDATA{east:5587,
+  title =        {Berliner {Indologische} {Studien}},
+  shorttitle =   {{BIS}},
+}
+
+@XDATA{east:5588,
+  title =        {Philosophische {Studientexte}},
+}
+
+@XDATA{east:5590,
+  title =        {Memoirs of the {Faculty} of {Letters} {Kyoto}
+                  {University}},
+}
+
+@XDATA{east:5591,
+  title =        {Sankō {Bunka} {Kenkyūsho} {Nenpō}},
+  shorttitle =   {{SBKN}},
+}
+
+@XDATA{east:5592,
+  title =        {Journal of the {Asiatic} {Society} of {Bengal}},
+  shorttitle =   {{JASB}},
+}
+
+@XDATA{east:5593,
+  title =        {Harvard {Oriental} {Series}},
+  shorttitle =   {{HOS}},
+}
+
+@XDATA{east:5594,
+  title =        {Wiener {Studien} zur {Tibetologie} und
+                  {Buddhismuskunde}},
+  shorttitle =   {{WSTB}},
+}
+
+@XDATA{east:5595,
+  title =        {Materialien zur {Kunde} des {Buddhismus}},
+  shorttitle =   {{MKB}},
+}
+
+@XDATA{east:5596,
+  title =        {Beiträge zur indischen {Sprachwissenschaft} und
+                  {Religionsgeschichte}},
+}
+
+@XDATA{east:5597,
+  title =        {Kōyasan {Daigaku} {Ronsō}},
+}
+
+@XDATA{east:5598,
+  title =        {Indian {Historical} {Quaterly}},
+  shorttitle =   {{IHQ}},
+}
+
+@XDATA{east:5599,
+  title =        {Kyūshū {Ryūkoku} {Tankidaigaku} {Kiyō} [*{Bulletin}
+                  of {Kyushu} {Ryukoku} {Junior} {College}]},
+  shorttitle =   {{SRTDK}},
+}
+
+@XDATA{east:5600,
+  title =        {Sino-{Indica}},
+  shorttitle =   {Sino-{Indica}},
+}
+
+@XDATA{east:5601,
+  title =        {Bukkyō {Shigaku} {Kenkyū} [*{Journal} of the
+                  {History} of {Buddhism}]},
+  shorttitle =   {{BSK}},
+}
+
+@XDATA{east:5602,
+  title =        {Studies in {Central} and {South} {East} {Asian}
+                  {Religions}},
+  shorttitle =   {{SCEAR}},
+}
+
+@XDATA{east:5603,
+  title =        {Veröffentlichungen der {Kommission} für {Sprachen}
+                  und {Kulturen} {Süd}- und {Ostasiens}},
+  shorttitle =   {{VKSKSO}},
+}
+
+@XDATA{east:5604,
+  title =        {Tsurumi {Daigaku} {Kiyō}},
+}
+
+@XDATA{east:5605,
+  title =        {co ne},
+  shorttitle =   {co ne},
+}
+
+@XDATA{east:5606,
+  title =        {Journal of the {Asiatic} {Society} of {Bengal}:
+                  {New} {Series}},
+  shorttitle =   {{JASB} {N}. {S}.},
+}
+
+@XDATA{east:5607,
+  title =        {Rinsen {Buddhist} {Text} {Series}},
+  shorttitle =   {{RBTS}},
+}
+
+@XDATA{east:5608,
+  title =        {snar thang},
+  shorttitle =   {snar thang},
+}
+
+@XDATA{east:5609,
+  title =        {Bibliotheca {Indica}},
+  shorttitle =   {{BI}},
+}
+
+@XDATA{east:5610,
+  title =        {Tōhōgaku [*{Eastern} {Studies}]},
+  shorttitle =   {{THG}},
+}
+
+@XDATA{east:5611,
+  title =        {Dharmakīrti {Nibandhawali}},
+}
+
+@XDATA{east:5612,
+  title =        {Kokuyaku {Daizōkyō}},
+}
+
+@XDATA{east:5613,
+  title =        {Gaekwad's oriental series},
+}
+
+@XDATA{east:5614,
+  title =        {Taishō {Daigaku} {Daigakuin} {Kenkyū} {Ronshū}},
+  shorttitle =   {{TDDKR}},
+}
+
+@XDATA{east:5615,
+  title =        {Mongolian {Tanjur}},
+  shorttitle =   {Mongolian {Tanjur}},
+}
+
+@XDATA{east:5616,
+  title =        {Ural-altaische {Jahrbücher}},
+  shorttitle =   {{UAJ}},
+}
+
+@XDATA{east:5618,
+  title =        {Tetsugaku {Zasshi}},
+  shorttitle =   {{TZ}},
+}
+
+@XDATA{east:5619,
+  title =        {Komazawa {Daigaku} {Daigakuin} {Bukkyōgaku}
+                  {Kenkyūkai} {Nenpō}},
+  shorttitle =   {{KDDBKN}},
+}
+
+@XDATA{east:5620,
+  title =        {Nutan {Sanskrit} {Series}},
+}
+
+@XDATA{east:5621,
+  title =        {Kyōto {Daigaku} {Bungakubu} {Kenkyū} {Kiyō}},
+  shorttitle =   {{KDBKK}},
+}
+
+@XDATA{east:5622,
+  title =        {Jñānapīṭha {Mūṛtidevī} {Jaina} {Granthamālā}},
+}
+
+@XDATA{east:5624,
+  title =        {Journal of the {International} {Association} of
+                  {Buddhist} {Studies}},
+  shorttitle =   {{JIABS}},
+}
+
+@XDATA{east:5625,
+  title =        {Mémoires de la {Commission} {Orientaliste}},
+}
+
+@XDATA{east:5626,
+  title =        {Mélanges chinoise et bouddhiques},
+  shorttitle =   {{MCB}},
+}
+
+@XDATA{east:5627,
+  title =        {Indo {Koten} {Kenkyū} [{Acta} {Indologica}]},
+  shorttitle =   {{IKK}},
+}
+
+@XDATA{east:5628,
+  title =        {Asiatische {Studien} [Études {Asiatiques}]},
+  shorttitle =   {{AS}},
+}
+
+@XDATA{east:5629,
+  title =        {Samyag-vāk {Series}},
+}
+
+@XDATA{east:5630,
+  title =        {Sitzungsberichte: {O}̈sterreichische {Akademie} der
+                  {Wissenschaften}. {Philosophisch}-{Historische}
+                  {Klasse}},
+  shorttitle =   {S{ÖAW}},
+}
+
+@XDATA{east:5631,
+  title =        {Nishinihon {Shūkyōgaku} {Zasshi} [*{Journal} of
+                  {Nishi}-{Nippon} {Association} for the {History} of
+                  {Religions}]},
+  shorttitle =   {{NNSZ}},
+}
+
+@XDATA{east:5632,
+  title =        {Ryūkoku {Daigaku} {Daigakuin} {Kiyō}: {Bungaku}
+                  {Kenkyūkai}},
+  shorttitle =   {{RDDK}},
+}
+
+@XDATA{east:5633,
+  title =        {Hiroshima {Daigaku} {Bungakubu} {Kiyō} [{The}
+                  {Hiroshima} {University} {Studies}, {Faculty} of
+                  {Letters}]},
+}
+
+@XDATA{east:5635,
+  title =        {Tōyō {Daigaku} {Kiyō} [*{Bulletin} of {Toyo}
+                  {University}]},
+  shorttitle =   {{TDK}},
+}
+
+@XDATA{east:5636,
+  title =        {Ryūkoku {Daigaku} {Bukkyō} {Gaku} {Kenkyūshitsu}
+                  {Nenpō}},
+  shorttitle =   {{RDBN}},
+}
+
+@XDATA{east:5639,
+  title =        {Numen},
+}
+
+@XDATA{east:5641,
+  title =        {Indogaku {Shironshū} [{Miscellanea} {Indologica}
+                  {Kiotiensia}]},
+  shorttitle =   {{IGS}},
+}
+
+@XDATA{east:5643,
+  title =        {Kawai {Itsuji} sensei ranjuhōshō shiju kinen
+                  ronbunshū},
+}
+
+@XDATA{east:5644,
+  title =        {Bukkyōshi {Kenkyū}},
+}
+
+@XDATA{east:5645,
+  title =        {Journal of the {Bombay} {Branch} of the {Royal}
+                  {Asiatic} {Society}: {New} {Series}},
+  shorttitle =   {{JBBRAS} {N}.{S}.},
+}
+
+@XDATA{east:5646,
+  title =        {Philosophy {East} and {West}},
+  shorttitle =   {{PEW}},
+}
+
+@XDATA{east:5647,
+  title =        {Indian {Antiquary}},
+  shorttitle =   {{IA}},
+}
+
+@XDATA{east:5650,
+  title =        {Sino {Indian} {Studies}},
+  shorttitle =   {{SIS}},
+}
+
+@XDATA{east:5651,
+  title =        {Our {Heritage}},
+  shorttitle =   {{OH}},
+}
+
+@XDATA{east:5653,
+  title =        {Tōkyai {Bukkyō} [*{Journal} of {Tokai} {Association}
+                  of {Indian} and {Buddhist} {Studies}]},
+  shorttitle =   {{TBu}},
+}
+
+@XDATA{east:5654,
+  title =        {Pamyatmiki indiskoi filosofii},
+}
+
+@XDATA{east:5655,
+  title =        {East and {West}},
+  shorttitle =   {{EW}},
+}
+
+@XDATA{east:5656,
+  title =        {The {Tibetan} {Tripiṭaka}: {Peking}
+                  {Edition}. {Reprinted} under the {Supervision} of
+                  the {Otani} {University}, {Kyoto}},
+  shorttitle =   {Peking},
+  language =     {bo},
+  editor =       {Suzuki, Daisetsu Teitaro},
+}
+
+@XDATA{east:5657,
+  title =        {Lalbai {Dalpatbhai} {Series}},
+  shorttitle =   {{LDS}},
+}
+
+@XDATA{east:5659,
+  title =        {Acta {Orientalia}},
+  shorttitle =   {{AO}},
+}
+
+@XDATA{east:5660,
+  title =        {Journal of {Indian} {Philosophy}},
+  shorttitle =   {{JIP}},
+}
+
+@XDATA{east:5661,
+  title =        {Hindu {Vishvavidyalaya} {Nepal} {Rajya}
+                  {Skt}. {Ser}.},
+}
+
+@XDATA{east:5662,
+  title =        {Zinbun: memoirs of the {Research} {Institute} for
+                  {Humanistic} {Studies}},
+  shorttitle =   {Zinbun},
+}
+
+@XDATA{east:5663,
+  title =        {Kokuyaku {Issaikyō}: {Ronshūbu}},
+  publisher =    {Daitō Shuppansha},
+}
+
+@XDATA{east:5665,
+  title =        {Asian culture and thought},
+}
+
+@XDATA{east:5666,
+  title =        {Studies in {Linguistics}: {State}-of-the-{Art}
+                  {Reports}},
+}
+
+@XDATA{east:5667,
+  title =        {Den kar ma},
+  shorttitle =   {Den kar ma},
+}
+
+@XDATA{east:5668,
+  title =        {Bibliotheca {Indica}: {New} {Series}},
+  shorttitle =   {{BI} {N}. {S}.},
+}
+
+@XDATA{east:5669,
+  title =        {Nai {Xue}},
+  shorttitle =   {Nai {Xue}},
+}
+
+@XDATA{east:5670,
+  title =        {Hokkaidō {Komazawa} {Daigaku} {Kenkyū} {Kiyō}
+                  [*{Hokkaido} {Journal} of {Komazawa} {University}]},
+  shorttitle =   {{HKDKK}},
+}
+
+@XDATA{east:5671,
+  title =        {Ryūkoku {Daigaku} {Daigakuin} {Kenkyū} {Kiyō}:
+                  {Jinbun} {Kagaku}},
+  shorttitle =   {{RDDKK}},
+}
+
+@XDATA{east:5672,
+  title =        {Adyar {Library} {Series}},
+  shorttitle =   {{ALS}},
+}
+
+@XDATA{east:5674,
+  title =        {Studia {Tibetica}},
+}
+
+@XDATA{east:5679,
+  title =	 {Glass negative collection of the Bihar Research
+                  Society},
+}
+
+@XDATA{east:5680,
+  title =        {Mikkyō {Bunka} [*{Quaterly} {Report} on {Esoteric}
+                  {Buddhism}]},
+  shorttitle =   {{MBu}},
+}
+
+@XDATA{east:5681,
+  title =        {Shōwa shinsan kokuyaku daizōkyō: {Ronshūbu}},
+}
+
+@XDATA{east:5683,
+  title =        {International {Research} {Institute} {Monograph}},
+}
+
+@XDATA{east:5684,
+  title =        {Foundations of {Language}: {Supplementary} {Ser}.},
+}
+
+@XDATA{east:5685,
+  title =        {Journal of the {Greater} {India} {Society}},
+  shorttitle =   {{JGIS}},
+}
+
+@XDATA{east:5686,
+  title =        {Kāshi {Sanskrit} {Series}},
+  shorttitle =   {{KSS}},
+}
+
+@XDATA{east:5687,
+  title =        {Wiener {Zeitschrift} für die {Kunde} des
+                  {Morgenlandes}},
+  shorttitle =   {{WZKM}},
+}
+
+@XDATA{east:5692,
+  title =        {Mikkyōgaku {Kenkyū}},
+  shorttitle =   {{MGK}},
+}
+
+@XDATA{east:5694,
+  title =        {Brahmavidyā: {The} {Adyar} {Library} {Bulletin}},
+  shorttitle =   {{ALB}},
+}
+
+@XDATA{east:5696,
+  title =        {Indian {Culture}},
+  shorttitle =   {{IC}},
+}
+
+@XDATA{east:5700,
+  title =        {Chizan {Gakuhō}},
+  shorttitle =   {{CGH}},
+}
+
+@XDATA{east:5701,
+  title =        {Komazawa {Daigaku} {Bukkyō} {Gakubu} {Ronshū}
+                  [{Journal} of {Buddhist} {Studies}]},
+}
+
+@XDATA{east:5702,
+  title =        {Naritasan {Bukkyō} {Kenkyūjo} {Kiyō} [{Journal} of
+                  {Naritasan} {Institute} of {Buddhist} {Studies}]},
+}
+
+@XDATA{east:5703,
+  title =        {Meijō {Daigaku} {Jinbun} {Kiyō} [*{Meijo} {Bulletin}
+                  of {Humanities}]},
+  shorttitle =   {{MDJK}},
+}
+
+@XDATA{east:5704,
+  title =        {Bukkyōgaku kaihō},
+  shorttitle =   {{BGH}},
+}
+
+@XDATA{east:5705,
+  title =        {島根県立国際短期大学紀要},
+  editor =       {{島根県立国際短期大学}},
+}
+
+@XDATA{east:5706,
+  title =        {Mitteilungen der {Mathematischen} {Gesellschaft}
+                  {Hamburg}},
+}
+
+@XDATA{east:5707,
+  title =        {Journal of the {American} {Oriental} {Society}},
+  shorttitle =   {{JAOS}},
+}
+
+@XDATA{east:5708,
+  title =        {Rocznik {Orientlistyczny}},
+  shorttitle =   {{RO}},
+}
+
+@XDATA{east:5709,
+  title =        {Saga {Ryūkoku} {Tanki} {Daigaku} {Kiyō} [{Bulletin}
+                  of {Saga} {Ryūkoku} {Junior} {College}]},
+}
+
+@XDATA{east:5710,
+  title =        {Dr. {B}. {C}. {Law} {Trust} {Fund}},
+}
+
+@XDATA{east:5715,
+  title =        {Publ. de l'{Inst}. de {Civilisation} indienne},
+  shorttitle =   {{PlCI}},
+}
+
+@XDATA{east:5717,
+  title =        {Indo-{Iranian} {Reprints}},
+}
+
+@XDATA{east:5718,
+  title =        {龍谷大学論集 [*{Journal} of {Ryūkoku} {University}]},
+  shorttitle =   {{RDR}},
+}
+
+@XDATA{east:5719,
+  title =        {Journal of the {Oriental} {Institute} {Baroda}},
+}
+
+@XDATA{east:5721,
+  title =        {Kyōiku {Shogaku} {Kenkyū} {Ronbunshū}},
+  shorttitle =   {{KSKR}},
+}
+
+@XDATA{east:5722,
+  title =        {Nagoya {Daigaku} {Bungakubu} {Kenkyū} {Ronshū}},
+  shorttitle =   {{NDBKR}},
+}
+
+@XDATA{east:5724,
+  title =        {Ōsaka {Furitsu} {Daigaku} {Kiyō} [*{Bulletin} of the
+                  {University} of {Osaka} {Prefecture}]},
+  shorttitle =   {{ODKN}},
+}
+
+@XDATA{east:5725,
+  title =        {Monographs of the {Society} for {Asian} and
+                  {Comparative} {Philosophy}},
+}
+
+@XDATA{east:5726,
+  title =        {Asiatische {Forschungen}},
+  shorttitle =   {{AsF}},
+}
+
+@XDATA{east:5727,
+  title =        {{lHan} kar kat.},
+  shorttitle =   {{lHan} kar kat.},
+}
+
+@XDATA{east:5728,
+  title =        {Bukkyō {Daigaku} {Kōza}},
+}
+
+@XDATA{east:5729,
+  title =        {Bauddha {Bharati} {Series}},
+  shorttitle =   {{BBhS}},
+}
+
+@XDATA{east:5730,
+  title =        {大正新脩大藏經 // {Taishō} shinshū dai zōkyō},
+  shorttitle =   {Taishō},
+  language =     {zh-CN},
+  editor =       {Takakusu, Junirō and Watanabe, Kaikyoku},
+  date = {1924/1935}
+}
+
+@XDATA{east:5731,
+  title =        {Sōtōshū {Kenkyūin} {Kenkyūsei} {Kenkyū} {Kiyō}},
+}
+
+@XDATA{east:5732,
+  title =        {Kōchi {Kōgyōkōtōsenmongakkō} {Gakujutsu} {Kiyō}
+                  [{The} {Bulletin} of {Kochi} {National} {College} of
+                  {Technology}]},
+}
+
+@XDATA{east:5733,
+  title =        {Indologica {Taurinensia}},
+  shorttitle =   {{IT}},
+}
+
+@XDATA{east:5734,
+  title =        {Annales du {Musée} {Guimet}},
+  shorttitle =   {{AMG}},
+}
+
+@XDATA{east:5735,
+  title =        {Studi orientali pubblicati a cura della {Scuola}
+                  orientale},
+}
+
+@XDATA{east:5737,
+  title =        {Tshad ma},
+  shorttitle =   {Tshad ma},
+}
+
+@XDATA{east:5738,
+  title =        {Alt- und {Neuindische} {Studien}},
+  shorttitle =   {{ANISt}},
+}
+
+@XDATA{east:5739,
+  title =        {Śrī Ātmānand {Jain} {Granthamalā}},
+}
+
+@XDATA{east:5741,
+  title =        {Bibliotheca {Buddhica}},
+  shorttitle =   {{BBu}},
+}
+
+@XDATA{east:5742,
+  title =        {Indo {Tetsugaku} {Bukkyōgaku} {Kenkyū}},
+}
+
+@XDATA{east:5743,
+  title =        {Nava {Nālandā} {Mahāvihāra} {Research}
+                  {Publication}},
+}
+
+@XDATA{east:5744,
+  title =        {Annals of the {Bhandarkar} {Oriental} {Research}
+                  {Institute}},
+  shorttitle =   {{ABORI}},
+}
+
+@XDATA{east:5746,
+  title =        {Indo {Shisōshi} {Kenkyū} [*{Studies} in the
+                  {History} of {Indian} {Thought}]},
+  shorttitle =   {{ISK}},
+}
+
+@XDATA{east:5747,
+  title =        {Bulletin of {Tibetology} {N}.{S}.},
+}
+
+@XDATA{east:5748,
+  title =        {The {Maha} {Bodhi}: and the {United} {Buddhist}
+                  {World}},
+  shorttitle =   {{MB}},
+}
+
+@XDATA{east:5749,
+  title =        {Nagoya {Shōka} {Daigaku} {Ronshū} [*{Bulletin} of
+                  {Faculty} of {Commerce}]},
+  shorttitle =   {{NSDR}},
+}
+
+@XDATA{east:5750,
+  title =        {Journal of the {Royal} {Asiatc} {Society} of {Great}
+                  {Britain} and {Ireland}},
+  shorttitle =   {{JRAS}},
+}
+
+@XDATA{east:5751,
+  title =        {Bukkyōgaku {Kenkyū} [*{Studies} in {Buddhism}]},
+  shorttitle =   {{BGK}},
+}
+
+@XDATA{east:5753,
+  title =        {Wiener {Zeitschrift} für die {Kunde} {Süd}- und
+                  {Ostasiens}},
+  shorttitle =   {{WZKSO}},
+}
+
+@XDATA{east:5756,
+  title =        {Bibliotheca {Indo}-{Buddhica}},
+  shorttitle =   {{BIB}},
+}
+
+@XDATA{east:5757,
+  title =        {Bulletin of {Tibetology}},
+  shorttitle =   {{BTib}},
+}
+
+@XDATA{east:5758,
+  title =        {Serie {Orientale} {Roma}},
+  shorttitle =   {{SOR}},
+}
+
+@XDATA{east:5759,
+  title =        {Kobe {Joshi} {Daigaku} {Kiyō}: {Bungaku} {Bunen}
+                  [*{Bulletin} of {Kobe} {Women}'s {University}:
+                  {Literature} {Department}]},
+  shorttitle =   {{KJDKBB}},
+}
+
+@XDATA{east:5760,
+  title =        {Gaekwad's {Oriental} {Series}},
+  shorttitle =   {{GOS}},
+}
+
+@XDATA{east:5761,
+  title =        {Bukkyō {Kenkyū} [*{Buddhist} {Studies}]},
+  shorttitle =   {{BK}},
+}
+
+@XDATA{east:5762,
+  title =        {Tōyō {Daigaku} {Dagakuin} {Kiyō} [*{Bulletin} of the
+                  of the {Academy}]},
+  shorttitle =   {{TDDK}},
+}
+
+@XDATA{east:5763,
+  title =        {Shūkyo {Kenkyū} [*{Journal} of {Religious}
+                  {Studies}]},
+  shorttitle =   {{SUK}},
+}
+
+@XDATA{east:5764,
+  title =        {Koryŏ taejanggyŏng},
+  language =     {zh-CN},
+  date =         1976,
+}
+
+@XDATA{east:5765,
+  title =        {Journal of the {Bihar} and {Orissa} {Reseach}
+                  {Society}: {New} {Series}},
+  shorttitle =   {{JBORS}},
+}
+
+@XDATA{east:5766,
+  title =        {Tibetan {Sanskrit} {Works} {Series}},
+  shorttitle =   {{TSWS}},
+}
+
+@XDATA{east:5767,
+  title =        {Tetsugaku {Nenpō} [{Annual} of {Philosophy}]},
+}
+
+@XDATA{east:5768,
+  title =        {Bulletin of {Tokyo} {Gakugei} {University}},
+}
+
+@XDATA{east:5769,
+  title =        {Naigoya {Daigaku} {Bungakubu} {Kenkyū} {Ronshū}
+                  {Tetsugaku}},
+  shorttitle =   {{NDBKRT}},
+}
+
+@XDATA{east:5770,
+  title =        {Glasenapp {Stiftung}},
+}
+
+@XDATA{east:5771,
+  title =        {Indo-{Iranian} {Journal}},
+  shorttitle =   {{IIJ}},
+}
+
+@XDATA{east:5772,
+  title =        {Tōyōgaku {Kenkyū}},
+  shorttitle =   {{TGK}},
+}
+
+@XDATA{east:5785,
+  title =        {Okuda {Jio} sensei kiju kinen},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5793,
+  title =        {Tamaki {Kōshirō} hakase kanreki kinen ronshū:
+                  {Butsu} no kenkyū},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5797,
+  title =        {Hirakawa {Akira} hakase kanreki kinen ronshū:
+                  {Bukkyō} ni okeru hō no kenkyū},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5837,
+  title =        {Ihara {Shōren} {Hakase} {Koki} {Kinen} {Ronbushū}:
+                  {Ihara} {Shōren} hakase koki kinenkai [*{Essays} in
+                  {Honor} of {Dr}. {Shoren} {Ihara} on his
+                  {Seventieth} {Birthday}: {Committee} for the
+                  {Commemoration} of {Dr}. {Shoren} {Ihara}'s
+                  {Seventieth} {Birthday}]},
+  language =     {ja-JP},
+  publisher =    {Kyūshū University},
+  date =         1991,
+}
+
+@XDATA{east:5838,
+  title =        {Orientalistische {Literaturzeitung}},
+  shorttitle =   {{OLZ}},
+}
+
+@XDATA{east:5839,
+  title =        {Ōkurayama {Gakuin} {Kiyō}},
+}
+
+@XDATA{east:5840,
+  title =        {Buddhist {Studies} {Review}},
+}
+
+@XDATA{east:5842,
+  title =        {Tōyō no {Shisō} to {Shūkyō}},
+  shorttitle =   {{TShSh}},
+}
+
+@XDATA{east:5853,
+  location =      {Bāgarā, Āhor},
+  title =        {Śrīmad {Vijayarājendrasūrismarakagrantha}},
+  language =     {hi},
+}
+
+@XDATA{east:5868,
+  title =        {Indo seishin bunka no kenkyū: toku ni {Jaina} o
+                  chūshin to shite // 印度精神文化の研究: 特にヂャイナ
+                  を中心として},
+  language =     {ja-JP},
+  publisher =    {Baifūkan},
+  date =         1944,
+}
+
+@XDATA{east:5869,
+  title =        {Shoki no {Vedānta} tetsugaku},
+  language =     {ja-JP},
+  date =         1950,
+}
+
+@XDATA{east:5871,
+  title =        {Kotoba no keijijōgaku},
+  language =     {ja-JP},
+  date =         1956,
+  location =     {Tōkyō},
+}
+
+@XDATA{east:5876,
+  location =      {Kyōto},
+  title =        {Buddhism and its {Relation} to {Other} {Religions}:
+                  {Essays} in {Honour} of {Dr}. {Shozen} {Kumoi}},
+  language =     {en-US},
+  publisher =    {Heirakuji shoten},
+  date =         1985,
+}
+
+@XDATA{east:5894,
+  title =        {Prize {Publication} {Fund}},
+  language =     {en-US},
+}
+
+@XDATA{east:5921,
+  title =        {Denkschriften: philosophisch-historische {Klasse}},
+}
+
+@XDATA{east:5928,
+  title =        {{BDK} fellowship newsletter},
+  language =     {en-US},
+  editor =       {{Bukkyō-Dendō-Kyōkai}},
+}
+
+@XDATA{east:5930,
+  title =        {Tetsugaku, {Shisō} {Ronshū} [*{Studies} in
+                  {Philosophy}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5934,
+  title =        {Revue internationale de philosophie},
+  language =     {fr-FR},
+}
+
+@XDATA{east:5936,
+  title =        {Nippon {Bukkyōgakkai} {Nenpō} [*{The} {Journal} of
+                  the {Nippon} {Buddhist} {Research} {Association}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5937,
+  title =        {仏教学セミナー [{Bukkyōgaku} seminā] [*{Buddhist}
+                  {Seminar}]},
+  language =     {ja-JP},
+  editor =       {{大谷大学. 佛教学会: Ōtani Daigaku. Bukkyō Gakkai}},
+}
+
+@XDATA{east:5943,
+  title =        {駒沢短期大学仏教論集 [{Komazawa} {Tanki} {Daigaku}
+                  bukkyō ronshū] [*{Journal} of {Buddhism}]},
+  language =     {ja-JP},
+  editor =       {{駒澤短期大學佛教科: Komazawa Tanki
+                  Daigaku. Bukkyōka}},
+}
+
+@XDATA{east:5946,
+  title =        {Nanto {Bukkyo}̄ [*{Journal} of the {Nanto} {Society}
+                  for {Buddhist} {Studies}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5949,
+  title =        {南アジア古典学},
+  issn =         {1881-2074},
+  language =     {ja-JP},
+  editor =       {{九州大学文学部インド哲学史研究室}},
+}
+
+@XDATA{east:5950,
+  title =        {Komazawa {Tankidaigaku} {Kenkyū} {Kiyō} [*{Journal}
+                  of {Komazawa} {Junior} {College}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5951,
+  title =        {Semiotische {Berichte}},
+  language =     {de-DE},
+  editor =       {{Österreichische Gesellschaft für Semiotik}},
+}
+
+@XDATA{east:5953,
+  title =        {South {Asian} {Classical} {Studies}},
+  issn =         {1881-2074},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5955,
+  title =        {仏教大学大学院紀要},
+  language =     {ja-JP},
+  editor =       {{仏教大学学術委員会}},
+}
+
+@XDATA{east:5956,
+  title =        {Revista de estudios budistas},
+  language =     {es-ES},
+  editor =       {{Asociación Latinoamericana de Estudios Budistas}},
+}
+
+@XDATA{east:5957,
+  title =        {Asian {Philosophy}: an international journal of
+                  {Indian}, {Chinese}, {Japanese}, {Buddhist},
+                  {Persian} and {Islamic} philosophical traditions},
+  language =     {en-US},
+}
+
+@XDATA{east:5959,
+  title =        {Hikaku {Ronrigaku} {Kenkyū} [*{The} {Annals} of the
+                  {Research} {Project} {Center} for the {Comparative}
+                  {Study} of {Logic}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5961,
+  title =        {Buddhismus in {Geschichte} und {Gegenwart}:
+                  weiterbildendes {Studium}},
+  language =     {de-DE},
+  editor =       {{Universität (Hamburg). Fachbereich Orientalistik}
+                  and {Asien-Afrika-Institut (Hamburg)}},
+  url =
+                  {https://www.buddhismuskunde.uni-hamburg.de/publikationen/2-buddhismus-in-geschichte-und-gegenwart.html},
+}
+
+@XDATA{east:5963,
+  title =        {インド哲学仏教学研究 [{Indo} tetsugaku {Bukkyo}̄gaku
+                  kenkyū] [*{Studies} of {Indian} philosophy and
+                  {Buddhism}]},
+  language =     {ja-JP},
+  editor =       {{東京大学大学院人文社会系研究科.文学部インド哲学仏教
+                  学研究室: Tōkyō Daigaku. Jinbun Shakaikei
+                  Kenkyūka. Indo Tetsugaku Bukkyōgaku Kenkyūshitsu}},
+}
+
+@XDATA{east:5966,
+  title =        {論集},
+  language =     {ja-JP},
+  editor =       {{三重大学教育学部哲学倫理学教室} and {三重大学人文学
+                  部哲学思想学系}},
+}
+
+@XDATA{east:5967,
+  title =        {Studia {Indologiczne} [*{Journal} of {Indological}
+                  studies]},
+  language =     {pl-PL},
+  editor =       {{Uniwersytet Warszawski. Instytut Orientalistyczny}
+                  and {Uniwersytet Warszawski. Wydział
+                  Orientalistyczny.}},
+}
+
+@XDATA{east:5969,
+  title =        {比較論理学研究: 広島大学比較論理学プロジェクト研究セ
+                  ンター研究成果報告書 [*{The} annals of the research
+                  project center for the comparative study of logic]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5970,
+  title    = {Journal of {Argumentation} in {Context}},
+  editor   = {van Eemeren, Frans H.},
+  language = {en-US},
+}
+
+@XDATA{east:5971,
+  title =        {American journal of theology and philosophy},
+  language =     {en-US},
+}
+
+@XDATA{east:5972,
+  title =        {哲學 [{Tetsugaku}] [*{Journal} of {Hiroshima}
+                  {Philosophical} {Society}]},
+  language =     {ja-JP},
+  editor =       {{廣島哲学會: Hiroshima Tetsugakukai}},
+}
+
+@XDATA{east:5973,
+  title =        {Sophia: international journal for philosophy of
+                  religion, metaphysical theology and ethics},
+  language =     {en-US},
+}
+
+@XDATA{east:5982,
+  title =        {Kōchi {Kōgyōkōtōsenmongakkō} {Gakujutsu} {Kiyō}
+                  [*{The} {Bulletin} of {Kochi} {National} {College}
+                  of {Technology}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5985,
+  title =        {哲學硏究 [*{The} {Journal} of {Philosophical}
+                  {Studies}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5987,
+  title =        {Tōyō {No} {Shisō} to {Shūkyō} [*{Thought} and
+                  {Religion} of {Asia}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5990,
+  title =        {Nihon chibettogakkai kaihō [*{Report} of the
+                  {Japanese} {Association} for {Tibetan} {Studies}]},
+  language =     {ja-JP},
+}
+
+@XDATA{east:5991,
+  title =        {中華佛學學報 [{Zhonghua} fo xue xue bao]
+                  [*{Chung}-{Hwa} {Buddhist} journal]},
+  language =     {zh-CN},
+}
+
+@XDATA{east:5996,
+  title =        {Argumentation: {An} {International} {Journal} on
+                  {Reasoning}},
+  language =     {en-US},
+  editor =       {van Eemeren, Frans H.},
+}
+
+@XDATA{east:6000,
+  journaltitle =        {龍谷大学佛教文化研究所紀要
+                  [{Ryūkoku}-{Daigaku}-{Bukkyōbunka}-{Kenkyūjo}-{Kiyō}:
+                  {Bulletin} of {Buddhist} {Cultural} {Institute},
+                  {Ryukoku} {University}]},
+  language =     {ja-JP},
+  editor =       {{龍谷大学. 佛教文化研究所: Ryūkoku Daigaku. Bukkyō
+                  Bunka Kenkyūjo}},
+}
+
+@XDATA{east:6003,
+  title =        {Hōrin: vergleichende {Studien} zur japanischen
+                  {Kultur} [*{Comparative} studies in {Japanese}
+                  culture]},
+  issn =         {0945-9634},
+  language =     {de-DE},
+  editor =       {{Haus der Japanischen Kultur (EKŌ) in Düsseldorf}},
+}
+
+@XDATA{east:6044,
+  title =        {Bukkyō {Bunka} {Kenkyū} {Ronshū} [*{Studies} of
+                  {Buddhist} {Culture}]},
+  issn =         {1342-8918},
+  language =     {ja-JP},
+  keywords =     {Buddhism},
+}
+
+% XDATA fields end
+
+% Bibliographic entries start
 
 @Article{east:27501,
   author =	 {Miyasaka, Yūshō},
@@ -29,7 +1607,6 @@ Notes:
   langid =	 {japanese}
 }
 
-
 @Book{east:27507,
   author =	 {Steinkellner, Ernst},
   title =	 {Dharmakīrtis frühe Logik. Annotierte Übersetzung der
@@ -43,7 +1620,6 @@ Notes:
   location =	 {Tōkyō},
   langid =	 {german}
 }
-
 
 @Article{east:27508,
   author =	 {矢板 Yaita, 秀臣 Hideomi},
@@ -60,7 +1636,6 @@ Notes:
   langid =	 {japanese}
 }
 
-
 @Book{east:27509,
   author =	 {Krasser, Helmut},
   title =	 {Śaṅkaranandanas Īśvarāpākaraṇasaṅkṣepa: mit einem
@@ -75,7 +1650,6 @@ Notes:
   location =	 {Wien},
   langid =	 {german}
 }
-
 
 @Book{east:27510,
   author =	 {Krasser, Helmut},
@@ -93,7 +1667,6 @@ Notes:
   location =	 {Wien},
   langid =	 {german}
 }
-
 
 @Article{east:27511,
   author =	 {Kano, Kazuo},
@@ -142,11 +1715,7 @@ Notes:
 
 
 % This entry is slightly useless, since we only have one entry from this journal.
-@XDATA{east:27514,
-  journaltitle =	 {內學 [Neixue] [*Inner Studies]},
-  language =	 {zh-CN},
-  langid =	 {pinyin}
-}
+
 
 
 @Article{east:27515,
@@ -185,16 +1754,6 @@ Notes:
   crossref =	 {east:27516},
 }
 
-
-@XDATA{east:27518,
-  title =	 {Newsletter of the {NGMCP}},
-  date =	 2006,
-  editor =	 {{Nepalese-German Manuscript Cataloguing Project} and
-                  Isaacson, Harunaga},
-  langid =	 {american}
-}
-
-
 @Article{east:27519,
   author =	 {Harimoto, Kengo and Kano, Kazuo},
   title =	 {Fragments of a Commentary on the Tattvasaṅgraha,
@@ -208,15 +1767,6 @@ Notes:
   pages =	 {15--24},
   langid =	 {american}
 }
-
-
-@XDATA{east:27520,
-  journaltitle = {Journal of the Nepal Research Centre},
-  date =	 1977,
-  editor =	 {{Nepal Research Centre}},
-  shorttitle =	 {JNRC},
-}
-
 
 @Article{east:27521,
   author   = {Harimoto, Kengo and Kano, Kazuo},
@@ -239,7 +1789,6 @@ Notes:
   crossref =	 {east:27523},
 }
 
-
 @Collection{east:27523,
   editor    = {Kulkarni, Malhar and Dianescu, Bogdan and Candotti, Maria Piera and Feller, Daniele and Eltschinger, Vincent and Voegeli, François},
   title     = {Devadattīyam},
@@ -259,14 +1808,6 @@ Notes:
   number    = {8},
   publisher = {China Tibetology Publishing House and Austrian Academy of Sciences Press},
   location  = {Beijing, Vienna},
-}
-
-@XDATA{east:27525,
-  title =        {The {Indian} international journal of {Buddhist}
-                  studies},
-  shorttitle =   {{IIJBS}},
-  language =     {en-US},
-  editor =       {{Institute of Buddhist and Asian Studies}},
 }
 
 @Article{east:27526,
@@ -410,12 +1951,6 @@ Notes:
   volume       = {46},
 }
 
-@XDATA{east:27538,
-  title =        {Indogaku {Chibettogaku} {Kenkyū} [*{Journal} of
-                  {Indian} and {Tibetan} {Studies}]},
-  language =     {ja-JP},
-}
-
 @article{east:27539,
   title =        {Theory of {Apoha} on the basis of the
                   {Pramāṇasamuccaya}},
@@ -431,7 +1966,7 @@ Notes:
 
 @incollection{east:27540,
   location =     {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Why {Infer} and not just {Look}?: {Dharmakīrti} on
                   the {Psychology} of {Inferential} {Processes}},
@@ -488,13 +2023,6 @@ Notes:
   location  = {Boston},
 }
 
-@XDATA{east:27545,
-  title =        {Journal of the {American} {Academy} of {Religion}},
-  shorttitle =   {{AAR}},
-  language =     {en-US},
-  editor =       {{American Academy of Religion}},
-}
-
 @incollection{east:27546,
   booktitle =    {The Svātantrika-Prāsaṅgika distinction: What
                   difference does a difference make?},
@@ -541,12 +2069,6 @@ Notes:
   author =       {Pagel, Ulrich},
   date =         1999,
   pages =        {165--210},
-}
-
-@XDATA{east:27549,
-  title =        {駒沢大学仏教学部論集},
-  language =     {ja-JP},
-  editor =       {{Komazawa Daigaku. Bukkyō Gakubu}},
 }
 
 @InCollection{east:27550,
@@ -721,12 +2243,6 @@ Notes:
   location  = {Roma},
 }
 
-@XDATA{east:27632,
-  title =        {Beiträge zur {Kultur}- und {Geistesgeschichte}
-                  {Asiens}},
-  language =     {de-DE},
-}
-
 @book{east:27633,
   location =      {Wien},
   series =       {Beiträge zur {Kultur}- und {Geistesgeschichte}
@@ -778,7 +2294,7 @@ Notes:
   number    = {11},
   pages     = {275--284},
   publisher = {Arbeitskreis für tibetische und buddhistische Studien, Universität Wien},
-  series    = {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und {Buddhismuskunde}},
+  series    = {{Wiener} {Studien} zur {Tibetologie} und {Buddhismuskunde}},
 }
 
 @Collection{east:27637,
@@ -786,7 +2302,7 @@ Notes:
   title     = {Contributions on {Tibetan} and {Buddhist} {Religion} and {Philosophy}: {Proceedings} of the {Csoma} de {Kőrös} {Symposium} {Held} at {Velm}-{Vienna}, {Austria}, 13-19 {September} 1981, {Vol}. 2},
   date      = {1983},
   language  = {en-US},
-  series    = {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und {Buddhismuskunde}},
+  series    = {{Wiener} {Studien} zur {Tibetologie} und {Buddhismuskunde}},
   number    = {11},
   publisher = {Arbeitskreis für tibetische und buddhistische Studien, Universität Wien},
   location  = {Wien},
@@ -1145,6 +2661,36 @@ Notes:
   pages =        {199--208},
 }
 
+@Article{east:28368,
+  author       = {Kyūma, Taiken},
+  date         = {2006},
+  journaltitle = {Ronshū [*Ronshu]},
+  title        = {Setsunametsu {Ronshō} {Ni} {Okeru} {Shudaishozokusei} (pakṣadharmatā) {Wo} {Meguru} {Ichi} {Kōsatsu}: {Jñānaśrīmitra} {Ni} {Yoru} {Shudai} (pakṣa) to {Ronshōin} (hetu) {No} {Nishu} {No} {Kaishaku} [*{A} {Study} on the {Pakṣadharmatā} in the {Proof} of {Momentariness}: {Jñānaśrīmitra}’s {Two} {Interpretations} of {Pakṣa} and {Hetu}]},
+  language     = {ja-JP},
+  pages        = {87--98},
+  volume       = {12},
+}
+
+@Article{east:28369,
+  author       = {Kyūma, Taiken},
+  date         = {2004},
+  journaltitle = {Ronshū [*Ronshu]},
+  title        = {Jñānaśrīmitra {Ni} {Kiserareru} {Chosaku} “{Fuitsu} {Fui} {No} {Kōsatsu} ({Bhedābhedaparīkṣā})” {Ni} {Tsuite} (1) [*{On} {Bhedābhedaparīkṣā} {Ascribed} to {Jñānaśrīmitra} (1)]},
+  language     = {ja-JP},
+  pages        = {110--124},
+  volume       = {11},
+}
+
+@Article{east:28370,
+  author       = {Kyūma, Taiken},
+  date         = {2010},
+  journaltitle = {Ronshū [*Ronshu]},
+  title        = {Jñānaśrīmitra {Ni} {Kiserareru} {Chosaku} “{Fuitsu} {Fui} {No} {Kōsatsu} ({Bhedābhedaparīkṣā})” {Ni} {Tsuite} (2) [*{On} the {Bhedābhedaparīkṣā} {Ascribed} to {Jñānaśrīmitra} (2)]},
+  language     = {ja-JP},
+  pages        = {88--112},
+  volume       = {14},
+}
+
 @Article{east:27668,
   author       = {Franco, Eli},
   date         = {1986},
@@ -1174,10 +2720,21 @@ Notes:
   volume =       12,
   language =     {en-US},
   number =       2,
-  journaltitle =      {Journal of Indian Philosophy},
-  author =       {Franco, Eli},
-  date =         1984,
-  pages =        {105--137},
+  journaltitle =      {Indogaku Bukkyōgaku Kenkyū [*Journal of Indian and
+                  Buddhist Studies]},
+  author =       {Shiraishi, Tatsuhiko},
+  date =         2003,
+  pages =        {913--915},
+}
+
+@Article{east:28377,
+  author       = {Kitahara, Yūzen},
+  date         = {1996},
+  journaltitle = {Kōyasan Daigaku Daigakuin Kiyō [*Bulletion of the Graduate School, Koyasan University Graduate Program of Liberal Art]},
+  title        = {Ratnakīrti {No} {Tayōfuniron}: {Kōki} {Yuishikishisō} {Ni} {Okeru} {Keishōron} {Kenkyū} {Josetsu} [*{On} {Ratnakīrti}’s {Citrādvaitavāda}: {An} {Introduction} to the {Study} of the ākāra {Theory} in {Late} {Vijñānavāda}]},
+  language     = {ja-JP},
+  pages        = {1--21},
+  volume       = {1},
 }
 
 @Article{east:27671,
@@ -1188,11 +2745,6 @@ Notes:
   language     = {en-US},
   pages        = {17--32},
   volume       = {18},
-}
-
-@XDATA{east:27672,
-  title =        {China {Tibetology}},
-  language =     {en-US},
 }
 
 @Article{east:27673,
@@ -1229,13 +2781,6 @@ Notes:
   pages =        {1--13},
 }
 
-@XDATA{east:27676,
-  title =        {Acta {Asiatica}: {Bulletin} of the {Institute} of
-                  {Eastern} {Culture}},
-  shorttitle =   {{AcAs}},
-  language =     {en-US},
-}
-
 @Article{east:27677,
   author       = {赤松 Akamatsu, 明彥 Akihiko},
   date         = {1986},
@@ -1244,12 +2789,6 @@ Notes:
   language     = {ja-JP},
   pages        = {203--227},
   volume       = {60},
-}
-
-@XDATA{east:27678,
-  title =        {人文学報 [{Zinbun} {Gakuho}] [*{Journal} of
-                  {Humanistic} {Studies}]},
-  language =     {ja-JP},
 }
 
 @article{east:27679,
@@ -1316,12 +2855,6 @@ Notes:
   pages =        {53--58},
 }
 
-@XDATA{east:27684,
-  title =        {インド学報 [{Indo} gakuhō] [*{Indological}
-                  {Review}]},
-  language =     {ja-JP},
-}
-
 @article{east:27685,
   title =        {{Dharmakīrti以後のApoha論の展開}: {Dharmottaraの場合}
                   [{Dharmakīrti} igo no {Apoha}-ron no tenkai:
@@ -1347,12 +2880,6 @@ Notes:
   location  = {Wien},
   number    = {847},
   publisher = {Verlag der Österreichischen Akademie der Wissenschaften},
-}
-
-@XDATA{east:27687,
-  title =        {Anzeiger der philosophisch-historischen {Klasse} der
-                  Österreichischen {Akademie} der {Wissenschaften}},
-  language =     {de-DE},
 }
 
 @article{east:27688,
@@ -1630,12 +3157,6 @@ Notes:
   pages =        {178--197},
 }
 
-@XDATA{east:27714,
-  title =        {Journal of {Religious} {History}},
-  language =     {en-US},
-  editor =       {{Religious History Association}},
-}
-
 @incollection{east:27715,
   booktitle =    {Apoha: Buddhist Nominalism and Human Cognition},
   location =      {New York},
@@ -1670,12 +3191,6 @@ Notes:
   pages =        {53--70},
 }
 
-@XDATA{east:27718,
-  title =        {Journal of the {Asiatic} {Society}},
-  shorttitle =   {{JAS}},
-  language =     {en-US},
-}
-
 @article{east:27719,
   title =        {The {Goddess} {Mahācīnakrama}-{Tārā} ({Ugra}-{Tārā})
                   in {Buddhist} and {Hindu} {Tantrism}},
@@ -1688,14 +3203,6 @@ Notes:
   editor =       {{School of Oriental and African Studies}},
   date =         1996,
   pages =        {472--493},
-}
-
-@XDATA{east:27720,
-  title =        {Bulletin of the {School} of {Oriental} and {African}
-                  {Studies}},
-  shorttitle =   {{BSOAS}},
-  language =     {en-US},
-  editor =       {{School of Oriental and African Studies}},
 }
 
 @InCollection{east:27721,
@@ -1756,12 +3263,6 @@ Notes:
   pages =        {32--59},
 }
 
-@XDATA{east:27726,
-  title =        {Sambodhi},
-  language =     {en-US},
-  editor =       {{Lalbhai Dalpatbhai Institute of Indology}},
-}
-
 @article{east:27727,
   title =        {The {Philosophy} of the {Body} in {Nyaya}},
   volume =       54,
@@ -1773,13 +3274,6 @@ Notes:
   editor =       {{Ramakrishna Mission Institute of Culture}},
   date =         2003,
   pages =        {358--363},
-}
-
-@XDATA{east:27728,
-  title =        {Bulletin of the {Ramakrishna} {Mission} {Institute}
-                  of {Culture}},
-  language =     {en-US},
-  editor =       {{Ramakrishna Mission Institute of Culture}},
 }
 
 @article{east:27729,
@@ -2132,11 +3626,6 @@ Notes:
   pages =        {1--30},
 }
 
-@XDATA{east:27831,
-  title =        {Journal of {Buddhist} and {Tibetan} {Studies}},
-  language =     {en-US},
-}
-
 @article{east:27832,
   title =        {Two {Mongol} {Xylographs} ({Hor} {Par} {Ma}) of the
                   {Tibetan} {Text} of {Sa} {Skya} {Paṇḍita}’s {Work}
@@ -2264,12 +3753,6 @@ Notes:
   pages =        {288--295},
 }
 
-@XDATA{east:27842,
-  title =        {駒沢大学仏教学部研究紀要 [*{Journal} of the
-                  {Faculty} of {Buddhism} of {Komazawa} {University}]},
-  language =     {ja-JP},
-}
-
 @book{east:27843,
   location =      {Boston},
   title =        {Nāgārjuna’s {Middle} {Way}: {Mūlamadhyamakakārikā}},
@@ -2328,17 +3811,10 @@ Notes:
   pages =        {113--124},
 }
 
-@XDATA{east:27848,
-  title =        {日本仏教学会年報 [{Nihon} {Bukkyo} {Gakkai} {Nen}
-                  {Po}] [*{The} {Journal} of the {Nippon} {Buddhist}
-                  {Research} {Association}]},
-  language =     {ja-JP},
-}
-
 @incollection{east:27849,
   booktitle =    {The {Role} of the {Example} (dṛṣṭānta) in {Classical} {Indian} {Logic}},
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {The {Role} of {Dṛṣṭānta} in {Dignāga}’s {Logic}},
   language =     {en-US},
@@ -2495,7 +3971,7 @@ Notes:
 @incollection{east:27861,
   booktitle =    {Indica et tibetica: Festschrift für Michael Hahn, zum 65. Geburtstag von Freunden und Schülern überreicht},
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Dharmakīrti’s {Interpretation} of the {Word} iṣṭa in
                   the {Definition} of the {Thesis}},
@@ -2514,7 +3990,7 @@ Notes:
   title     = {Indica et tibetica: {Festschrift} für {Michael} {Hahn}, zum 65. {Geburtstag} von {Freunden} und {Schülern} überreicht},
   date      = {2007},
   language  = {de-DE},
-  series    = {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und {Buddhismuskunde}},
+  series    = {{Wiener} {Studien} zur {Tibetologie} und {Buddhismuskunde}},
   number    = {66},
   publisher = {Arbeitskreis für tibetische und buddhistische Studien Universität Wien},
   location  = {Wien},
@@ -2538,7 +4014,7 @@ Notes:
 @incollection{east:27864,
   booktitle =    {The {Role} of the {Example} (dṛṣṭānta) in {Classical} {Indian} {Logic}},
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {The {Negative} {Concomitance} (vyatireka) in the
                   {Case} of {Inconclusive} (anaikāntika) {Reasons}},
@@ -2922,13 +4398,6 @@ Notes:
   pages =        {115--123},
 }
 
-@XDATA{east:28019,
-  title =        {Tokyo {Gakugei} {Daigaku} {Kiyō}: {Dai} 2 {Bumon}
-                  [*{Bulletin} of {Tokyo} {Gakugei} {University}:
-                  {Section} {II} {Humanities}]},
-  language =     {ja-JP},
-}
-
 @article{east:28020,
   title =        {“{Pramāṇavārttika}” {Pramānasiddhi} {Shō} {No}
                   {Kenkyū} (11) [*{Studies} of {The} {Pramāṇasiddhi}
@@ -2940,17 +4409,6 @@ Notes:
   author =       {Inami, Masahiro},
   date =         2005,
   pages =        {125--140},
-}
-
-@XDATA{east:28021,
-  title =        {Indo {Ronrigaku} {Kenkyū} [*{Indian} {Logic}]},
-  language =     {ja-JP},
-}
-
-@XDATA{east:28022,
-  title =        {Hokkaidō {Daigaku} {Bungakubu} {Kiyō} [*{The}
-                  {Annual} {Reports} on {Cultural} {Science}]},
-  language =     {ja-JP},
 }
 
 @article{east:28023,
@@ -2966,14 +4424,6 @@ Notes:
   author =       {Imanishi, Junkichi},
   date =         1972,
   pages =        {147--227},
-}
-
-@XDATA{east:28024,
-  title =        {Tokyo {Gakugei} {Daigaku} {Kiyō}:
-                  {Jinbunshakaikagaku} {Kei} {II} [*{Bulletin} of
-                  {Tokyo} {Gakugei} {University}, {Humanities} and
-                  {Social} {Sciences} {II}]},
-  language =     {ja-JP},
 }
 
 @article{east:28025,
@@ -3056,12 +4506,6 @@ Notes:
   pages =        {71--94},
 }
 
-@XDATA{east:28031,
-  title =        {Indotetsugaku {Bukkyōgaku} {Kenkyū} [*{Studies} in
-                  {Indian} {Philosophy} and {Buddhism}]},
-  language =     {ja-JP},
-}
-
 @article{east:28032,
   title =        {Ratnakīrti-{Cho} “{Citrādvaitaprakāśavāda}”
                   {Wayakukenyū} (ge) [*{An} {Annotated} {Japanese}
@@ -3114,11 +4558,6 @@ Notes:
   author =       {Harada, Wasō},
   date =         1999,
   pages =        {1--15},
-}
-
-@XDATA{east:28036,
-  title =        {Seishin {Kagaku} [*{Science} of {Mind}]},
-  language =     {ja-JP},
 }
 
 @article{east:28037,
@@ -3310,13 +4749,6 @@ Notes:
   author =       {Yoshida, Akira},
   date =         2012,
   pages =        {42--70},
-}
-
-@XDATA{east:28148,
-  title =        {Ryūkokudaigaku {Bukkyōgaku} {Kenkyūshitsu} {Nenpō}
-                  [*{Bulletin} of {Buddhist} {Studies}, {Ryūkoku}
-                  {University}]},
-  language =     {ja-JP},
 }
 
 @article{east:28149,
@@ -3590,11 +5022,6 @@ Notes:
   pages =        {1--12},
 }
 
-@XDATA{east:28170,
-  title =        {Tetsugaku {Nenpō} [*{Annual} of {Philosophy}]},
-  language =     {ja-JP},
-}
-
 @article{east:28171,
   title =        {Dharmottara “shunkanteki {Shōmetsu} {Ronshō}”
                   {Kaisyakuno} {Mondai} (3) [*{Problems} of
@@ -3602,7 +5029,7 @@ Notes:
                   {Kṣaṇabhaṅgasiddhi} (3)]},
   volume =       41,
   language =     {ja-JP},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1997,
@@ -3616,7 +5043,7 @@ Notes:
                   {Kṣaṇabhaṅgasiddhi} (2)]},
   volume =       41,
   language =     {ja-JP},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1997,
@@ -3630,7 +5057,7 @@ Notes:
                   {Kṣaṇabhaṅgasiddhi} (1)]},
   volume =       41,
   language =     {ja-JP},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1997,
@@ -3643,7 +5070,7 @@ Notes:
                   {Text} and a {Translation}},
   volume =       30,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [*The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [*The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1989,
@@ -3656,7 +5083,7 @@ Notes:
                   and a {Translation}},
   volume =       31,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [*The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [*The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1989,
@@ -3670,7 +5097,7 @@ Notes:
                   {Translation} of {PVin} {III}. vv 4-6]},
   volume =       21,
   language =     {ja-JP},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [*The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [*The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1984,
@@ -3813,11 +5240,6 @@ Notes:
   author =       {Ryo, Sasaki},
   date =         2012,
   pages =        {69--90},
-}
-
-@XDATA{east:28186,
-  title =        {Kuwon [*{Kuwon}. {Research} {Papers}]},
-  language =     {ja-JP},
 }
 
 @article{east:28187,
@@ -3993,12 +5415,6 @@ Notes:
   pages =        {48--66},
 }
 
-@XDATA{east:28199,
-  title =        {Tetsugaku [*{Journal} of {Hiroshima} {Philosophical}
-                  {Society}]},
-  language =     {ja-JP},
-}
-
 @article{east:28200,
   title =        {Tattvasaṃgraha, Śabdārthaparīkṣā {Shō} {No} {Kenkyū}
                   (2) [*{A} {Study} of Śabdārthaparīkṣā of
@@ -4023,13 +5439,6 @@ Notes:
   author =       {Okada, Kenshō},
   date =         2003,
   pages =        {53--72},
-}
-
-@XDATA{east:28202,
-  title =        {Shūkyōgaku-{Hikakushisōgaku} {Ronshū} [*{Tsukuba}
-                  {Journal} of {Religious} {Studies} and {Comparative}
-                  {Thoughts}]},
-  language =     {ja-JP},
 }
 
 @article{east:28203,
@@ -4201,13 +5610,6 @@ Notes:
   pages =        {1--32},
 }
 
-@XDATA{east:28215,
-  title =        {Ryūkokudaigaku {Daigakuin} {Kiyō} [*{The} {Bulletin}
-                  of the {Graduate} {School} of {Ryukoku}
-                  {University}]},
-  language =     {ja-JP},
-}
-
 @book{east:28216,
   location =      {Tokyo},
   title =        {The {Avayavinirākaraṇa} of {Paṇḍita} {Aśoka}:
@@ -4233,12 +5635,6 @@ Notes:
   pages =        {141--157},
 }
 
-@XDATA{east:28218,
-  title =        {Nippon {Bukkyōgakkai} {Nenpō} [*{The} {Journal} of
-                  the {Nippon} {Buddhist} {Research} {Association}]},
-  language =     {ja-JP},
-}
-
 @article{east:28219,
   title =        {“{Tarkarahasya}” {Ni} {Mirareru} {Prajñākaragupta}
                   {No} {Ichikaku} {Setsu} [*{The} {Definition} of
@@ -4251,13 +5647,6 @@ Notes:
   author =       {Kobayashi, Hisayasu},
   date =         2008,
   pages =        {55--62},
-}
-
-@XDATA{east:28220,
-  title =        {Hikaku {Ronrigaku} {Kenkyū} [*{The} {Annals} of the
-                  {Research} {Project} {Center} for the {Comparative}
-                  {Study} of {Logic}]},
-  language =     {ja-JP},
 }
 
 @article{east:28221,
@@ -4349,12 +5738,6 @@ Notes:
   author =       {Kataoka, Kei},
   date =         2014,
   pages =        {259--290},
-}
-
-@XDATA{east:28228,
-  title =        {Minamiajia {Kotengaku} [*{South} {Asian} {Classical}
-                  {Studies}]},
-  language =     {ja-JP},
 }
 
 @article{east:28229,
@@ -4479,12 +5862,6 @@ Notes:
   pages =        {1--25},
 }
 
-@XDATA{east:28236,
-  title =        {Tōyō {No} {Shisō} to {Shūkyō} [*{Thought} and
-                  {Religion} of {Asia}]},
-  language =     {ja-JP},
-}
-
 @InCollection{east:28237,
   author    = {Ishida, Hisataka},
   booktitle = {Okuda Shōō Sensei shōju kinen Indogaku Bukkyōgaku ronshū [Indian and Buddhist Studies in Honor of President Dr. Shouou (Kiyoaki) Okuda in Recognition of His Lifelong Scholarship]},
@@ -4574,7 +5951,7 @@ Notes:
                   {Destruction}) [3]]},
   volume =       35,
   language =     {ja-JP},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1991,
@@ -4725,12 +6102,6 @@ Notes:
   pages =        {1--49},
 }
 
-@XDATA{east:28361,
-  title =        {Bukkyō {Bunka} {Kenkyū} [*{Studies} in {Buddhism}
-                  and {Buddhist} {Culture}]},
-  language =     {ja-JP},
-}
-
 @article{east:28362,
   title =        {Śāntarakṣita {No} {Vādanyāyavṛttivipañcitārtha} to
                   {Kamalaśīla} {No} {Mujishōronshō}: {Dharmakīrti}
@@ -4759,12 +6130,6 @@ Notes:
   author =       {Moriyama, Seitetsu},
   date =         2014,
   pages =        {1--25},
-}
-
-@XDATA{east:28364,
-  title =        {Bukkyō {Gakubu} {Ronshū} [*{Journal} of {School} of
-                  {Buddhism}]},
-  language =     {ja-JP},
 }
 
 @article{east:28365,
@@ -4812,41 +6177,6 @@ Notes:
   pages =        {245--258},
 }
 
-@Article{east:28368,
-  author       = {Kyūma, Taiken},
-  date         = {2006},
-  journaltitle = {Ronshū [*Ronshu]},
-  title        = {Setsunametsu {Ronshō} {Ni} {Okeru} {Shudaishozokusei} (pakṣadharmatā) {Wo} {Meguru} {Ichi} {Kōsatsu}: {Jñānaśrīmitra} {Ni} {Yoru} {Shudai} (pakṣa) to {Ronshōin} (hetu) {No} {Nishu} {No} {Kaishaku} [*{A} {Study} on the {Pakṣadharmatā} in the {Proof} of {Momentariness}: {Jñānaśrīmitra}’s {Two} {Interpretations} of {Pakṣa} and {Hetu}]},
-  language     = {ja-JP},
-  pages        = {87--98},
-  volume       = {12},
-}
-
-@Article{east:28369,
-  author       = {Kyūma, Taiken},
-  date         = {2004},
-  journaltitle = {Ronshū [*Ronshu]},
-  title        = {Jñānaśrīmitra {Ni} {Kiserareru} {Chosaku} “{Fuitsu} {Fui} {No} {Kōsatsu} ({Bhedābhedaparīkṣā})” {Ni} {Tsuite} (1) [*{On} {Bhedābhedaparīkṣā} {Ascribed} to {Jñānaśrīmitra} (1)]},
-  language     = {ja-JP},
-  pages        = {110--124},
-  volume       = {11},
-}
-
-@Article{east:28370,
-  author       = {Kyūma, Taiken},
-  date         = {2010},
-  journaltitle = {Ronshū [*Ronshu]},
-  title        = {Jñānaśrīmitra {Ni} {Kiserareru} {Chosaku} “{Fuitsu} {Fui} {No} {Kōsatsu} ({Bhedābhedaparīkṣā})” {Ni} {Tsuite} (2) [*{On} the {Bhedābhedaparīkṣā} {Ascribed} to {Jñānaśrīmitra} (2)]},
-  language     = {ja-JP},
-  pages        = {88--112},
-  volume       = {14},
-}
-
-@XDATA{east:28371,
-  title =        {Ronshū [*{Ronshu}]},
-  language =     {ja-JP},
-}
-
 @article{east:28372,
   title =        {Dharmakīrti, Śākyabuddhi, Śāntarakṣita {No} {Apoha}
                   {Ron} [*{Dharmakīrti} and Śākyabuddhi and
@@ -4859,13 +6189,6 @@ Notes:
   author =       {Sakurai, Yoshihiko},
   date =         2000,
   pages =        {20--38},
-}
-
-@XDATA{east:28373,
-  title =        {Ryūkoku {Daigaku} {Daigakuin} {Bungaku} {Kenkyūka}
-                  {Kiyō} [*{Ryukoku} {University}, the {Bulletin} of
-                  the {Graduate} {School} of {Letters}]},
-  language =     {ja-JP},
 }
 
 @incollection{east:28374,
@@ -4907,23 +6230,6 @@ Notes:
   pages =        {913--915},
 }
 
-@Article{east:28377,
-  author       = {Kitahara, Yūzen},
-  date         = {1996},
-  journaltitle = {Kōyasan Daigaku Daigakuin Kiyō [*Bulletion of the Graduate School, Koyasan University Graduate Program of Liberal Art]},
-  title        = {Ratnakīrti {No} {Tayōfuniron}: {Kōki} {Yuishikishisō} {Ni} {Okeru} {Keishōron} {Kenkyū} {Josetsu} [*{On} {Ratnakīrti}’s {Citrādvaitavāda}: {An} {Introduction} to the {Study} of the ākāra {Theory} in {Late} {Vijñānavāda}]},
-  language     = {ja-JP},
-  pages        = {1--21},
-  volume       = {1},
-}
-
-@XDATA{east:28378,
-  title =        {Kōyasan {Daigaku} {Daigakuin} {Kiyō} [*{Bulletion}
-                  of the {Graduate} {School}, {Koyasan} {University}
-                  {Graduate} {Program} of {Liberal} {Art}]},
-  language =     {ja-JP},
-}
-
 @Article{east:28379,
   author       = {Kitahara, Yūzen},
   date         = {2002},
@@ -4933,7 +6239,7 @@ Notes:
   language     = {ja-JP},
   pages        = {20--37},
   volume       = {6},
-}
+  }
 
 @article{east:28380,
   title =        {Dharmottara {Ni} {Okeru} {Pramāṇa} {No} {Teigi}
@@ -5096,14 +6402,6 @@ Notes:
   volume       = {43},
 }
 
-@XDATA{east:28392,
-  title =        {Waseda {Daigaku} {Daigakuin} {Bungaku} {Kenkyūka}
-                  {Kiyō}: {Daiichi} {Bunsatsu} [*{Bulletin} of the
-                  {Graduate} {Division} of {Literature} of {Waseda}
-                  {University}. {I}]},
-  language =     {ja-JP},
-}
-
 @article{east:28393,
   title =        {“{Ta} {No} {Haijo} (anyāpoha)” {No} {Bunrui} {Ni}
                   {Tsuite}: Śākyabuddhi to Śāntarakṣita {Ni} {Yoru}
@@ -5134,12 +6432,6 @@ Notes:
   pages =        {39--53},
 }
 
-@XDATA{east:28395,
-  title =        {Bukkyōgakkai {Kiyō} [*{The} {Bulletion} of the
-                  {Association} of {Buddhist} {Studies}]},
-  language =     {ja-JP},
-}
-
 @article{east:28396,
   title =        {Bukkyōronrigakuha {Ni} {Okeru} {Funbetsuchi} {No}
                   {Kōsatsu}: Śāntarakṣita to {Dharmottara} {No}
@@ -5153,11 +6445,6 @@ Notes:
   author =       {Ishida, Hisataka},
   date =         2016,
   pages =        {19--36},
-}
-
-@XDATA{east:28397,
-  title =        {Bukkyōgaku [*{Journal} of {Buddhist} {Studies}]},
-  language =     {ja-JP},
 }
 
 @article{east:28398,
@@ -5303,7 +6590,7 @@ Notes:
                   and a translation},
   volume =       27,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [*The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [*The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1987,
@@ -5409,6 +6696,16 @@ Notes:
   pages =        {15--48},
 }
 
+@Book{east:28531,
+  author = {Dignāga},
+  date       = {1100~},
+  title      = {tshad ma kun las btus pa'i 'grel pa},
+  language   = {bo},
+  series     = {snar thang 3692 ce 13a5–96b4; sde dge 4204 ce 14b1–85b7; co ne ce 14a1–85b5; {Peking} 5701 ce 13a6–93b4},
+  translator = {{zha ma seng (ge) rgyal (mtshan)} and {Vasudhararakṣita}},
+  keywords   = {canonical},
+}
+
 @Collection{east:28447,
   editor    = {Lasic, Horst and Li, Xuezhu},
   title     = {Sanskrit {Manuscripts} in {China} {II}: {Proceedings} of a {Panel} at the 2012 {Beijing} {Seminar} on {Tibetan} {Studies}, {August} 1 to 5},
@@ -5503,11 +6800,6 @@ Notes:
   author =       {Saccone, Margherita Serena},
   date =         2015,
   pages =        {107--137},
-}
-
-@XDATA{east:28465,
-  title =        {Rivista degli {Studi} {Orientali}},
-  language =     {it-IT},
 }
 
 @article{east:28466,
@@ -5635,7 +6927,7 @@ Notes:
 
 @book{east:28475,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {{bCom} ldan {Ral} gri (1227-1305) on {Indian}
                   {Buddhist} {Logic} and {Epistemology}: {His}
@@ -5650,7 +6942,7 @@ Notes:
 
 @book{east:28476,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Dharmakīrti sur les mantra et la perception du
                   supra-sensible},
@@ -5664,7 +6956,7 @@ Notes:
 
 @book{east:28477,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Bemerkungen zur buddhistischen {Doktrin} der
                   {Momentanheit} des {Seienden}. {Dharmakīrtis}
@@ -5679,7 +6971,7 @@ Notes:
 
 @book{east:28478,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Sein und {Wirklichkeit} in der
                   {Augenblicklichkeitslehre}
@@ -5696,7 +6988,7 @@ Notes:
 
 @book{east:28479,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Jñānaśrīmitra's {Anupalabdhirahasya} and
                   {Sarvaśabdābhāvacarcā}: {A} {Critical} {Edition}
@@ -5711,7 +7003,7 @@ Notes:
 
 @book{east:28480,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {The {Edition} of Śāntarakṣita’s {Vādanyāyaṭīkā}
                   {Collated} with the {Kundeling} {Manuscript}},
@@ -5982,12 +7274,14 @@ Notes:
   date         = {1988},
   title        = {dmigs pa brtag pa'i grel pa},
   language     = {bo},
+  langid = {bo},
   location     = {Peking},
   pages        = {192--195},
-  publisher    = {mi rigs dpe skrun khang},
+  publisher    = {{mi rigs dpe skrun khang}},
   volume       = {1},
+  editor = {{rdo rje rgyal po}},
   author =       {Dignāga},
-  journaltitle = {tshad ma rigs pa'i skor rgya gzhung rtsa 'grel bdam bsgrigs: deb dang po. rdo rje rgyal pos bdam bsgrigs byas pa},
+  booktitle = {tshad ma rigs pa'i skor rgya gzhung rtsa 'grel bdam bsgrigs: deb dang po. rdo rje rgyal pos bdam bsgrigs byas pa},
 }
 
 @Book{east:5018,
@@ -6013,7 +7307,7 @@ Notes:
   pages =        {100--80},
 }
 
-@Book{east:5021,
+@book{east:5021,
   author    = {Ui, Hakuju},
   date      = {1958},
   title     = {Jinna chosaku no kenkyū [*{A} Study of {Dignāga}’s Works]},
@@ -6045,7 +7339,7 @@ Notes:
 
 @book{east:5025,
   location =      {Wien},
-  series =       {{VKSKSO}, {Veröffentlichungen} der {Kommission} für
+  series =       {{Veröffentlichungen} der {Kommission} für
                   {Sprachen} und {Kulturen} {Süd}- und {Ostasiens}},
   title =        {Materialien zur ältesten {Erkenntnislehre} der
                   {Karmamīmāṃsā}},
@@ -6099,7 +7393,7 @@ Notes:
 
 @book{east:5030,
   location =      {Cambridge, Mass.},
-  series =       {{HOS}, {Harvard} {Oriental} {Series}},
+  series =       {{Harvard} {Oriental} {Series}},
   title =        {Dignāga, {On} {Perception}: {Being} the
                   {Pratyakṣapariccheda} of {Dignāga}'s
                   {Pramāṇasamuccaya} from the {Sanskrit} fragments and
@@ -6441,7 +7735,7 @@ Notes:
   pages =        {300--329},
   annote =       {TODO: Probably the journaltitle is wrong: see
                   Nakamura, Indian Buddhism, p. 299, n. 6.},
-  date =         {19XX},
+  date =         {19XX?},
 }
 
 @Book{east:5059,
@@ -6504,9 +7798,9 @@ Notes:
   pages =        {143--135},
 }
 
-@Book{east:28531,
+@Book{east:5064,
   author = {Dignāga},
-  date       = {1100~},
+  date       = {1100},
   title      = {tshad ma kun las btus pa'i 'grel pa},
   language   = {bo},
   series     = {snar thang 3692 ce 13a5–96b4; sde dge 4204 ce 14b1–85b7; co ne ce 14a1–85b5; {Peking} 5701 ce 13a6–93b4},
@@ -6681,7 +7975,7 @@ Notes:
   location  = {Heidelberg},
   number    = {28},
   publisher = {Carl Winters Universitätsbuchhandlung},
-  series    = {{MKB}, {Materialien} zur {Kunde} des {Buddhismus}},
+  series    = {{Materialien} zur {Kunde} des {Buddhismus}},
 }
 
 @Book{east:5080,
@@ -6774,7 +8068,7 @@ Notes:
 
 @book{east:5089,
   location =      {Wien},
-  series =       {{VKSKSO}, {Veröffentlichungen} der {Kommission} für
+  series =       {{Veröffentlichungen} der {Kommission} für
                   {Sprachen} und {Kulturen} {Süd}- und {Ostasiens}},
   title =        {Erkenntnisprobleme bei {Dharmakīrti}},
   language =     {de-DE},
@@ -6839,7 +8133,7 @@ Notes:
 
 @book{east:5094,
   location =      {Baroda},
-  series =       {{GOS}, {Gaekwad}'s {Oriental} {Series}},
+  series =       {{Gaekwad}'s {Oriental} {Series}},
   title =        {Vaiśeṣikasūtra of {Kaṇāda} with the {Commentary} of
                   {Candrānanda}},
   language =     {en-US},
@@ -6889,7 +8183,7 @@ Notes:
 
 @book{east:5098,
   location =      {Baroda},
-  series =       {{GOS}, {Gaekwad}'s {Oriental} {Series}},
+  series =       {{Gaekwad}'s {Oriental} {Series}},
   title =        {The {Nyāyapraveśa}: {Part} 1, {Sanskrit} {Text} with
                   {Commentaries}, {Critically} ed. with {Notes} and
                   {Introduction}},
@@ -6917,7 +8211,7 @@ Notes:
 
 @book{east:5101,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Epistemology and spiritual authority: {The}
                   development of epistemology and logic in the old
@@ -7003,7 +8297,7 @@ book{east:5103,
 
 @book{east:5109,
   location =      {Baroda},
-  series =       {{GOS}, {Gaekwad}'s {Oriental} {Series}},
+  series =       {{Gaekwad}'s {Oriental} {Series}},
   title =        {Nyāyapraveśa of Ācārya {Diṅnāga}: {Part} 2,
                   {Tib}. {Text}, {Compared} with {Skt}. and
                   {Chin}. {Versions} and ed. with an {Intr}.,
@@ -7117,7 +8411,7 @@ book{east:5103,
 
 @book{east:5118,
   location =      {Sarnath},
-  series =       {{BITS}, {Bibliotheca} {Indo} {Tibetica} {Series}},
+  series =       {{Bibliotheca} {Indo} {Tibetica} {Series}},
   title =        {Nyāyapraveśakasūtram of Ācārya-{Diṅāga} with
                   {Nyāyapraveśakavṛtti} of {Haribhadrasūri}: {Pañjikā}
                   of {Pārśvadevagaṇi} and {Hindi} {Translation}},
@@ -7208,7 +8502,7 @@ book{east:5103,
 
 @book{east:5127,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Der {Buddha} und seine {Lehre} in {Dharmakīrtis}
                   {Pramāṇavārttika}: {Der} {Abschnitt} über den
@@ -7256,15 +8550,6 @@ book{east:5103,
   date =         1976,
 }
 
-@XDATA{east:5131,
-  location =      {Tōkyō},
-  title =        {Ito {Shinjō} {Taraka} {Junshō} ryō kyojū shōtoku
-                  kinen: {Bukkyōgaku} ronbunshū},
-  language =     {ja-JP},
-  publisher =    {Tōhō Shuppan Kekkō},
-  date =         1979,
-}
-
 @Book{east:5132,
   author     = {Śaṅkarasvāmin},
   date       = {0647},
@@ -7287,10 +8572,10 @@ book{east:5103,
 }
 
 @Book{east:5134,
+  title    = {rtsod pa'i rigs pa'i 'grel pa},
   author =       {Vinītadeva},
-  title    = {rtsod pa’i rigs pa’i ’grel pa},
   language = {bo},
-  series   = {snar thang 3728 ze 39b–65b; sde dge 4240 zhe 151a6–175a3; co ne zhe 143b2–167b4; Peking 5737 ze 44a3–71a5},
+  series   = {snar thang 3728 ze 39b–65b; sde dge 4240 zhe 151a6-175a3; co ne zhe 143b2-167b4; {Peking} 5737 ze 44a3-71a5},
   keywords = {canonical},
 }
 
@@ -7300,7 +8585,7 @@ book{east:5103,
                   {Text} and a {Translation}},
   volume =       25,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1986,
@@ -7536,7 +8821,7 @@ book{east:5103,
 @incollection{east:5154,
   booktitle =    {Studien zum {Jainismus} und {Buddhismus}: {Gedenkschrift} für {Ludwig} {Alsdorf}},
   location =      {Wiesbaden},
-  series =       {{ANISt}, {Alt}- und {Neuindische} {Studien}},
+  series =       {{Alt}- und {Neuindische} {Studien}},
   title =        {Philological {Remarks} on Śākyamati's
                   {Pramāṇavārttikaṭīkā}},
   language =     {en-US},
@@ -7654,7 +8939,7 @@ book{east:5103,
 
 @book{east:5164,
   location =      {Paris},
-  series =       {{AMG}, {Annales} du {Musée} {Guimet}},
+  series =       {{Annales} du {Musée} {Guimet}},
   title =        {La théorie de la connaissance et la logique chez les
                   {Bouddhistes} tardifs: {Traduit} par
                   {M}. {I}. {Manziarly} et {P}. {Masson}-{Oursel}},
@@ -7722,7 +9007,7 @@ book{east:5103,
 
 @book{east:5170,
   location =      {Patna},
-  series =       {{TSWS}, {Tibetan} {Sanskrit} {Works} {Series}},
+  series =       {{Tibetan} {Sanskrit} {Works} {Series}},
   title =        {Pramāṇavārtikabhāshyam or {Vārtikālaṅkāraḥ} of
                   {Prajñākaragupta}: {Being} a commentary on
                   {Dharmakīrti}'s {Pramāṇavārtikam}},
@@ -7781,7 +9066,7 @@ book{east:5103,
 
 @book{east:5175,
   location =      {Wien},
-  series =       {{VKSKSO}, {Veröffentlichungen} der {Kommission} für
+  series =       {{Veröffentlichungen} der {Kommission} für
                   {Sprachen} und {Kulturen} {Süd}- und {Ostasiens}},
   title =        {Dharmakīrtis {Vādanyāyaḥ}. {Teil} {II}: Übersetzung
                   und {Anmerkungen}},
@@ -7876,7 +9161,6 @@ book{east:5103,
   pages =        {1--27},
 }
 
-
 @InBook{east:5184,
   title =        {Dharmakīirti's {Pramāṇavārttikasvavṛtti} ad
                   vv. 198-223},
@@ -7885,7 +9169,6 @@ book{east:5103,
   crossref = {east:5190},
   language = {en-US},
   pages =     {423--455}}
-
 
 @book{east:5185,
   location =      {Tokyo},
@@ -7987,7 +9270,7 @@ book{east:5103,
                   vv. 64-67. parārthānumāna: {First} part]},
   volume =       6,
   language =     {ja-JP},
-  journaltitle =      {Tōyō no Shisō to Shūkyū},
+  journaltitle =      {Tōyō no Shisō to Shūkyō},
   author =       {Iwata, Takashi},
   date =         1989,
   pages =        {1--33},
@@ -8089,7 +9372,7 @@ book{east:5103,
 @incollection{east:5204,
   booktitle =    {The {Role} of the {Example} (dṛṣṭānta) in {Classical} {Indian} {Logic}},
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {The {Early} {Dharmakīrti} on the {Purpose} of
                   {Examples}},
@@ -8128,13 +9411,17 @@ book{east:5103,
 }
 
 @book{east:5207,
-  title =        {The {Nyāyabindu} of {Acharya} {Dharmakirtti} with
+  title =	 {The {Nyāyabindu} of {Acharya} {Dharmakirtti} with
                   the commmentaries by {Arya} {Vinitadeva} \&
                   {Dharmottara} \& {Dharmottara}-tika-tippani},
-  language =     {en-US},
-  publisher =    {Bauddha Bharati},
-  author =       {Shastri, Dwarika Das},
-  date =         1985,
+  language =	 {en-US},
+  publisher =	 {Bauddha Bharati},
+  editor =	 {Shastri, Dwarika Das},
+  date =	 1985,
+  location =	 {Varanasi},
+  series =	 {Bauddha Bharati Series},
+  number =	 {18 (Dharmakirtti Nibandhavali 3)},
+  ids = {tamb:uuid-6dd01515-2097-478e-b1ed-5f346944124f},
 }
 
 @book{east:5208,
@@ -8201,7 +9488,7 @@ book{east:5103,
 
 @book{east:5213,
   location =      {Wien},
-  series =       {{VKSKSO}, {Veröffentlichungen} der {Kommission} für
+  series =       {{Veröffentlichungen} der {Kommission} für
                   {Sprachen} und {Kulturen} {Süd}- und {Ostasiens}},
   title =        {Dharmakīrti's {Hetubinduḥ}: {Teil} {II}. Übersetzung
                   und {Anmerkungen}},
@@ -8214,7 +9501,7 @@ book{east:5103,
 
 @book{east:5214,
   location =      {Delhi},
-  series =       {{BIB}, {Bibliotheca} {Indo}-{Buddhica}},
+  series =       {{Bibliotheca} {Indo}-{Buddhica}},
   title =        {Vādanyāya of {Dharmakīrti}: {The} {Logic} of
                   {Debate}. {Critically} edited and translated with
                   {Introduction} and {Notes}},
@@ -8246,15 +9533,16 @@ book{east:5103,
 
 @book{east:5217,
   location =      {Varanasi},
-  series =       {{BBhS}, {Bhauddha} {Bharati} {Series}},
-  title =        {Dharmakirtti {Nibandhawali}: {Pramāṇavārttika} of
+  series =       {{Bauddha} {Bharati} {Series}},
+  title =        {{Pramāṇavārttika} of
                   {Acharya} {Dharmakirtti} with the {Commentary}
-                  '{Vritti}' of {Acharya} {Manorathanandin}. 1},
+                  '{Vritti}' of {Acharya} {Manorathanandin}},
   language =     {en-US},
-  number =       3,
+  number =       {3 (Dharmakirtti Nibandhawali 1)},
   publisher =    {Bauddha Bharati},
-  author =       {Shastri, Dwarika Das},
+  editor =       {Shastri, Dwarika Das},
   date =         1968,
+  ids = {tamb:uuid-8070b1a3-39b0-4b59-9c6f-2fd6c749413e},
 }
 
 @article{east:5218,
@@ -8293,7 +9581,7 @@ book{east:5103,
 
 @book{east:5221,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Dharmakīrti on {Compassion} and {Rebirth}},
   volume =       38,
@@ -8416,7 +9704,7 @@ book{east:5103,
 
 @book{east:5231,
   location =      {Sarnath, Varanasi},
-  series =       {{BITS}, {Bibliotheca} {Indo} {Tibetica} {Series}},
+  series =       {{Bibliotheca} {Indo} {Tibetica} {Series}},
   title =        {Santānāntarasiddhiḥ and {Santānāntarasiddhiṭīkā}:
                   {Restored} by {Dr}. {M}. {R}. {Chinchore}},
   language =     {en-US},
@@ -8490,7 +9778,7 @@ book{east:5103,
                   parārthānumāna. 1]},
   volume =       10,
   language =     {ja-JP},
-  journaltitle =      {Tōyō no Shisō to Shūkyū},
+  journaltitle =      {Tōyō no Shisō to Shūkyō},
   author =       {Iwata, Takashi},
   date =         1993,
   pages =        {21--48},
@@ -8498,7 +9786,7 @@ book{east:5103,
 
 @book{east:5238,
   location =      {Roma},
-  series =       {{SOR}, {Serie} {Orientale} {Roma}},
+  series =       {{Serie} {Orientale} {Roma}},
   title =        {The {Pramāṇavārttikam} of {Dharmakīrti}: {The}
                   {First} {Chapter} with the {Autocommentary}. {Text}
                   and {Critical} {Notes}},
@@ -8556,7 +9844,7 @@ book{east:5103,
 
 @book{east:5243,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Der {Buddha} und seine {Lehre} in {Dharmakīrtis}
                   {Pramāṇavārttika}: {Der} {Abschnitt} über den
@@ -8573,7 +9861,7 @@ book{east:5103,
 
 @book{east:5244,
   location =      {Sarnath, Varanasi},
-  series =       {{BITS}, {Bibliotheca} {Indo} {Tibetica} {Series}},
+  series =       {{Bibliotheca} {Indo} {Tibetica} {Series}},
   title =        {Santānāntarasiddhiḥ of Ācārya {Dharmakīrti} and
                   {Santānāntarasiddhiḥ} Ṭīkā of Ācārya {Vinītadeva}:
                   {Restored} and edited by {J}. {S}. {Negi}},
@@ -8646,7 +9934,7 @@ book{east:5103,
 
 @book{east:5250,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Verse-{Index} of {Dharmakīrti}'s {Works}: {Tibetan}
                   {Versions}},
@@ -8859,13 +10147,15 @@ book{east:5103,
 }
 
 @article{east:5271,
-  title =        {Pramāṇavārttika-kārikā: {Sanskrit} and {Tibetan}},
-  volume =       3,
+  title =        {Pramāṇavārttika-kārikā (Sanskrit and Tibetan)},
+  volume =       2,
   language =     {en-US},
-  journaltitle =      {Indo Koten Kenkyū [Acta Indologica]},
-  author =       {Miyasaka, Yushō},
-  date =         1973,
-  pages =        {151--157},
+  journaltitle = {Indo Koten Kenkyū [Acta Indologica]},
+  editor =       {Miyasaka, Yushō},
+  number =        {1971/1972},
+  date =         1972,
+  pages =        {1--206},
+  ids = {tamb:uuid-d64727e8-ae78-4ff4-95f1-c8fc017ebfe7},
 }
 
 @book{east:5272,
@@ -8965,7 +10255,7 @@ book{east:5103,
 
 @book{east:5281,
   location =      {Wien},
-  series =       {{VKSKSO}, {Veröffentlichungen} der {Kommission} für
+  series =       {{Veröffentlichungen} der {Kommission} für
                   {Sprachen} und {Kulturen} {Süd}- und {Ostasiens}},
   title =        {Dharmakīrti's {Pramāṇaviniścayaḥ}: 1. {Kapitel}:
                   {Pratyakṣam}. {Einleitung}, {Text} der tibetischen
@@ -8980,7 +10270,7 @@ book{east:5103,
 
 @book{east:5282,
   location =      {Wien},
-  series =       {{VKSKSO}, {Veröffentlichungen} der {Kommission} für
+  series =       {{Veröffentlichungen} der {Kommission} für
                   {Sprachen} und {Kulturen} {Süd}- und {Ostasiens}},
   title =        {Dharmakīrti's {Pramāṇaviniścayaḥ}: {Zweites}
                   {Kapitel}: {Svārthānumāna}. {Teil} 2: Übersetzung
@@ -9072,7 +10362,7 @@ book{east:5103,
   author =       {{Muni Śrī Jambuvijayaji}},
   booktitle =    {Śrīmad Vijayarājendrasūrismarakagrantha},
   pages =        {771--789},
-  date =         {19XX},
+  date =         {19XX?},
 }
 
 @article{east:5290,
@@ -9138,7 +10428,7 @@ book{east:5103,
                   {Translation} of {PVin} {III}.vv1-3]},
   volume =       18,
   language =     {ja-JP},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1982,
@@ -9147,7 +10437,7 @@ book{east:5103,
 
 @book{east:5296,
   location =      {Delhi},
-  series =       {{BIB}, {Bibliotheca} {Indo}-{Buddhica}},
+  series =       {{Bibliotheca} {Indo}-{Buddhica}},
   title =        {The {Philosophy} of {Relations}: {Containing} the
                   {Sanskrit} {Text} and {English} {Translation} of
                   {Dharma} {Kīrti}'s {Sambandha}-parīkṣā with
@@ -9267,7 +10557,7 @@ book{east:5103,
 
 @Collection{east:5306,
   location =     {Kyōto},
-  series =       {Shōwa, {Shōwa} shinsan kokuyaku daizōkyō},
+  series =       {{Shōwa} shinsan kokuyaku daizōkyō},
   title =        {Hasseiki {Indo} ni okeru bukkyō to tagakuha to no
                   tairitsu to kōshō: ("{Tattvasaṃgraha}" kenkyū),
                   kenkyū hōkoku [*{Confrontation} of and relationship
@@ -9407,7 +10697,7 @@ book{east:5103,
 
 @book{east:5318,
   location =      {Roma},
-  series =       {{SOR}, {Serie} {Orientale} {Roma}},
+  series =       {{Serie} {Orientale} {Roma}},
   title =        {Minor {Buddhist} {Texts}: {Part} {I}. {Asaṅga}'s
                   commentary on the {Vajracchedikā} edited and
                   translated - {Analysis} of the commentary on it by
@@ -9464,7 +10754,7 @@ book{east:5103,
   pages =        {65--111},
 }
 
-@Book{east:5322,
+@book{east:5322,
   title    = {tshad ma rnam 'grel gyi 'grel bshad},
   author =       {Śaṅkaranandana},
   language = {bo},
@@ -9484,7 +10774,7 @@ book{east:5103,
 
 @book{east:5324,
   location =     {Baroda},
-  series =       {{GOS}, {Gaekwad}'s {Oriental} {Series}},
+  series =       {{Gaekwad}'s {Oriental} {Series}},
   title =        {The {Tattvasaṅgraha} of Śāntarakṣita with the
                   {Commentary} of {Kamalaśīla}: {Translated} into
                   {English}. {In} two volumes},
@@ -9520,7 +10810,7 @@ book{east:5103,
   title     = {Aśokanibandhau {Avayavinirākaraṇam} {Sāmānyadūṣaṇam} ca},
   date      = {1974},
   language  = {sa},
-  series    = {{TSWS}, {Tibetan} {Sanskrit} {Works} {Series}},
+  series    = {{Tibetan} {Sanskrit} {Works} {Series}},
   number    = {15},
   publisher = {K. P. Jayaswal Research Institute},
   location  = {Patna},
@@ -9586,7 +10876,7 @@ book{east:5103,
 
 @book{east:5333,
   location =      {Wien},
-  series =       {{VKSKSO}, {Veröffentlichungen} der {Kommission} für
+  series =       {{Veröffentlichungen} der {Kommission} für
                   {Sprachen} und {Kulturen} {Süd}- und {Ostasiens}},
   title =        {Dharmakīrti's {Hetubinduḥ}: {Teil}
                   {I}. {Tibetischer} {Text} und rekonstruierter
@@ -9600,7 +10890,7 @@ book{east:5103,
 
 @book{east:5335,
   location =      {Stuttgart},
-  series =       {{ANISt}, {Alt}- und {Neuindische} {Studien}},
+  series =       {{Alt}- und {Neuindische} {Studien}},
   title =        {Sahopalambhaniyama: {Struktur} und {Entwicklung} des
                   {Schlusses} von der {Tatsache}, daß {Erkenntnis} und
                   {Gegenstand} ausschließlich zusammen wahrgenommen
@@ -9631,7 +10921,7 @@ book{east:5103,
 
 @book{east:5337,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Dharmottaras {Paralokasiddhi}: {Nachweis} der
                   {Wiedergeburt}. {Zugleich} eine {Widerlegung}
@@ -9769,7 +11059,7 @@ book{east:5103,
 
 @book{east:5348,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Jñānaśrīmitras {Vyāpticarcā}: {Sanskrittext},
                   Übersetzung, {Analyse}},
@@ -10004,7 +11294,7 @@ book{east:5103,
                   {Sub}-{Commentaries}]},
   volume =       34,
   language =     {ja-JP},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1991,
@@ -10013,7 +11303,7 @@ book{east:5103,
 
 @book{east:5368,
   location =      {Baroda},
-  series =       {{GOS}, {Gaekwad}'s {Oriental} {Series}},
+  series =       {{Gaekwad}'s {Oriental} {Series}},
   title =        {Tattvasaṅgraha of Śāntarakṣita: {With} the
                   {Commentary} of {Kamalaśīla}. {Ed}. with an
                   {Introduction} in {Sanskrit}},
@@ -10026,7 +11316,7 @@ book{east:5103,
 
 @book{east:5369,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Prasaṅga und {Prasaṅgaviparyaya} bei {Dharmakīrti}
                   und seinen {Kommentatoren}},
@@ -10078,7 +11368,7 @@ book{east:5103,
 
 @book{east:5373,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Jitāri, {Kleine} {Texte}: {Beschrieben} und ediert},
   language =     {de-DE},
@@ -10230,7 +11520,7 @@ book{east:5103,
 
 @book{east:5386,
   location =      {Baroda},
-  series =       {{GOS}, {Gaekwad}'s {Oriental} {Series}},
+  series =       {{Gaekwad}'s {Oriental} {Series}},
   title =        {The {Tattvasaṅgraha} of Śāntarakṣita: {With} the
                   {Commentary} of {Kamalaśīla}. {Ed}. with an
                   {Introduction} in {Sanskrit}},
@@ -10510,7 +11800,7 @@ book{east:5103,
 @incollection{east:5409,
   booktitle =    {Studien zum {Jainismus} und {Buddhismus}: {Gedenkschrift} für {Ludwig} {Alsdorf}},
   location =      {Wiesbaden},
-  series =       {{ANISt}, {Alt}- und {Neuindische} {Studien}},
+  series =       {{Alt}- und {Neuindische} {Studien}},
   title =        {Jainācārya-Śrī-{Hemacandrasūri}-mukhaśiṣyābhyām
                   ācārya-{Rāmacandra}-{Guṇacandrābhyāṃ} viracitāyām
                   {Dravyālaṅkāra}-svopajjña-ṭīkāyāṃ
@@ -10612,8 +11902,6 @@ book{east:5103,
   date =         1988,
   pages =        {170--127},
 }
-
-
 
 @Collection{east:5417,
   editor =       {Dvārikādāsa Śāstrī},
@@ -10753,7 +12041,7 @@ book{east:5103,
 
 @book{east:5428,
   location =      {Patna},
-  series =       {{TSWS}, {Tibetan} {Sanskrit} {Works} {Series}},
+  series =       {{Tibetan} {Sanskrit} {Works} {Series}},
   title =        {Indices to {Pramāṇavārtika} {Bhāshya} of
                   {Prajñākaragupta}: {Being} a commentary on
                   {Dharmakīrti}'s {Pramāṇavārtikam}},
@@ -10834,7 +12122,7 @@ book{east:5103,
 @book{east:5436,
   location =      {Patna},
   edition =      {Second (revised) edition},
-  series =       {{TSWS}, {Tibetan} {Sanskrit} {Works} {Series}},
+  series =       {{Tibetan} {Sanskrit} {Works} {Series}},
   title =        {Jñānaśrīmitranibandhāvali: {Buddhist}
                   {Philosophical} {Works} of {Jñānaśrīmitra}},
   language =     {en-US},
@@ -10860,7 +12148,7 @@ book{east:5103,
 
 @book{east:5439,
   location =      {Wien},
-  series =       {{VKSKSO}, {Veröffentlichungen} der {Kommission} für
+  series =       {{Veröffentlichungen} der {Kommission} für
                   {Sprachen} und {Kulturen} {Süd}- und {Ostasiens}},
   title =        {Dharmakīrtis {Vādanyāyaḥ}. {Teil} {I}:
                   {Sanskrit}-{Text}},
@@ -10880,14 +12168,9 @@ book{east:5103,
   author =       {Vinītadeva},
 }
 
-@XDATA{east:5441,
-  title =        {Bibliographie bouddhique},
-  language =     {fr-FR},
-}
-
 @book{east:5442,
   location =      {Wien},
-  series =       {{VKSKSO}, {Veröffentlichungen} der {Kommission} für
+  series =       {{Veröffentlichungen} der {Kommission} für
                   {Sprachen} und {Kulturen} {Süd}- und {Ostasiens}},
   title =        {Dharmakīrti's {Pramāṇaviniścayaḥ}: {Zweites}
                   {Kapitel}: {Svārthānumāna}. {Teil} 1: {Tibetischer}
@@ -11035,7 +12318,7 @@ book{east:5103,
 
 @book{east:5454,
   location =      {New Delhi},
-  series =       {{BIB}, {Bibliotheca} {Indo}-{Buddhica}},
+  series =       {{Bibliotheca} {Indo}-{Buddhica}},
   title =        {Ācāryaratnakīrtiviracitam {Udayananirākaraṇam}:
                   {Deciphered} and critically edited by {Ragunath}
                   {Pandey}},
@@ -11083,6 +12366,7 @@ book{east:5103,
   journaltitle = {Kokuyaku Daizōkyō},
   author =       {Ui, Hakuju},
   pages =        {1--26},
+  date =         {XXXX?},
 }
 
 @article{east:5459,
@@ -11118,13 +12402,6 @@ book{east:5103,
   language =     {en-US},
   editor =       {Jain, Mahendrakumar},
   date =         1959,
-}
-
-@XDATA{east:5462,
-  title =        {Asiatica: {Festschrift} {Friedrich} {Weller} zum
-                  65. {Geburtstag}},
-  language =     {de-DE},
-  date =         1954,
 }
 
 @article{east:5463,
@@ -11165,7 +12442,7 @@ book{east:5103,
   title     = {Tarkarahasya},
   date      = {1979},
   language  = {en-US},
-  series    = {{TSWS}, {Tibetan} {Sanskrit} {Works} {Series}},
+  series    = {{Tibetan} {Sanskrit} {Works} {Series}},
   number    = {20},
   publisher = {K. P. Jayaswal Research Institute},
   location  = {Patna},
@@ -11173,7 +12450,7 @@ book{east:5103,
 
 @book{east:5467,
   location =      {Heidelberg},
-  series =       {{MKB}, {Materialien} zur {Kunde} des {Buddhismus}},
+  series =       {{Materialien} zur {Kunde} des {Buddhismus}},
   title =        {History of {Buddhism}: ({Chos}-ḥbyung) by {Bu} ston},
   language =     {en-US},
   number =       {18-19},
@@ -11209,11 +12486,12 @@ book{east:5103,
   journaltitle = {Shōwa shinsan kokuyaku daizōkyō: Ronshūbu},
   author =       {Mitsui, Tanishin},
   pages =        {443--452},
+  date =         {19XX?},
 }
 
 @book{east:5471,
   location =      {Baroda},
-  series =       {{GOS}, {Gaekwad}'s {Oriental} {Series}},
+  series =       {{Gaekwad}'s {Oriental} {Series}},
   title =        {Tarkabhāṣā of {Mokṣākara} {Gupta}: {Ed}. with a
                   {Sanskrit} {Commentary}},
   language =     {en-US},
@@ -11236,7 +12514,7 @@ book{east:5103,
 
 @book{east:5473,
   location =      {Calcutta},
-  series =       {{BI} {N}. {S}., {Bibliotheca} {Indica} : {New}
+  series =       {{Bibliotheca} {Indica} : {New}
                   {Series}},
   title =        {Pramānāntarbhāva},
   language =     {en-US},
@@ -11282,16 +12560,21 @@ book{east:5103,
   location = {Petropoli},
 }
 
-@misc{east:5478,
+@Book{east:5478,
   title =        {Hetutattvopadesa of {Jitari}},
   language =     {en-US},
-  editor =       {Mishra, Dr. Jay Govind and Shukla, Prof. Karunesh},
+  editor =       {Mishra, Jay Govind and Shukla, Prof. Karunesh},
+  author =       {Jitāri},
+  date =         {1988?/1989?},
+  note =         {Bibliographic reference according to: ``Nāgārjuna
+                  Baudhabhāratītattvavidyānusandhāna Pīṭha, Introduction and Activities 1988/1989. Gorakhpur, Nagarjuna Buddhist Foundation''},
 }
 
 @book{east:5479,
   title =        {Ninshiki to ronri ({Tarkabhāṣā})},
   language =     {ja-JP},
   author =       {Kajiyama, Yuichi},
+  date =         {19XX?},
 }
 
 @Collection{east:5480,
@@ -11317,7 +12600,7 @@ book{east:5103,
   title     = {Ratnakīrti-nibandhāvalī: ({Buddhist} {Nyāya} {Works} of {Ratnakīrti}). {Deciphered} and ed.},
   date      = {1957},
   language  = {sa},
-  series    = {{TSWS}, {Tibetan} {Sanskrit} {Works} {Series}},
+  series    = {{Tibetan} {Sanskrit} {Works} {Series}},
   number    = {3},
   publisher = {K. P. Jayaswal Research Institute},
   location  = {Patna},
@@ -11361,7 +12644,7 @@ book{east:5103,
   title    = {Die buddhistische {Briefliteratur} {Indiens}: {Nach} dem tib. {Tanjur}, ed. übers. u. erläutert.},
   date     = {1981},
   language = {de-DE},
-  series   = {{AsF}, {Asiatische} {Forschungen}},
+  series   = {{Asiatische} {Forschungen}},
   number   = {84},
   location = {Wiesbaden},
 }
@@ -11405,12 +12688,16 @@ book{east:5103,
   language =     {ja-JP},
   number =       1,
   author =       {Hayashi, Genmyō},
+  date =         {19XX?},
 }
 
 @Book{east:5491,
   title =        {Tarkasopana of {Vidyakarasanti}},
   author =       {Vidyākaraśānti},
   editor =       {Mishra, Jay Govind},
+  date =         {1988?/1989?},
+  note =         {Bibliographic reference according to: ``Nāgārjuna
+                  Baudhabhāratītattvavidyānusandhāna Pīṭha, Introduction and Activities 1988/1989. Gorakhpur, Nagarjuna Buddhist Foundation''},
 }
 
 @Book{east:5492,
@@ -11425,7 +12712,7 @@ book{east:5103,
 
 @book{east:5493,
   location =      {Wiesbaden},
-  series =       {{HIL}, {History} of {Indian} {Literature}},
+  series =       {{History} of {Indian} {Literature}},
   title =        {The {Literature} of the {Madhyamaka} {School} of
                   {Philosophy} in {India}},
   language =     {en-US},
@@ -11474,7 +12761,7 @@ book{east:5103,
   number    = {6},
   pages     = {1-34},
   publisher = {Kendriya Ucca Tibbati Śikṣā Saṃsthān},
-  series    = {{BITS}, {Bibliotheca} {Indo} {Tibetica} {Series}},
+  series    = {{Bibliotheca} {Indo} {Tibetica} {Series}},
 }
 
 @book{east:5497,
@@ -11620,7 +12907,7 @@ book{east:5103,
 
 @book{east:5511,
   location =     {Paris},
-  series =       {Sino-{Indica}, {Sino}-{Indica}},
+  series =       {{Sino}-{Indica}},
   title =        {Le canon bouddhique en {Chine}},
   language =     {fr-FR},
   number =       1,
@@ -11659,6 +12946,7 @@ book{east:5103,
   language =     {ja-JP},
   number =       1,
   author =       {Hayashi, Genmyō},
+  date =         {19XX?},
 }
 
 @book{east:5515,
@@ -11692,7 +12980,7 @@ book{east:5103,
 
 @book{east:5518,
   location =      {Roma},
-  series =       {{SOR}, {Serie} {Orientale} {Roma}},
+  series =       {{Serie} {Orientale} {Roma}},
   title =        {The {Life} of {Bi} ston {Rin} po che},
   language =     {en-US},
   number =       34,
@@ -11710,21 +12998,12 @@ book{east:5103,
 
 @book{east:5520,
   location =      {Paris},
-  series =       {{AMG}, {Annales} du {Musée} {Guimet}},
+  series =       {{Annales} du {Musée} {Guimet}},
   title =        {Les bouddhistes {Kaśmīriens} au {Moyen} {Age}},
   language =     {fr-FR},
   number =       68,
   author =       {Naudou, Jean},
   date =         1968,
-}
-
-@XDATA{east:5521,
-  title =        {tshad ma rigs pa'i skor rgya gzhung rtsa 'grel bdam
-                  bsgrigs: deb dang po. rdo rje rgyal pos bdam bsgrigs
-                  byas pa},
-  language =     {bo},
-  publisher =    {mi rigs dpe skrun khang},
-  date =         1988,
 }
 
 @article{east:5522,
@@ -11745,7 +13024,7 @@ book{east:5103,
 
 @book{east:5523,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Ratnakīrtis {Vyāptinirṇaya}: {Sanskrittext},
                   Übersetzung, {Analyse}},
@@ -11792,7 +13071,7 @@ book{east:5103,
 
 @book{east:5527,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Der allwissende {Buddha}: {Ein} {Beweis} und seine
                   {Probleme}. {Ratnakīrtis} {Sarvajñasiddhi}
@@ -11821,6 +13100,7 @@ book{east:5103,
   editor    = {Yamaguchi, Susumu and Nozawa, Jōshō},
   location  = {Kyōto},
   publisher = {Hōzōkan},
+  language =     {ja-JP},
 }
 
 @misc{east:5530,
@@ -11851,13 +13131,6 @@ book{east:5103,
   author =       {Bühnemann, Gudrun},
   date =         1983,
   pages =        {185--190},
-}
-
-@XDATA{east:5533,
-  location =      {Tōkyō},
-  title =        {Bukkyō ni okeru jikanron no kenkyū},
-  language =     {ja-JP},
-  date =         1974,
 }
 
 @Book{east:5534,
@@ -11916,14 +13189,6 @@ book{east:5103,
   pages =        {417--434},
 }
 
-@XDATA{east:5540,
-  location =      {Tōkyō},
-  title =        {Indogaku {Mikkyōgaku} {Kenkyū}: {Miyasaka} {Yūshō}
-                  {Hakase} {Koki} {Kinen} {Ronbunshū}},
-  language =     {ja-JP},
-  date =         1993,
-}
-
 @incollection{east:5541,
   booktitle =    {Prajñājyoti: {Prof}. {Dr}. {Gopikamohan}
                   {Bhattacharya} {Commemoration} {Volume}},
@@ -11938,25 +13203,13 @@ book{east:5103,
   pages =        {277--286},
 }
 
-@book{east:5542,
+@Collection{east:5542,
   title =        {Prajñājyoti: {Prof}. {Dr}. {Gopikamohan}
                   {Bhattacharya} {Commemoration} {Volume}},
   language =     {en-US},
   publisher =    {Nirmal Book Agency},
   editor =       {Sharma, Debabrata Sen and Banerjee, Manabendu},
   date =         1991,
-}
-
-@XDATA{east:5543,
-  location =     {Tōkyō},
-  series =       {Books {And} {Articles} {On} {Oriental} {Subjects}
-                  {Published} {In} {Japan} {During}...},
-  title =        {Books {And} {Articles} {On} {Oriental} {Subjects}
-                  {Published} {In} {Japan} {During} 1990},
-  language =     {en-US},
-  number =       37,
-  publisher =    {Tōhō Gakkai},
-  date =         1990,
 }
 
 @book{east:5544,
@@ -11990,13 +13243,6 @@ book{east:5103,
   date =         1976,
 }
 
-@XDATA{east:5547,
-  title =        {A {History} of {Indian} {Literature}},
-  shorttitle =   {{HIL}},
-  editor =       {Gonda, Jan},
-  date =         {1973/},
-}
-
 @book{east:5548,
   title =        {Contributions à l'histoire de la philosophie
                   linguistique indienne},
@@ -12004,12 +13250,6 @@ book{east:5103,
   publisher =    {De Boccard},
   author =       {Ruegg, David Seyfort},
   date =         1959,
-}
-
-@XDATA{east:5549,
-  title =        {Books {And} {Articles} {On} {Oriental} {Subjects}
-                  {Published} {In} {Japan} {During}...},
-  language =     {en-US},
 }
 
 @book{east:5550,
@@ -12042,12 +13282,6 @@ book{east:5103,
   date =         1927,
 }
 
-@XDATA{east:5552,
-  title =        {Shōwa shinsan kokuyaku daizōkyō},
-  shorttitle =   {Shōwa},
-  editor =       {Nakano, T.},
-}
-
 @Book{east:5553,
   title      = {tshad ma rnam ’grel gyi tshig le’ur byas pa},
   language   = {bo},
@@ -12055,17 +13289,6 @@ book{east:5103,
   translator = {{subhūtiśrīśānti} and {(rma) dge ba’i blo gros}},
   keywords   = {canonical},
   author =       {Dharmakīrti},
-}
-
-@XDATA{east:5554,
-  title =        {Berkeley {Buddhist} {Studies} {Series}},
-}
-
-@XDATA{east:5555,
-  title =        {創價大學國際佛教學高等研究所年報 [*{Annual} {Report}
-                  of {The} {International} {Research} {Institute} for
-                  {Advanced} {Buddhology} at {Soka} {University}]},
-  shorttitle =   {{ARIRIAB}},
 }
 
 @book{east:5556,
@@ -12079,126 +13302,6 @@ book{east:5103,
   date =         1883,
 }
 
-@XDATA{east:5557,
-  title =        {Journal of {Naritasan} {Institute} for {Buddhist}
-                  {Studies}},
-}
-
-@XDATA{east:5558,
-  title =        {Studies of {Classical} {India}},
-}
-
-@XDATA{east:5559,
-  title =        {Kodai {Gaku}},
-  shorttitle =   {{KG}},
-}
-
-@XDATA{east:5560,
-  title =        {Hokke {Bunka} {Kenkyū} [*{Journal} of {Institute}
-                  for the {Comprehensive} {Study} of {Lotus} {Sutra}]},
-  shorttitle =   {{HBK}},
-}
-
-@XDATA{east:5561,
-  title =        {Nanto {Bukkyō} [*{Journal} of the {Nanto} {Society}
-                  for {Buddhist} {Studies}]},
-  shorttitle =   {{NBu}},
-}
-
-@XDATA{east:5562,
-  title =        {密教学 [{Mikkyōgaku}]},
-  shorttitle =   {Mikkyōgaku},
-}
-
-@XDATA{east:5563,
-  title =        {Aichi {Kyōiko} {Daigaku} {Kenkyū} {Hōkoku}
-                  [*{Bulletin} of {Aichi} {University} of
-                  {Education}]},
-  shorttitle =   {{AKDKH}},
-}
-
-@XDATA{east:5564,
-  title =        {Soviet {Indology} {Series}},
-}
-
-@XDATA{east:5565,
-  title =        {Beiträge zur {Kultur}- und {Geistesgeschichte}
-                  {Asiens}},
-  shorttitle =   {{BKGA}},
-}
-
-@XDATA{east:5566,
-  title =        {Nihon {Bukkyō} [*{Journal} of {Japanese}
-                  {Buddhism}]},
-  shorttitle =   {{NB}},
-}
-
-@XDATA{east:5567,
-  title =        {Nagoya {Daigaku} {Bungakubu} {Jūshūnen} {Kinen}
-                  {Nenpō}},
-  shorttitle =   {{NDBJKN}},
-}
-
-@XDATA{east:5568,
-  title =        {Chikushi {Jogakuen} {Tanki} {Daigaku} {Kiyō}
-                  [*{Journal} of {Chikushi} {Jogakuen} {Junior}
-                  {College}]},
-  shorttitle =   {{CJTDK}},
-}
-
-@XDATA{east:5569,
-  title =        {Wiener {Zeitschrift} für die {Kunde} {Südasiens}},
-  shorttitle =   {{WZKS}},
-}
-
-@XDATA{east:5570,
-  title =        {Calcutta {University} {Readership} {Lectures}},
-}
-
-@XDATA{east:5571,
-  title =        {Indian {Studies} {Past} and {Present}},
-  shorttitle =   {{ISPP}},
-}
-
-@XDATA{east:5572,
-  title =        {Bukkyō {Bunka} {Kenkyūsho} {Kiyō}},
-}
-
-@XDATA{east:5573,
-  title =        {T'oung {Pao}},
-  shorttitle =   {{TP}},
-}
-
-@XDATA{east:5575,
-  title =        {Bunka: {Revue} de l'{Université} {Tohoku}
-                  [*{Culture}]},
-  shorttitle =   {{BNK}},
-}
-
-@XDATA{east:5576,
-  title =        {Journal {Asiatique}},
-  shorttitle =   {{JA}},
-}
-
-@XDATA{east:5577,
-  title =        {Ryūkoku {Daigaku} {Bukkyō} {Bunka} {Kenkyūsho}
-                  {Kiyō}},
-  shorttitle =   {{RDBKK}},
-}
-
-@XDATA{east:5578,
-  title =        {Lexicological {Studies}},
-}
-
-@XDATA{east:5579,
-  title =        {Bukkyō {Daigaku} {Daigakuin} {Kenkyū} {Kiyō}},
-  shorttitle =   {{BDDKK}},
-}
-
-@XDATA{east:5580,
-  title =        {Hikaku {Shisō} no {Michi}},
-}
-
 @article{east:5581,
   title =        {Dignāga, {On} {Perception}: by {Masaaki} {Hattori},
                   {Cambridge} 1968},
@@ -12208,175 +13311,6 @@ book{east:5103,
   author =       {Steinkellner, Ernst},
   date =         1974,
   pages =        {222--224},
-}
-
-@XDATA{east:5582,
-  title =        {Studies in {Philosophy}},
-}
-
-@XDATA{east:5583,
-  title =        {Bibliotheca {Indo} {Tibetica} {Series}},
-  shorttitle =   {{BITS}},
-}
-
-@XDATA{east:5584,
-  title =        {Bunka},
-  shorttitle =   {Bunka},
-}
-
-@XDATA{east:5585,
-  title =        {Shinko {Tokubetsugo}},
-}
-
-@XDATA{east:5586,
-  title =        {Indogaku {Bukkyōgaku} {Kenkyū} [*{Journal} of
-                  {Indian} and {Buddhist} {Studies}]},
-  url =          {https://www.jstage.jst.go.jp/browse/ibk/-char/en},
-}
-
-@XDATA{east:5587,
-  title =        {Berliner {Indologische} {Studien}},
-  shorttitle =   {{BIS}},
-}
-
-@XDATA{east:5588,
-  title =        {Philosophische {Studientexte}},
-}
-
-@XDATA{east:5590,
-  title =        {Memoirs of the {Faculty} of {Letters} {Kyoto}
-                  {University}},
-}
-
-@XDATA{east:5591,
-  title =        {Sankō {Bunka} {Kenkyūsho} {Nenpō}},
-  shorttitle =   {{SBKN}},
-}
-
-@XDATA{east:5592,
-  title =        {Journal of the {Asiatic} {Society} of {Bengal}},
-  shorttitle =   {{JASB}},
-}
-
-@XDATA{east:5593,
-  title =        {Harvard {Oriental} {Series}},
-  shorttitle =   {{HOS}},
-}
-
-@XDATA{east:5594,
-  title =        {Wiener {Studien} zur {Tibetologie} und
-                  {Buddhismuskunde}},
-  shorttitle =   {{WSTB}},
-}
-
-@XDATA{east:5595,
-  title =        {Materialien zur {Kunde} des {Buddhismus}},
-  shorttitle =   {{MKB}},
-}
-
-@XDATA{east:5596,
-  title =        {Beiträge zur indischen {Sprachwissenschaft} und
-                  {Religionsgeschichte}},
-}
-
-@XDATA{east:5597,
-  title =        {Kōyasan {Daigaku} {Ronsō}},
-}
-
-@XDATA{east:5598,
-  title =        {Indian {Historical} {Quaterly}},
-  shorttitle =   {{IHQ}},
-}
-
-@XDATA{east:5599,
-  title =        {Kyūshū {Ryūkoku} {Tankidaigaku} {Kiyō} [*{Bulletin}
-                  of {Kyushu} {Ryukoku} {Junior} {College}]},
-  shorttitle =   {{SRTDK}},
-}
-
-@XDATA{east:5600,
-  title =        {Sino-{Indica}},
-  shorttitle =   {Sino-{Indica}},
-}
-
-@XDATA{east:5601,
-  title =        {Bukkyō {Shigaku} {Kenkyū} [*{Journal} of the
-                  {History} of {Buddhism}]},
-  shorttitle =   {{BSK}},
-}
-
-@XDATA{east:5602,
-  title =        {Studies in {Central} and {South} {East} {Asian}
-                  {Religions}},
-  shorttitle =   {{SCEAR}},
-}
-
-@XDATA{east:5603,
-  title =        {Veröffentlichungen der {Kommission} für {Sprachen}
-                  und {Kulturen} {Süd}- und {Ostasiens}},
-  shorttitle =   {{VKSKSO}},
-}
-
-@XDATA{east:5604,
-  title =        {Tsurumi {Daigaku} {Kiyō}},
-}
-
-@XDATA{east:5605,
-  title =        {co ne},
-  shorttitle =   {co ne},
-}
-
-@XDATA{east:5606,
-  title =        {Journal of the {Asiatic} {Society} of {Bengal}:
-                  {New} {Series}},
-  shorttitle =   {{JASB} {N}. {S}.},
-}
-
-@XDATA{east:5607,
-  title =        {Rinsen {Buddhist} {Text} {Series}},
-  shorttitle =   {{RBTS}},
-}
-
-@XDATA{east:5608,
-  title =        {snar thang},
-  shorttitle =   {snar thang},
-}
-
-@XDATA{east:5609,
-  title =        {Bibliotheca {Indica}},
-  shorttitle =   {{BI}},
-}
-
-@XDATA{east:5610,
-  title =        {Tōhōgaku [*{Eastern} {Studies}]},
-  shorttitle =   {{THG}},
-}
-
-@XDATA{east:5611,
-  title =        {Dharmakīrti {Nibandhawali}},
-}
-
-@XDATA{east:5612,
-  title =        {Kokuyaku {Daizōkyō}},
-}
-
-@XDATA{east:5613,
-  title =        {Gaekwad's oriental series},
-}
-
-@XDATA{east:5614,
-  title =        {Taishō {Daigaku} {Daigakuin} {Kenkyū} {Ronshū}},
-  shorttitle =   {{TDDKR}},
-}
-
-@XDATA{east:5615,
-  title =        {Mongolian {Tanjur}},
-  shorttitle =   {Mongolian {Tanjur}},
-}
-
-@XDATA{east:5616,
-  title =        {Ural-altaische {Jahrbücher}},
-  shorttitle =   {{UAJ}},
 }
 
 @Collection{east:5617,
@@ -12391,95 +13325,16 @@ book{east:5103,
   shorttitle = {{SBET}},
 }
 
-@XDATA{east:5618,
-  title =        {Tetsugaku {Zasshi}},
-  shorttitle =   {{TZ}},
-}
-
-@XDATA{east:5619,
-  title =        {Komazawa {Daigaku} {Daigakuin} {Bukkyōgaku}
-                  {Kenkyūkai} {Nenpō}},
-  shorttitle =   {{KDDBKN}},
-}
-
-@XDATA{east:5620,
-  title =        {Nutan {Sanskrit} {Series}},
-}
-
-@XDATA{east:5621,
-  title =        {Kyōto {Daigaku} {Bungakubu} {Kenkyū} {Kiyō}},
-  shorttitle =   {{KDBKK}},
-}
-
-@XDATA{east:5622,
-  title =        {Jñānapīṭha {Mūṛtidevī} {Jaina} {Granthamālā}},
-}
-
 @Collection{east:5623,
   editor     = {Steinkellner, Ernst and Katsura, Shōryū},
   title      = {The {Role} of the {Example} (dṛṣṭānta) in {Classical} {Indian} {Logic}},
   date       = {2004},
   language   = {en-US},
-  series     = {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und {Buddhismuskunde}},
+  series     = {{Wiener} {Studien} zur {Tibetologie} und {Buddhismuskunde}},
   number     = {58},
   publisher  = {Arbeitskreis für Tibetische und Buddhistische Studien Universität Wien},
   location   = {Wien},
   shorttitle = {{RECIL}},
-}
-
-@XDATA{east:5624,
-  title =        {Journal of the {International} {Association} of
-                  {Buddhist} {Studies}},
-  shorttitle =   {{JIABS}},
-}
-
-@XDATA{east:5625,
-  title =        {Mémoires de la {Commission} {Orientaliste}},
-}
-
-@XDATA{east:5626,
-  title =        {Mélanges chinoise et bouddhiques},
-  shorttitle =   {{MCB}},
-}
-
-@XDATA{east:5627,
-  title =        {Indo {Koten} {Kenkyū} [{Acta} {Indologica}]},
-  shorttitle =   {{IKK}},
-}
-
-@XDATA{east:5628,
-  title =        {Asiatische {Studien} [Études {Asiatiques}]},
-  shorttitle =   {{AS}},
-}
-
-@XDATA{east:5629,
-  title =        {Samyag-vāk {Series}},
-}
-
-@XDATA{east:5630,
-  title =        {Sitzungsberichte: {O}̈sterreichische {Akademie} der
-                  {Wissenschaften}. {Philosophisch}-{Historische}
-                  {Klasse}},
-  shorttitle =   {S{ÖAW}},
-}
-
-@XDATA{east:5631,
-  title =        {Nishinihon {Shūkyōgaku} {Zasshi} [*{Journal} of
-                  {Nishi}-{Nippon} {Association} for the {History} of
-                  {Religions}]},
-  shorttitle =   {{NNSZ}},
-}
-
-@XDATA{east:5632,
-  title =        {Ryūkoku {Daigaku} {Daigakuin} {Kiyō}: {Bungaku}
-                  {Kenkyūkai}},
-  shorttitle =   {{RDDK}},
-}
-
-@XDATA{east:5633,
-  title =        {Hiroshima {Daigaku} {Bungakubu} {Kiyō} [{The}
-                  {Hiroshima} {University} {Studies}, {Faculty} of
-                  {Letters}]},
 }
 
 @article{east:5634,
@@ -12492,18 +13347,6 @@ book{east:5103,
   author =       {Shirasaki, Kenjō},
   date =         1978,
   pages =        495,
-}
-
-@XDATA{east:5635,
-  title =        {Tōyō {Daigaku} {Kiyō} [*{Bulletin} of {Toyo}
-                  {University}]},
-  shorttitle =   {{TDK}},
-}
-
-@XDATA{east:5636,
-  title =        {Ryūkoku {Daigaku} {Bukkyō} {Gaku} {Kenkyūshitsu}
-                  {Nenpō}},
-  shorttitle =   {{RDBN}},
 }
 
 @article{east:5637,
@@ -12528,10 +13371,6 @@ book{east:5103,
   pages =        {81--99},
 }
 
-@XDATA{east:5639,
-  title =        {Numen},
-}
-
 @article{east:5640,
   title =        {Pramāṇavārtikabhāṣyam of {Prajñākaragupta}: ed. by
                   {R}. {Sāṅkṛtyāyana} ({TSWS} 1). {Patna} 1953},
@@ -12541,12 +13380,6 @@ book{east:5103,
   author =       {Frauwallner, Ernst},
   date =         1957,
   pages =        {58--60},
-}
-
-@XDATA{east:5641,
-  title =        {Indogaku {Shironshū} [{Miscellanea} {Indologica}
-                  {Kiotiensia}]},
-  shorttitle =   {{IGS}},
 }
 
 @article{east:5642,
@@ -12561,31 +13394,6 @@ book{east:5103,
   pages =        {158--160},
 }
 
-@XDATA{east:5643,
-  title =        {Kawai {Itsuji} sensei ranjuhōshō shiju kinen
-                  ronbunshū},
-}
-
-@XDATA{east:5644,
-  title =        {Bukkyōshi {Kenkyū}},
-}
-
-@XDATA{east:5645,
-  title =        {Journal of the {Bombay} {Branch} of the {Royal}
-                  {Asiatic} {Society}: {New} {Series}},
-  shorttitle =   {{JBBRAS} {N}.{S}.},
-}
-
-@XDATA{east:5646,
-  title =        {Philosophy {East} and {West}},
-  shorttitle =   {{PEW}},
-}
-
-@XDATA{east:5647,
-  title =        {Indian {Antiquary}},
-  shorttitle =   {{IA}},
-}
-
 @Book{east:5649,
   date       = {1050/1100},
   title      = {tshad ma brtag pa},
@@ -12594,112 +13402,6 @@ book{east:5103,
   translator = {{(rngog) blo ldan shes rab}},
   keywords   = {canonical},
   author =       {Dharmottara},
-}
-
-@XDATA{east:5650,
-  title =        {Sino {Indian} {Studies}},
-  shorttitle =   {{SIS}},
-}
-
-@XDATA{east:5651,
-  title =        {Our {Heritage}},
-  shorttitle =   {{OH}},
-}
-
-@XDATA{east:5653,
-  title =        {Tōkyai {Bukkyō} [*{Journal} of {Tokai} {Association}
-                  of {Indian} and {Buddhist} {Studies}]},
-  shorttitle =   {{TBu}},
-}
-
-@XDATA{east:5654,
-  title =        {Pamyatmiki indiskoi filosofii},
-}
-
-@XDATA{east:5655,
-  title =        {East and {West}},
-  shorttitle =   {{EW}},
-}
-
-@XDATA{east:5656,
-  title =        {The {Tibetan} {Tripiṭaka}: {Peking}
-                  {Edition}. {Reprinted} under the {Supervision} of
-                  the {Otani} {University}, {Kyoto}},
-  shorttitle =   {Peking},
-  language =     {bo},
-  editor =       {Suzuki, Daisetsu Teitaro},
-}
-
-@XDATA{east:5657,
-  title =        {Lalbai {Dalpatbhai} {Series}},
-  shorttitle =   {{LDS}},
-}
-
-@XDATA{east:5659,
-  title =        {Acta {Orientalia}},
-  shorttitle =   {{AO}},
-}
-
-@XDATA{east:5660,
-  title =        {Journal of {Indian} {Philosophy}},
-  shorttitle =   {{JIP}},
-}
-
-@XDATA{east:5661,
-  title =        {Hindu {Vishvavidyalaya} {Nepal} {Rajya}
-                  {Skt}. {Ser}.},
-}
-
-@XDATA{east:5662,
-  title =        {Zinbun: memoirs of the {Research} {Institute} for
-                  {Humanistic} {Studies}},
-  shorttitle =   {Zinbun},
-}
-
-@XDATA{east:5663,
-  title =        {Kokuyaku {Issaikyō}: {Ronshūbu}},
-  publisher =    {Daitō Shuppansha},
-}
-
-@XDATA{east:5665,
-  title =        {Asian culture and thought},
-}
-
-@XDATA{east:5666,
-  title =        {Studies in {Linguistics}: {State}-of-the-{Art}
-                  {Reports}},
-}
-
-@XDATA{east:5667,
-  title =        {Den kar ma},
-  shorttitle =   {Den kar ma},
-}
-
-@XDATA{east:5668,
-  title =        {Bibliotheca {Indica}: {New} {Series}},
-  shorttitle =   {{BI} {N}. {S}.},
-}
-
-@XDATA{east:5669,
-  title =        {Nai {Xue}},
-  shorttitle =   {Nai {Xue}},
-}
-
-@XDATA{east:5670,
-  title =        {Hokkaidō {Komazawa} {Daigaku} {Kenkyū} {Kiyō}
-                  [*{Hokkaido} {Journal} of {Komazawa} {University}]},
-  shorttitle =   {{HKDKK}},
-}
-
-@XDATA{east:5671,
-  title =        {Ryūkoku {Daigaku} {Daigakuin} {Kenkyū} {Kiyō}:
-                  {Jinbun} {Kagaku}},
-  shorttitle =   {{RDDKK}},
-}
-
-@XDATA{east:5672,
-  title =        {Adyar {Library} {Series}},
-  shorttitle =   {{ALS}},
 }
 
 @Unpublished{east:5673,
@@ -12711,10 +13413,6 @@ book{east:5103,
   language =     {sa},
   author =       {Śaṅkaranandana},
   keywords =     {canonical,manuscript},
-}
-
-@XDATA{east:5674,
-  title =        {Studia {Tibetica}},
 }
 
 @Unpublished{east:5675,
@@ -12747,7 +13445,6 @@ book{east:5103,
   keywords = {canonical,manuscript},
 }
 
-
 @Unpublished{east:5678,
   howpublished =    {Glass negative collection of the Bihar Research Society},
   author =       {Śaṅkaranandana},
@@ -12757,21 +13454,6 @@ book{east:5103,
   keywords = {canonical,manuscript},
 }
 
-@XDATA{east:5679,
-  title =	 {Glass negative collection of the Bihar Research
-                  Society},
-}
-
-@XDATA{east:5680,
-  title =        {Mikkyō {Bunka} [*{Quaterly} {Report} on {Esoteric}
-                  {Buddhism}]},
-  shorttitle =   {{MBu}},
-}
-
-@XDATA{east:5681,
-  title =        {Shōwa shinsan kokuyaku daizōkyō: {Ronshūbu}},
-}
-
 @Unpublished{east:5682,
   howpublished =    {Glass negative collection of the Bihar Research Society},
   author =       {Śaṅkaranandana},
@@ -12779,30 +13461,6 @@ book{east:5103,
   title =        {Sanskrit {Manuscript} of {Sūkṣmaprāmāṇyakārikā}},
   language =     {sa},
   keywords = {canonical,manuscript},
-}
-
-@XDATA{east:5683,
-  title =        {International {Research} {Institute} {Monograph}},
-}
-
-@XDATA{east:5684,
-  title =        {Foundations of {Language}: {Supplementary} {Ser}.},
-}
-
-@XDATA{east:5685,
-  title =        {Journal of the {Greater} {India} {Society}},
-  shorttitle =   {{JGIS}},
-}
-
-@XDATA{east:5686,
-  title =        {Kāshi {Sanskrit} {Series}},
-  shorttitle =   {{KSS}},
-}
-
-@XDATA{east:5687,
-  title =        {Wiener {Zeitschrift} für die {Kunde} des
-                  {Morgenlandes}},
-  shorttitle =   {{WZKM}},
 }
 
 @article{east:5688,
@@ -12837,11 +13495,6 @@ book{east:5103,
   pages =        {81--99},
 }
 
-@XDATA{east:5692,
-  title =        {Mikkyōgaku {Kenkyū}},
-  shorttitle =   {{MGK}},
-}
-
 @Incollection{east:5693,
   title =        {Manuskript des ĪAS und ĪAScom},
   language =     {de},
@@ -12860,11 +13513,6 @@ book{east:5103,
   crossref = {east:27509},
 }
 
-@XDATA{east:5694,
-  title =        {Brahmavidyā: {The} {Adyar} {Library} {Bulletin}},
-  shorttitle =   {{ALB}},
-}
-
 @article{east:5695,
   title =        {Zu den tibetischen und mongolischen Übersetzungen
                   des {Nyāyapraveśa}: {Ein} {Beitrag} zur
@@ -12875,11 +13523,6 @@ book{east:5103,
   author =       {Frankenhauser, Uwe},
   date =         1992,
   pages =        {156--171},
-}
-
-@XDATA{east:5696,
-  title =        {Indian {Culture}},
-  shorttitle =   {{IC}},
 }
 
 @Incollection{east:5697,
@@ -12915,66 +13558,11 @@ book{east:5103,
   keywords =     {canonical,manuscript},
 }
 
-@XDATA{east:5700,
-  title =        {Chizan {Gakuhō}},
-  shorttitle =   {{CGH}},
-}
-
-@XDATA{east:5701,
-  title =        {Komazawa {Daigaku} {Bukkyō} {Gakubu} {Ronshū}
-                  [{Journal} of {Buddhist} {Studies}]},
-}
-
-@XDATA{east:5702,
-  title =        {Naritasan {Bukkyō} {Kenkyūjo} {Kiyō} [{Journal} of
-                  {Naritasan} {Institute} of {Buddhist} {Studies}]},
-}
-
-@XDATA{east:5703,
-  title =        {Meijō {Daigaku} {Jinbun} {Kiyō} [*{Meijo} {Bulletin}
-                  of {Humanities}]},
-  shorttitle =   {{MDJK}},
-}
-
-@XDATA{east:5704,
-  title =        {Bukkyōgaku kaihō},
-  shorttitle =   {{BGH}},
-}
-
-@XDATA{east:5705,
-  title =        {島根県立国際短期大学紀要},
-  editor =       {{島根県立国際短期大学}},
-}
-
-@XDATA{east:5706,
-  title =        {Mitteilungen der {Mathematischen} {Gesellschaft}
-                  {Hamburg}},
-}
-
-@XDATA{east:5707,
-  title =        {Journal of the {American} {Oriental} {Society}},
-  shorttitle =   {{JAOS}},
-}
-
-@XDATA{east:5708,
-  title =        {Rocznik {Orientlistyczny}},
-  shorttitle =   {{RO}},
-}
-
-@XDATA{east:5709,
-  title =        {Saga {Ryūkoku} {Tanki} {Daigaku} {Kiyō} [{Bulletin}
-                  of {Saga} {Ryūkoku} {Junior} {College}]},
-}
-
-@XDATA{east:5710,
-  title =        {Dr. {B}. {C}. {Law} {Trust} {Fund}},
-}
-
 @Collection{east:5711,
   editor    = {Bruhn, Klaus and Wezler, Albrecht},
   title     = {Studien zum {Jainismus} und {Buddhismus}: {Gedenkschrift} für {Ludwig} {Alsdorf}},
   date      = {1981},
-  series    = {{ANISt}, {Alt}- und {Neuindische} {Studien}},
+  series    = {{Alt}- und {Neuindische} {Studien}},
   number    = {23},
   publisher = {Steiner},
   location  = {Wiesbaden},
@@ -13012,11 +13600,6 @@ book{east:5103,
   pages =        {177--178},
 }
 
-@XDATA{east:5715,
-  title =        {Publ. de l'{Inst}. de {Civilisation} indienne},
-  shorttitle =   {{PlCI}},
-}
-
 @article{east:5716,
   title =        {Bhāmaha ni inyō sareru {Dignāga} to {Vasubandhu}},
   volume =       25,
@@ -13029,19 +13612,6 @@ book{east:5103,
   pages =        {898--893},
 }
 
-@XDATA{east:5717,
-  title =        {Indo-{Iranian} {Reprints}},
-}
-
-@XDATA{east:5718,
-  title =        {龍谷大学論集 [*{Journal} of {Ryūkoku} {University}]},
-  shorttitle =   {{RDR}},
-}
-
-@XDATA{east:5719,
-  title =        {Journal of the {Oriental} {Institute} {Baroda}},
-}
-
 @Unpublished{east:5720,
   howpublished =    {Glass negative collection of the Bihar Research Society},
   location =      {Patna},
@@ -13049,16 +13619,6 @@ book{east:5103,
   author =       {Śaṅkaranandana},
   language =     {sa},
   keywords = {canonical,manuscript},
-}
-
-@XDATA{east:5721,
-  title =        {Kyōiku {Shogaku} {Kenkyū} {Ronbunshū}},
-  shorttitle =   {{KSKR}},
-}
-
-@XDATA{east:5722,
-  title =        {Nagoya {Daigaku} {Bungakubu} {Kenkyū} {Ronshū}},
-  shorttitle =   {{NDBKR}},
 }
 
 @Unpublished{east:5723,
@@ -13070,69 +13630,6 @@ book{east:5103,
   keywords = {canonical,manuscript},
 }
 
-@XDATA{east:5724,
-  title =        {Ōsaka {Furitsu} {Daigaku} {Kiyō} [*{Bulletin} of the
-                  {University} of {Osaka} {Prefecture}]},
-  shorttitle =   {{ODKN}},
-}
-
-@XDATA{east:5725,
-  title =        {Monographs of the {Society} for {Asian} and
-                  {Comparative} {Philosophy}},
-}
-
-@XDATA{east:5726,
-  title =        {Asiatische {Forschungen}},
-  shorttitle =   {{AsF}},
-}
-
-@XDATA{east:5727,
-  title =        {{lHan} kar kat.},
-  shorttitle =   {{lHan} kar kat.},
-}
-
-@XDATA{east:5728,
-  title =        {Bukkyō {Daigaku} {Kōza}},
-}
-
-@XDATA{east:5729,
-  title =        {Bhauddha {Bharati} {Series}},
-  shorttitle =   {{BBhS}},
-}
-
-@XDATA{east:5730,
-  title =        {大正新脩大藏經 // {Taishō} shinshū dai zōkyō},
-  shorttitle =   {Taishō},
-  language =     {zh-CN},
-  editor =       {Takakusu, Junirō and Watanabe, Kaikyoku},
-  date = {1924/1935}
-}
-
-@XDATA{east:5731,
-  title =        {Sōtōshū {Kenkyūin} {Kenkyūsei} {Kenkyū} {Kiyō}},
-}
-
-@XDATA{east:5732,
-  title =        {Kōchi {Kōgyōkōtōsenmongakkō} {Gakujutu} {Kiyō}
-                  [{The} {Bulletin} of {Kochi} {National} {College} of
-                  {Technology}]},
-}
-
-@XDATA{east:5733,
-  title =        {Indologica {Taurinensia}},
-  shorttitle =   {{IT}},
-}
-
-@XDATA{east:5734,
-  title =        {Annales du {Musée} {Guimet}},
-  shorttitle =   {{AMG}},
-}
-
-@XDATA{east:5735,
-  title =        {Studi orientali pubblicati a cura della {Scuola}
-                  orientale},
-}
-
 @book{east:5736,
   location =      {Kyōto},
   title =        {Studies in {Original} {Buddhism} and {Mahāyāna}
@@ -13141,40 +13638,6 @@ book{east:5103,
   publisher =    {Nagata Bunshodo},
   author =       {Mayeda, Egaku},
   date =         1993,
-}
-
-@XDATA{east:5737,
-  title =        {Tshad ma},
-  shorttitle =   {Tshad ma},
-}
-
-@XDATA{east:5738,
-  title =        {Alt- und {Neuindische} {Studien}},
-  shorttitle =   {{ANISt}},
-}
-
-@XDATA{east:5739,
-  title =        {Śrī Ātmānand {Jain} {Granthamalā}},
-}
-
-@XDATA{east:5741,
-  title =        {Bibliotheca {Buddhica}},
-  shorttitle =   {{BBu}},
-}
-
-@XDATA{east:5742,
-  title =        {Indo {Tetsugaku} {Bukkyōgaku} {Kenkyū}},
-}
-
-@XDATA{east:5743,
-  title =        {Nava {Nālandā} {Mahāvihāra} {Research}
-                  {Publication}},
-}
-
-@XDATA{east:5744,
-  title =        {Annals of the {Bhandarkar} {Oriental} {Research}
-                  {Institute}},
-  shorttitle =   {{ABORI}},
 }
 
 @article{east:5745,
@@ -13189,39 +13652,6 @@ book{east:5103,
   pages =        {383--398},
 }
 
-@XDATA{east:5746,
-  title =        {Indo {Shisōshi} {Kenkyū} [*{Studies} in the
-                  {History} of {Indian} {Thought}]},
-  shorttitle =   {{ISK}},
-}
-
-@XDATA{east:5747,
-  title =        {Bulletin of {Tibetology} {N}.{S}.},
-}
-
-@XDATA{east:5748,
-  title =        {The {Maha} {Bodhi}: and the {United} {Buddhist}
-                  {World}},
-  shorttitle =   {{MB}},
-}
-
-@XDATA{east:5749,
-  title =        {Nagoya {Shōka} {Daigaku} {Ronshū} [*{Bulletin} of
-                  {Faculty} of {Commerce}]},
-  shorttitle =   {{NSDR}},
-}
-
-@XDATA{east:5750,
-  title =        {Journal of the {Royal} {Asiatc} {Society} of {Great}
-                  {Britain} and {Ireland}},
-  shorttitle =   {{JRAS}},
-}
-
-@XDATA{east:5751,
-  title =        {Bukkyōgaku {Kenkyū} [*{Studies} in {Buddhism}]},
-  shorttitle =   {{BGK}},
-}
-
 @article{east:5752,
   title =        {On the date of {Dharmakīrti} etc.},
   volume =       56,
@@ -13230,12 +13660,6 @@ book{east:5103,
   author =       {Lindtner, Christian},
   date =         1992,
   pages =        {56--62},
-}
-
-@XDATA{east:5753,
-  title =        {Wiener {Zeitschrift} für die {Kunde} {Süd}- und
-                  {Ostasiens}},
-  shorttitle =   {{WZKSO}},
 }
 
 @article{east:5754,
@@ -13261,95 +13685,6 @@ book{east:5103,
   date =         {1977/1981},
 }
 
-@XDATA{east:5756,
-  title =        {Bibliotheca {Indo}-{Buddhica}},
-  shorttitle =   {{BIB}},
-}
-
-@XDATA{east:5757,
-  title =        {Bulletin of {Tibetology}},
-  shorttitle =   {{BTib}},
-}
-
-@XDATA{east:5758,
-  title =        {Serie {Orientale} {Roma}},
-  shorttitle =   {{SOR}},
-}
-
-@XDATA{east:5759,
-  title =        {Kobe {Joshi} {Daigaku} {Kiyō}: {Bungaku} {Bunen}
-                  [*{Bulletin} of {Kobe} {Women}'s {University}:
-                  {Literature} {Department}]},
-  shorttitle =   {{KJDKBB}},
-}
-
-@XDATA{east:5760,
-  title =        {Gaekwad's {Oriental} {Series}},
-  shorttitle =   {{GOS}},
-}
-
-@XDATA{east:5761,
-  title =        {Bukkyō {Kenkyū} [*{Buddhist} {Studies}]},
-  shorttitle =   {{BK}},
-}
-
-@XDATA{east:5762,
-  title =        {Tōyō {Daigaku} {Dagakuin} {Kiyō} [*{Bulletin} of the
-                  of the {Academy}]},
-  shorttitle =   {{TDDK}},
-}
-
-@XDATA{east:5763,
-  title =        {Shūkyo {Kenkyū} [*{Journal} of {Religious}
-                  {Studies}]},
-  shorttitle =   {{SUK}},
-}
-
-@XDATA{east:5764,
-  title =        {Koryŏ taejanggyŏng},
-  language =     {zh-CN},
-  date =         1976,
-}
-
-@XDATA{east:5765,
-  title =        {Journal of the {Bihar} and {Orissa} {Reseach}
-                  {Society}: {New} {Series}},
-  shorttitle =   {{JBORS}},
-}
-
-@XDATA{east:5766,
-  title =        {Tibetan {Sanskrit} {Works} {Series}},
-  shorttitle =   {{TSWS}},
-}
-
-@XDATA{east:5767,
-  title =        {Tetsugaku {Nenpō} [{Annual} of {Philosophy}]},
-}
-
-@XDATA{east:5768,
-  title =        {Bulletin of {Tokyo} {Gakugei} {University}},
-}
-
-@XDATA{east:5769,
-  title =        {Naigoya {Daigaku} {Bungakubu} {Kenkyū} {Ronshū}
-                  {Tetsugaku}},
-  shorttitle =   {{NDBKRT}},
-}
-
-@XDATA{east:5770,
-  title =        {Glasenapp {Stiftung}},
-}
-
-@XDATA{east:5771,
-  title =        {Indo-{Iranian} {Journal}},
-  shorttitle =   {{IIJ}},
-}
-
-@XDATA{east:5772,
-  title =        {Tōyōgaku {Kenkyū}},
-  shorttitle =   {{TGK}},
-}
-
 @article{east:5773,
   title =        {Bukkyō ninshiki ron no kenkyū: by {Hiromasa}
                   {Tosaki}, {Tōkyō} 1979},
@@ -13372,11 +13707,6 @@ book{east:5103,
   pages =        {122--142},
 }
 
-@XDATA{east:5785,
-  title =        {Okuda {Jio} sensei kiju kinen},
-  language =     {ja-JP},
-}
-
 @article{east:5786,
   author =       {Tani, Tadashi},
   title =        {Pramāṇaviniścaya. {III} {Kaisyakuno} {Mondai} [2]
@@ -13385,7 +13715,7 @@ book{east:5103,
                   {Translation} of {PVin} {III}. vv 4-6]},
   volume =       21,
   language =     {ja-JP},
-  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   date =         1984,
   pages =        {1--16},
@@ -13473,12 +13803,6 @@ book{east:5103,
   author =       {Bhattacharya, Harisatya},
 }
 
-@XDATA{east:5793,
-  title =        {Tamaki {Kōshirō} hakase kanreki kinen ronshū:
-                  {Butsu} no kenkyū},
-  language =     {ja-JP},
-}
-
 @article{east:5794,
   title =        {『プラマーナ・ヴァールティカ』プラマーナシッディ章の
                   研究. 7 [*{A} {Study} of the {Pramāṇasiddhi}
@@ -13517,12 +13841,6 @@ book{east:5103,
   date =         1990,
   pages =        {58--62},
   author =       {Tosaki, Hiromasa},
-}
-
-@XDATA{east:5797,
-  title =        {Hirakawa {Akira} hakase kanreki kinen ronshū:
-                  {Bukkyō} ni okeru hō no kenkyū},
-  language =     {ja-JP},
 }
 
 @article{east:5798,
@@ -13615,7 +13933,7 @@ book{east:5103,
                   {Destruction}) [2]]},
   volume =       33,
   language =     {ja-JP},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1990,
@@ -13727,7 +14045,7 @@ book{east:5103,
                   ge]},
   volume =       7,
   language =     {ja-JP},
-  journaltitle = {Tōyō no Shisō to Shūkyū},
+  journaltitle = {Tōyō no Shisō to Shūkyō},
   date =         1990,
   pages =        {1--38},
   author =       {Iwata, Takashi},
@@ -13754,7 +14072,7 @@ book{east:5103,
                   {Destruction}) [4 = {II}-3]]},
   volume =       36,
   language =     {ja-JP},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1992,
@@ -13784,7 +14102,7 @@ book{east:5103,
                   {Text} and a {Translation}},
   volume =       37,
   language =     {en-US},
-  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   date =         1993,
   pages =        {1--15},
@@ -13851,7 +14169,7 @@ book{east:5103,
                   {Text} and a {Translation}},
   volume =       27,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1987,
@@ -13888,7 +14206,7 @@ book{east:5103,
                   {Text} and a {Translation}},
   volume =       38,
   language =     {en-US},
-  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   date =         1994,
   pages =        {1--16},
@@ -13923,7 +14241,7 @@ book{east:5103,
                   {Text} and a {Translation}},
   volume =       28,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1988,
@@ -13991,7 +14309,7 @@ book{east:5103,
                   and a {Translation}},
   volume =       26,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1987,
@@ -14004,7 +14322,7 @@ book{east:5103,
                   {Text} and a {Translation}},
   volume =       37,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   date =         1993,
   pages =        {17--34},
@@ -14024,36 +14342,6 @@ book{east:5103,
   date =         1986,
   pages =        {49--77},
   author =       {Naitō, Akifumi},
-}
-
-@XDATA{east:5837,
-  title =        {Ihara {Shōren} {Hakase} {Koki} {Kinen} {Ronbushū}:
-                  {Ihara} {Shōren} hakase koki kinenkai [*{Essays} in
-                  {Honor} of {Dr}. {Shoren} {Ihara} on his
-                  {Seventieth} {Birthday}: {Committee} for the
-                  {Commemoration} of {Dr}. {Shoren} {Ihara}'s
-                  {Seventieth} {Birthday}]},
-  language =     {ja-JP},
-  publisher =    {Kyūshū University},
-  date =         1991,
-}
-
-@XDATA{east:5838,
-  title =        {Orientalistische {Literaturzeitung}},
-  shorttitle =   {{OLZ}},
-}
-
-@XDATA{east:5839,
-  title =        {Ōkurayama {Gakuin} {Kiyō}},
-}
-
-@XDATA{east:5840,
-  title =        {Buddhist {Studies} {Review}},
-}
-
-@XDATA{east:5842,
-  title =        {Tōyō no {Shisō} to {Shūkyū}},
-  shorttitle =   {{TShSh}},
 }
 
 @article{east:5843,
@@ -14149,12 +14437,6 @@ book{east:5103,
   author =       {Katsura, Shoryu},
   date =         1987,
   pages =        {46--65},
-}
-
-@XDATA{east:5853,
-  location =      {Bāgarā, Āhor},
-  title =        {Śrīmad {Vijayarājendrasūrismarakagrantha}},
-  language =     {hi},
 }
 
 @article{east:5854,
@@ -14302,7 +14584,7 @@ book{east:5103,
                   and a {Translation}},
   volume =       31,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   date =         1989,
   pages =        {1--16},
@@ -14330,21 +14612,6 @@ book{east:5103,
   location = {Paris},
 }
 
-@XDATA{east:5868,
-  title =        {Indo seishin bunka no kenkyū: toku ni {Jaina} o
-                  chūshin to shite // 印度精神文化の研究: 特にヂャイナ
-                  を中心として},
-  language =     {ja-JP},
-  publisher =    {Baifūkan},
-  date =         1944,
-}
-
-@XDATA{east:5869,
-  title =        {Shoki no {Vedānta} tetsugaku},
-  language =     {ja-JP},
-  date =         1950,
-}
-
 @article{east:5870,
   title =        {"{Shinri}-kōyō" no {Vedānta} setsu [*{A} note on
                   {Pre}-Śaṅkara {Vedānta} {Philosphy}]},
@@ -14353,13 +14620,6 @@ book{east:5103,
   author =       {Nakamura, Hajime},
   date =         1954,
   pages =        {1--13},
-}
-
-@XDATA{east:5871,
-  title =        {Kotoba no keijijōgaku},
-  language =     {ja-JP},
-  date =         1956,
-  location =     {Tōkyō},
 }
 
 @book{east:5872,
@@ -14403,15 +14663,6 @@ book{east:5103,
   publisher =    {Sanskrit Pustak Bhandar},
   author =       {Basham, A. L.},
   date =         1980,
-}
-
-@XDATA{east:5876,
-  location =      {Kyōto},
-  title =        {Buddhism and its {Relation} to {Other} {Religions}:
-                  {Essays} in {Honour} of {Dr}. {Shozen} {Kumoi}},
-  language =     {en-US},
-  publisher =    {Heirakuji shoten},
-  date =         1985,
 }
 
 @incollection{east:5877,
@@ -14465,7 +14716,6 @@ book{east:5103,
   language =     {de-DE},
 }
 
-
 @Unpublished{east:5881,
   howpublished = {Glass negative collection of the Bihar Research
                   Society},
@@ -14482,7 +14732,7 @@ book{east:5103,
                   {Text} and a {Translation}},
   volume =       30,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   date =         1989,
   pages =        {1--16},
@@ -14562,7 +14812,7 @@ book{east:5103,
                   {Text} and a {Translation}},
   volume =       38,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   date =         1994,
   pages =        {17--32},
@@ -14603,11 +14853,6 @@ book{east:5103,
   journaltitle = {Brahmavidyā: The Adyar Library Bulletin},
   date =         1940,
   author =       {Sastri, Aiyaswami},
-}
-
-@XDATA{east:5894,
-  title =        {Prize {Publication} {Fund}},
-  language =     {en-US},
 }
 
 @article{east:5895,
@@ -14695,7 +14940,7 @@ book{east:5103,
                   {Text} and a {Translation}},
   volume =       29,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1988,
@@ -14776,7 +15021,7 @@ book{east:5103,
                   of the {Parārthānumāna} (2)]},
   volume =       11,
   language =     {ja-JP},
-  journaltitle = {Tōyō no Shisō to Shūkyū},
+  journaltitle = {Tōyō no Shisō to Shūkyō},
   date =         1994,
   pages =        {1--25},
   author =       {Iwata, Takashi},
@@ -14887,8 +15132,6 @@ book{east:5103,
   location  = {Kyōto},
 }
 
-
-
 @article{east:5919,
   title =        {A {Lost} {Commentary} on the {Nyāyamukha}},
   volume =       2,
@@ -14913,10 +15156,6 @@ book{east:5103,
   editor =       {Steinkellner, Ernst},
   date =         1991,
   pages =        {403--418},
-}
-
-@XDATA{east:5921,
-  title =        {Denkschriften: philosophisch-historische {Klasse}},
 }
 
 @thesis{east:5922,
@@ -14986,12 +15225,6 @@ book{east:5103,
   series    = {Indica et {Tibetica}},
 }
 
-@XDATA{east:5928,
-  title =        {{BDK} fellowship newsletter},
-  language =     {en-US},
-  editor =       {{Bukkyō-Dendō-Kyōkai}},
-}
-
 @InCollection{east:5929,
   author   = {Eltschinger, Vincent},
   title    = {Studies on {Dharmakīrti}'s {Religious} {Philosophy} (3): {Compassion} and {Its} {Role} in the {General} {Structure} of {PV} 2},
@@ -14999,12 +15232,6 @@ book{east:5103,
   pages    = {43--72},
   crossref = {east:27516},
   year = 2011,
-}
-
-@XDATA{east:5930,
-  title =        {Tetsugaku, {Shisō} {Ronshū} [*{Studies} in
-                  {Philosophy}]},
-  language =     {ja-JP},
 }
 
 @InCollection{east:5931,
@@ -15047,11 +15274,6 @@ book{east:5103,
   publisher = {Motilal Banarsidass Publishers},
 }
 
-@XDATA{east:5934,
-  title =        {Revue internationale de philosophie},
-  language =     {fr-FR},
-}
-
 @InCollection{east:5935,
   booktitle =    {Studies in {Original} {Buddhism} and {Mahayana} {Buddhism}},
   author    = {Hayes, Richard P.},
@@ -15063,19 +15285,6 @@ book{east:5103,
   pages     = {111--130},
   publisher = {Nagata Bunshodo},
   volume    = {1},
-}
-
-@XDATA{east:5936,
-  title =        {Nippon {Bukkyōgakkai} {Nenpō} [*{The} {Journal} of
-                  the {Nippon} {Buddhist} {Research} {Association}]},
-  language =     {ja-JP},
-}
-
-@XDATA{east:5937,
-  title =        {仏教学セミナー [{Bukkyōgaku} seminā] [*{Buddhist}
-                  {Seminar}]},
-  language =     {ja-JP},
-  editor =       {{大谷大学. 佛教学会: Ōtani Daigaku. Bukkyō Gakkai}},
 }
 
 @incollection{east:5938,
@@ -15153,14 +15362,6 @@ book{east:5103,
   date =         1993,
 }
 
-@XDATA{east:5943,
-  title =        {駒沢短期大学仏教論集 [{Komazawa} {Tanki} {Daigaku}
-                  bukkyō ronshū] [*{Journal} of {Buddhism}]},
-  language =     {ja-JP},
-  editor =       {{駒澤短期大學佛教科: Komazawa Tanki
-                  Daigaku. Bukkyōka}},
-}
-
 @book{east:5944,
   title =        {Jñānaśrīmitras vyāpticarcā: {Sanskrittext},
                   Übersetzung, {Analyse}},
@@ -15186,12 +15387,6 @@ book{east:5103,
   editor =       {Silk, Jonathan A.},
   date =         2000,
   pages =        {137--146},
-}
-
-@XDATA{east:5946,
-  title =        {Nanto {Bukkyo}̄ [*{Journal} of the {Nanto} {Society}
-                  for {Buddhist} {Studies}]},
-  language =     {ja-JP},
 }
 
 @incollection{east:5947,
@@ -15223,25 +15418,6 @@ book{east:5103,
   publisher = {Motilal Banarsidass Publishers},
 }
 
-@XDATA{east:5949,
-  title =        {南アジア古典学},
-  issn =         {1881-2074},
-  language =     {ja-JP},
-  editor =       {{九州大学文学部インド哲学史研究室}},
-}
-
-@XDATA{east:5950,
-  title =        {Komazawa {Tankidaigaku} {Kenkyū} {Kiyō} [*{Journal}
-                  of {Komazawa} {Junior} {College}]},
-  language =     {ja-JP},
-}
-
-@XDATA{east:5951,
-  title =        {Semiotische {Berichte}},
-  language =     {de-DE},
-  editor =       {{Österreichische Gesellschaft für Semiotik}},
-}
-
 @InCollection{east:5952,
   booktitle =    {Sanskrit {Manuscripts} in {China}: {Proceedings} of a {Panel} at the 2008 {Beijing} {Seminar} on {Tibetan} {Studies} {October} 13 to 17},
   author    = {Katsura, Shōryū},
@@ -15252,12 +15428,6 @@ book{east:5103,
   location  = {Beijing},
   pages     = {153--166},
   publisher = {China Tibetology Publishing House},
-}
-
-@XDATA{east:5953,
-  title =        {South {Asian} {Classical} {Studies}},
-  issn =         {1881-2074},
-  language =     {ja-JP},
 }
 
 @InCollection{east:5954,
@@ -15274,25 +15444,6 @@ book{east:5103,
   series    = {Studies in logic},
 }
 
-@XDATA{east:5955,
-  title =        {仏教大学大学院紀要},
-  language =     {ja-JP},
-  editor =       {{仏教大学学術委員会}},
-}
-
-@XDATA{east:5956,
-  title =        {Revista de estudios budistas},
-  language =     {es-ES},
-  editor =       {{Asociación Latinoamericana de Estudios Budistas}},
-}
-
-@XDATA{east:5957,
-  title =        {Asian {Philosophy}: an international journal of
-                  {Indian}, {Chinese}, {Japanese}, {Buddhist},
-                  {Persian} and {Islamic} philosophical traditions},
-  language =     {en-US},
-}
-
 @InCollection{east:5958,
   booktitle =    {Indo {Tetsugaku} {Bukkyō} {Shisō} {Ronshū}: {Mikogami} {Eshō} {Kyōju} {Shōju} {Kinen} {Ronshū} [*{Studies} on {Indian} {Philosophy} and {Buddhist} {Thoughts}: {Volume} in {Honor} of {Professor} {Esho} {Mikogami}]},
   author    = {小野 Ono, 基 Motoi},
@@ -15306,13 +15457,6 @@ book{east:5103,
   publisher = {Nagata Bunshōdō},
 }
 
-@XDATA{east:5959,
-  title =        {Hikaku {Ronrigaku} {Kenkyū} [*{The} {Annals} of the
-                  {Research} {Project} {Center} for the {Comparative}
-                  {Study} of {Logic}]},
-  language =     {ja-JP},
-}
-
 @InCollection{east:5960,
   booktitle =    {Sanskrit Texts from Giuseppe Tucci's Collection: Part I},
   author    = {Kellner, Birgit},
@@ -15322,16 +15466,6 @@ book{east:5103,
   location  = {Roma},
   pages     = {207--228},
   publisher = {Istituto Italiano per l'Africa e l'Oriente},
-}
-
-@XDATA{east:5961,
-  title =        {Buddhismus in {Geschichte} und {Gegenwart}:
-                  weiterbildendes {Studium}},
-  language =     {de-DE},
-  editor =       {{Universität (Hamburg). Fachbereich Orientalistik}
-                  and {Asien-Afrika-Institut (Hamburg)}},
-  url =
-                  {https://www.buddhismuskunde.uni-hamburg.de/publikationen/2-buddhismus-in-geschichte-und-gegenwart.html},
 }
 
 @InCollection{east:5962,
@@ -15344,16 +15478,6 @@ book{east:5103,
   location  = {Delhi},
   pages     = {355--374},
   publisher = {Motilal Banarsidass Publishers},
-}
-
-@XDATA{east:5963,
-  title =        {インド哲学仏教学研究 [{Indo} tetsugaku {Bukkyo}̄gaku
-                  kenkyū] [*{Studies} of {Indian} philosophy and
-                  {Buddhism}]},
-  language =     {ja-JP},
-  editor =       {{東京大学大学院人文社会系研究科.文学部インド哲学仏教
-                  学研究室: Tōkyō Daigaku. Jinbun Shakaikei
-                  Kenkyūka. Indo Tetsugaku Bukkyōgaku Kenkyūshitsu}},
 }
 
 @incollection{east:5964,
@@ -15381,22 +15505,6 @@ book{east:5103,
   publisher = {Dr. Inge Wezler Verlag für Orientalistische Fachpublikationen},
 }
 
-@XDATA{east:5966,
-  title =        {論集},
-  language =     {ja-JP},
-  editor =       {{三重大学教育学部哲学倫理学教室} and {三重大学人文学
-                  部哲学思想学系}},
-}
-
-@XDATA{east:5967,
-  title =        {Studia {Indologiczne} [*{Journal} of {Indological}
-                  studies]},
-  language =     {pl-PL},
-  editor =       {{Uniwersytet Warszawski. Instytut Orientalistyczny}
-                  and {Uniwersytet Warszawski. Wydział
-                  Orientalistyczny.}},
-}
-
 @InCollection{east:5968,
   booktitle =    {Aspects of Buddhism: Proceedings of the International Seminar on Buddhist Studies. Liw, 25 June 1994},
   author    = {Tillemans, Tom J. F.},
@@ -15407,37 +15515,6 @@ book{east:5103,
   location  = {Warsaw},
   pages     = {161--176},
   publisher = {Oriental Institute Warsaw University},
-}
-
-@XDATA{east:5969,
-  title =        {比較論理学研究: 広島大学比較論理学プロジェクト研究セ
-                  ンター研究成果報告書 [*{The} annals of the research
-                  project center for the comparative study of logic]},
-  language =     {ja-JP},
-}
-
-@XDATA{east:5970,
-  title    = {Journal of {Argumentation} in {Context}},
-  editor   = {van Eemeren, Frans H.},
-  language = {en-US},
-}
-
-@XDATA{east:5971,
-  title =        {American journal of theology and philosophy},
-  language =     {en-US},
-}
-
-@XDATA{east:5972,
-  title =        {哲學 [{Tetsugaku}] [*{Journal} of {Hiroshima}
-                  {Philosophical} {Society}]},
-  language =     {ja-JP},
-  editor =       {{廣島哲学會: Hiroshima Tetsugakukai}},
-}
-
-@XDATA{east:5973,
-  title =        {Sophia: international journal for philosophy of
-                  religion, metaphysical theology and ethics},
-  language =     {en-US},
 }
 
 @incollection{east:5974,
@@ -15538,13 +15615,6 @@ book{east:5103,
   series    = {Serie orientale {Roma}},
 }
 
-@XDATA{east:5982,
-  title =        {Kōchi {Kōgyōkōtōsenmongakkō} {Gakujutu} {Kiyō}
-                  [*{The} {Bulletin} of {Kochi} {National} {College}
-                  of {Technology}]},
-  language =     {ja-JP},
-}
-
 @incollection{east:5983,
   booktitle =    {Indo {Tetsugaku} {Bukkyō} {Shisō} {Ronshū}: {Mikogami} {Eshō} {Kyōju} {Shōju} {Kinen} {Ronshū} [*{Studies} on {Indian} {Philosophy} and {Buddhist} {Thoughts}: {Volume} in {Honor} of {Professor} {Esho} {Mikogami}]},
   location =      {Kyōto},
@@ -15577,12 +15647,6 @@ book{east:5103,
   pages =        {233--247},
 }
 
-@XDATA{east:5985,
-  title =        {哲學硏究 [*{The} {Journal} of {Philosophical}
-                  {Studies}]},
-  language =     {ja-JP},
-}
-
 @article{east:5986,
   title =        {Dharmottara’s {Theory} of {Knowledge} in {His}
                   {Laghuprāmāṇyaparīkṣā}},
@@ -15593,12 +15657,6 @@ book{east:5103,
   author =       {Krasser, Helmut},
   date =         1995,
   pages =        {247--271},
-}
-
-@XDATA{east:5987,
-  title =        {Tōyō {No} {Shisō} to {Shūkyō} [*{Thought} and
-                  {Religion} of {Asia}]},
-  language =     {ja-JP},
 }
 
 @Article{east:5988,
@@ -15619,18 +15677,6 @@ book{east:5103,
   publisher =    {Boston University},
   year =         2004,
   author =       {Yao, Zhihua},
-}
-
-@XDATA{east:5990,
-  title =        {Nihon chibettogakkai kaihō [*{Report} of the
-                  {Japanese} {Association} for {Tibetan} {Studies}]},
-  language =     {ja-JP},
-}
-
-@XDATA{east:5991,
-  title =        {中華佛學學報 [{Zhonghua} fo xue xue bao]
-                  [*{Chung}-{Hwa} {Buddhist} journal]},
-  language =     {zh-CN},
 }
 
 @article{east:5992,
@@ -15676,13 +15722,6 @@ book{east:5103,
   pages =        {205--216},
 }
 
-@XDATA{east:5996,
-  title =        {Argumentation: {An} {International} {Journal} on
-                  {Reasoning}},
-  language =     {en-US},
-  editor =       {van Eemeren, Frans H.},
-}
-
 @InCollection{east:5997,
   booktitle =    {Der {Rand} und die {Mitte}: {Beiträge} zur {Sozialanthropologie} und {Kulturgeschichte} {Tibets} und des {Himalaya}},
   author    = {Steinkellner, Ernst},
@@ -15721,16 +15760,6 @@ book{east:5103,
   pages =        {309--325},
 }
 
-@XDATA{east:6000,
-  journaltitle =        {龍谷大学佛教文化研究所紀要
-                  [{Ryūkoku}-{Daigaku}-{Bukkyōbunka}-{Kenkyūjo}-{Kiyō}:
-                  {Bulletin} of {Buddhist} {Cultural} {Institute},
-                  {Ryukoku} {University}]},
-  language =     {ja-JP},
-  editor =       {{龍谷大学. 佛教文化研究所: Ryūkoku Daigaku. Bukkyō
-                  Bunka Kenkyūjo}},
-}
-
 @article{east:6001,
   title =        {On the {Maṅgala} verse of {Hetubinduṭīkā}},
   volume =       {5-6},
@@ -15750,15 +15779,6 @@ book{east:5103,
   pages =        {329--339},
   crossref =     {east:27516},
   year =         {2011},
-}
-
-@XDATA{east:6003,
-  title =        {Hōrin: vergleichende {Studien} zur japanischen
-                  {Kultur} [*{Comparative} studies in {Japanese}
-                  culture]},
-  issn =         {0945-9634},
-  language =     {de-DE},
-  editor =       {{Haus der Japanischen Kultur (EKŌ) in Düsseldorf}},
 }
 
 @incollection{east:6004,
@@ -15834,7 +15854,7 @@ book{east:5103,
                   {Text} and a {Translation}},
   volume =       37,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [*The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [*The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1993,
@@ -15867,7 +15887,7 @@ book{east:5103,
 @Article{east:6013,
   author       = {Tani, Tadashi},
   date         = {1993},
-  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [*The Bulletin of Kochi National College of Technology]},
+  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [*The Bulletin of Kochi National College of Technology]},
   title        = {The {Problem} of {Interpretation} on {Pramāṇaviniścaya} {III} vv.34-39: with the text and a translation},
   language     = {en-US},
   pages        = {1--15},
@@ -15932,7 +15952,7 @@ book{east:5103,
 @Article{east:6019,
   author       = {Tani, Tadashi},
   date         = {1994},
-  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [*The Bulletin of Kochi National College of Technology]},
+  journaltitle = {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [*The Bulletin of Kochi National College of Technology]},
   title        = {The {Problem} of {Interpretation} on {Pramāṇaviniścaya} {III} ad vv. 60 - 63: with the text and a translation},
   language     = {en-US},
   pages        = {17--32},
@@ -15955,7 +15975,7 @@ book{east:5103,
                   {Text} and a {Translation}},
   volume =       38,
   language =     {en-US},
-  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutu Kiyō [*The
+  journaltitle =      {Kōchi Kōgyōkōtōsenmongakkō Gakujutsu Kiyō [*The
                   Bulletin of Kochi National College of Technology]},
   author =       {Tani, Tadashi},
   date =         1994,
@@ -16185,7 +16205,7 @@ book{east:5103,
 
 @book{east:6041,
   location =      {Wien},
-  series =       {{WSTB}, {Wiener} {Studien} zur {Tibetologie} und
+  series =       {{Wiener} {Studien} zur {Tibetologie} und
                   {Buddhismuskunde}},
   title =        {Nichts bleibt nichts: {Die} buddhistische
                   {Zurückweisung} von {Kumārilas}
@@ -16226,14 +16246,6 @@ book{east:5103,
   author =       {Kanō, Kyō},
   date =         1997,
   pages =        {29--59},
-}
-
-@XDATA{east:6044,
-  title =        {Bukkyō {Bunka} {Kenkyū} {Ronshū} [*{Studies} of
-                  {Buddhist} {Culture}]},
-  issn =         {1342-8918},
-  language =     {ja-JP},
-  keywords =     {Buddhism},
 }
 
 @Article{east:6045,
@@ -17969,7 +17981,6 @@ book{east:5103,
   volume       = {44},
 }
 
-
 @Article{east:28520,
   author =       {Balcerowicz, Piotr},
   title =        {On the {Relative} {Chronology} of {Dharmakīrti} and
@@ -18226,7 +18237,7 @@ book{east:5103,
   publisher    = {China Tibetology Publishing House},
 }
 
-@Proceedings{east:28563,
+@Collection{east:28563,
   date      = {2020},
   title     = {Reverberations of Dharmakīrti's Philosophy},
   editor    = {Birgit Kellner and Patrick McAllister and Horst Lasic and Sara McClintock},
@@ -18668,12 +18679,12 @@ book{east:5103,
   series       = {Beiträge {zur} Kultur- {und} Geistesgeschichte Asiens},
 }
 
-@Book{east:28594,
-  date      = {2021},
+@Book{kataoka21:_meanin_non,
+  date      = 2021,
   title     = {Meaning and Non-existence},
-  editor    = {Kei Kataoka and John Taber},
+  author    = {Kei Kataoka and John Taber},
   location  = {Vienna},
-  number    = {102},
+  number    = 102,
   publisher = {Austrian Academy of Sciences Press},
   series    = {Beiträge zur Kultur- und Geistesgeschichte Asiens},
   subtitle  = {Kumārila's Refutation of Dignāga's Theory of Exclusion},
@@ -18736,7 +18747,7 @@ book{east:5103,
 }
 
 @Book{east:28492,
-  author    = {Franco, Eli, and Miyako Notake},
+  author    = {Franco, Eli and Miyako Notake},
   date      = {2014},
   title     = {Dharmakīrti on the Duality of the Object: Pramāṇavārttika III 1–63},
   location  = {Berlin},
@@ -18794,12 +18805,13 @@ book{east:5103,
 }
 
 @Book{east:28598,
-  date       = {550},
+  date       = {0550},
   title      = {Jushih lun},
   language   = {zh-CN},
   series     = {Taishō 1633; {Nanjō} 1252; {Koryŏ} taejanggyŏng 626},
   translator = {Zhendi (Paramārtha)},
   keywords   = {canonical},
+  author = anon,
 }
 
 @InCollection{east:28599,
@@ -18810,6 +18822,7 @@ book{east:5103,
   pages      = {202-229},
   publisher  = {Daitō shuppansha},
   translator = {Gishō Nakano},
+  author = anon,
 }
 
 @InCollection{east:28600,
@@ -18832,12 +18845,13 @@ book{east:5103,
 }
 
 @Book{east:28602,
-  date       = {4th quarter of the 5th century},
+  date       = {0475/0500},
   title      = {Fangbian xin lun},
   language   = {zh-CN},
   series     = {Taishō 1632; {Nanjō} 1257; {Koryŏ} taejanggyŏng 627},
   translator = {Jijiaye},
   keywords   = {canonical},
+  author = anon,
 }
 
 @InCollection{east:28603,
@@ -18858,6 +18872,7 @@ book{east:5103,
   pages      = {85-111},
   publisher  = {Daitō shuppansha},
   translator = {Y. Iida},
+  author = anon,
 }
 
 @InCollection{east:28605,
