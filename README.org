@@ -1,27 +1,97 @@
-#+TITLE: README for EAST bibliographic records
+#+TITLE: README for EAST’s bibliographic records
 #+AUTHOR: Patrick McAllister (pma@rdorte.org)
 
 
-This repository contains the bibliographic data for EAST
-(https://east.ikga.oeaw.ac.at).  The source can be found here:
-https://github.com/ea-east/east-biblio.
+The repository [[https://github.com/ea-east/east-biblio][east-biblio]] contains the bibliographic data for
+[[https://east.ikga.oeaw.ac.at][*EAST*]]. Short for “Epistemology and Argumentation in South Asia and
+Tibet”, *EAST* systematically collects information on works of
+epistemology and argumentanion in South Asia and Tibet, their authors,
+and relevant modern literature.
 
 
+The bibliographic records are kept in a BibLaTeX file,
+file:./bib/east.bib.  The records are encoded according to the general
+[[http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf][BibLaTeX rules]] (see the section “Database guide”), and a set of
+[[file:east-encoding.org][conventions specific to EAST]].
+
+
+* Encoding Guidelines for ~east-biblio~
+
+The bibliographic database in ~east-biblio~ (file:./bib/east.bib) is
+supposed validate against the datamodel (file:./bib/biber.conf).
+Running ~make verify~ in this project’s root directory should not
+report any errors.
+
+This does not mean that the encoding is “ideal” or even recommended in
+all cases.  It is still work in progress.  The reason for this is that
+much of ~east-biblio~ was derived from MODS records, which do not have
+a 1:1 mapping to the fields that ~biblatex~ employs.
+
+Here follow a few explanations on the encoding that is used in
+~east-biblio~.
+
+** Entry types
+
+EAST-biblio currently supports the following types of bibliographic
+entries:
+
+- ~@article~
+- ~@book~
+- ~@collection~
+- ~@inbook~
+- ~@incollection~
+- ~@misc~
+- ~@thesis~
+- ~@unpublished~
+- (and ~@xdata~, which is just a shortcut for storing sets of data for
+  other bibliographic entries)
+
+These types are a small subset of what ~biblatex~ supports. Keeping
+this permitted set small is helpful for maintaining the bibliography.
+
+If other types should be added, the datamodel (file:./bib/biber.conf,
+~<entrytypes/>~) needs to be changed.
+
+
+** Hints on particular tools
+
+
+*** Jabref hints
+
+ Here are some useful things to know about jabref:
+
+ 1) *Use the search/filter function*: read
+    https://help.jabref.org/en/Search. It’s somewhat obvious, but
+    remember you can easily search for fields:
+    1) ~journal = chizan~, or ~keywords=canonical~, etc.
+    2) Combine them: ~keywords=canonical and title = tshad~
+    3) For “spaces” in the search string, use quotes: ~keywords =
+       canonical and translator = "zha ma"~
+    4) Empty fields: ~author != .+~
+    5) Finding Tibetan canonical entries where something is missing:
+       - No co ne: ~language = bo and keywords = canonical and series
+         != "co ne"~
+       - No Peking: ~language = bo and keywords = canonical and series != Peking~
+       - etc.
+ 2) Linking to east: Take the numerical part of the bib_id (e.g.,
+    ~27507~ in ~east:27507~), and add it to
+    https://east.ikga.oeaw.ac.at/bib/ (e.g.:
+    https://east.ikga.oeaw.ac.at/bib/27507)
 
 * Layout of this repository
 
 The most important files are:
 
-1) README.org (this file)
+1) file:./README.org (this file)
 2) file:./bib/east.bib: A single BibLaTeX file, to be edited by a
    program of choice (e.g., http://www.jabref.org/)
-3) Whichever you use, make sure that you’re using a “biblatex” editing
-   mode (Jabref: Options -> Preferences -> General -> Default
-   bibliography mode -> “BiBLaTeX”, for example)
+   - Whichever program you use, make sure that you use a “biblatex”
+     editing mode (Jabref: Options -> Preferences -> General ->
+     Default bibliography mode -> “BiBLaTeX”, for example)
 
-Other directories contain files that should not be edited, normally.
-They contain automatically generated content (pulled from EAST’s
-database), and the content is subject to change.
+The other directories contain files that should not be edited
+normally.  They contain automatically generated content (pulled from
+EAST’s database), and their content is subject to change.
 
 1) file:./archived: contains all the bibliographic data in a
    normalized (mods) xml format
@@ -30,29 +100,9 @@ database), and the content is subject to change.
    files).
 
 
-** Jabref hints
+* TODO General workflow
 
-Here are some useful things to know about jabref:
-
-1) *Use the search/filter function*: read
-   https://help.jabref.org/en/Search. It’s somewhat obvious, but
-   remember you can easily search for fields:
-   1) ~journal = chizan~, or ~keywords=canonical~, etc.
-   2) Combine them: ~keywords=canonical and title = tshad~
-   3) For “spaces” in the search string, use quotes: ~keywords =
-      canonical and translator = "zha ma"~
-   4) Empty fields: ~author != .+~
-   5) Finding Tibetan canonical entries where something is missing:
-      - No co ne: ~language = bo and keywords = canonical and series
-        != "co ne"~
-      - No Peking: ~language = bo and keywords = canonical and series != Peking~
-      - etc.
-2) Linking to east: Take the numerical part of the bib_id (e.g.,
-   ~27507~ in ~east:27507~), and add it to
-   https://east.ikga.oeaw.ac.at/bib/ (e.g.:
-   https://east.ikga.oeaw.ac.at/bib/27507)
-
-* General workflow
+#+COMMENT: TODO: revise for better github workflow; maybe https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
 Before starting to edit anything, *always* make sure your repository
 is up to date. You can do this with
@@ -112,33 +162,72 @@ bibliographic file, file:./bib/east.bib
 
 * Bibliography processing
 
-- Install bibutils (https://sourceforge.net/p/bibutils/home/Bibutils/)
+** Formatting the bibliography
 
-** MODS -> bib(la)tex
+EAST formats its bibliographic records with
+file:styles/chicago-author-date-east.csl (see
+https://github.com/ea-east/styles/commits/master/chicago-author-date-east.csl).
 
-#+BEGIN_SRC bash
-  parallel xml2bib \
-           --output-encoding unicode \
-           --no-bom \
-           --whitespace \
-           --strictkey \
-           --finalcomma \
-           --brackets \
-           --no-latex \
-           ::: *xml > /tmp/east-bibs.bib
-#+END_SRC
+#+begin_SRC bash
+  echo """---
+  title: EAST Bibliography (formatted)
+  nocite: |
+   @*
+  ...
+  """ | pandoc \
+            --standalone \
+            --csl=styles/chicago-author-date-east.csl \
+            --bibliography=bib/east.bib  \
+            -o /tmp/east-bib.html
+#+end_SRC
 
 
-** biblatex -> MODS
+Or to see just a single record:
 
-#+BEGIN_SRC bash
-  parallel biblatex2xml \
-           --input-encoding unicode \
-           --unicode-characters \
-           --unicode-no-bom \
-           --no-latex \
-           ::: *.bib > /tmp/east-bibs.mods
-#+END_SRC
+#+begin_SRC bash
+  echo """---
+  title: EAST Bibliography (formatted)
+  nocite: |
+   @east:27507
+  ...
+  """ | pandoc \
+            --standalone \
+            --csl=styles/chicago-author-date-east.csl \
+            --bibliography=bib/east.bib  \
+            -o /tmp/east-bib.html
+#+end_SRC
+
+
+** Conversions
+
+For conversions between formats, first install bibutils
+(https://sourceforge.net/p/bibutils/home/Bibutils/).
+
+*** MODS -> bib(la)tex
+
+ #+BEGIN_SRC bash
+   parallel xml2bib \
+            --output-encoding unicode \
+            --no-bom \
+            --whitespace \
+            --strictkey \
+            --finalcomma \
+            --brackets \
+            --no-latex \
+            ::: *xml > /tmp/east-bibs.bib
+ #+END_SRC
+
+
+*** biblatex -> MODS
+
+ #+BEGIN_SRC bash
+   parallel biblatex2xml \
+            --input-encoding unicode \
+            --unicode-characters \
+            --unicode-no-bom \
+            --no-latex \
+            ::: *.bib > /tmp/east-bibs.mods
+ #+END_SRC
 
 
 * Database/Django commands
@@ -209,3 +298,25 @@ something like this:
 
   write_bibs(BibliographicEntry.objects.filter(repository="TAMB"), "tamboti")
 #+END_SRC
+
+
+* TODO Notes
+
+
+- [ ] Look for date/year fields containing “X” or “?” (something was
+  unclear).
+
+- [ ] Correct all occurrences of the macro “unknown” (see ~@string{unknown~).
+
+- [ ] Check the ~misc~ and ~unpublished~ items.
+
+- [ ] Some information was lost by ignoring
+  ~//relatedItem[@type="otherVersion"]~ (e.g.,
+  https://east.ikga.oeaw.ac.at/bib/5472/).
+
+- [ ] Some information was lost due to preceding/following relations
+  in MODS.
+
+- Except for Śaṅkaranandana, EAST records very few manuscripts.
+  If more manuscripts are to be added, we will probably want a dedicated type.
+
