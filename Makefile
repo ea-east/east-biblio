@@ -1,5 +1,12 @@
 verify:
-	biber --config=bib/biber.conf --validate-datamodel --tool bib/east.bib
+	file -i bib/east.bib | grep -i "charset=utf-8"
+	biber --tool \
+	--dieondatamodel \
+	--no-default-datamodel \
+	--configfile=bib/biber.conf \
+	--output-resolve \
+	--validate-datamodel \
+	bib/east.bib
 
 format-to-html:
 	bin/format-bib-to-html.sh
