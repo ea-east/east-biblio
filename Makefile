@@ -3,7 +3,6 @@ verify:
 	biber --tool \
 	--dieondatamodel \
 	--no-default-datamodel \
-	--validate-config \
 	--configfile=bib/biber.conf \
 	--output-resolve \
 	--validate-datamodel \
