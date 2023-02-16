@@ -1,4 +1,5 @@
 verify:
+	file -i bib/east.bib | grep -i "charset=utf-8"
 	biber --tool \
 	--dieondatamodel \
 	--no-default-datamodel \
