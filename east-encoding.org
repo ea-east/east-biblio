@@ -1,0 +1,268 @@
+#+TITLE: EAST BibLaTeX Encoding Guidelines
+#+AUTHOR: Patrick McAllister
+
+This files describes the conventions for encoding the bibliographic
+data that is collected at [[https://east.ikga.oeaw.ac.at/][EAST]] (“Epistemology and Argumentation in
+South Asia and Tibet”).  The description presupposes acquaintance with
+general [[http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf][BibLaTeX rules]], and that the ~.bib~ file being edited conform
+to those general rules.
+
+
+* Typical fields
+
+** ~language~ vs. ~langid~: Use ~langid~ if (any part of the) record is not English
+
+The fields ~language~ and ~langid~ have to be distinguished:
+
+1) ~language~: This specifies the /language of the work/ that the
+   given record refers to.  It’s useful to have it, but not a
+   requirement for EAST.
+2) ~langid~: The value provided here influences hyphenation patterns,
+   localisation strings, and capitalisation.  It defines the rules for
+   typesetting this entry. Permissible values are the language names
+   defined in babel (see documentation at
+   https://www.ctan.org/pkg/babel).  By convention, EAST uses
+   two-letter abbreviations (“bo” for Tibetan, “sa” for Sanskrit, “de”
+   for German, etc.).  [@Peilin: Does this work for Chinese, Japanese,
+   and Korean records too?]
+
+~langid~ is important for display.  Its default value is English,
+which is the background language on EAST.  So, this field should be
+added whenever the bibliographic record is to be typeset according to
+different rules than the English ones.
+
+A simple example:
+
+#+NAME: ravigupta1
+#+begin_EXAMPLE bibtex
+  @Book{east:5421,
+    author =       {Ravigupta},
+    title =        {tshad ma rnam 'grel gyi 'grel pa las le'u gsum pa},
+    language =     {bo},
+  }
+#+end_EXAMPLE
+
+This transforms into:
+
+#+begin_SRC emacs-lisp :var bib=ravigupta1 :exports results :eval never-export
+(csl-format bib)
+#+end_SRC
+
+#+RESULTS:
+: <<ref-east:5421>>
+: Ravigupta. n.d. /Tshad Ma Rnam 'Grel Gyi 'Grel Pa Las Le'u Gsum Pa/.
+
+
+This capitalisation of the Tibetan title follows English rules since
+no ~langid~ is specified.  This is not desirable.
+
+Whereas
+
+#+NAME: ravigupta2
+#+begin_EXAMPLE bibtex
+  @Book{east:5421,
+    author =       {Ravigupta},
+    title =        {tshad ma rnam 'grel gyi 'grel pa las le'u gsum pa},
+    language =     {bo},
+    langid =       {bo},
+  }
+#+end_EXAMPLE
+
+turns into: 
+
+#+begin_SRC emacs-lisp :var bib=ravigupta2 :exports results :eval never-export
+(csl-format bib)
+#+end_SRC
+
+#+RESULTS:
+: <<ref-east:5421>>
+: Ravigupta. n.d. /tshad ma rnam 'grel gyi 'grel pa las le'u gsum pa/.
+
+
+EAST prefers this latter form.
+
+** Brackets within field values
+
+Brackets within Bib(La)TeX field values “protect” the enclosed values
+from manipulation---analysis and formatting---by bibliographic
+programs.
+
+For example, an incomplete Tibetan language record that shows the
+effect:
+
+#+begin_SRC bibtex
+  @Book{east:5421,
+    author =       {Ravigupta},
+    title =        {tshad ma rnam 'grel gyi {'GREL PA LAS} le'u gsum pa},
+  }
+#+end_SRC
+
+is rendered as:
+
+- Ravigupta. n.d. /Tshad Ma Rnam 'Grel Gyi 'GREL PA LAS Le'u Gsum Pa/.
+
+Also the ~langid~ setting has no effect:
+
+#+begin_SRC bibtex
+  @Book{east:5421,
+    author =       {Ravigupta},
+    title =        {tshad ma rnam 'grel gyi {'GREL PA LAS} le'u gsum pa},
+    langid =       {bo},
+  }
+#+end_SRC
+
+
+- Ravigupta. n.d. /tshad ma rnam 'grel gyi 'GREL PA LAS le'u gsum pa/.
+
+Brackets within  should be used only
+
+
+** ~date~ or ~year~
+
+** ~journaltitle~
+
+* Typical entries
+
+These entry types all have standard solutions in the BibLaTeX
+documentation.  Sometimes, however, there is more than one solution
+for their encoding.  This section details the decisions made for EAST
+and provides examples with comments for the most typical cases.
+
+
+** Journal articles
+
+If there are more than 
+
+#+begin_SRC bibtex
+  @Article{kano05:_two_folios,
+    author =       {Kano, Kazuo},
+    title =        {Two Folios from Sthiramati’s Triṃśikābhāṣya in
+                    Sanskrit Photographed by Rāhula Sāṅkṛtyāyana:
+                    Diplomatic and Critical Editions of Göttingen
+                    Xc14/1e},
+    date =         2005,
+    language =     {en-US},
+    volume =       49,
+    pages =        {113--149},
+    langid =       {american},
+    journaltitle = {Wiener Zeitschrift für die Kunde Südasiens},
+    shortjournal = {{WZKS}},
+  }
+#+end_SRC
+
+
+#+begin_SRC bibtex
+  @XDATA{wzks,
+    journaltitle = {Wiener Zeitschrift für die Kunde Südasiens},
+    shortjournal = {{WZKS}},
+  }
+
+  @Article{kano05:_two_folios,
+    author =       {Kano, Kazuo},
+    title =        {Two Folios from Sthiramati’s Triṃśikābhāṣya in
+                    Sanskrit Photographed by Rāhula Sāṅkṛtyāyana:
+                    Diplomatic and Critical Editions of Göttingen
+                    Xc14/1e},
+    date =         2005,
+    language =     {en-US},
+    volume =       49,
+    pages =        {113--149},
+    langid =       {american},
+    xdata =        {wzks},
+  }
+#+end_SRC
+
+
+* Special considerations
+
+** Primary sources
+
+** Uncertainty in historic dates
+
+** Identifying a record for EAST
+
+#+begin_SRC bibtex
+  @XDATA{wzks,
+    journaltitle = {Wiener Zeitschrift für die Kunde Südasiens},
+    shortjournal = {{WZKS}},
+  }
+
+  @Article{kano05:_two_folios,
+    author =       {Kano, Kazuo},
+    title =        {Two Folios from Sthiramati’s Triṃśikābhāṣya in
+                    Sanskrit Photographed by Rāhula Sāṅkṛtyāyana:
+                    Diplomatic and Critical Editions of Göttingen
+                    Xc14/1e},
+    date =         2005,
+    language =     {en-US},
+    volume =       49,
+    pages =        {113--149},
+    langid =       {american},
+    east_id =      27511,
+    xdata =        {wzks},
+  }
+#+end_SRC
+
+
+* Elisp helper
+
+This is a small program to help format the examples above in an easy
+manner.
+
+#+NAME: east-format-helper
+#+begin_SRC emacs-lisp
+  (defun csl-format (biblatex-data)
+    "Format string BIBLATEX-DATA with CSL, using pandoc."
+    (let* ((csl (expand-file-name "./styles/chicago-author-date-east.csl"))
+           (bib-yaml (with-temp-buffer 
+                       (insert biblatex-data)
+                       (unless (= 0 (call-process-region
+                                     (point-min) (point-max)
+                                     "pandoc-citeproc" 
+                                     'delete
+                                     t
+                                     nil
+                                     "--format=biblatex" 
+                                     "--bib2yaml"))
+                         (error "Conversion with pandoc-citeproc failed: %s" (buffer-string)))
+                       (buffer-string))))
+      (with-temp-buffer
+        ;; (erase-buffer)
+        ;; (pop-to-buffer (current-buffer))
+        (insert "---\n")
+        (insert "title: Formatted Bib\n")
+        (insert "nocite: |\n")
+        (insert "   @*\n...\n\n\n")
+        (insert bib-yaml)
+        (insert "\n")
+        (unless (= 0 (call-process-region
+                      (point-min) (point-max)
+                      "pandoc" 
+                      'delete
+                      '(t . nil)
+                      nil
+                      "--filter" "pandoc-citeproc"
+                      "--csl" csl
+                      "-o" "-"
+                      "-t" "org"))
+          (warn "Pandoc call failed: \n\n%s" (buffer-string))
+          (error "Pandoc call failed"))
+        (string-trim-left (buffer-string) "<<refs>>\n*"))))
+
+  ;; (csl-format 
+  ;; "@Article{kano05:_two_folios,
+  ;;     author =       {Kano, Kazuo},
+  ;;     title =        {Two Folios from Sthiramati’s Triṃśikābhāṣya in
+  ;;                     Sanskrit Photographed by Rāhula Sāṅkṛtyāyana:
+  ;;                     Diplomatic and Critical Editions of Göttingen
+  ;;                     Xc14/1e},
+  ;;     date =         2005,
+  ;;     language =     {en-US},
+  ;;     volume =       49,
+  ;;     pages =        {113--149},
+  ;;     langid =       {american},
+  ;;     east_id =      27511,
+  ;;     xdata =        {wzks},
+  ;;   }"
+  ;; )
+#+end_SRC
