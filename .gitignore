@@ -17,3 +17,5 @@ README.html
 auto/
 test*
 tibrefs.html
+.haskelly/
+bib/east.json
