@@ -12,8 +12,7 @@ verify:
 	--validate-datamodel \
 	$(BIBFILE)
 
-format-to-html: $(CITEPROCDIR)/citeproc
-	@#bin/format-bib-to-html.sh
+format-to-html:
 	pandoc -s \
 	--bibliography "$(BIBFILE)" \
 	--citeproc \
