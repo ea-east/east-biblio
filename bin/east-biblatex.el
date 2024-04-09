@@ -10,6 +10,9 @@
 (require 'org)
 (require 'ert)
 (require 'rx)
+(require 'dom)
+(require 'json)
+(require 'pcase)
 
 (when noninteractive
   (setq debug-on-error t))
@@ -222,7 +225,10 @@ Just wraps alist, except KEY can also be a list of steps."
   (let ((fields (delete "" ; split and clean up fields in canon string
 			(split-string
 			 ;; normalize space before splitting
-			 (string-join (split-string (string-trim canon-string "[ \t\n\r{]+" "[ \t\n\r}]+")) " ")
+			 (string-join
+			  (split-string
+			   (string-trim canon-string))
+			  " ")
 			 ";\\s-*")))
 	(expected-refs east-biblatex-tibetan-canonical-refs-compiled-rxs)
 	results)
@@ -269,22 +275,24 @@ Just wraps alist, except KEY can also be a list of steps."
 
 ;; (east-biblatex-split-canon-string "{snar thang 3691 ce 1–13a; {Peking} 5700 ce 1–13a5}")
 (ert-deftest test-east-biblatex-split-canon-string ()
-  (let ((cases '(("{snar thang 3691 ce 1–13a; {Peking} 5700 ce 1–13a5}"
-		  . ((co-ne)
+  (let ((cases '((;; standard bib string
+		  "snar thang 3691 ce 1–13a; {Peking} 5700 ce 1–13a5"
+		  .
+		  ((co-ne)
 		     (peking
 		      (string . "{Peking} 5700 ce 1–13a5")
 		      (canon . peking)
-		      (number . 5700)
+		      (number . "5700")
 		      (volume . "ce")
 		      (positions . ("1" "13a5")))
 		     (sde-dge)
 		     (snar-thang
 		      (string . "snar thang 3691 ce 1–13a")
 		      (canon . snar-thang)
-		      (number . 3691)
+		      (number . "3691")
 		      (volume . "ce")
 		      (positions .  ("1" "13a")))))
-		 ("{snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6}"
+		 ("snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6"
 		  . ((co-ne
 		      (string . "co ne tshe 182b2–307a7")
 		      (canon . co-ne)
@@ -294,24 +302,52 @@ Just wraps alist, except KEY can also be a list of steps."
 		     (peking
 		      (string . "{Peking} 5728 we 209b8–355a6")
 		      (canon . peking)
-		      (number . 5728)
+		      (number . "5728")
 		      (volume . "we")
 		      (positions . ("209b8" "355a6")))
 		     (sde-dge
 		      (string . "sde dge 4228 tshe 178b4–295a7")
 		      (canon . sde-dge)
-		      (number . 4228)
+		      (number . "4228")
 		      (volume . "tshe")
 		      (positions . ("178b4" "295a7")))
 		     (snar-thang
 		      (string . "snar thang 3720 we 188b–323")
 		      (canon . snar-thang)
 		      
-		      (number . 3720)
+		      (number . "3720")
+		      (volume . "we")
+		      (positions . ("188b" "323")))))
+		 ;; Same content as before, but: different sequence in source, and a trailing “;”
+		 ("{Peking} 5728 we 209b8–355a6; snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7;"
+		  .
+		  ((co-ne
+		      (string . "co ne tshe 182b2–307a7")
+		      (canon . co-ne)
+		      (number)
+		      (volume . "tshe")
+		      (positions . ("182b2" "307a7")))
+		     (peking
+		      (string . "{Peking} 5728 we 209b8–355a6")
+		      (canon . peking)
+		      (number . "5728")
+		      (volume . "we")
+		      (positions . ("209b8" "355a6")))
+		     (sde-dge
+		      (string . "sde dge 4228 tshe 178b4–295a7")
+		      (canon . sde-dge)
+		      (number . "4228")
+		      (volume . "tshe")
+		      (positions . ("178b4" "295a7")))
+		     (snar-thang
+		      (string . "snar thang 3720 we 188b–323")
+		      (canon . snar-thang)
+		      
+		      (number . "3720")
 		      (volume . "we")
 		      (positions . ("188b" "323")))))
 		 ;; a bad case
-		 ("{snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6; dunno what this is;}" .
+		 ("snar thang 3720 we 188b–323; sde dge 4228 tshe 178b4–295a7; co ne tshe 182b2–307a7; {Peking} 5728 we 209b8–355a6; dunno what this is;" .
 		  ((co-ne
 		    (string . "co ne tshe 182b2–307a7")
 		    (canon . co-ne)
@@ -322,26 +358,26 @@ Just wraps alist, except KEY can also be a list of steps."
 		    (string . "{Peking} 5728 we 209b8–355a6")
 		    (canon . peking)
 		    
-		    (number . 5728)
+		    (number . "5728")
 		    (volume . "we")
 		    (positions . ("209b8" "355a6")))
 		   (sde-dge
 		    (string . "sde dge 4228 tshe 178b4–295a7")
 		    (canon . sde-dge)
 		    
-		    (number . 4228)
+		    (number . "4228")
 		    (volume . "tshe")
 		    (positions . ("178b4" "295a7")))
 		   (snar-thang
 		    (string . "snar thang 3720 we 188b–323")
 		    (canon . snar-thang)
 		    
-		    (number . 3720)
+		    (number . "3720")
 		    (volume . "we")
 		    (positions . ("188b" "323")))
 		   (weird "dunno what this is")))
 		 ;; Two mentions in Peking
-		 ("{snar thang 3717 tshe 21b–131b; snar thang 3770 ze 65b–186a; sde dge 4239 zhe 51a3–151a6; co ne zhe 50b3–143b2; {Peking} 5725 tshe 21b2–137a8; {Peking} 5738 ze 71a5–183a7}"
+		 ("snar thang 3717 tshe 21b–131b; snar thang 3770 ze 65b–186a; sde dge 4239 zhe 51a3–151a6; co ne zhe 50b3–143b2; {Peking} 5725 tshe 21b2–137a8; {Peking} 5738 ze 71a5–183a7"
 		  . ((co-ne
 		      (string . "co ne zhe 50b3–143b2")
 		      (canon . co-ne)
@@ -353,35 +389,35 @@ Just wraps alist, except KEY can also be a list of steps."
 		      (string . "{Peking} 5725 tshe 21b2–137a8")
 		      (canon . peking)
 		      
-		      (number . 5725)
+		      (number . "5725")
 		      (volume . "tshe")
 		      (positions . ("21b2" "137a8")))
 		     (peking
 		      (string . "{Peking} 5738 ze 71a5–183a7")
 		      (canon . peking)
 		      
-		      (number . 5738)
+		      (number . "5738")
 		      (volume . "ze")
 		      (positions . ("71a5" "183a7")))
 		     (sde-dge
 		      (string . "sde dge 4239 zhe 51a3–151a6")
 		      (canon . sde-dge)
 		      
-		      (number . 4239)
+		      (number . "4239")
 		      (volume . "zhe")
 		      (positions . ("51a3" "151a6")))
 		     (snar-thang
 		      (string . "snar thang 3717 tshe 21b–131b")
 		      (canon . snar-thang)
 		      
-		      (number . 3717)
+		      (number . "3717")
 		      (volume . "tshe")
 		      (positions . ("21b" "131b")))
 		     (snar-thang
 		      (string . "snar thang 3770 ze 65b–186a")
 		      (canon . snar-thang)
 		      
-		      (number . 3770)
+		      (number . "3770")
 		      (volume . "ze")
 		      (positions . ("65b" "186a"))))))))
     (dolist (c cases)
@@ -474,8 +510,8 @@ If COMPLAIN is non-nil, raise warnings about expected but absent data."
 			     (lambda (x)
 			       (cons
 				(car x)
-				(string-join (split-string (string-trim (cdr x) "{" "}")) " ")))
-			     (bibtex-parse-entry)))))
+				(string-join (split-string (string-trim (cdr x))) " ")))
+			     (bibtex-parse-entry 'content)))))
 	 ;; List checks and consequences here
 	 (when (and (member '("language" . "bo") bib-parsed)
 		    (assoc "keywords" bib-parsed)
@@ -551,7 +587,28 @@ If COMPLAIN is non-nil, raise warnings about expected but absent data."
 ;;    ("translator" . "{{Kanakavarman (gser gyi go cha)} and {(mar thung) dad pa('i) shes rab}}")))
 
 
+(defun east-biblatex-sxml-to-string (sxml)
+  "Convert SXML to string.
 
+SXML: result of `libxml-parse-html-region' or `libxml-parse-xml-region'.
+
+See https://github.com/tali713/esxml/blob/master/esxml.el for
+similar stuff."
+  (cond
+   ((null sxml) '())
+   ((stringp sxml) sxml)
+   (t
+    (pcase-let ((`(,tag ,attrs . ,body) sxml))
+      (concat "<" (symbol-name tag)
+              (when attrs
+                (concat " " (mapconcat (lambda (att)
+					 (format "%s=\"%s\"" (car att) (cdr att)))
+				       attrs " ")))
+              (if body
+                  (concat ">"
+			  (mapconcat #'east-biblatex-sxml-to-string body "")
+                          "</" (symbol-name tag) ">")
+                "/>"))))))
 
 (defun east-biblatex-bibs-canonical-to-org-table (bibs &optional sort complain interactive?)
   "Convert canonical entries BIBS to an org-mode table.
@@ -634,5 +691,201 @@ BIBS should be in the format returned by ‘east-biblatex-find-tib-canon’."
 	  (org-mode))
 	(pop-to-buffer (current-buffer)))
       (current-buffer))))
+
+(defun east-biblatex-create-md-citations (bib-file-or-buffer &optional csl interactive?)
+  "Create a Pandoc file with useful quotations of all items in BIB-FILE-OR-BUFFER.
+
+If CSL is supplied (a path to a CSL stylesheet), it’s added to the metadata."
+  (interactive
+   (list (current-buffer)
+	 ;; (expand-file-name (read-file-name "Specify a CSL file:" nil ))
+	 nil
+	 t))
+  (let ((bib-src (or
+		  (and (bufferp bib-file-or-buffer) bib-file-or-buffer)
+		  (find-buffer-visiting bib-file-or-buffer)
+		  (find-file-noselect bib-file-or-buffer)))
+	(bibtex-sort-ignore-string-entries t)
+	bib-keys)
+    (with-current-buffer bib-src
+      (bibtex-map-entries
+       (lambda (key start end)
+	 (push key bib-keys))))
+    (setq bib-keys (sort bib-keys #'string-lessp))
+    (with-current-buffer (get-buffer-create "* east bibs markdown *")
+      (erase-buffer)
+      (insert "---\n")
+      (insert "title: EAST bibliography (approximated style)\n")
+      (insert "lang: en\n")
+      ;; (insert "link-citations: true\n")
+      (when (buffer-file-name bib-src)
+	(insert (format "bibliography: %s\n" (buffer-file-name bib-src))))
+      (when csl
+	(insert (format "citation-style: %s\n" csl)))
+      (insert "---\n\n")
+      (mapc
+       (lambda (key)
+	 (insert (format "- short form for [%s](#ref-%s) ::: @%s\n" key key key)))
+       bib-keys)
+      (goto-char (point-min))
+      (set-buffer-modified-p nil)
+      (when interactive?
+	(normal-mode)
+	(pop-to-buffer (current-buffer)))
+      (current-buffer))))
+
+;; (east-biblatex-create-md-citations (get-buffer "east.bib") nil 'interactive)
+
+(defun east-biblatex-md-citations-to-html (md-buffer &optional bibliography style)
+  "Convert markdown buffer MD-BUFFER with pandoc.
+
+MD-BUFFER is best created by calling ‘east-biblatex-create-md-citations’.
+
+Optional args are only necessary when they are not in the
+metadata section of the pandoc document."
+  (let* ((style (or style
+		    "styles/chicago-author-date-east.csl"))
+	 (bibliography (or bibliography "bib/east.bib"))
+	 (markdown-source md-buffer)
+	 (results-buffer (get-buffer-create "* pandoc east *")))
+    (display-warning 'east-biblatex (format "Applying %s to %s" style bibliography) :debug)
+    (with-current-buffer results-buffer
+      (erase-buffer)
+      (unless (= 0 (call-process-region
+		    (with-current-buffer markdown-source
+		      (buffer-string))
+		    nil
+		    "pandoc"
+		    nil
+		    t
+		    nil
+		    "-s"
+		    "--filter" "pandoc-citeproc"
+		    "--from=markdown"
+		    "--to=html"))
+	(error "Pandoc call failed"))
+      (goto-char (point-min))
+      (set-buffer-modified-p nil)
+      (current-buffer))))
+
+;; (east-biblatex-md-citations-to-html
+;;  (east-biblatex-create-md-citations
+;;   (get-buffer "east.bib")
+;;   "/home/beta/webstuff/east-biblio/styles/chicago-author-date-east.csl"))
+
+(defun east-biblatex-parse-html-citations (html-buff)
+  "Parse the citations in buffer HTML-BUFF to a useful representation.
+
+Citations are expected to be as returned from
+‘east-biblatex-create-md-citations’ after conversion to html with
+pandoc."
+  (with-current-buffer html-buff
+    (let* ((dom (or
+		 (libxml-parse-html-region (point-min) (point-max))
+		 (error "Not able to parse HTML in %s" (buffer-name (current-buffer)))))
+	   (short-refs (dom-by-tag (dom-by-tag (dom-by-tag dom 'body) 'ul) 'li))
+	   (full-refs (dom-elements dom 'id "^refs$"))
+	   results)
+      (unless (and short-refs
+		   full-refs
+		   (= (length short-refs)
+		      (length (delete "\n" (dom-children full-refs)))))
+	(warn "None or different number of references in short and long format"))
+      (mapc
+       (lambda (short-ref)
+	 (unless (string-prefix-p "short form for" (dom-text short-ref))
+	   (error "Failed to ascertain short-form format for %s" short-ref))
+	 (let ((id (dom-text (car (dom-by-tag short-ref 'a)))))
+	   (push
+	    `(,id
+	      (short ,(east-biblatex-sxml-to-string (car (dom-by-tag short-ref 'span))))
+	      (long ,(east-biblatex-sxml-to-string (car (dom-by-id full-refs (format "^ref-%s$" id))))))
+	    results)))
+       short-refs)
+      results)))
+
+;; (length (east-biblatex-parse-html-citations (get-buffer "soup.html")))
+
+;; (east-biblatex-parse-html-citations
+;;  (east-biblatex-md-citations-to-html
+;;   (east-biblatex-create-md-citations (get-buffer "east.bib"))))
+
+;; (pp
+;;  (east-biblatex-parse-html-citations
+;;   (get-buffer "* pandoc east *"))
+;;  (current-buffer))
+
+(defun east-biblatex-normalize-bib (buffer &optional interactive?)
+  "Normalize the bibliography in BUFFER.
+
+Opens (or returns) a new buffer containing a normalized version
+of the bibliography in buffer."
+  (interactive
+   (list
+    (read-buffer "Your bib buffer: " (current-buffer) nil
+		 (lambda (b)
+		   (with-current-buffer b
+		     (or
+		      (with-current-buffer b
+			(eq major-mode 'bibtex-mode))
+		      (string= (downcase (or (file-name-extension (buffer-file-name (current-buffer)))
+					     ""))
+			       "bib")))))
+    t))
+  (with-current-buffer buffer
+    (let* ((basedir (vc-find-root (or (buffer-file-name (current-buffer))
+				      (expand-file-name "fake-file"))
+				  ".git"))
+	   (revision (vc-git-working-revision (buffer-file-name)))
+	   (branch (car (vc-git-branches)))
+	   ;; state can be: edited, up-to-date, unregistered
+	   (state (vc-git-state (buffer-file-name)))
+	   (results (progn
+		      (with-current-buffer (get-buffer-create
+					    (format "*%s normalized%s%s state: %s*"
+						    (buffer-name)
+						    (if branch
+							(format " on branch %s" branch)
+						      " branch unknown")
+						    (if revision
+							(format " last rev: %s" revision)
+						      (format "unknown-revision: md5 %s" (md5 (current-buffer))))
+						    (or state "???")))
+			(erase-buffer)
+			(current-buffer))))
+	   ;; Biber can only work on files, it seems
+	   (datasource (expand-file-name (make-temp-name "east-bib-normalize-") temporary-file-directory))
+	   (outfile (expand-file-name "east-bib-normalized" temporary-file-directory)))
+      (write-region (point-min) (point-max) datasource)
+      (message "Calling biber, please be patient ...")
+      (unless (= 0 (call-process
+		    "biber"
+		    nil
+		    results
+		    nil
+		    "--tool"
+		    (format "--config=%s" (expand-file-name "bib/biber.conf" basedir))
+		    ;; be really quiet: get infos from logfile, though
+		    ;; "-q" "-q"
+		    "-O" outfile
+		    datasource))
+	(with-current-buffer results
+	  (error "Call to biber failed: %s" (buffer-string))))      
+      (delete-file datasource)
+      (with-current-buffer results
+	(goto-char (point-min))
+	(insert "%% Logs from biber run:\n")
+	(while (re-search-forward "^" nil 'noerr)
+	  (insert "% "))
+	(insert "\n\n")
+	(goto-char (point-max))
+	(insert-file outfile)
+	(delete-file outfile)
+	(goto-char (point-min))
+	(set-buffer-modified-p nil)
+	(when interactive?
+	  (normal-mode)
+	  (pop-to-buffer (current-buffer)))
+	(current-buffer)))))
 
 (provide 'east-biblatex)
